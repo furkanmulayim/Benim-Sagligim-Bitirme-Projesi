@@ -31,10 +31,14 @@
     <string name="hastaneler">Hastaneler</string>
     <string name="konumunuza_yakin_hastaneler">Konumunuza Yakın Hastaneler</string>
 
-
     <string name="en_cok_okunanlar">En Çok Okunanlar</string>
-    <!-- TODO: Remove or change this placeholder text -->
-    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+    <!-- Bana Özel Fragment -->
+    <string name="bana_ozel">Bana Özel</string>
+    <string name="animsaticim">Anımsatıcım</string>
+    <string name="animsaticim_aciklama">Artık ilaç veya muayene tarihleriniziasla kaçırmayacaksınız.</string>
+    <string name="kaydettiğim_hastaliklar">Kaydettiğim Hastalıklar</string>
 
 </resources>
 

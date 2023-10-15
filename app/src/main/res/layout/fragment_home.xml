@@ -52,6 +52,13 @@
                     app:layout_constraintTop_toTopOf="@+id/textView">
 
                     <ImageView
+                        android:layout_width="10dp"
+                        android:layout_height="10dp"
+                        android:background="@drawable/risk_orta_back"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintTop_toTopOf="parent" />
+
+                    <ImageView
                         android:layout_width="20dp"
                         android:layout_height="20dp"
                         android:background="@drawable/bana_ozel_svg"
