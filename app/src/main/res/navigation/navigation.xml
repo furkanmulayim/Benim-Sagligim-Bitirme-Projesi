@@ -53,7 +53,7 @@
     </fragment>
     <fragment
         android:id="@+id/diseaseDetectionFragment"
-        android:name="com.furkanmulayim.benimsagligim.DiseaseDetectionFragment"
+        android:name="com.furkanmulayim.benimsagligim.presentation.disease_detection_fragment_future.DiseaseDetectionFragment"
         android:label="DiseaseDetectionFragment" >
         <action
             android:id="@+id/action_diseaseDetectionFragment_to_homeFragment"
