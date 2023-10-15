@@ -7,11 +7,11 @@ import android.view.ViewGroup
 import androidx.databinding.DataBindingUtil
 import androidx.fragment.app.Fragment
 import androidx.navigation.Navigation
-import com.furkanmulayim.benimsagligim.databinding.FragmentForMeBinding
+import com.furkanmulayim.benimsagligim.databinding.FragmentDiseaseDetectionBinding
 
-class ForMeFragment : Fragment() {
+class DiseaseDetectionFragment : Fragment() {
 
-    private lateinit var binding: FragmentForMeBinding
+    private lateinit var binding: FragmentDiseaseDetectionBinding
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
 
@@ -20,17 +20,18 @@ class ForMeFragment : Fragment() {
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?, savedInstanceState: Bundle?
     ): View {
-        binding = DataBindingUtil.inflate(inflater, R.layout.fragment_for_me, container, false)
-        goingHomePage()
+        binding =
+            DataBindingUtil.inflate(inflater, R.layout.fragment_disease_detection, container, false)
+        goingHome()
         return binding.root
     }
 
-    private fun goingHomePage() {
+
+    private fun goingHome() {
         binding.backButton.setOnClickListener {
             Navigation.findNavController(requireView())
-                .navigate(R.id.action_forMeFragment_to_homeFragment)
+                .navigate(R.id.action_diseaseDetectionFragment_to_homeFragment)
         }
     }
-
 
 }

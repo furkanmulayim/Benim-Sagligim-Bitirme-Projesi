@@ -37,8 +37,17 @@
     <!-- Bana Özel Fragment -->
     <string name="bana_ozel">Bana Özel</string>
     <string name="animsaticim">Anımsatıcım</string>
-    <string name="animsaticim_aciklama">Artık ilaç veya muayene tarihleriniziasla kaçırmayacaksınız.</string>
+    <string name="animsaticim_aciklama">Artık ilaç veya muayene tarihlerinizi asla kaçırmayacaksınız.</string>
     <string name="kaydettiğim_hastaliklar">Kaydettiğim Hastalıklar</string>
+
+    <!-- Neyim Var? Fragment -->
+    <string name="neyimvar">Neyim Var?</string>
+    <string name="neyim_var_aciklama">Acil Durumlarda Kullanmayınız.</string>
+    <string name="neyim_var_detay">Sonucunuzun doğruluğu garanti edilemez.</string>
+    <string name="neyim_var_rcyc_aciklama">Ekranı Kaydırarak Tüm Semptomları Görebilirsiniz.</string>
+    <string name="sonuc">Sonucumu Gör</string>
+
+
 
 </resources>
 

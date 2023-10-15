@@ -18,11 +18,11 @@ class HomeFragment : Fragment() {
 
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?, savedInstanceState: Bundle?
-    ): View? {
-        // Inflate the layout for this fragment
+    ): View {
         binding = DataBindingUtil.inflate(inflater, R.layout.fragment_home, container, false)
         goingDiseaseDetailPage()
         goingForMePage()
+        goingDetectionPage()
         return binding.root
     }
 
@@ -39,4 +39,12 @@ class HomeFragment : Fragment() {
                 .navigate(R.id.action_homeFragment_to_forMeFragment)
         }
     }
+
+    private fun goingDetectionPage() {
+        binding.constraintLayout3.setOnClickListener {
+            Navigation.findNavController(requireView())
+                .navigate(R.id.action_homeFragment_to_diseaseDetectionFragment)
+        }
+    }
+
 }
