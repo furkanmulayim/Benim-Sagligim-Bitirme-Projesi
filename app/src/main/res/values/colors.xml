@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="back_and_me_button_back">#F1F1F1</color>
+
+    <!-- General Colors -->
+    <color name="orange">#F58220</color>
+    <color name="red">#FE4F42</color>
+    <color name="green">#25C166</color>
+
+    <!-- Category Colors -->
+    <color name="bulasici_h1">#6A3BED</color>
+    <color name="bulasici_h2">#F3EFFF</color>
+    <color name="norolojik_h1">#FFC75D</color>
+    <color name="norolojik_h2">#FFF9EB</color>
+    <color name="solunum_h1">#25C166</color>
+    <color name="solunum_h2">#E7FFF1</color>
+    <color name="mental_h1">#FE4F42</color>
+    <color name="mental_h2">#FFF0F0</color>
+    <color name="ureme_h1">#4A98B2</color>
+    <color name="ureme_h2">#EFFBFF</color>
+    <color name="cinsel_h1">#BB65D0</color>
+    <color name="cinsel_h2">#FBEBFF</color>
+    <color name="sindirim_h1">#B95939</color>
+    <color name="sindirim_h2">#FFEDE7</color>
+    <color name="kas_h1">#529587</color>
+    <color name="kas_h2">#F0FFFC</color>
+
+    <!-- Item Colors -->
+    <color name="item_background">#FBFBFB</color>
+    <color name="item_border">#E6E6E6</color>
+
+    <!-- Text Colors -->
+    <color name="text_hosgeldin_h2">#969696</color>
+    <color name="text_h1">#424242</color>
+    <color name="text_h2">#CCCCCC</color>
+    <color name="text_neyim_var_h2">#C9F1D8</color>
+    <color name="text_ilac_tara_h2">#C9E3F1</color>
+
+</resources>
+
+
+
+
+

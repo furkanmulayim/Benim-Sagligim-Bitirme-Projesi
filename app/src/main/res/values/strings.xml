@@ -1,0 +1,52 @@
+<resources>
+    <string name="app_name">Benim Sağlığım</string>
+    <string name="home_merhaba">Merhaba,</string>
+    <string name="home_hosgeldin">Benim Sağlığım\'a Hoşgeldin.</string>
+    <string name="search">Hastalık Arayın</string>
+
+    <string name="home_neyim_var">Neyim Var?</string>
+    <string name="home_neyim_var_detail">Kendinizi hasta hissediyorsanız testi doldurun, hastalığınızı öğrenin.</string>
+
+    <string name="hastalik_kategorileri">Hastalık Kategorileri</string>
+
+
+    <string name="kat_bulasici">Bulaşıcı</string>
+    <string name="kat_norolojik">Nörolojik</string>
+    <string name="kat_solunum">Solunum</string>
+    <string name="kat_mental">Mental</string>
+    <string name="kat_ureme">Üreme</string>
+    <string name="kat_cinsel">Cinsel</string>
+    <string name="kat_sindirim">Sindirim</string>
+    <string name="kat_kas">Kas-İskelet</string>
+
+    <string name="home_ilac_tara_ogren">İlaç Tara, Öğren.</string>
+    <string name="home_ilac_tara_ogren_detail">Evinizdeki bilmediğiniz ilacı tarayarak ilacınızın ne olduğunu öğrenin.</string>
+
+
+    <string name="acil">Acil</string>
+    <string name="arama">Arama</string>
+    <string name="acil_cagri_merk">112 Acil Çağrı Merkezi</string>
+
+    <string name="yakin">Yakın</string>
+    <string name="hastaneler">Hastaneler</string>
+    <string name="konumunuza_yakin_hastaneler">Konumunuza Yakın Hastaneler</string>
+
+
+    <string name="en_cok_okunanlar">En Çok Okunanlar</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>
+
+
+
+
+
+
+
+
+
+
+
+
+
