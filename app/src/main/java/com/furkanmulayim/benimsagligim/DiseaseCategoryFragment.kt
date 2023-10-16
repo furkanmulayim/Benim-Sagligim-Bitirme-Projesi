@@ -21,13 +21,19 @@ class DiseaseCategoryFragment : Fragment() {
         binding =
             DataBindingUtil.inflate(inflater, R.layout.fragment_disease_category, container, false)
         backButton()
+        goingDetails()
         return binding.root
     }
 
     private fun backButton() {
         binding.backButton.setOnClickListener {
-            Navigation.findNavController(requireView())
-                .navigate(R.id.action_diseaseCategoryFragment_to_homeFragment)
+            Navigation.findNavController(requireView()).navigate(R.id.action_diseaseCategoryFragment_to_homeFragment)
+        }
+    }
+
+    private fun goingDetails(){
+        binding.diseaseNameSpace.setOnClickListener {
+            Navigation.findNavController(requireView()).navigate(R.id.action_diseaseCategoryFragment_to_diseaseDetailFragment)
         }
     }
 

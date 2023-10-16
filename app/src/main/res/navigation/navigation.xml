@@ -8,7 +8,7 @@
         android:id="@+id/homeFragment"
         android:name="com.furkanmulayim.benimsagligim.HomeFragment"
         android:label="fragment_home"
-        tools:layout="@layout/fragment_home" >
+        tools:layout="@layout/fragment_home">
         <action
             android:id="@+id/action_homeFragment_to_diseaseCategoryFragment"
             app:destination="@id/diseaseCategoryFragment"
@@ -25,24 +25,35 @@
             app:popExitAnim="@anim/nav_default_pop_exit_anim" />
         <action
             android:id="@+id/action_homeFragment_to_diseaseDetectionFragment"
-            app:destination="@id/diseaseDetectionFragment" />
+            app:destination="@id/diseaseDetectionFragment"
+            app:enterAnim="@anim/nav_default_enter_anim"
+            app:exitAnim="@anim/nav_default_exit_anim"
+            app:popEnterAnim="@anim/nav_default_pop_enter_anim"
+            app:popExitAnim="@anim/nav_default_pop_exit_anim" />
     </fragment>
     <fragment
         android:id="@+id/diseaseCategoryFragment"
         android:name="com.furkanmulayim.benimsagligim.DiseaseCategoryFragment"
-        android:label="DiseaseCategoryFragment" >
+        android:label="DiseaseCategoryFragment">
         <action
             android:id="@+id/action_diseaseCategoryFragment_to_homeFragment"
             app:destination="@id/homeFragment"
             app:enterAnim="@anim/nav_default_enter_anim"
             app:exitAnim="@anim/nav_default_exit_anim"
             app:popEnterAnim="@anim/nav_default_pop_enter_anim"
-            app:popExitAnim="@anim/nav_default_pop_exit_anim"  />
+            app:popExitAnim="@anim/nav_default_pop_exit_anim" />
+        <action
+            android:id="@+id/action_diseaseCategoryFragment_to_diseaseDetailFragment"
+            app:destination="@id/diseaseDetailFragment"
+            app:enterAnim="@anim/nav_default_enter_anim"
+            app:exitAnim="@anim/nav_default_exit_anim"
+            app:popEnterAnim="@anim/nav_default_pop_enter_anim"
+            app:popExitAnim="@anim/nav_default_pop_exit_anim" />
     </fragment>
     <fragment
         android:id="@+id/forMeFragment"
         android:name="com.furkanmulayim.benimsagligim.ForMeFragment"
-        android:label="ForMeFragment" >
+        android:label="ForMeFragment">
         <action
             android:id="@+id/action_forMeFragment_to_homeFragment"
             app:destination="@id/homeFragment"
@@ -54,10 +65,22 @@
     <fragment
         android:id="@+id/diseaseDetectionFragment"
         android:name="com.furkanmulayim.benimsagligim.presentation.disease_detection_fragment_future.DiseaseDetectionFragment"
-        android:label="DiseaseDetectionFragment" >
+        android:label="DiseaseDetectionFragment">
         <action
             android:id="@+id/action_diseaseDetectionFragment_to_homeFragment"
             app:destination="@id/homeFragment"
+            app:enterAnim="@anim/nav_default_enter_anim"
+            app:exitAnim="@anim/nav_default_exit_anim"
+            app:popEnterAnim="@anim/nav_default_pop_enter_anim"
+            app:popExitAnim="@anim/nav_default_pop_exit_anim" />
+    </fragment>
+    <fragment
+        android:id="@+id/diseaseDetailFragment"
+        android:name="com.furkanmulayim.benimsagligim.presentation.DiseaseDetailFragment"
+        android:label="DiseaseDetailFragment">
+        <action
+            android:id="@+id/action_diseaseDetailFragment_to_diseaseCategoryFragment"
+            app:destination="@id/diseaseCategoryFragment"
             app:enterAnim="@anim/nav_default_enter_anim"
             app:exitAnim="@anim/nav_default_exit_anim"
             app:popEnterAnim="@anim/nav_default_pop_enter_anim"

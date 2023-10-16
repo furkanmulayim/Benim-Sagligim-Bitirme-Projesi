@@ -8,5 +8,5 @@
         android:color="@color/orange" />
 
     <!--Background(arkaplan) rengini tanımlama-->
-    <solid android:color="@color/orange" />
+    <solid android:color="#FFFFFF" />
 </shape>

@@ -49,7 +49,7 @@ class DiseaseDetectionFragment : Fragment() {
         )
 
 
-        val adapter = SymptomAdapter(dataList) { item ->
+        val adapter = SymptomAdapter(dataList,requireContext()) { item ->
             for (items in item) {
                 println(items) // Konsola her öğeyi yazdırır
             }

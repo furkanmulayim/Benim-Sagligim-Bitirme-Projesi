@@ -46,7 +46,8 @@
     <string name="neyim_var_detay">Sonucunuzun doğruluğu garanti edilemez.</string>
     <string name="neyim_var_rcyc_aciklama">Ekranı Kaydırarak Tüm Semptomları Görebilirsiniz.</string>
     <string name="sonuc">Sonucumu Gör</string>
-
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 
 
 </resources>

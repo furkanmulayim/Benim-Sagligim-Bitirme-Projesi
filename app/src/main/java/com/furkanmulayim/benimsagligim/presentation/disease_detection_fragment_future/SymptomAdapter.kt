@@ -1,15 +1,19 @@
 package com.furkanmulayim.benimsagligim.presentation.disease_detection_fragment_future
 
+import android.content.Context
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.TextView
+import androidx.core.content.ContextCompat
 import androidx.recyclerview.widget.RecyclerView
 import com.furkanmulayim.benimsagligim.R
 
 
 class SymptomAdapter(
-    private val dataList: List<String>, private val onClick: (MutableSet<String>) -> Unit
+    private val dataList: List<String>,
+    private val context: Context,
+    private val onClick: (MutableSet<String>) -> Unit
 ) : RecyclerView.Adapter<SymptomAdapter.ViewHolder>() {
 
     private val selectedItems = mutableSetOf<String>()
@@ -30,11 +34,15 @@ class SymptomAdapter(
         holder.itemView.setOnClickListener {
             if (selectedItems.contains(item)) {
                 // Kullanıcı ikinci kez tıkladığında öğeyi seçmekten vazgeç
-                holder.itemTextView.setBackgroundResource(R.drawable.search_back)
+                holder.itemTextView.setBackgroundResource(R.drawable.semptom_unselected)
+                val color = ContextCompat.getColor(context, R.color.orange)
+                holder.itemTextView.setTextColor(color)
                 selectedItems.remove(item)
             } else {
                 // Öğeyi seç
                 holder.itemTextView.setBackgroundResource(R.drawable.semptom_selected)
+                val color = ContextCompat.getColor(context, R.color.white)
+                holder.itemTextView.setTextColor(color)
                 selectedItems.add(item)
             }
             onClick(selectedItems)
