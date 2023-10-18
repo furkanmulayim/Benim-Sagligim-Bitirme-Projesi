@@ -1,4 +1,4 @@
-package com.furkanmulayim.benimsagligim.presentation
+package com.furkanmulayim.benimsagligim.presentation.disease_detail_future
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -9,7 +9,6 @@ import androidx.fragment.app.Fragment
 import androidx.recyclerview.widget.GridLayoutManager
 import com.furkanmulayim.benimsagligim.R
 import com.furkanmulayim.benimsagligim.databinding.FragmentDiseaseDetailBinding
-import com.furkanmulayim.benimsagligim.presentation.disease_detection_fragment_future.SymptomAdapter
 
 class DiseaseDetailFragment : Fragment() {
     private lateinit var binding: FragmentDiseaseDetailBinding
@@ -21,7 +20,7 @@ class DiseaseDetailFragment : Fragment() {
 
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?, savedInstanceState: Bundle?
-    ): View? {
+    ): View {
         binding =
             DataBindingUtil.inflate(inflater, R.layout.fragment_disease_detail, container, false)
         showOnAdapter()
@@ -37,13 +36,8 @@ class DiseaseDetailFragment : Fragment() {
             "Halsizlik",
             "Yorgunluk",
         )
-
-
-        val adapter = SymptomAdapter(dataList, requireContext()) { item ->
-            for (items in item) {
-                println(items)
-            }
-        }
+        
+        val adapter = DetailSymptomAdapter(dataList)
 
         binding.rcycDetailsHastags.layoutManager = GridLayoutManager(requireContext(), 3)
         binding.rcycDetailsHastags.adapter = adapter

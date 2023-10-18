@@ -1,4 +1,4 @@
-package com.furkanmulayim.benimsagligim.presentation.disease_detection_fragment_future
+package com.furkanmulayim.benimsagligim.presentation.disease_detection_future
 
 import android.content.Context
 import android.view.LayoutInflater

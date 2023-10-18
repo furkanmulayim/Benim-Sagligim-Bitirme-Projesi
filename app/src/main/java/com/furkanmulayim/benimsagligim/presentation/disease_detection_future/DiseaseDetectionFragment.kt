@@ -1,10 +1,9 @@
-package com.furkanmulayim.benimsagligim.presentation.disease_detection_fragment_future
+package com.furkanmulayim.benimsagligim.presentation.disease_detection_future
 
 import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import android.widget.Toast
 import androidx.databinding.DataBindingUtil
 import androidx.fragment.app.Fragment
 import androidx.navigation.Navigation
@@ -61,6 +60,15 @@ class DiseaseDetectionFragment : Fragment() {
 
         binding.rcyc2.layoutManager = GridLayoutManager(requireContext(), 3)
         binding.rcyc2.adapter = adapter
+
+        binding.rcyc3.layoutManager = GridLayoutManager(requireContext(), 3)
+        binding.rcyc3.adapter = adapter
+
+        binding.rcyc4.layoutManager = GridLayoutManager(requireContext(), 3)
+        binding.rcyc4.adapter = adapter
+
+        binding.rcyc5.layoutManager = GridLayoutManager(requireContext(), 3)
+        binding.rcyc5.adapter = adapter
     }
 
 }

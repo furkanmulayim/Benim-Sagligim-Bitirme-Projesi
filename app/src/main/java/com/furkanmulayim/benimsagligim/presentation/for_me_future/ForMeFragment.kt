@@ -1,4 +1,4 @@
-package com.furkanmulayim.benimsagligim
+package com.furkanmulayim.benimsagligim.presentation.for_me_future
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -7,7 +7,10 @@ import android.view.ViewGroup
 import androidx.databinding.DataBindingUtil
 import androidx.fragment.app.Fragment
 import androidx.navigation.Navigation
+import androidx.recyclerview.widget.LinearLayoutManager
+import com.furkanmulayim.benimsagligim.R
 import com.furkanmulayim.benimsagligim.databinding.FragmentForMeBinding
+import com.furkanmulayim.benimsagligim.domain.model.ForMeSavedDisease
 
 class ForMeFragment : Fragment() {
 
@@ -22,6 +25,7 @@ class ForMeFragment : Fragment() {
     ): View {
         binding = DataBindingUtil.inflate(inflater, R.layout.fragment_for_me, container, false)
         goingHomePage()
+        showOnAdapter()
         return binding.root
     }
 
@@ -30,6 +34,23 @@ class ForMeFragment : Fragment() {
             Navigation.findNavController(requireView())
                 .navigate(R.id.action_forMeFragment_to_homeFragment)
         }
+    }
+
+
+    private fun showOnAdapter() {
+        val dataList = listOf(
+            ForMeSavedDisease(
+                "Hastalık", "Latince İsmi", "Etiket1, Etiket2, Etiket3", "Derecelendirmesi"
+            ),
+            ForMeSavedDisease(
+                "Hastalık", "Latince İsmi", "Etiket1, Etiket2, Etiket3", "Derecelendirmesi"
+            ),
+        )
+
+        val adapter = ForMeAdapter(dataList)
+
+        binding.savedDiseases.layoutManager = LinearLayoutManager(requireContext())
+        binding.savedDiseases.adapter = adapter
     }
 
 

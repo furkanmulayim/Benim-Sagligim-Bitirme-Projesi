@@ -52,7 +52,7 @@
     </fragment>
     <fragment
         android:id="@+id/forMeFragment"
-        android:name="com.furkanmulayim.benimsagligim.ForMeFragment"
+        android:name="com.furkanmulayim.benimsagligim.presentation.for_me_future.ForMeFragment"
         android:label="ForMeFragment">
         <action
             android:id="@+id/action_forMeFragment_to_homeFragment"
@@ -64,7 +64,7 @@
     </fragment>
     <fragment
         android:id="@+id/diseaseDetectionFragment"
-        android:name="com.furkanmulayim.benimsagligim.presentation.disease_detection_fragment_future.DiseaseDetectionFragment"
+        android:name="com.furkanmulayim.benimsagligim.presentation.disease_detection_future.DiseaseDetectionFragment"
         android:label="DiseaseDetectionFragment">
         <action
             android:id="@+id/action_diseaseDetectionFragment_to_homeFragment"
@@ -76,7 +76,7 @@
     </fragment>
     <fragment
         android:id="@+id/diseaseDetailFragment"
-        android:name="com.furkanmulayim.benimsagligim.presentation.DiseaseDetailFragment"
+        android:name="com.furkanmulayim.benimsagligim.presentation.disease_detail_future.DiseaseDetailFragment"
         android:label="DiseaseDetailFragment">
         <action
             android:id="@+id/action_diseaseDetailFragment_to_diseaseCategoryFragment"
