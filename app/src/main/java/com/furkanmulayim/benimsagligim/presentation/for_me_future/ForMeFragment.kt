@@ -10,7 +10,7 @@ import androidx.navigation.Navigation
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.furkanmulayim.benimsagligim.R
 import com.furkanmulayim.benimsagligim.databinding.FragmentForMeBinding
-import com.furkanmulayim.benimsagligim.domain.model.ForMeSavedDisease
+import com.furkanmulayim.benimsagligim.domain.model.ItemDisease
 
 class ForMeFragment : Fragment() {
 
@@ -39,10 +39,10 @@ class ForMeFragment : Fragment() {
 
     private fun showOnAdapter() {
         val dataList = listOf(
-            ForMeSavedDisease(
+            ItemDisease(
                 "Hastalık", "Latince İsmi", "Etiket1, Etiket2, Etiket3", "Derecelendirmesi"
             ),
-            ForMeSavedDisease(
+            ItemDisease(
                 "Hastalık", "Latince İsmi", "Etiket1, Etiket2, Etiket3", "Derecelendirmesi"
             ),
         )

@@ -33,7 +33,7 @@
     </fragment>
     <fragment
         android:id="@+id/diseaseCategoryFragment"
-        android:name="com.furkanmulayim.benimsagligim.DiseaseCategoryFragment"
+        android:name="com.furkanmulayim.benimsagligim.presentation.disease_category_future.DiseaseCategoryFragment"
         android:label="DiseaseCategoryFragment">
         <action
             android:id="@+id/action_diseaseCategoryFragment_to_homeFragment"
@@ -73,6 +73,13 @@
             app:exitAnim="@anim/nav_default_exit_anim"
             app:popEnterAnim="@anim/nav_default_pop_enter_anim"
             app:popExitAnim="@anim/nav_default_pop_exit_anim" />
+        <action
+            android:id="@+id/action_diseaseDetectionFragment_to_resultFragment"
+            app:destination="@id/resultFragment"
+            app:enterAnim="@anim/nav_default_enter_anim"
+            app:exitAnim="@anim/nav_default_exit_anim"
+            app:popEnterAnim="@anim/nav_default_pop_enter_anim"
+            app:popExitAnim="@anim/nav_default_pop_exit_anim" />
     </fragment>
     <fragment
         android:id="@+id/diseaseDetailFragment"
@@ -81,6 +88,18 @@
         <action
             android:id="@+id/action_diseaseDetailFragment_to_diseaseCategoryFragment"
             app:destination="@id/diseaseCategoryFragment"
+            app:enterAnim="@anim/nav_default_enter_anim"
+            app:exitAnim="@anim/nav_default_exit_anim"
+            app:popEnterAnim="@anim/nav_default_pop_enter_anim"
+            app:popExitAnim="@anim/nav_default_pop_exit_anim" />
+    </fragment>
+    <fragment
+        android:id="@+id/resultFragment"
+        android:name="com.furkanmulayim.benimsagligim.presentation.result_future.ResultFragment"
+        android:label="ResultFragment">
+        <action
+            android:id="@+id/action_resultFragment_to_diseaseDetectionFragment"
+            app:destination="@id/diseaseDetectionFragment"
             app:enterAnim="@anim/nav_default_enter_anim"
             app:exitAnim="@anim/nav_default_exit_anim"
             app:popEnterAnim="@anim/nav_default_pop_enter_anim"

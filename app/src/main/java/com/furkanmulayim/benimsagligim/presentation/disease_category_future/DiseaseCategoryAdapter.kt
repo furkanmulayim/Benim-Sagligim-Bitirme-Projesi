@@ -1,4 +1,4 @@
-package com.furkanmulayim.benimsagligim.presentation.for_me_future
+package com.furkanmulayim.benimsagligim.presentation.disease_category_future
 
 import android.view.LayoutInflater
 import android.view.View
@@ -9,9 +9,9 @@ import com.furkanmulayim.benimsagligim.R
 import com.furkanmulayim.benimsagligim.domain.model.ItemDisease
 
 
-class ForMeAdapter(
+class DiseaseCategoryAdapter(
     private val dataList: List<ItemDisease>
-) : RecyclerView.Adapter<ForMeAdapter.ViewHolder>() {
+) : RecyclerView.Adapter<DiseaseCategoryAdapter.ViewHolder>() {
 
     class ViewHolder(itemView: View) : RecyclerView.ViewHolder(itemView) {
         val itemAdi: TextView = itemView.findViewById(R.id.hastalikAdi)

@@ -26,6 +26,7 @@ class DiseaseDetectionFragment : Fragment() {
             DataBindingUtil.inflate(inflater, R.layout.fragment_disease_detection, container, false)
         goingHome()
         showOnAdapter()
+        resultPage()
         return binding.root
     }
 
@@ -48,7 +49,7 @@ class DiseaseDetectionFragment : Fragment() {
         )
 
 
-        val adapter = SymptomAdapter(dataList,requireContext()) { item ->
+        val adapter = SymptomAdapter(dataList, requireContext()) { item ->
             for (items in item) {
                 println(items)
             }
@@ -71,4 +72,10 @@ class DiseaseDetectionFragment : Fragment() {
         binding.rcyc5.adapter = adapter
     }
 
+    private fun resultPage() {
+        binding.resultPage.setOnClickListener {
+            Navigation.findNavController(requireView())
+                .navigate(R.id.action_diseaseDetectionFragment_to_resultFragment)
+        }
+    }
 }

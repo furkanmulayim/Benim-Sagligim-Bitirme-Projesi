@@ -46,8 +46,13 @@
     <string name="neyim_var_detay">Sonucunuzun doğruluğu garanti edilemez.</string>
     <string name="neyim_var_rcyc_aciklama">Ekranı Kaydırarak Tüm Semptomları Görebilirsiniz.</string>
     <string name="sonuc">Sonucumu Gör</string>
-    <!-- TODO: Remove or change this placeholder text -->
-    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+    <!-- Sonuç Ekranı -->
+    <string name="dikat">Dikkat!</string>
+    <string name="dikkat_aciklama">Sonucunuzun doğruluğu garanti edilemez. Ancak size yol gösterebilir.</string>
+    <string name="sonuc_aciklama">Girdiğiniz Etiketler Bu Hastalıklarla Eşleşiyor.</string>
+    <string name="mhrs">MHRS\'den Randevu Al.</string>
 
 
 </resources>
