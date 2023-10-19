@@ -19,118 +19,158 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent">
 
-       <androidx.constraintlayout.widget.ConstraintLayout
-           android:layout_width="match_parent"
-           android:layout_height="match_parent"
-           >
-           <androidx.constraintlayout.widget.ConstraintLayout
-               android:id="@+id/backButton"
-               android:layout_width="50dp"
-               android:layout_height="50dp"
-               android:background="@drawable/back_back"
-               app:layout_constraintTop_toTopOf="parent"
-               app:layout_constraintStart_toStartOf="parent">
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
 
-               <ImageView
-                   android:layout_width="20dp"
-                   android:layout_height="14dp"
-                   android:background="@drawable/back_button"
-                   app:layout_constraintBottom_toBottomOf="parent"
-                   app:layout_constraintEnd_toEndOf="parent"
-                   app:layout_constraintStart_toStartOf="parent"
-                   app:layout_constraintTop_toTopOf="parent" />
-           </androidx.constraintlayout.widget.ConstraintLayout>
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:id="@+id/backButton"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:background="@drawable/back_back"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent">
 
-
-
-           <androidx.constraintlayout.widget.ConstraintLayout
-               android:layout_width="wrap_content"
-               android:layout_height="50dp"
-               android:background="@drawable/beliritec_neyim_var"
-               app:layout_constraintEnd_toEndOf="parent"
-               app:layout_constraintTop_toTopOf="parent">
-
-               <ImageView
-                   android:id="@+id/hastalikSvg"
-                   android:layout_width="20dp"
-                   android:layout_height="20dp"
-                   android:layout_marginStart="15dp"
-                   android:background="@drawable/neyim_var_svg"
-                   app:layout_constraintBottom_toBottomOf="parent"
-                   app:layout_constraintStart_toStartOf="parent"
-                   app:layout_constraintTop_toTopOf="parent" />
-
-               <TextView
-                   android:layout_width="wrap_content"
-                   android:layout_height="wrap_content"
-                   android:layout_marginStart="10dp"
-                   android:layout_marginEnd="15dp"
-                   android:textSize="15sp"
-                   android:text="@string/neyimvar"
-                   android:fontFamily="@font/inter_medium"
-                   android:textColor="@color/text_h1"
-                   app:layout_constraintBottom_toBottomOf="parent"
-                   app:layout_constraintEnd_toEndOf="parent"
-                   app:layout_constraintStart_toEndOf="@+id/hastalikSvg"
-                   app:layout_constraintTop_toTopOf="parent" />
-           </androidx.constraintlayout.widget.ConstraintLayout>
+                    <ImageView
+                        android:layout_width="20dp"
+                        android:layout_height="14dp"
+                        android:background="@drawable/back_button"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent" />
+                </androidx.constraintlayout.widget.ConstraintLayout>
 
 
-           <androidx.constraintlayout.widget.ConstraintLayout
-               android:id="@+id/constraintLayout3"
-               android:layout_width="match_parent"
-               android:layout_height="90dp"
-               android:layout_marginTop="20dp"
-               android:background="@drawable/neyim_var_back"
-               app:layout_constraintTop_toBottomOf="@+id/backButton"
-               tools:layout_editor_absoluteX="20dp">
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="50dp"
+                    android:background="@drawable/beliritec_neyim_var"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintTop_toTopOf="parent">
 
-               <ImageView
-                   android:id="@+id/imageView2"
-                   android:layout_width="60dp"
-                   android:layout_height="60dp"
-                   android:layout_marginStart="15dp"
-                   android:background="@drawable/neyim_var"
-                   app:layout_constraintBottom_toBottomOf="parent"
-                   app:layout_constraintStart_toStartOf="parent"
-                   app:layout_constraintTop_toTopOf="parent" />
+                    <ImageView
+                        android:id="@+id/hastalikSvg"
+                        android:layout_width="20dp"
+                        android:layout_height="20dp"
+                        android:layout_marginStart="15dp"
+                        android:background="@drawable/neyim_var_svg"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent" />
 
-               <androidx.constraintlayout.widget.ConstraintLayout
-                   android:layout_width="match_parent"
-                   android:layout_height="wrap_content"
-                   android:layout_marginStart="90dp"
-                   android:layout_marginEnd="15dp"
-                   app:layout_constraintBottom_toBottomOf="parent"
-                   app:layout_constraintEnd_toEndOf="parent"
-                   app:layout_constraintStart_toStartOf="parent"
-                   app:layout_constraintTop_toTopOf="parent">
-
-                   <TextView
-                       android:id="@+id/textView3"
-                       android:layout_width="wrap_content"
-                       android:layout_height="wrap_content"
-                       android:fontFamily="@font/inter"
-                       android:text="@string/dikat"
-                       android:textColor="@color/white"
-                       android:textSize="22sp"
-                       app:layout_constraintStart_toStartOf="parent"
-                       app:layout_constraintTop_toTopOf="parent" />
-
-                   <TextView
-                       android:layout_width="wrap_content"
-                       android:layout_height="wrap_content"
-                       android:fontFamily="@font/inter"
-                       android:text="@string/dikkat_aciklama"
-                       android:textColor="@color/solunum_h2"
-                       android:textSize="13sp"
-                       app:layout_constraintStart_toStartOf="parent"
-                       app:layout_constraintTop_toBottomOf="@+id/textView3" />
-
-               </androidx.constraintlayout.widget.ConstraintLayout>
-           </androidx.constraintlayout.widget.ConstraintLayout>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="10dp"
+                        android:layout_marginEnd="15dp"
+                        android:fontFamily="@font/inter_medium"
+                        android:text="@string/neyimvar"
+                        android:textColor="@color/text_h1"
+                        android:textSize="15sp"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toEndOf="@+id/hastalikSvg"
+                        app:layout_constraintTop_toTopOf="parent" />
+                </androidx.constraintlayout.widget.ConstraintLayout>
 
 
-       </androidx.constraintlayout.widget.ConstraintLayout>
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:id="@+id/constraintLayout3"
+                    android:layout_width="match_parent"
+                    android:layout_height="90dp"
+                    android:layout_marginTop="20dp"
+                    android:background="@drawable/neyim_var_back"
+                    app:layout_constraintTop_toBottomOf="@+id/backButton"
+                    tools:layout_editor_absoluteX="20dp">
+
+                    <ImageView
+                        android:id="@+id/imageView2"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:layout_marginStart="15dp"
+                        android:background="@drawable/dikkat_svg"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent" />
+
+                    <androidx.constraintlayout.widget.ConstraintLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="80dp"
+                        android:layout_marginEnd="15dp"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent">
+
+                        <TextView
+                            android:id="@+id/textView3"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/inter"
+                            android:text="@string/dikat"
+                            android:textColor="@color/white"
+                            android:textSize="22sp"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/inter"
+                            android:text="@string/dikkat_aciklama"
+                            android:textColor="@color/solunum_h2"
+                            android:textSize="13sp"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toBottomOf="@+id/textView3" />
+
+                    </androidx.constraintlayout.widget.ConstraintLayout>
+                </androidx.constraintlayout.widget.ConstraintLayout>
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/search_back"
+                    android:padding="15dp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    android:layout_marginTop="20dp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/constraintLayout3">
+
+                    <TextView
+                        android:id="@+id/aciklama"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/inter_light"
+                        android:text="@string/sonuc_aciklama"
+                        android:textColor="@color/text_h1"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent" />
+
+                    <androidx.recyclerview.widget.RecyclerView
+                        android:id="@+id/rcycSonuc"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="15dp"
+                        app:layout_constraintTop_toBottomOf="@id/aciklama" />
+
+
+                    <Button
+                        android:id="@+id/mhrsPage"
+                        android:layout_width="match_parent"
+                        android:layout_height="60dp"
+                        android:backgroundTint="@color/red"
+                        android:layout_marginTop="10dp"
+                        android:text="@string/mhrs"
+                        android:textAllCaps="false"
+                        android:textColor="@color/white"
+                        app:layout_constraintTop_toBottomOf="@+id/rcycSonuc" />
+
+                </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
 
         </ScrollView>
 

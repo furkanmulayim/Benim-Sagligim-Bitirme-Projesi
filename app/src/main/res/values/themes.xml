@@ -19,4 +19,11 @@
         <item name="cornerSize">30dp</item>
     </style>
 
+    <style name="rounden_tops">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSizeTopRight">15dp</item>
+        <item name="cornerSizeTopLeft">15dp</item>
+    </style>
+
+
 </resources>
