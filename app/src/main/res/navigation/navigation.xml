@@ -35,6 +35,10 @@
         android:id="@+id/diseaseCategoryFragment"
         android:name="com.furkanmulayim.benimsagligim.presentation.disease_category_future.DiseaseCategoryFragment"
         android:label="DiseaseCategoryFragment">
+        <argument
+            android:name="CategoryName"
+            app:argType="com.furkanmulayim.benimsagligim.domain.model.CategoryListDisease" />
+
         <action
             android:id="@+id/action_diseaseCategoryFragment_to_homeFragment"
             app:destination="@id/homeFragment"
@@ -85,7 +89,7 @@
         android:id="@+id/diseaseDetailFragment"
         android:name="com.furkanmulayim.benimsagligim.presentation.disease_detail_future.DiseaseDetailFragment"
         android:label="DiseaseDetailFragment">
-        <action
+          <action
             android:id="@+id/action_diseaseDetailFragment_to_diseaseCategoryFragment"
             app:destination="@id/diseaseCategoryFragment"
             app:enterAnim="@anim/nav_default_enter_anim"
