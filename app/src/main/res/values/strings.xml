@@ -9,7 +9,6 @@
 
     <string name="hastalik_kategorileri">Hastalık Kategorileri</string>
 
-
     <string name="kat_bulasici">Bulaşıcı</string>
     <string name="kat_norolojik">Nörolojik</string>
     <string name="kat_solunum">Solunum</string>
@@ -22,7 +21,6 @@
     <string name="home_ilac_tara_ogren">İlaç Tara, Öğren.</string>
     <string name="home_ilac_tara_ogren_detail">Evinizdeki bilmediğiniz ilacı tarayarak ilacınızın ne olduğunu öğrenin.</string>
 
-
     <string name="acil">Acil</string>
     <string name="arama">Arama</string>
     <string name="acil_cagri_merk">112 Acil Çağrı Merkezi</string>
@@ -32,7 +30,6 @@
     <string name="konumunuza_yakin_hastaneler">Konumunuza Yakın Hastaneler</string>
 
     <string name="en_cok_okunanlar">En Çok Okunanlar</string>
-
 
     <!-- Bana Özel Fragment -->
     <string name="bana_ozel">Bana Özel</string>
@@ -53,7 +50,6 @@
     <string name="dikkat_aciklama">Sonucunuzun doğruluğu garanti edilemez. Ancak size yol gösterebilir.</string>
     <string name="sonuc_aciklama">Girdiğiniz Etiketler Bu Hastalıklarla Eşleşiyor.</string>
     <string name="mhrs">MHRS\'den Randevu Al.</string>
-
 
 </resources>
 
