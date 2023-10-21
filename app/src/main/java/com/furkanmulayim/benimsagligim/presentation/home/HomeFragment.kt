@@ -1,5 +1,6 @@
 package com.furkanmulayim.benimsagligim.presentation.home
 
+import NotificationHelper
 import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
@@ -10,17 +11,19 @@ import androidx.lifecycle.ViewModelProvider
 import androidx.recyclerview.widget.GridLayoutManager
 import com.furkanmulayim.benimsagligim.R
 import com.furkanmulayim.benimsagligim.databinding.FragmentHomeBinding
+import java.util.Timer
+import java.util.TimerTask
 
 class HomeFragment : Fragment() {
 
     private lateinit var binding: FragmentHomeBinding
-    private lateinit var viewModel: HomeFragmentViewModel
+    private lateinit var viewModel: HomeViewModel
 
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?, savedInstanceState: Bundle?
     ): View {
         binding = DataBindingUtil.inflate(inflater, R.layout.fragment_home, container, false)
-        viewModel = ViewModelProvider(this)[HomeFragmentViewModel::class.java]
+        viewModel = ViewModelProvider(this)[HomeViewModel::class.java]
         return binding.root
     }
 
@@ -54,5 +57,7 @@ class HomeFragment : Fragment() {
             viewModel.navigate(requireView(), R.id.action_homeFragment_to_searchFragment)
         }
     }
+
+
 
 }
