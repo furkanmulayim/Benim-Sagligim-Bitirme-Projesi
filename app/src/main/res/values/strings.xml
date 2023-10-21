@@ -50,6 +50,8 @@
     <string name="dikkat_aciklama">Sonucunuzun doğruluğu garanti edilemez. Ancak size yol gösterebilir.</string>
     <string name="sonuc_aciklama">Girdiğiniz Etiketler Bu Hastalıklarla Eşleşiyor.</string>
     <string name="mhrs">MHRS\'den Randevu Al.</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 
 </resources>
 

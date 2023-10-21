@@ -18,6 +18,9 @@
         <action
             android:id="@+id/action_homeFragment_to_diseaseDetectionFragment"
             app:destination="@id/diseaseDetectionFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_searchFragment"
+            app:destination="@id/searchFragment" />
     </fragment>
     <fragment
         android:id="@+id/diseaseCategoryFragment"
@@ -73,5 +76,13 @@
         <action
             android:id="@+id/action_resultFragment_to_diseaseDetectionFragment"
             app:destination="@id/diseaseDetectionFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/searchFragment"
+        android:name="com.furkanmulayim.benimsagligim.presentation.search_future.SearchFragment"
+        android:label="SearchFragment" >
+        <action
+            android:id="@+id/action_searchFragment_to_homeFragment"
+            app:destination="@id/homeFragment" />
     </fragment>
 </navigation>

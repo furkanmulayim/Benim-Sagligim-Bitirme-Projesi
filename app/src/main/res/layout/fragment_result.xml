@@ -131,10 +131,10 @@
                 <androidx.constraintlayout.widget.ConstraintLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
                     android:background="@drawable/search_back"
                     android:padding="15dp"
                     app:layout_constraintEnd_toEndOf="parent"
-                    android:layout_marginTop="20dp"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toBottomOf="@id/constraintLayout3">
 
@@ -153,6 +153,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_marginTop="15dp"
+                        android:overScrollMode="never"
                         app:layout_constraintTop_toBottomOf="@id/aciklama" />
 
 
@@ -160,8 +161,8 @@
                         android:id="@+id/mhrsPage"
                         android:layout_width="match_parent"
                         android:layout_height="60dp"
-                        android:backgroundTint="@color/red"
                         android:layout_marginTop="10dp"
+                        android:backgroundTint="@color/red"
                         android:text="@string/mhrs"
                         android:textAllCaps="false"
                         android:textColor="@color/white"

@@ -52,12 +52,12 @@ class DiseaseCategoryFragment : Fragment() {
 
     private fun clickListeners() {
 
-        //back button tıklandığında bir BANA ÖZEL SAYFASINA gidecek.
+        //back button tıklandığında bir ANA SAYFAYA gidecek.
         binding.backButton.setOnClickListener {
             viewModel.navigate(requireView(), R.id.action_diseaseCategoryFragment_to_homeFragment)
         }
 
-        //back button tıklandığında bir NEYİM VAR SAYFASINA gidecek.
+        //hastalık button tıklandığında bir DETAY SAYFASINA gidecek.
         binding.diseaseNameSpace.setOnClickListener {
             viewModel.navigate(
                 requireView(), R.id.action_diseaseCategoryFragment_to_diseaseDetailFragment

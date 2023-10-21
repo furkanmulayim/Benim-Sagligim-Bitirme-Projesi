@@ -31,7 +31,7 @@ class HomeFragment : Fragment() {
         showCategory()
     }
 
-    private fun showCategory(){
+    private fun showCategory() {
         val adapter = CategoryListAdapter(viewModel.categoryList)
         binding.categoryRcyc.layoutManager = GridLayoutManager(requireContext(), 4)
         binding.categoryRcyc.adapter = adapter
@@ -39,14 +39,19 @@ class HomeFragment : Fragment() {
 
     private fun clickListeners() {
 
-        //back button tıklandığında bir BANA ÖZEL SAYFASINA gidecek.
+        //back button tıklandığında BANA ÖZEL SAYFASINA gidecek.
         binding.banaOzelButton.setOnClickListener {
             viewModel.navigate(requireView(), R.id.action_homeFragment_to_forMeFragment)
         }
 
-        //back button tıklandığında bir NEYİM VAR SAYFASINA gidecek.
+        //back button tıklandığında NEYİM VAR SAYFASINA gidecek.
         binding.constraintLayout3.setOnClickListener {
             viewModel.navigate(requireView(), R.id.action_homeFragment_to_diseaseDetectionFragment)
+        }
+
+        //search button tıklanınca ARAMA SAYFASINA gidecek.
+        binding.searchDiseaseButton.setOnClickListener {
+            viewModel.navigate(requireView(), R.id.action_homeFragment_to_searchFragment)
         }
     }
 

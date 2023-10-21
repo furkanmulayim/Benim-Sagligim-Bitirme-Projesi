@@ -10,28 +10,28 @@ class HomeFragmentViewModel : ViewModel() {
 
     val categoryList = listOf(
         CategoryListDisease(
-            "Bulaşıcı", R.drawable.kategori_bulasici_back, R.drawable.kategori_bulasici_on
+            "Bulaşıcı Hastalıklar", R.drawable.kategori_bulasici_back, R.drawable.kategori_bulasici_on
         ),
         CategoryListDisease(
-            "Nörolojik", R.drawable.kategori_norolojik_back, R.drawable.kategori_norolojik_on
+            "Nörolojik Hastalıklar", R.drawable.kategori_norolojik_back, R.drawable.kategori_norolojik_on
         ),
         CategoryListDisease(
-            "Solunum", R.drawable.kategori_solunum_back, R.drawable.kategori_solunum_on
+            "Solunum Sistemi Hastalıkları", R.drawable.kategori_solunum_back, R.drawable.kategori_solunum_on
         ),
         CategoryListDisease(
-            "Mental", R.drawable.kategori_mental_back, R.drawable.kategori_mental_on
+            "Ruhsal Hastalıklar", R.drawable.kategori_mental_back, R.drawable.kategori_mental_on
         ),
         CategoryListDisease(
-            "Üreme", R.drawable.kategori_ureme_back, R.drawable.kategori_ureme_on
+            "Üreme Sistemi Hastalıkarı", R.drawable.kategori_ureme_back, R.drawable.kategori_ureme_on
         ),
         CategoryListDisease(
-            "Cinsel", R.drawable.kategori_cinsel_back, R.drawable.kategori_cinsel_on
+            "Cinsel Yolla Bulaşan Hastalıklar", R.drawable.kategori_cinsel_back, R.drawable.kategori_cinsel_on
         ),
         CategoryListDisease(
-            "Sindirim", R.drawable.kategori_sindirim_back, R.drawable.kategori_sindirim_on
+            "Sindirim Sis. Hastalıkları", R.drawable.kategori_sindirim_back, R.drawable.kategori_sindirim_on
         ),
         CategoryListDisease(
-            "Kas-İskelet", R.drawable.kategori_kas_iskelet_back, R.drawable.kategori_kas_on
+            "Kas-İskelet Sis. Hastalıkları", R.drawable.kategori_kas_iskelet_back, R.drawable.kategori_kas_on
         ),
     )
 

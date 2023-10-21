@@ -38,9 +38,8 @@ class DiseaseCategoryViewModel : ViewModel() {
         )
     )
 
-
     fun setBundle(name: String, back: Int, fore: Int, cl: ConstraintLayout, iv: ImageView) {
-        diseaseName.value = "$name Hastalıklar"
+        diseaseName.value = name
         cl.setBackgroundResource(back)
         iv.setBackgroundResource(fore)
     }
