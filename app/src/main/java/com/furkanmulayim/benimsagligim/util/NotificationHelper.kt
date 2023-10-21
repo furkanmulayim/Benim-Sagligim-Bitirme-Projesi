@@ -10,8 +10,7 @@ import com.furkanmulayim.benimsagligim.presentation.activity.MainActivity
 class NotificationHelper(
     private val context: Context,
     private val name: String,
-    private val detail: String,
-    private val img: Int
+    private val detail: String
 ) {
 
     private val channelId = "HourlyNotificationChannel"
@@ -30,9 +29,9 @@ class NotificationHelper(
             PendingIntent.getActivity(context, 0, intent, PendingIntent.FLAG_IMMUTABLE)
 
         val builder =
-            NotificationCompat.Builder(context, channelId).setSmallIcon(R.drawable.acil_arama_svg)
-                .setContentTitle("Hourly Reminder")
-                .setContentText("It's time for your hourly task.")
+            NotificationCompat.Builder(context, channelId).setSmallIcon(R.drawable.dot_rectangle)
+                .setContentTitle(name)
+                .setContentText(detail)
                 .setPriority(NotificationCompat.PRIORITY_DEFAULT).setContentIntent(pendingIntent)
                 .setAutoCancel(true)
 

@@ -59,17 +59,9 @@ class DiseaseDetectionFragment : Fragment() {
         binding.rcycGeneral.layoutManager = GridLayoutManager(requireContext(), 3)
         binding.rcycGeneral.adapter = adapter
 
-        binding.rcyc2.layoutManager = GridLayoutManager(requireContext(), 3)
-        binding.rcyc2.adapter = adapter
+        binding.rcycGeneral2.layoutManager = GridLayoutManager(requireContext(), 3)
+        binding.rcycGeneral2.adapter = adapter
 
-        binding.rcyc3.layoutManager = GridLayoutManager(requireContext(), 3)
-        binding.rcyc3.adapter = adapter
-
-        binding.rcyc4.layoutManager = GridLayoutManager(requireContext(), 3)
-        binding.rcyc4.adapter = adapter
-
-        binding.rcyc5.layoutManager = GridLayoutManager(requireContext(), 3)
-        binding.rcyc5.adapter = adapter
     }
 
     private fun resultPage() {

@@ -26,6 +26,7 @@ class ForMeFragment : Fragment() {
         binding = DataBindingUtil.inflate(inflater, R.layout.fragment_for_me, container, false)
         goingHomePage()
         showOnAdapter()
+        goingNotification()
         return binding.root
     }
 
@@ -33,6 +34,13 @@ class ForMeFragment : Fragment() {
         binding.backButton.setOnClickListener {
             Navigation.findNavController(requireView())
                 .navigate(R.id.action_forMeFragment_to_homeFragment)
+        }
+    }
+
+    private fun goingNotification(){
+        binding.hatirlaticim.setOnClickListener {
+            Navigation.findNavController(requireView())
+                .navigate(R.id.action_forMeFragment_to_notificationFragment)
         }
     }
 
