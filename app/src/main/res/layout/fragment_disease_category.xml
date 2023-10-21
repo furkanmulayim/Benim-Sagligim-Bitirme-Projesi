@@ -3,6 +3,11 @@
 <layout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools" xmlns:app="http://schemas.android.com/apk/res-auto"
     >
+    <data>
+        <variable
+            name="viewModel"
+            type="com.furkanmulayim.benimsagligim.presentation.category_future.DiseaseCategoryViewModel" />
+    </data>
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
@@ -10,7 +15,7 @@
         android:layout_marginTop="20dp"
         android:layout_marginStart="20dp"
         android:layout_marginEnd="20dp"
-        tools:context=".presentation.disease_category_future.DiseaseCategoryFragment">
+        tools:context=".presentation.category_future.DiseaseCategoryFragment">
 
         <androidx.constraintlayout.widget.ConstraintLayout
             android:id="@+id/backButton"
@@ -54,7 +59,7 @@
                 android:layout_marginStart="10dp"
                 android:layout_marginEnd="15dp"
                 android:textSize="15sp"
-                android:text="Bulaşıcı Hastalıklar"
+                android:text="@{viewModel.diseaseName}"
                 android:fontFamily="@font/inter_medium"
                 android:textColor="@color/text_h1"
                 app:layout_constraintBottom_toBottomOf="parent"

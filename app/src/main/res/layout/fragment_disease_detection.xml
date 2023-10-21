@@ -10,7 +10,7 @@
         android:layout_marginTop="20dp"
         android:layout_marginEnd="20dp"
         android:orientation="vertical"
-        tools:context=".presentation.disease_detection_future.DiseaseDetectionFragment">
+        tools:context=".presentation.detection_future.DiseaseDetectionFragment">
 
         <androidx.constraintlayout.widget.ConstraintLayout
             android:layout_width="match_parent"

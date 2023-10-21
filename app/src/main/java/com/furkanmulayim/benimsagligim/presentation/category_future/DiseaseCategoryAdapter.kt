@@ -1,4 +1,4 @@
-package com.furkanmulayim.benimsagligim.presentation.disease_category_future
+package com.furkanmulayim.benimsagligim.presentation.category_future
 
 import android.view.LayoutInflater
 import android.view.View

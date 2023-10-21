@@ -11,48 +11,33 @@
         tools:layout="@layout/fragment_home">
         <action
             android:id="@+id/action_homeFragment_to_diseaseCategoryFragment"
-            app:destination="@id/diseaseCategoryFragment"
-            app:enterAnim="@anim/nav_default_enter_anim"
-            app:exitAnim="@anim/nav_default_exit_anim"
-            app:popEnterAnim="@anim/nav_default_pop_enter_anim"
-            app:popExitAnim="@anim/nav_default_pop_exit_anim" />
+            app:destination="@id/diseaseCategoryFragment" />
         <action
             android:id="@+id/action_homeFragment_to_forMeFragment"
-            app:destination="@id/forMeFragment"
-            app:enterAnim="@anim/nav_default_enter_anim"
-            app:exitAnim="@anim/nav_default_exit_anim"
-            app:popEnterAnim="@anim/nav_default_pop_enter_anim"
-            app:popExitAnim="@anim/nav_default_pop_exit_anim" />
+            app:destination="@id/forMeFragment" />
         <action
             android:id="@+id/action_homeFragment_to_diseaseDetectionFragment"
-            app:destination="@id/diseaseDetectionFragment"
-            app:enterAnim="@anim/nav_default_enter_anim"
-            app:exitAnim="@anim/nav_default_exit_anim"
-            app:popEnterAnim="@anim/nav_default_pop_enter_anim"
-            app:popExitAnim="@anim/nav_default_pop_exit_anim" />
+            app:destination="@id/diseaseDetectionFragment" />
     </fragment>
     <fragment
         android:id="@+id/diseaseCategoryFragment"
-        android:name="com.furkanmulayim.benimsagligim.presentation.disease_category_future.DiseaseCategoryFragment"
+        android:name="com.furkanmulayim.benimsagligim.presentation.category_future.DiseaseCategoryFragment"
         android:label="DiseaseCategoryFragment">
-        <argument
-            android:name="CategoryName"
-            app:argType="com.furkanmulayim.benimsagligim.domain.model.CategoryListDisease" />
-
         <action
             android:id="@+id/action_diseaseCategoryFragment_to_homeFragment"
-            app:destination="@id/homeFragment"
-            app:enterAnim="@anim/nav_default_enter_anim"
-            app:exitAnim="@anim/nav_default_exit_anim"
-            app:popEnterAnim="@anim/nav_default_pop_enter_anim"
-            app:popExitAnim="@anim/nav_default_pop_exit_anim" />
+            app:destination="@id/homeFragment"/>
         <action
             android:id="@+id/action_diseaseCategoryFragment_to_diseaseDetailFragment"
-            app:destination="@id/diseaseDetailFragment"
-            app:enterAnim="@anim/nav_default_enter_anim"
-            app:exitAnim="@anim/nav_default_exit_anim"
-            app:popEnterAnim="@anim/nav_default_pop_enter_anim"
-            app:popExitAnim="@anim/nav_default_pop_exit_anim" />
+            app:destination="@id/diseaseDetailFragment" />
+        <argument
+            android:name="diseaseName"
+            app:argType="string" />
+        <argument
+            android:name="diseaseBackground"
+            app:argType="integer" />
+        <argument
+            android:name="diseaseForeground"
+            app:argType="integer" />
     </fragment>
     <fragment
         android:id="@+id/forMeFragment"
@@ -60,42 +45,26 @@
         android:label="ForMeFragment">
         <action
             android:id="@+id/action_forMeFragment_to_homeFragment"
-            app:destination="@id/homeFragment"
-            app:enterAnim="@anim/nav_default_enter_anim"
-            app:exitAnim="@anim/nav_default_exit_anim"
-            app:popEnterAnim="@anim/nav_default_pop_enter_anim"
-            app:popExitAnim="@anim/nav_default_pop_exit_anim" />
+            app:destination="@id/homeFragment"/>
     </fragment>
     <fragment
         android:id="@+id/diseaseDetectionFragment"
-        android:name="com.furkanmulayim.benimsagligim.presentation.disease_detection_future.DiseaseDetectionFragment"
+        android:name="com.furkanmulayim.benimsagligim.presentation.detection_future.DiseaseDetectionFragment"
         android:label="DiseaseDetectionFragment">
         <action
             android:id="@+id/action_diseaseDetectionFragment_to_homeFragment"
-            app:destination="@id/homeFragment"
-            app:enterAnim="@anim/nav_default_enter_anim"
-            app:exitAnim="@anim/nav_default_exit_anim"
-            app:popEnterAnim="@anim/nav_default_pop_enter_anim"
-            app:popExitAnim="@anim/nav_default_pop_exit_anim" />
+            app:destination="@id/homeFragment"/>
         <action
             android:id="@+id/action_diseaseDetectionFragment_to_resultFragment"
-            app:destination="@id/resultFragment"
-            app:enterAnim="@anim/nav_default_enter_anim"
-            app:exitAnim="@anim/nav_default_exit_anim"
-            app:popEnterAnim="@anim/nav_default_pop_enter_anim"
-            app:popExitAnim="@anim/nav_default_pop_exit_anim" />
+            app:destination="@id/resultFragment"/>
     </fragment>
     <fragment
         android:id="@+id/diseaseDetailFragment"
-        android:name="com.furkanmulayim.benimsagligim.presentation.disease_detail_future.DiseaseDetailFragment"
+        android:name="com.furkanmulayim.benimsagligim.presentation.detail_future.DiseaseDetailFragment"
         android:label="DiseaseDetailFragment">
           <action
             android:id="@+id/action_diseaseDetailFragment_to_diseaseCategoryFragment"
-            app:destination="@id/diseaseCategoryFragment"
-            app:enterAnim="@anim/nav_default_enter_anim"
-            app:exitAnim="@anim/nav_default_exit_anim"
-            app:popEnterAnim="@anim/nav_default_pop_enter_anim"
-            app:popExitAnim="@anim/nav_default_pop_exit_anim" />
+            app:destination="@id/diseaseCategoryFragment"/>
     </fragment>
     <fragment
         android:id="@+id/resultFragment"
@@ -103,10 +72,6 @@
         android:label="ResultFragment">
         <action
             android:id="@+id/action_resultFragment_to_diseaseDetectionFragment"
-            app:destination="@id/diseaseDetectionFragment"
-            app:enterAnim="@anim/nav_default_enter_anim"
-            app:exitAnim="@anim/nav_default_exit_anim"
-            app:popEnterAnim="@anim/nav_default_pop_enter_anim"
-            app:popExitAnim="@anim/nav_default_pop_exit_anim" />
+            app:destination="@id/diseaseDetectionFragment" />
     </fragment>
 </navigation>

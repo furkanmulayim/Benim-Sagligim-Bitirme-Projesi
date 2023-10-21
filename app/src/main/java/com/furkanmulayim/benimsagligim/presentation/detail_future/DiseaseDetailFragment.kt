@@ -1,4 +1,4 @@
-package com.furkanmulayim.benimsagligim.presentation.disease_detail_future
+package com.furkanmulayim.benimsagligim.presentation.detail_future
 
 import android.os.Bundle
 import android.view.LayoutInflater

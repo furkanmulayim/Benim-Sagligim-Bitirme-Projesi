@@ -39,8 +39,8 @@ class CategoryListAdapter(
 
         //Hangi iteme tıklanırsa kategori detay sayfasına bilgileri gönderiyor.
         holder.itemView.setOnClickListener {
-          // val action = HomeFragmentDirections.actionHomeFragmentToDiseaseCategoryFragment(item)
-          // Navigation.findNavController(it).navigate(action)
+           val action = HomeFragmentDirections.actionHomeFragmentToDiseaseCategoryFragment(item.name,item.background,item.foreground)
+           Navigation.findNavController(it).navigate(action)
         }
     }
 

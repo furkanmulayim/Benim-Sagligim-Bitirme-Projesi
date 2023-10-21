@@ -10,7 +10,6 @@ import androidx.lifecycle.ViewModelProvider
 import androidx.recyclerview.widget.GridLayoutManager
 import com.furkanmulayim.benimsagligim.R
 import com.furkanmulayim.benimsagligim.databinding.FragmentHomeBinding
-import com.furkanmulayim.benimsagligim.presentation.disease_category_future.DiseaseCategoryAdapter
 
 class HomeFragment : Fragment() {
 
