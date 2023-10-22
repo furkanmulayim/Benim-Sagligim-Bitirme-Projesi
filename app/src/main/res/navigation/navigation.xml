@@ -96,4 +96,5 @@
             android:id="@+id/action_notificationFragment_to_forMeFragment"
             app:destination="@id/forMeFragment" />
     </fragment>
+
 </navigation>

@@ -261,6 +261,7 @@
                     app:layout_constraintTop_toBottomOf="@+id/constraintLayout4">
 
                     <androidx.constraintlayout.widget.ConstraintLayout
+                        android:id="@+id/emergencyCall"
                         android:layout_width="0dp"
                         android:layout_height="match_parent"
                         android:layout_marginEnd="10dp"
@@ -325,6 +326,7 @@
                     </androidx.constraintlayout.widget.ConstraintLayout>
 
                     <androidx.constraintlayout.widget.ConstraintLayout
+                        android:id="@+id/mapPage"
                         android:layout_width="0dp"
                         android:layout_height="match_parent"
                         android:layout_marginStart="10dp"

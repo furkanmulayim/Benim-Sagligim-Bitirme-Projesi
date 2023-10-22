@@ -11,6 +11,7 @@ import androidx.lifecycle.ViewModelProvider
 import androidx.recyclerview.widget.GridLayoutManager
 import com.furkanmulayim.benimsagligim.R
 import com.furkanmulayim.benimsagligim.databinding.FragmentHomeBinding
+import com.furkanmulayim.benimsagligim.util.startCallWithPermission
 import java.util.Timer
 import java.util.TimerTask
 
@@ -56,6 +57,11 @@ class HomeFragment : Fragment() {
         binding.searchDiseaseButton.setOnClickListener {
             viewModel.navigate(requireView(), R.id.action_homeFragment_to_searchFragment)
         }
+
+        binding.emergencyCall.setOnClickListener {
+            requireActivity().startCallWithPermission("5344533008",123)
+        }
+
     }
 
 
