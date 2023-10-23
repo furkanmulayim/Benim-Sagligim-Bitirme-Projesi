@@ -62,6 +62,10 @@ class HomeFragment : Fragment() {
             requireActivity().startCallWithPermission("5344533008",123)
         }
 
+        binding.pillDetectButton.setOnClickListener {
+            viewModel.navigate(requireView(),R.id.action_homeFragment_to_pillInformationFragment)
+        }
+
     }
 
 

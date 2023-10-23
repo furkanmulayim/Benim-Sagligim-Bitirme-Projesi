@@ -21,6 +21,9 @@
         <action
             android:id="@+id/action_homeFragment_to_searchFragment"
             app:destination="@id/searchFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_pillInformationFragment"
+            app:destination="@id/pillInformationFragment" />
     </fragment>
     <fragment
         android:id="@+id/diseaseCategoryFragment"
@@ -95,6 +98,15 @@
         <action
             android:id="@+id/action_notificationFragment_to_forMeFragment"
             app:destination="@id/forMeFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/pillInformationFragment"
+        android:name="com.furkanmulayim.benimsagligim.presentation.PillInformationFragment"
+        android:label="fragment_pill_information"
+        tools:layout="@layout/fragment_pill_information" >
+        <action
+            android:id="@+id/action_pillInformationFragment_to_homeFragment"
+            app:destination="@id/homeFragment" />
     </fragment>
 
 </navigation>

@@ -59,6 +59,15 @@
     <string name="hatirlatici_saat">Kaç Saatte Bir Hatırlatmalı?</string>
     <string name="button_hatirlatici">Oluştur</string>
 
+    <string name="ilac_tara">Nasıl Kullanılır?</string>
+
+    <string name="ilac_tara_aciklama">Fotoğraf Çek veya Medya Yükle</string>
+    <string name="ilac_tara_aciklama2">İlacın İsmini Tam Alacak Şekilde Kırp</string>
+    <string name="ilac_tara_aciklama3">Gönder Butonuna Basarak Sonucu Bekle</string>
+
+    <string name="ilac_tara_button1">Fotoğraf Çek</string>
+    <string name="ilac_tara_button2">Görsel Yükle</string>
+
 </resources>
 
 

@@ -200,7 +200,7 @@
                     app:layout_constraintTop_toBottomOf="@id/textView5" />
 
                 <androidx.constraintlayout.widget.ConstraintLayout
-                    android:id="@+id/constraintLayout4"
+                    android:id="@+id/pillDetectButton"
                     android:layout_width="match_parent"
                     android:layout_height="90dp"
                     android:layout_margin="20dp"
@@ -258,7 +258,7 @@
                     android:layout_margin="20dp"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toBottomOf="@+id/constraintLayout4">
+                    app:layout_constraintTop_toBottomOf="@+id/pillDetectButton">
 
                     <androidx.constraintlayout.widget.ConstraintLayout
                         android:id="@+id/emergencyCall"
