@@ -6,6 +6,12 @@
 
     <!-- General Colors -->
     <color name="orange">#F58220</color>
+    <color name="orange_h2">#EDA568</color>
+    <color name="orange_h3">#F4BC8D</color>
+    <color name="orange_h4">#F6CEAD</color>
+    <color name="orange_h5">#F8E0CB</color>
+    <color name="orange_h6">#FFF4EB</color>
+
     <color name="red">#FE4F42</color>
     <color name="green">#25C166</color>
 
