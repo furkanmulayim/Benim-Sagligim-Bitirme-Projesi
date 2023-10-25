@@ -62,19 +62,16 @@
     <string name="ilac_tara">Nasıl Kullanılır?</string>
 
     <string name="ilac_tara_aciklama">Fotoğraf Çek veya Medya Yükle</string>
-    <string name="ilac_tara_aciklama2">İlacın İsmini Tam Alacak Şekilde Kırp</string>
-    <string name="ilac_tara_aciklama3">Gönder Butonuna Basarak Sonucu Bekle</string>
-
+    <string name="ilac_tara_aciklama2">Metin Görünecek Şekilde Özgürce Kırpın</string>
+    <string name="ilac_tara_aciklama3">Gönder Butonuna Basarak Sonucu Gör</string>
 
     <string name="ilac_tara_aciklama_alt">Tamamen güvenlidir verilerinizi paylaşmıyoruz.</string>
     <string name="ilac_tara_aciklama_alt2">İlacın tam adı görünecek şekilde kırpınız.</string>
+    <string name="ilac_tara_aciklama_alt2_2">Hastalığın tam adı görünecek şekilde kırpınız.</string>
     <string name="ilac_tara_aciklama_alt3">Saniyeler içerisinde ilacın ne işe yaradığını öğren.</string>
-
 
     <string name="ilac_tara_button1">Fotoğraf Çek</string>
     <string name="ilac_tara_button2">Görsel Yükle</string>
-    <!-- TODO: Remove or change this placeholder text -->
-    <string name="hello_blank_fragment">Hello blank fragment</string>
 
 </resources>
 

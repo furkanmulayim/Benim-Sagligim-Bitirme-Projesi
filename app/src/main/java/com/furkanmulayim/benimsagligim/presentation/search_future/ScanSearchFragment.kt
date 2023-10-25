@@ -1,4 +1,4 @@
-package com.furkanmulayim.benimsagligim.presentation.pill_future
+package com.furkanmulayim.benimsagligim.presentation.search_future
 
 import android.Manifest
 import android.app.Activity
@@ -19,12 +19,12 @@ import androidx.core.app.ActivityCompat
 import androidx.core.content.ContextCompat
 import androidx.databinding.DataBindingUtil
 import androidx.fragment.app.Fragment
-import androidx.navigation.Navigation
+import androidx.lifecycle.ViewModelProvider
 import com.furkanmulayim.benimsagligim.R
-import com.furkanmulayim.benimsagligim.databinding.FragmentPillInformationBinding
+import com.furkanmulayim.benimsagligim.databinding.FragmentScanSearchBinding
 import com.furkanmulayim.benimsagligim.util.showMessage
 
-class PillInformationFragment : Fragment() {
+class ScanSearchFragment : Fragment() {
 
     companion object {
         private const val CAMERA_PERMISSION_REQUEST_CODE = 100
@@ -37,7 +37,8 @@ class PillInformationFragment : Fragment() {
     private lateinit var cameraActivityResultLauncher: ActivityResultLauncher<Intent>
     private lateinit var galleryActivityResultLauncher: ActivityResultLauncher<Intent>
 
-    private lateinit var binding: FragmentPillInformationBinding
+    private lateinit var binding: FragmentScanSearchBinding
+    private lateinit var viewModel: ScanSearchViewModel
 
     private var imageUri: Uri? = null
     private lateinit var prefs: SharedPreferences
@@ -45,34 +46,32 @@ class PillInformationFragment : Fragment() {
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?, savedInstanceState: Bundle?
     ): View {
-        binding =
-            DataBindingUtil.inflate(inflater, R.layout.fragment_pill_information, container, false)
+        binding = DataBindingUtil.inflate(inflater, R.layout.fragment_scan_search, container, false)
+        viewModel = ViewModelProvider(this)[ScanSearchViewModel::class.java]
         resultLaunchersInit()
         return binding.root
     }
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
+        binding.viewModel = viewModel
 
         cameraPermissions = arrayOf(
             Manifest.permission.CAMERA, Manifest.permission.WRITE_EXTERNAL_STORAGE
         )
         storagePermissions = arrayOf(Manifest.permission.WRITE_EXTERNAL_STORAGE)
-        prefs = requireActivity().getSharedPreferences("MyPrefs", Context.MODE_PRIVATE)
+        prefs = requireActivity().getSharedPreferences("SearchPrefs", Context.MODE_PRIVATE)
 
         clickListeners()
     }
 
     private fun clickListeners() {
         binding.backButton.setOnClickListener {
-            Navigation.findNavController(requireView())
-                .navigate(R.id.action_pillInformationFragment_to_homeFragment)
+            viewModel.navigate(requireView(), R.id.action_scanSearchFragment_to_searchFragment)
         }
-
         binding.cameraButton.setOnClickListener {
             pickImageCamera()
         }
-
         binding.galleryButton.setOnClickListener {
             pickImageGallery()
         }
@@ -108,6 +107,7 @@ class PillInformationFragment : Fragment() {
                 }
             }
     }
+
 
     private fun requestPermissionCamera() {
         if (ContextCompat.checkSelfPermission(
@@ -196,6 +196,7 @@ class PillInformationFragment : Fragment() {
             message("Bu Özellik İçin İzne İhtiyacımız Var..")
         }
     }
+
     private fun message(message: String) {
         requireContext().showMessage(message)
     }

@@ -1,12 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
-<layout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools">
+<layout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <data>
+        <variable
+            name="viewModel"
+            type="com.furkanmulayim.benimsagligim.presentation.search_future.ScanSearchViewModel" />
+    </data>
+
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        tools:context=".presentation.pill_future.PillInformationFragment">
+        tools:context=".presentation.search_future.ScanSearchFragment">
 
         <ScrollView
             android:layout_width="match_parent"
@@ -212,7 +220,7 @@
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:fontFamily="@font/inter"
-                                android:text="@string/ilac_tara_aciklama_alt2"
+                                android:text="@string/ilac_tara_aciklama_alt2_2"
                                 android:textColor="@color/text_hosgeldin_h2"
                                 android:textSize="11sp"
                                 app:layout_constraintStart_toStartOf="parent"
@@ -317,6 +325,6 @@
 
 
         </ScrollView>
-    </androidx.constraintlayout.widget.ConstraintLayout>
 
+    </androidx.constraintlayout.widget.ConstraintLayout>
 </layout>

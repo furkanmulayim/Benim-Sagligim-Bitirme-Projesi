@@ -4,7 +4,8 @@ import android.view.View
 import androidx.lifecycle.ViewModel
 import androidx.navigation.Navigation
 
-class SearchViewModel:ViewModel() {
+class ScanSearchViewModel: ViewModel() {
+
     fun navigate(view: View, pageId: Int) {
         Navigation.findNavController(view).navigate(pageId)
     }
