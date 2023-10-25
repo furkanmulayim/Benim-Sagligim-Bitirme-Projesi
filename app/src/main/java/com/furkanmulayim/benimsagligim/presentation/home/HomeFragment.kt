@@ -1,6 +1,5 @@
 package com.furkanmulayim.benimsagligim.presentation.home
 
-import NotificationHelper
 import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
@@ -12,8 +11,6 @@ import androidx.recyclerview.widget.GridLayoutManager
 import com.furkanmulayim.benimsagligim.R
 import com.furkanmulayim.benimsagligim.databinding.FragmentHomeBinding
 import com.furkanmulayim.benimsagligim.util.startCallWithPermission
-import java.util.Timer
-import java.util.TimerTask
 
 class HomeFragment : Fragment() {
 

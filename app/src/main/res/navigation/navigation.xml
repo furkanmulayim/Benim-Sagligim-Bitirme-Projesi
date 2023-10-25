@@ -55,6 +55,9 @@
         <action
             android:id="@+id/action_forMeFragment_to_notificationFragment"
             app:destination="@id/notificationFragment" />
+        <action
+            android:id="@+id/action_forMeFragment_to_savedFragment"
+            app:destination="@id/savedFragment" />
     </fragment>
     <fragment
         android:id="@+id/diseaseDetectionFragment"
@@ -101,12 +104,20 @@
     </fragment>
     <fragment
         android:id="@+id/pillInformationFragment"
-        android:name="com.furkanmulayim.benimsagligim.presentation.PillInformationFragment"
+        android:name="com.furkanmulayim.benimsagligim.presentation.pill_future.PillInformationFragment"
         android:label="fragment_pill_information"
         tools:layout="@layout/fragment_pill_information" >
         <action
             android:id="@+id/action_pillInformationFragment_to_homeFragment"
             app:destination="@id/homeFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/savedFragment"
+        android:name="com.furkanmulayim.benimsagligim.presentation.saved_future.SavedFragment"
+        android:label="SavedFragment" >
+        <action
+            android:id="@+id/action_savedFragment_to_forMeFragment"
+            app:destination="@id/forMeFragment" />
     </fragment>
 
 </navigation>

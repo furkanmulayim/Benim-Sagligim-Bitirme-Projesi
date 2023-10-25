@@ -30,7 +30,7 @@ class DiseaseDetailFragment : Fragment() {
     }
     private fun backButton() {
         binding.backButton.setOnClickListener {
-            Navigation.findNavController(requireView()).navigate(R.id.action_diseaseDetailFragment_to_diseaseCategoryFragment)
+            requireActivity().onBackPressed()
         }
     }
 

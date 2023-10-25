@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<layout
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools">
 
@@ -25,7 +24,7 @@
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent"
-                tools:context=".presentation.PillInformationFragment">
+                tools:context=".presentation.pill_future.PillInformationFragment">
 
                 <androidx.constraintlayout.widget.ConstraintLayout
                     android:id="@+id/backButton"
@@ -49,7 +48,7 @@
                 <androidx.constraintlayout.widget.ConstraintLayout
                     android:layout_width="wrap_content"
                     android:layout_height="50dp"
-                    android:background="@drawable/back_nasil_kullanilir"
+                    android:background="@drawable/back_back"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintTop_toTopOf="parent">
 
@@ -93,7 +92,7 @@
                         android:layout_height="200dp"
                         android:layout_gravity="center"
                         android:layout_marginBottom="20dp"
-                        android:background="@drawable/actor"
+                        android:background="@drawable/ilac_tara_nasil_kullanilir_svg"
                         app:layout_constraintBottom_toBottomOf="parent"
                         app:layout_constraintEnd_toEndOf="parent"
                         app:layout_constraintStart_toStartOf="parent"
@@ -290,99 +289,29 @@
 
                 </LinearLayout>
 
-
-                <androidx.constraintlayout.widget.ConstraintLayout
+                <Button
+                    android:id="@+id/cameraButton"
                     android:layout_width="match_parent"
                     android:layout_height="60dp"
-                    android:layout_marginBottom="15dp"
-                    android:layout_marginTop="45dp"
-                    android:background="@drawable/gradient1"
-                    app:layout_constraintBottom_toTopOf="@id/mediaButton"
-                    app:layout_constraintEnd_toEndOf="parent"
-                    app:layout_constraintTop_toBottomOf="@+id/yazilars"
-                    app:layout_constraintStart_toStartOf="parent">
+                    android:layout_marginTop="30dp"
+                    android:backgroundTint="@color/orange"
+                    android:fontFamily="@font/inter_semibold"
+                    android:text="@string/ilac_tara_button1"
+                    android:textAllCaps="false"
+                    android:textColor="@color/white"
+                    app:layout_constraintTop_toBottomOf="@+id/yazilars" />
 
-                    <ImageView
-                        android:id="@+id/imageView5"
-                        android:layout_width="match_parent"
-                        android:layout_height="match_parent"
-                        android:layout_margin="3dp"
-                        android:background="@drawable/gradient2"
-                        app:layout_constraintBottom_toBottomOf="parent"
-                        app:layout_constraintEnd_toEndOf="parent"
-                        app:layout_constraintStart_toStartOf="parent"
-                        app:layout_constraintTop_toTopOf="parent" />
-
-                    <TextView
-                        android:id="@+id/textView5"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_gravity="center"
-                        android:fontFamily="@font/inter_semibold"
-                        android:text="@string/ilac_tara_button1"
-                        android:textColor="@color/back_and_me_button_back"
-                        android:textSize="17sp"
-                        app:layout_constraintBottom_toBottomOf="parent"
-                        app:layout_constraintEnd_toEndOf="parent"
-                        app:layout_constraintStart_toStartOf="parent"
-                        app:layout_constraintTop_toTopOf="parent" />
-
-                    <ImageView
-                        android:layout_width="30dp"
-                        android:layout_height="30dp"
-                        android:background="@drawable/camera_svg"
-                        app:layout_constraintBottom_toBottomOf="parent"
-                        app:layout_constraintEnd_toStartOf="@+id/textView5"
-                        app:layout_constraintStart_toStartOf="parent"
-                        app:layout_constraintTop_toTopOf="parent" />
-
-                </androidx.constraintlayout.widget.ConstraintLayout>
-
-                <androidx.constraintlayout.widget.ConstraintLayout
-                    android:id="@+id/mediaButton"
+                <Button
+                    android:id="@+id/galleryButton"
                     android:layout_width="match_parent"
                     android:layout_height="60dp"
-                    android:layout_marginBottom="35dp"
-                    android:background="@drawable/gradient1"
-                    app:layout_constraintBottom_toBottomOf="parent"
-                    app:layout_constraintEnd_toEndOf="parent"
-                    app:layout_constraintStart_toStartOf="parent">
-
-                    <ImageView
-                        android:id="@+id/imageView4"
-                        android:layout_width="match_parent"
-                        android:layout_height="match_parent"
-                        android:layout_margin="3dp"
-                        android:background="@drawable/gradient2"
-                        app:layout_constraintBottom_toBottomOf="parent"
-                        app:layout_constraintEnd_toEndOf="parent"
-                        app:layout_constraintStart_toStartOf="parent"
-                        app:layout_constraintTop_toTopOf="parent" />
-
-                    <TextView
-                        android:id="@+id/textView4"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_gravity="center"
-                        android:fontFamily="@font/inter_semibold"
-                        android:text="@string/ilac_tara_button2"
-                        android:textColor="@color/back_and_me_button_back"
-                        android:textSize="17sp"
-                        app:layout_constraintBottom_toBottomOf="parent"
-                        app:layout_constraintEnd_toEndOf="parent"
-                        app:layout_constraintStart_toStartOf="parent"
-                        app:layout_constraintTop_toTopOf="parent" />
-
-                    <ImageView
-                        android:layout_width="30dp"
-                        android:layout_height="30dp"
-                        android:background="@drawable/gallery_svg"
-                        app:layout_constraintBottom_toBottomOf="parent"
-                        app:layout_constraintEnd_toStartOf="@+id/textView4"
-                        app:layout_constraintStart_toStartOf="parent"
-                        app:layout_constraintTop_toTopOf="parent" />
-
-                </androidx.constraintlayout.widget.ConstraintLayout>
+                    android:layout_marginTop="0dp"
+                    android:backgroundTint="@color/orange"
+                    android:fontFamily="@font/inter_semibold"
+                    android:text="@string/ilac_tara_button2"
+                    android:textAllCaps="false"
+                    android:textColor="@color/white"
+                    app:layout_constraintTop_toBottomOf="@+id/cameraButton" />
             </androidx.constraintlayout.widget.ConstraintLayout>
 
 

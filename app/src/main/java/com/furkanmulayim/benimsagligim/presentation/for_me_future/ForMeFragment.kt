@@ -24,26 +24,22 @@ class ForMeFragment : Fragment() {
         inflater: LayoutInflater, container: ViewGroup?, savedInstanceState: Bundle?
     ): View {
         binding = DataBindingUtil.inflate(inflater, R.layout.fragment_for_me, container, false)
-        goingHomePage()
         showOnAdapter()
-        goingNotification()
+        clickListeners()
         return binding.root
     }
 
-    private fun goingHomePage() {
+    private fun clickListeners() {
+        binding.hatirlaticim.setOnClickListener {
+            Navigation.findNavController(requireView())
+                .navigate(R.id.action_forMeFragment_to_notificationFragment)
+        }
+
         binding.backButton.setOnClickListener {
             Navigation.findNavController(requireView())
                 .navigate(R.id.action_forMeFragment_to_homeFragment)
         }
     }
-
-    private fun goingNotification(){
-        binding.hatirlaticim.setOnClickListener {
-            Navigation.findNavController(requireView())
-                .navigate(R.id.action_forMeFragment_to_notificationFragment)
-        }
-    }
-
 
     private fun showOnAdapter() {
         val dataList = listOf(

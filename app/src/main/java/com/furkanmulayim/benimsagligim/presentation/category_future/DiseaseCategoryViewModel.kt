@@ -11,6 +11,8 @@ import com.furkanmulayim.benimsagligim.domain.model.ItemDisease
 
 class DiseaseCategoryViewModel : ViewModel() {
     val diseaseName = MutableLiveData<String>()
+    val backgroun = MutableLiveData<Int>()
+    val foregroun = MutableLiveData<Int>()
 
     val dataList = listOf(
         ItemDisease(
@@ -40,8 +42,10 @@ class DiseaseCategoryViewModel : ViewModel() {
 
     fun setBundle(name: String, back: Int, fore: Int, cl: ConstraintLayout, iv: ImageView) {
         diseaseName.value = name
-        cl.setBackgroundResource(back)
-        iv.setBackgroundResource(fore)
+        backgroun.value = back
+        foregroun.value = fore
+        cl.setBackgroundResource(backgroun.value.toString().toInt())
+        iv.setBackgroundResource(foregroun.value.toString().toInt())
     }
 
     fun navigate(view: View, pageId: Int) {

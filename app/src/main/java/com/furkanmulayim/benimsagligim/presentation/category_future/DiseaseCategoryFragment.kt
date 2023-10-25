@@ -36,13 +36,17 @@ class DiseaseCategoryFragment : Fragment() {
 
     private fun incomingDataToPage() {
         val bundle: DiseaseCategoryFragmentArgs by navArgs()
-        viewModel.setBundle(
-            bundle.diseaseName,
-            bundle.diseaseBackground,
-            bundle.diseaseForeground,
-            binding.diseaseNameSpace,
-            binding.hastalikSvg
-        )
+
+        if (bundle.diseaseName.isNotEmpty()){
+            viewModel.setBundle(
+                bundle.diseaseName,
+                bundle.diseaseBackground,
+                bundle.diseaseForeground,
+                binding.diseaseNameSpace,
+                binding.hastalikSvg
+            )
+        }
+
     }
 
     private fun showOnAdapter() {

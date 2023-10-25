@@ -4,6 +4,8 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.TextView
+import androidx.constraintlayout.widget.ConstraintLayout
+import androidx.navigation.Navigation
 import androidx.recyclerview.widget.RecyclerView
 import com.furkanmulayim.benimsagligim.R
 import com.furkanmulayim.benimsagligim.domain.model.ItemDisease
@@ -14,6 +16,7 @@ class ForMeAdapter(
 ) : RecyclerView.Adapter<ForMeAdapter.ViewHolder>() {
 
     class ViewHolder(itemView: View) : RecyclerView.ViewHolder(itemView) {
+        val button: ConstraintLayout = itemView.findViewById(R.id.hastalikButton)
         val itemAdi: TextView = itemView.findViewById(R.id.hastalikAdi)
         val itemLatincesi: TextView = itemView.findViewById(R.id.hastalikAdiLatince)
         val itemEtiket: TextView = itemView.findViewById(R.id.etiketler)
@@ -32,6 +35,10 @@ class ForMeAdapter(
         holder.itemLatincesi.text = item.latinName
         holder.itemEtiket.text = item.hastags
         holder.itemDerecelendirme.text = item.risk
+
+        holder.button.setOnClickListener {
+            Navigation.findNavController(it).navigate(R.id.action_forMeFragment_to_savedFragment)
+        }
     }
 
     override fun getItemCount(): Int {
