@@ -8,6 +8,7 @@ import androidx.databinding.DataBindingUtil
 import androidx.fragment.app.Fragment
 import androidx.lifecycle.ViewModelProvider
 import androidx.recyclerview.widget.GridLayoutManager
+import androidx.recyclerview.widget.LinearLayoutManager
 import com.furkanmulayim.benimsagligim.R
 import com.furkanmulayim.benimsagligim.databinding.FragmentHomeBinding
 import com.furkanmulayim.benimsagligim.util.startCallWithPermission
@@ -30,12 +31,19 @@ class HomeFragment : Fragment() {
         binding.viewModel = viewModel
         clickListeners()
         showCategory()
+        showSimilarDisease()
     }
 
     private fun showCategory() {
         val adapter = CategoryListAdapter(viewModel.categoryList)
         binding.categoryRcyc.layoutManager = GridLayoutManager(requireContext(), 4)
         binding.categoryRcyc.adapter = adapter
+    }
+
+    private fun showSimilarDisease() {
+        val adapter = MostViewsAdapter(viewModel.denemeList)
+        binding.mostViewsDisease.layoutManager = LinearLayoutManager(requireContext(),LinearLayoutManager.HORIZONTAL,false)
+        binding.mostViewsDisease.adapter = adapter
     }
 
     private fun clickListeners() {

@@ -24,6 +24,9 @@
         <action
             android:id="@+id/action_homeFragment_to_pillInformationFragment"
             app:destination="@id/pillInformationFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_diseaseDetailFragment2"
+            app:destination="@id/diseaseDetailFragment" />
     </fragment>
     <fragment
         android:id="@+id/diseaseCategoryFragment"

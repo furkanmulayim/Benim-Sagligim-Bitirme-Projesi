@@ -414,13 +414,14 @@
                     app:layout_constraintTop_toBottomOf="@+id/linearLayout3" />
 
                 <androidx.recyclerview.widget.RecyclerView
+                    android:id="@+id/mostViewsDisease"
                     android:layout_width="match_parent"
-                    android:overScrollMode="never"
-                    android:layout_height="200dp"
+                    android:layout_height="wrap_content"
                     android:layout_marginTop="10dp"
-                    android:background="@drawable/search_back"
+                    android:paddingBottom="10dp"
                     android:layout_marginStart="20dp"
-                    android:layout_marginEnd="20dp"
+                    android:overScrollMode="never"
+                    app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toBottomOf="@id/enCokOkunanlar" />
 
             </androidx.constraintlayout.widget.ConstraintLayout>
