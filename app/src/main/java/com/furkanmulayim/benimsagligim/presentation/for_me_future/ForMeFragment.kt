@@ -57,5 +57,4 @@ class ForMeFragment : Fragment() {
         binding.savedDiseases.adapter = adapter
     }
 
-
 }
