@@ -1,131 +1,131 @@
 {
   "Tüm Hastalıklar": {
     "Bulaşıcı Hastalıklar": {
-      "Name": {
-        "Adı": "Name",
-        "Latince Adı": "LAtince",
-        "Hakkında": "Saldıhfsldjgskdg",
-        "Belirti": "Beirtilerburdaolacak",
-        "Taşıdığı Risk": "Riskli",
-        "Risk Oranı": "10",
-        "Görülme Sıklığı": "Çok",
-        "Korunma Yolları": "Yok",
-        "Enfekte Oldum": "Geçmişolsun",
-        "Etiketler": "etiketiyok",
-        "Benzer Hastalıklar": "var",
-        "Görsel Link": "bakarız"
+      "Bulasici1": {
+        "Adı": "Bulasici1",
+        "Latince Adı": "Bulasici2",
+        "Hakkında": "Bulasici1",
+        "Belirti": "Bulasici1",
+        "Taşıdığı Risk": "Bulasici1",
+        "Risk Oranı": "Bulasici1",
+        "Görülme Sıklığı": "Bulasici1",
+        "Korunma Yolları": "Bulasici1",
+        "Enfekte Oldum": "Bulasici1",
+        "Etiketler": "bulasici1",
+        "Benzer Hastalıklar": "bulasici1",
+        "Görsel Link": "bulasici1"
       }
     },
     "Nörolojik Hastalıklar": {
-      "Nezle": {
-        "Adı": "Nezle",
-        "Latince Adı": "Deneme",
-        "Hakkında": "Deneme",
-        "Belirti": "Deneme",
-        "Taşıdığı Risk": "Deneme",
-        "Risk Oranı": "Deneme",
-        "Görülme Sıklığı": "Deneme",
-        "Korunma Yolları": "Deneme",
-        "Enfekte Oldum": "Deneme",
-        "Etiketler": "Deneme",
-        "Benzer Hastalıklar": "Deneme",
-        "Görsel Link": "Deneme"
+      "Norolojik": {
+        "Adı": "Norolojik",
+        "Latince Adı": "Norolojik",
+        "Hakkında": "Norolojik",
+        "Belirti": "Norolojik",
+        "Taşıdığı Risk": "Norolojik",
+        "Risk Oranı": "Norolojik",
+        "Görülme Sıklığı": "Norolojik",
+        "Korunma Yolları": "Norolojik",
+        "Enfekte Oldum": "Norolojik",
+        "Etiketler": "norolojik",
+        "Benzer Hastalıklar": "norolojik",
+        "Görsel Link": "norolojik"
       }
     },
     "Solunum Sistemi Hastalıkları": {
-      "Nezle": {
-        "Adı": "Nezle",
-        "Latince Adı": "Deneme",
-        "Hakkında": "Deneme",
-        "Belirti": "Deneme",
-        "Taşıdığı Risk": "Deneme",
-        "Risk Oranı": "Deneme",
-        "Görülme Sıklığı": "Deneme",
-        "Korunma Yolları": "Deneme",
-        "Enfekte Oldum": "Deneme",
-        "Etiketler": "Deneme",
-        "Benzer Hastalıklar": "Deneme",
-        "Görsel Link": "Deneme"
+      "Solunum": {
+        "Adı": "Solunum",
+        "Latince Adı": "Solunum",
+        "Hakkında": "Solunum",
+        "Belirti": "Solunum",
+        "Taşıdığı Risk": "Solunum",
+        "Risk Oranı": "Solunum",
+        "Görülme Sıklığı": "Solunum",
+        "Korunma Yolları": "Solunum",
+        "Enfekte Oldum": "Solunum",
+        "Etiketler": "Solunum",
+        "Benzer Hastalıklar": "Solunum",
+        "Görsel Link": "Solunum"
       }
     },
     "Ruhsal Hastalıklar": {
-      "Nezle": {
-        "Adı": "Nezle",
-        "Latince Adı": "Deneme",
-        "Hakkında": "Deneme",
-        "Belirti": "Deneme",
-        "Taşıdığı Risk": "Deneme",
-        "Risk Oranı": "Deneme",
-        "Görülme Sıklığı": "Deneme",
-        "Korunma Yolları": "Deneme",
-        "Enfekte Oldum": "Deneme",
-        "Etiketler": "Deneme",
-        "Benzer Hastalıklar": "Deneme",
-        "Görsel Link": "Deneme"
+      "Ruhsal": {
+        "Adı": "Ruhsal",
+        "Latince Adı": "Ruhsal",
+        "Hakkında": "Ruhsal",
+        "Belirti": "Ruhsal",
+        "Taşıdığı Risk": "Ruhsal",
+        "Risk Oranı": "Ruhsal",
+        "Görülme Sıklığı": "Ruhsal",
+        "Korunma Yolları": "Ruhsal",
+        "Enfekte Oldum": "Ruhsal",
+        "Etiketler": "Ruhsal",
+        "Benzer Hastalıklar": "Ruhsal",
+        "Görsel Link": "Ruhsal"
       }
     },
     "Üreme Sistemi Hastalıkları": {
-      "Nezle": {
-        "Adı": "Nezle",
-        "Latince Adı": "Deneme",
-        "Hakkında": "Deneme",
-        "Belirti": "Deneme",
-        "Taşıdığı Risk": "Deneme",
-        "Risk Oranı": "Deneme",
-        "Görülme Sıklığı": "Deneme",
-        "Korunma Yolları": "Deneme",
-        "Enfekte Oldum": "Deneme",
-        "Etiketler": "Deneme",
-        "Benzer Hastalıklar": "Deneme",
+      "Üreme": {
+        "Adı": "Üreme",
+        "Latince Adı": "Üreme",
+        "Hakkında": "Üreme",
+        "Belirti": "Üreme",
+        "Taşıdığı Risk": "Üreme",
+        "Risk Oranı": "Üreme",
+        "Görülme Sıklığı": "Üreme",
+        "Korunma Yolları": "Üreme",
+        "Enfekte Oldum": "Üreme",
+        "Etiketler": "Üreme",
+        "Benzer Hastalıklar": "Üreme",
         "Görsel Link": "Deneme"
       }
     },
     "Cinsel Yolla Bulaşan Hastalıklar": {
-      "Nezle": {
-        "Adı": "Nezle",
-        "Latince Adı": "Deneme",
-        "Hakkında": "Deneme",
-        "Belirti": "Deneme",
-        "Taşıdığı Risk": "Deneme",
-        "Risk Oranı": "Deneme",
-        "Görülme Sıklığı": "Deneme",
-        "Korunma Yolları": "Deneme",
-        "Enfekte Oldum": "Deneme",
-        "Etiketler": "Deneme",
-        "Benzer Hastalıklar": "Deneme",
-        "Görsel Link": "Deneme"
+      "Cinsel": {
+        "Adı": "Cinsel",
+        "Latince Adı": "Cinsel",
+        "Hakkında": "DeCinselneme",
+        "Belirti": "Cinsel",
+        "Taşıdığı Risk": "Cinsel",
+        "Risk Oranı": "Cinsel",
+        "Görülme Sıklığı": "Cinsel",
+        "Korunma Yolları": "Cinsel",
+        "Enfekte Oldum": "DeneCinselme",
+        "Etiketler": "Cinsel",
+        "Benzer Hastalıklar": "Cinsel",
+        "Görsel Link": "Cinsel"
       }
     },
     "Sindirim Sistemi Hastalıkları": {
-      "Nezle": {
-        "Adı": "Nezle",
-        "Latince Adı": "Deneme",
-        "Hakkında": "Deneme",
-        "Belirti": "Deneme",
-        "Taşıdığı Risk": "Deneme",
-        "Risk Oranı": "Deneme",
-        "Görülme Sıklığı": "Deneme",
-        "Korunma Yolları": "Deneme",
-        "Enfekte Oldum": "Deneme",
-        "Etiketler": "Deneme",
-        "Benzer Hastalıklar": "Deneme",
-        "Görsel Link": "Deneme"
+      "Sindirim": {
+        "Adı": "Sindirim",
+        "Latince Adı": "Sindirim",
+        "Hakkında": "DenSindirimeme",
+        "Belirti": "DenSindirimeme",
+        "Taşıdığı Risk": "DenemSindirime",
+        "Risk Oranı": "DenSindirimeme",
+        "Görülme Sıklığı": "DeneSindirimme",
+        "Korunma Yolları": "DenSindirimeme",
+        "Enfekte Oldum": "DenSindirimeme",
+        "Etiketler": "DenemSindirime",
+        "Benzer Hastalıklar": "DeneSindirimme",
+        "Görsel Link": "DeneSindirimme"
       }
     },
     "Kas-İskelet Sistemi Hastalıkları": {
-      "Nezle": {
-        "Adı": "Nezle",
-        "Latince Adı": "Deneme",
-        "Hakkında": "Deneme",
-        "Belirti": "Deneme",
-        "Taşıdığı Risk": "Deneme",
-        "Risk Oranı": "Deneme",
-        "Görülme Sıklığı": "Deneme",
-        "Korunma Yolları": "Deneme",
-        "Enfekte Oldum": "Deneme",
-        "Etiketler": "Deneme",
-        "Benzer Hastalıklar": "Deneme",
-        "Görsel Link": "Deneme"
+      "Kas": {
+        "Adı": "Kas",
+        "Latince Adı": "DenKaseme",
+        "Hakkında": "DenKaseme",
+        "Belirti": "DenKaseme",
+        "Taşıdığı Risk": "DeKasneme",
+        "Risk Oranı": "DeneKasme",
+        "Görülme Sıklığı": "DeKasneme",
+        "Korunma Yolları": "DeneKasme",
+        "Enfekte Oldum": "DenKaseme",
+        "Etiketler": "DenKaseme",
+        "Benzer Hastalıklar": "DenKaseme",
+        "Görsel Link": "DeneKasme"
       }
     }
   }
