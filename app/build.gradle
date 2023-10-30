@@ -40,6 +40,10 @@ android {
 
 dependencies {
 
+    def retrofitVersion = '2.8.1'
+    def rxJavaVersion = '2.1.1'
+    def gmsVersion = '18.2.0'
+
     //Navigation
     implementation "androidx.navigation:navigation-fragment-ktx:2.6.0"
     implementation "androidx.navigation:navigation-ui-ktx:2.6.0"
@@ -49,7 +53,16 @@ dependencies {
     implementation "androidx.work:work-runtime:2.8.1"
 
     //Google Maps
-    implementation 'com.google.android.gms:play-services-maps:18.0.0'
+    implementation "com.google.android.gms:play-services-maps:$gmsVersion"
+
+    //Retrofit
+    implementation "com.squareup.retrofit2:retrofit:$retrofitVersion"
+    implementation "com.squareup.retrofit2:converter-gson:$retrofitVersion"
+    implementation "com.squareup.retrofit2:adapter-rxjava2:$retrofitVersion"
+
+    //RxJava
+    implementation "io.reactivex.rxjava2:rxjava:$rxJavaVersion"
+    implementation "io.reactivex.rxjava2:rxandroid:$rxJavaVersion"
 
 
     implementation 'androidx.core:core-ktx:1.8.0'
