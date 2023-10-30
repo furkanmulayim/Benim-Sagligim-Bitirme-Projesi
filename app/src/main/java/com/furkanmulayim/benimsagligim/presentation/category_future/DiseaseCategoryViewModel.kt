@@ -10,35 +10,29 @@ import com.furkanmulayim.benimsagligim.domain.model.ItemDisease
 
 
 class DiseaseCategoryViewModel : ViewModel() {
+
+
     val diseaseName = MutableLiveData<String>()
     val backgroun = MutableLiveData<Int>()
     val foregroun = MutableLiveData<Int>()
 
-    val dataList = listOf(
-        ItemDisease(
-            "Hastalık", "Latince İsmi", "Etiket1, Etiket2, Etiket3", "Derecelendirmesi"
-        ), ItemDisease(
-            "Hastalık", "Latince İsmi", "Etiket1, Etiket2, Etiket3", "Derecelendirmesi"
-        ), ItemDisease(
-            "Hastalık", "Latince İsmi", "Etiket1, Etiket2, Etiket3", "Derecelendirmesi"
-        ), ItemDisease(
-            "Hastalık", "Latince İsmi", "Etiket1, Etiket2, Etiket3", "Derecelendirmesi"
-        ), ItemDisease(
-            "Hastalık", "Latince İsmi", "Etiket1, Etiket2, Etiket3", "Derecelendirmesi"
-        ), ItemDisease(
-            "Hastalık", "Latince İsmi", "Etiket1, Etiket2, Etiket3", "Derecelendirmesi"
-        ), ItemDisease(
-            "Hastalık", "Latince İsmi", "Etiket1, Etiket2, Etiket3", "Derecelendirmesi"
-        ), ItemDisease(
-            "Hastalık", "Latince İsmi", "Etiket1, Etiket2, Etiket3", "Derecelendirmesi"
-        ), ItemDisease(
-            "Hastalık", "Latince İsmi", "Etiket1, Etiket2, Etiket3", "Derecelendirmesi"
-        ), ItemDisease(
-            "Hastalık", "Latince İsmi", "Etiket1, Etiket2, Etiket3", "Derecelendirmesi"
-        ), ItemDisease(
-            "Hastalık", "Latince İsmi", "Etiket1, Etiket2, Etiket3", "Derecelendirmesi"
+    val diseaseList = MutableLiveData<List<ItemDisease>>()
+
+    fun refresh() {
+
+        val a =
+            ItemDisease("Hastalık", "Latince İsmi", "Etiket1, Etiket2, Etiket3", "Derecelendirmesi")
+        val b = ItemDisease(
+            "Hastalık1", "Latince İsmi", "Etiket1, Etiket2, Etiket3", "Derecelendirmesi"
         )
-    )
+        val c = ItemDisease(
+            "Hastalık2", "Latince İsmi", "Etiket1, Etiket2, Etiket3", "Derecelendirmesi"
+        )
+
+        val datalist = arrayListOf(a, b, c)
+        diseaseList.value = datalist
+    }
+
 
     fun setBundle(name: String, back: Int, fore: Int, cl: ConstraintLayout, iv: ImageView) {
         diseaseName.value = name

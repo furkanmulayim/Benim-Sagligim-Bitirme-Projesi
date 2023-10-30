@@ -1,19 +1,19 @@
 {
   "Tüm Hastalıklar": {
     "Bulaşıcı Hastalıklar": {
-      "Nezle": {
-        "Adı": "Nezle",
-        "Latince Adı": "Deneme",
-        "Hakkında": "Deneme",
-        "Belirti": "Deneme",
-        "Taşıdığı Risk": "Deneme",
-        "Risk Oranı": "Deneme",
-        "Görülme Sıklığı": "Deneme",
-        "Korunma Yolları": "Deneme",
-        "Enfekte Oldum": "Deneme",
-        "Etiketler": "Deneme",
-        "Benzer Hastalıklar": "Deneme",
-        "Görsel Link": "Deneme"
+      "Name": {
+        "Adı": "Name",
+        "Latince Adı": "LAtince",
+        "Hakkında": "Saldıhfsldjgskdg",
+        "Belirti": "Beirtilerburdaolacak",
+        "Taşıdığı Risk": "Riskli",
+        "Risk Oranı": "10",
+        "Görülme Sıklığı": "Çok",
+        "Korunma Yolları": "Yok",
+        "Enfekte Oldum": "Geçmişolsun",
+        "Etiketler": "etiketiyok",
+        "Benzer Hastalıklar": "var",
+        "Görsel Link": "bakarız"
       }
     },
     "Nörolojik Hastalıklar": {

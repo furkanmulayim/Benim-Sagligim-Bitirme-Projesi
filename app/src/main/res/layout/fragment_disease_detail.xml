@@ -3,6 +3,12 @@
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto">
 
+    <data>
+        <variable
+            name="viewModel"
+            type="com.furkanmulayim.benimsagligim.presentation.detail_future.DetailViewModel" />
+    </data>
+
     <ScrollView
         android:layout_width="match_parent"
         android:layout_height="match_parent">
@@ -97,6 +103,7 @@
                         android:textSize="17sp" />
 
                     <TextView
+                        android:id="@+id/hakkindaDetay"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginStart="15dp"
@@ -136,6 +143,7 @@
                 </LinearLayout>
 
                 <TextView
+                    android:id="@+id/hastalikAdiDetay"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:background="@drawable/risk_orta_back"
@@ -143,7 +151,6 @@
                     android:paddingTop="10dp"
                     android:paddingEnd="25dp"
                     android:paddingBottom="10dp"
-                    android:text="Hastalık İsmi"
                     android:textColor="@color/white"
                     app:layout_constraintBottom_toTopOf="@+id/linearLayout5"
                     app:layout_constraintEnd_toEndOf="parent"
