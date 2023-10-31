@@ -9,10 +9,6 @@ data class Disease(
     var latinAd: String,
     @SerializedName("Hakkında")
     var hakkinda: String,
-    @SerializedName("Belirti")
-    var belirti: String,
-    @SerializedName("Taşıdığı Risk")
-    var tasidigiRisk: String,
     @SerializedName("Risk Oranı")
     var riskOrani: String,
     @SerializedName("Görülme Sıklığı")

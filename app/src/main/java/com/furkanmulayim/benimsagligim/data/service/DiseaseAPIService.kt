@@ -9,8 +9,8 @@ import retrofit2.converter.gson.GsonConverterFactory
 class DiseaseAPIService {
 
     //https://raw.githubusercontent.com/furkanmulayim/Benim-Sagligim-Bitirme-Projesi/master/app/src/main/assets/benim_sagligim_disease.json
-    private val BASE_URL = "https://raw.githubusercontent.com/"
-    private val api = Retrofit.Builder().baseUrl(BASE_URL)
+    private val baseUrl = "https://raw.githubusercontent.com/"
+    private val api = Retrofit.Builder().baseUrl(baseUrl)
         //
         .addConverterFactory(GsonConverterFactory.create())
         .addCallAdapterFactory(RxJava2CallAdapterFactory.create()).build()

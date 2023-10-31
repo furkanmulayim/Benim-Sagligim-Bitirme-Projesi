@@ -30,6 +30,7 @@ class DiseaseCategoryAdapter(
         return ViewHolder(view)
     }
 
+    @SuppressLint("SetTextI18n")
     override fun onBindViewHolder(holder: ViewHolder, position: Int) {
 
         val item = dataList[position]
@@ -37,7 +38,7 @@ class DiseaseCategoryAdapter(
         holder.itemAdi.text = item.adi
         holder.itemLatincesi.text = item.latinAd
         holder.itemEtiket.text = item.etiketler
-        holder.itemDerecelendirme.text = item.riskOrani
+        holder.itemDerecelendirme.text = "%" + item.riskOrani
 
         holder.button.setOnClickListener {
             Navigation.findNavController(it)

@@ -46,8 +46,8 @@ class DiseaseDetailFragment : Fragment() {
         viewModel.diseaseLiveData.observe(viewLifecycleOwner, Observer {
             it.let {
 
-                binding.hastalikAdiDetay.text = it.get(1).adi
-                //binding.hakkindaDetay.text = it.hakkinda
+                binding.hastalikAdiDetay.text = it[0].adi
+                binding.hastalikKorunmaYollariDetay.text = it[5].adi
 
             }
         })

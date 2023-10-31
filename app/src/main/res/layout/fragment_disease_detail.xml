@@ -21,7 +21,6 @@
                 android:id="@+id/shapeableImageView"
                 android:layout_width="0dp"
                 android:layout_height="0dp"
-                android:background="@drawable/sil"
                 android:scaleType="fitXY"
                 app:layout_constraintDimensionRatio="3:2"
                 app:layout_constraintEnd_toEndOf="parent"
@@ -109,37 +108,12 @@
                         android:layout_marginStart="15dp"
                         android:layout_marginTop="5dp"
                         android:layout_marginEnd="15dp"
-                        android:fontFamily="@font/inter_medium"
-                        android:text="burada deneme yazısı vardır lütfen daha soınra deneyiniz denem sil bunu daha cok sey yazılacak "
-                        android:textColor="@color/text_hosgeldin_h2"
-                        android:textSize="15sp" />
-
-                    <ImageView
-                        android:layout_width="match_parent"
-                        android:layout_height="1dp"
-                        android:layout_margin="15dp"
-                        android:background="@color/text_h2" />
-
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_marginStart="15dp"
-                        android:fontFamily="@font/inter_medium"
-                        android:text="Belirtileri"
-                        android:textColor="@color/text_h1"
-                        android:textSize="17sp" />
-
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_marginStart="15dp"
-                        android:layout_marginTop="5dp"
-                        android:layout_marginEnd="15dp"
                         android:layout_marginBottom="15dp"
                         android:fontFamily="@font/inter_medium"
                         android:text="burada deneme yazısı vardır lütfen daha soınra deneyiniz denem sil bunu daha cok sey yazılacak "
                         android:textColor="@color/text_hosgeldin_h2"
                         android:textSize="15sp" />
+
                 </LinearLayout>
 
                 <TextView
@@ -245,6 +219,7 @@
                     app:layout_constraintStart_toStartOf="parent">
 
                     <TextView
+                        android:id="@+id/hastalikKorunmaYollariDetay"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginStart="15dp"
