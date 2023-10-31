@@ -11,6 +11,7 @@ import androidx.lifecycle.ViewModelProvider
 import androidx.recyclerview.widget.GridLayoutManager
 import com.furkanmulayim.benimsagligim.R
 import com.furkanmulayim.benimsagligim.databinding.FragmentDiseaseDetailBinding
+import com.furkanmulayim.benimsagligim.domain.model.Disease
 
 class DiseaseDetailFragment : Fragment() {
     private lateinit var binding: FragmentDiseaseDetailBinding
@@ -44,7 +45,8 @@ class DiseaseDetailFragment : Fragment() {
     fun observeLiveData(){
         viewModel.diseaseLiveData.observe(viewLifecycleOwner, Observer {
             it.let {
-                binding.hastalikAdiDetay.text = it.size.toString()
+
+                binding.hastalikAdiDetay.text = it.get(1).adi
                 //binding.hakkindaDetay.text = it.hakkinda
 
             }

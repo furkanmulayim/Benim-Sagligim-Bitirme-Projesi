@@ -6,31 +6,63 @@ import androidx.constraintlayout.widget.ConstraintLayout
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
 import androidx.navigation.Navigation
-import com.furkanmulayim.benimsagligim.domain.model.ItemDisease
+import com.furkanmulayim.benimsagligim.data.service.DiseaseAPIService
+import com.furkanmulayim.benimsagligim.domain.model.Disease
+import io.reactivex.android.schedulers.AndroidSchedulers
+import io.reactivex.disposables.CompositeDisposable
+import io.reactivex.observers.DisposableSingleObserver
+import io.reactivex.schedulers.Schedulers
 
 
 class DiseaseCategoryViewModel : ViewModel() {
 
+    private val diseaseApiService = DiseaseAPIService()
+
+    //Kullan at değişkenimiz.. Hafıza tüketmememek için
+    private val disposable = CompositeDisposable()
 
     val diseaseName = MutableLiveData<String>()
     val backgroun = MutableLiveData<Int>()
     val foregroun = MutableLiveData<Int>()
 
-    val diseaseList = MutableLiveData<List<ItemDisease>>()
+    val diseaseList = MutableLiveData<List<Disease>>()
 
     fun refresh() {
+        getDataFromApi()
+    }
 
-        val a =
-            ItemDisease("Hastalık", "Latince İsmi", "Etiket1, Etiket2, Etiket3", "Derecelendirmesi")
-        val b = ItemDisease(
-            "Hastalık1", "Latince İsmi", "Etiket1, Etiket2, Etiket3", "Derecelendirmesi"
-        )
-        val c = ItemDisease(
-            "Hastalık2", "Latince İsmi", "Etiket1, Etiket2, Etiket3", "Derecelendirmesi"
-        )
+    private fun getDataFromApi() {
+        disposable.add(
+            diseaseApiService.getData()
+                //Async Olarak Yeni threadde yapar
+                .subscribeOn(Schedulers.newThread())
+                //Ana Threadde göstereceğiz
+                .observeOn(AndroidSchedulers.mainThread())
+                .subscribeWith(object : DisposableSingleObserver<List<Disease>>() {
+                    override fun onSuccess(t: List<Disease>) {
 
-        val datalist = arrayListOf(a, b, c)
-        diseaseList.value = datalist
+                        diseaseList.value = t.subList(hangisindeyik()[0], hangisindeyik()[1])
+                    }
+
+                    override fun onError(e: Throwable) {
+                        println("furkaaaan" + e.localizedMessage)
+                    }
+                })
+        )
+    }
+
+    private fun hangisindeyik(): Array<Int> {
+        var a = Array<Int>(2) { 0 }
+        if (diseaseName.value.toString().equals("Bulaşıcı Hastalıklar")) {
+            a[0] = 2
+            a[1] = 4
+        }
+
+        if (diseaseName.value.toString().equals("Nörolojik Hastalıklar")) {
+            a[0] = 1
+            a[1] = 3
+        }
+        return a
     }
 
 

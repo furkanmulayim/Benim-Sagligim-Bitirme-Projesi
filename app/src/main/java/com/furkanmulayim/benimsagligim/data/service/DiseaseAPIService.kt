@@ -13,9 +13,7 @@ class DiseaseAPIService {
     private val api = Retrofit.Builder().baseUrl(BASE_URL)
         //
         .addConverterFactory(GsonConverterFactory.create())
-        //
         .addCallAdapterFactory(RxJava2CallAdapterFactory.create()).build()
-        //
         .create(DiseaseAPI::class.java)
 
     fun getData(): Single<List<Disease>>{

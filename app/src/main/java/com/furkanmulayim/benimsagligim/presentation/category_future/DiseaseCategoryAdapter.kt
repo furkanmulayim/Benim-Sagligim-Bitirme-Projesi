@@ -10,11 +10,12 @@ import androidx.lifecycle.MutableLiveData
 import androidx.navigation.Navigation
 import androidx.recyclerview.widget.RecyclerView
 import com.furkanmulayim.benimsagligim.R
+import com.furkanmulayim.benimsagligim.domain.model.Disease
 import com.furkanmulayim.benimsagligim.domain.model.ItemDisease
 
 
 class DiseaseCategoryAdapter(
-    private val dataList: ArrayList<ItemDisease>) : RecyclerView.Adapter<DiseaseCategoryAdapter.ViewHolder>() {
+    private val dataList: ArrayList<Disease>) : RecyclerView.Adapter<DiseaseCategoryAdapter.ViewHolder>() {
 
     class ViewHolder(itemView: View) : RecyclerView.ViewHolder(itemView) {
         val button: ConstraintLayout = itemView.findViewById(R.id.hastalikButton)
@@ -33,10 +34,10 @@ class DiseaseCategoryAdapter(
 
         val item = dataList[position]
 
-        holder.itemAdi.text = item.name
-        holder.itemLatincesi.text = item.latinName
-        holder.itemEtiket.text = item.hastags
-        holder.itemDerecelendirme.text = item.risk
+        holder.itemAdi.text = item.adi
+        holder.itemLatincesi.text = item.latinAd
+        holder.itemEtiket.text = item.etiketler
+        holder.itemDerecelendirme.text = item.riskOrani
 
         holder.button.setOnClickListener {
             Navigation.findNavController(it)
@@ -49,7 +50,7 @@ class DiseaseCategoryAdapter(
     }
 
     @SuppressLint("NotifyDataSetChanged")
-    fun updateList(newList: List<ItemDisease>) {
+    fun updateList(newList: List<Disease>) {
         dataList.clear()
         dataList.addAll((newList))
         notifyDataSetChanged()
