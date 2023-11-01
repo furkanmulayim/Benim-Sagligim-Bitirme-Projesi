@@ -110,33 +110,65 @@
                         android:layout_marginEnd="15dp"
                         android:layout_marginBottom="15dp"
                         android:fontFamily="@font/inter_medium"
-                        android:text="burada deneme yazısı vardır lütfen daha soınra deneyiniz denem sil bunu daha cok sey yazılacak "
+                        android:text="@{viewModel.hakkinda}"
                         android:textColor="@color/text_hosgeldin_h2"
                         android:textSize="15sp" />
 
                 </LinearLayout>
 
-                <TextView
-                    android:id="@+id/hastalikAdiDetay"
+                <androidx.constraintlayout.widget.ConstraintLayout
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:background="@drawable/risk_orta_back"
                     android:paddingStart="25dp"
                     android:paddingTop="10dp"
                     android:paddingEnd="25dp"
-                    android:paddingBottom="10dp"
-                    android:textColor="@color/white"
                     app:layout_constraintBottom_toTopOf="@+id/linearLayout5"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toTopOf="@+id/linearLayout5" />
+                    app:layout_constraintTop_toTopOf="@+id/linearLayout5">
+                    <TextView
+                        android:id="@+id/hastalikAdiDetay"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:paddingBottom="10dp"
+                        android:text="@{viewModel.adi}"
+                        android:textColor="@color/white"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"/>
+
+                    <TextView
+                        android:id="@+id/dene"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:paddingBottom="10dp"
+                        android:text="-"
+                        android:textColor="@color/orange_h5"
+                        android:layout_marginStart="5dp"
+                        app:layout_constraintStart_toEndOf="@id/hastalikAdiDetay"
+                        app:layout_constraintTop_toTopOf="parent"/>
+
+                    <TextView
+                        android:id="@+id/hastalikAdiLatinceDetay"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:paddingBottom="10dp"
+                        android:text="@{viewModel.latinAd}"
+                        android:textColor="@color/orange_h5"
+                        android:layout_marginStart="5dp"
+                        app:layout_constraintStart_toEndOf="@id/dene"
+                        app:layout_constraintTop_toTopOf="parent"/>
+                </androidx.constraintlayout.widget.ConstraintLayout>
+
             </androidx.constraintlayout.widget.ConstraintLayout>
 
             <LinearLayout
                 android:id="@+id/linearLayout7"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_margin="20dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
+                android:layout_marginTop="10dp"
                 android:orientation="horizontal"
                 app:layout_constraintTop_toBottomOf="@+id/constraintLayout5"
                 tools:layout_editor_absoluteX="20dp">
@@ -159,12 +191,37 @@
                         android:textColor="@color/text_h1"
                         android:textSize="17sp" />
 
-                    <ImageView
+                    <androidx.constraintlayout.widget.ConstraintLayout
                         android:layout_width="100dp"
                         android:layout_height="100dp"
                         android:layout_gravity="center"
-                        android:layout_marginBottom="20dp"
-                        android:background="@drawable/risk_orta_back" />
+                        android:layout_marginBottom="20dp">
+
+                        <com.github.mikephil.charting.charts.PieChart
+                            android:id="@+id/pieChartRisk"
+                            android:layout_width="100dp"
+                            android:layout_height="100dp"
+                            android:layout_gravity="center"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="15dp"
+                            android:fontFamily="@font/inter_black"
+                            android:textAlignment="center"
+                            android:textColor="@color/orange"
+                            android:text="@{viewModel.riskText}"
+                            android:textSize="13sp"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent" />
+
+                    </androidx.constraintlayout.widget.ConstraintLayout>
 
                 </LinearLayout>
 
@@ -187,12 +244,38 @@
                         android:textColor="@color/text_h1"
                         android:textSize="17sp" />
 
-                    <ImageView
+
+                    <androidx.constraintlayout.widget.ConstraintLayout
                         android:layout_width="100dp"
                         android:layout_height="100dp"
                         android:layout_gravity="center"
-                        android:layout_marginBottom="20dp"
-                        android:background="@drawable/risk_orta_back" />
+                        android:layout_marginBottom="20dp">
+
+                        <com.github.mikephil.charting.charts.PieChart
+                            android:id="@+id/pieChartGorulme"
+                            android:layout_width="100dp"
+                            android:layout_height="100dp"
+                            android:layout_gravity="center"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="15dp"
+                            android:fontFamily="@font/inter_black"
+                            android:textAlignment="center"
+                            android:textColor="@color/orange"
+                            android:textSize="13sp"
+                            android:text="@{viewModel.gorulmeText}"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent" />
+
+                    </androidx.constraintlayout.widget.ConstraintLayout>
                 </LinearLayout>
             </LinearLayout>
 
@@ -202,7 +285,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginStart="20dp"
                 android:layout_marginEnd="20dp"
-                android:layout_marginTop="20dp"
+                android:layout_marginTop="10dp"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/linearLayout7">
@@ -227,7 +310,7 @@
                         android:layout_marginTop="25dp"
                         android:layout_marginEnd="15dp"
                         android:fontFamily="@font/inter_medium"
-                        android:text="burada deneme yazısı vardır lütfen daha soınra deneyiniz denem sil bunu daha cok sey yazılacak "
+                        android:text="@{viewModel.korunmaYollari}"
                         android:textColor="@color/text_hosgeldin_h2"
                         android:textSize="15sp" />
 
@@ -254,7 +337,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="20dp"
-                android:layout_marginTop="20dp"
+                android:layout_marginTop="10dp"
                 android:layout_marginEnd="20dp"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
@@ -279,7 +362,7 @@
                         android:layout_marginEnd="15dp"
                         android:layout_marginBottom="15dp"
                         android:fontFamily="@font/inter_medium"
-                        android:text="burada deneme yazısı vardır lütfen daha soınra deneyiniz denem sil bunu daha cok sey yazılacak "
+                        android:text="@{viewModel.enfekteOldum}"
                         android:textColor="@color/text_hosgeldin_h2"
                         android:textSize="15sp" />
 
@@ -304,24 +387,41 @@
             <androidx.recyclerview.widget.RecyclerView
                 android:id="@+id/rcycDetailsHastags"
                 android:layout_width="match_parent"
-                android:layout_height="90dp"
+                android:layout_height="wrap_content"
                 android:layout_margin="20dp"
                 android:paddingStart="10dp"
                 android:paddingEnd="10dp"
                 android:paddingTop="10dp"
+                android:paddingBottom="10dp"
                 android:overScrollMode="never"
                 android:background="@drawable/disease_details_back"
                 android:clickable="false"
                 app:layout_constraintTop_toBottomOf="@+id/constraintLayout7" />
 
+
+            <TextView
+                android:id="@+id/onemsizText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="25dp"
+                android:fontFamily="@font/inter_medium"
+                android:text="Buna Benzer Hastalıklar"
+                app:layout_constraintTop_toBottomOf="@id/rcycDetailsHastags"
+                app:layout_constraintStart_toStartOf="@id/rcycDetailsHastags"
+                android:textColor="@color/text_h1"
+                android:textSize="17sp" />
+
             <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/benzerRcyc"
                 android:layout_width="match_parent"
-                android:layout_height="90dp"
-                android:layout_margin="20dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
+                android:layout_marginTop="10dp"
+                android:paddingBottom="10dp"
                 android:overScrollMode="never"
-                android:background="@drawable/disease_details_back"
                 android:clickable="false"
-                app:layout_constraintTop_toBottomOf="@+id/rcycDetailsHastags" />
+                app:layout_constraintTop_toBottomOf="@+id/onemsizText" />
 
         </androidx.constraintlayout.widget.ConstraintLayout>
 

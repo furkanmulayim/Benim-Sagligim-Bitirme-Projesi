@@ -9,7 +9,6 @@ import androidx.swiperefreshlayout.widget.CircularProgressDrawable
 import com.bumptech.glide.Glide
 import com.bumptech.glide.request.RequestOptions
 import com.furkanmulayim.benimsagligim.R
-import com.squareup.picasso.Picasso
 
 /**
 //Görseli indirerek imageview'de gösterme fonksiyonu
@@ -68,6 +67,7 @@ fun String.toDrawableResource(): Int {
     return back
 }
 
+//Görseller Yüklenirken kullanıcıya bildiriyoruz
 fun ProgressBarr(context: Context): CircularProgressDrawable {
     return CircularProgressDrawable(context).apply {
         strokeWidth = 8f
@@ -76,11 +76,10 @@ fun ProgressBarr(context: Context): CircularProgressDrawable {
     }
 }
 
+
+//Görselleri indiriyoruz
 fun ImageView.loadImage(url: String?, progressDrawable: CircularProgressDrawable) {
-    val picasso = Picasso.get()
-    picasso.load(url)
-        .placeholder(progressDrawable)
-        .error(R.color.orange)
-        .into(this)
+    val opt = RequestOptions().placeholder(progressDrawable).error(R.color.white)
+    Glide.with(context).setDefaultRequestOptions(opt).load(url).into(this)
 }
 

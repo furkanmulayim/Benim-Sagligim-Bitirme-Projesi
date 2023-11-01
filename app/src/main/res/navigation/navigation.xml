@@ -83,6 +83,9 @@
         <argument
             android:name="diseaseBundle"
             app:argType="string[]" />
+        <action
+            android:id="@+id/action_diseaseDetailFragment_self"
+            app:destination="@id/diseaseDetailFragment" />
     </fragment>
     <fragment
         android:id="@+id/resultFragment"

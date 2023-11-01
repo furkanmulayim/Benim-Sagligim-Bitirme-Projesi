@@ -2,12 +2,12 @@
   {
     "Adı": "Grip",
     "Latince Adı": "Influenza",
-    "Hakkında": " Grip, solunum yolu enfeksiyonuna neden olan bir virüs olan influenza virüsü tarafından oluşturulan bir hastalıktır. Mevsimsel grip ve pandemik grip olmak üzere iki ana türü vardır. Grip, özellikle kış aylarında yaygın olarak görülür ve hızla yayılabilir.",
+    "Hakkında": "İnfluenza, solunum yolu enfeksiyonlarına neden olan bir virüsün yol açtığı bulaşıcı bir hastalıktır. Her yıl mevsimsel grip salgınlarına neden olabilir ve ciddi komplikasyonlara yol açabilir. Hasta kişilerin öksürme, hapşırma veya temas yoluyla kolayca yayılır. Belirtileri genellikle yüksek ateş, baş ağrısı, kas ağrıları, boğaz ağrısı, halsizlik ve öksürük içerir. İnfluenza virüsü, tip A, B ve C olmak üzere farklı türlerde bulunur. Tip A ve B insanlarda daha sık görülür ve ağır enfeksiyonlara yol açabilir.",
     "Risk Oranı": "30",
     "Görülme Sıklığı": "70",
-    "Korunma Yolları": "Grip aşısı yaptırmak en etkili korunma yöntemlerinden biridir. Sık sık ellerinizi yıkayarak virüsün yayılma riskini azaltabilirsiniz. Hasta kişilerle yakın teması sınırlamak önemlidir. Öksürürken veya hapşırırken ağzınızı ve burnunuzu kapatarak enfekte olma riskinizi azaltabilirsiniz.",
-    "Enfekte Oldum": "Grip belirtileri görüldüğünde dinlenmek, bol sıvı tüketmek, doktora başvurmak ve başkalarıyla teması sınırlamak önemlidir.",
-    "Etiketler": "yüksek ateş, baş ağrısı, kas ağrıları, boğaz ağrısı, öksürük, burun akıntısı, halsizlik, titreme.",
+    "Korunma Yolları": "En iyi korunma yolu, aşı olmaktır. Mevsimsel grip aşıları, hastalığın yaygın olduğu dönemlerde önerilir. El hijyeni önemlidir; sık sık ellerinizi yıkamak veya el dezenfektanı kullanmak enfeksiyon riskini azaltabilir. Hasta kişilerle yakın teması önlemek ve hasta olduğunuzda evde kalmak, yayılma riskini azaltabilir. Öksürürken veya hapşırırken ağzınızı ve burnunuzu kapatmak için bir mendil veya dirseğinizi kullanmak yayılma riskini azaltabilir. Kamu alanlarında maske takmak, enfeksiyonun yayılmasını engellemeye yardımcı olabilir.",
+    "Enfekte Oldum": "Hasta olduğunuzda dinlenmek ve bol sıvı tüketmek, iyileşme sürecinizi hızlandırabilir. Doktora başvurmak gerekebilir, özellikle de belirtiler ciddi hale gelirse veya yüksek riskli bir grupta iseniz. Doktorun önerdiği ilaçları düzenli olarak kullanmak, enfeksiyonun süresini kısaltabilir ve komplikasyon riskini azaltabilir. Hasta iken başkalarıyla teması sınırlamak, hastalığın yayılmasını önlemeye yardımcı olabilir. Özellikle ağır belirtiler, nefes darlığı veya ciddi komplikasyonlar yaşanıyorsa hemen tıbbi yardım almak önemlidir.",
+    "Etiketler": "Yüksek Ateş,Baş Ağrısı,Kas Ağrıları,Boğaz Ağrısı,Öksürük,Burun Akıntısı,Halsizlik,Titreme",
     "Benzer Hastalıklar": "Soğuk Algınlığı,Koronavirüs",
     "Görsel Link": "https://raw.githubusercontent.com/furkanmulayim/kaynakDosyasiSaglik/main/hastalik-gorseller/grip.png"
   },
@@ -19,7 +19,7 @@
     "Görülme Sıklığı": "55",
     "Korunma Yolları": "Maske takmak, sosyal mesafeyi korumak, sık sık ellerinizi yıkamak, aşı yaptırmak, kalabalık ortamlardan kaçınmak.",
     "Enfekte Oldum": "COVID-19 belirtileri görüldüğünde, hemen sağlık kuruluşuyla iletişime geçmelisiniz. İzole olmalı ve doktorunuzun talimatlarını takip etmelisiniz.",
-    "Etiketler": "yüksek ateş, öksürük, nefes darlığı, kas ağrıları, eklem ağrıları, baş ağrısı, boğaz ağrısı, tat kaybı, koku kaybı",
+    "Etiketler": "Yüksek Ateş,Öksürük,Nefes Darlığı,Kas Ağrıları,Eklem Ağrıları,Baş Ağrısı,Boğaz Ağrısı,Tat Kaybı,Koku Kaybı",
     "Benzer Hastalıklar": "Grip, Soğuk Algınlığı, Bronşit",
     "Görsel Link": "https://raw.githubusercontent.com/furkanmulayim/kaynakDosyasiSaglik/main/hastalik-gorseller/korona.png"
   },
@@ -31,7 +31,7 @@
     "Görülme Sıklığı": "35",
     "Korunma Yolları": "Soğuk algınlığından korunmanın en etkili yolu hijyenik önlemleri uygulamaktır. Sık sık ellerinizi yıkamak, el dezenfektanları kullanmak, hasta kişilerle yakın teması sınırlamak ve burun ve ağızla temas etmekten kaçınmak önemlidir. Ayrıca, bağışıklık sistemini güçlendirmek için sağlıklı bir yaşam tarzı benimsemek ve dengeli beslenmek de yardımcı olabilir.",
     "Enfekte Oldum": "Soğuk algınlığı semptomları genellikle hafif ve kendiliğinden iyileşir. Dinlenmek, bol sıvı tüketmek ve semptomları hafifletmeye yardımcı olan reçetesiz ilaçları kullanmak genellikle tedavi için yeterlidir. Ancak, semptomlar uzun süre devam ederse veya ciddi hale gelirse, bir sağlık profesyoneline başvurmak önemlidir.",
-    "Etiketler": "burun tıkanıklığı, hapşırma, boğaz ağrısı, öksürük, hafif ateş, yorgunluk",
+    "Etiketler": "Burun Tıkanıklığı,Hapşırma,Boğaz Ağrısı,Öksürük,Hafif Ateş,Yorgunluk",
     "Benzer Hastalıklar": "Grip, Koronavirüs",
     "Görsel Link": "https://raw.githubusercontent.com/furkanmulayim/kaynakDosyasiSaglik/main/hastalik-gorseller/soguk.png"
   },
@@ -43,7 +43,7 @@
     "Görülme Sıklığı": "7",
     "Korunma Yolları": "HIV enfeksiyonundan korunmanın en etkili yollarından biri cinsel ilişki sırasında korunma (prezervatif kullanma), güvenli iğne kullanımı ve kan, semen, vajinal sıvı veya anneden bebeğe geçiş gibi yollarla HIV bulaşma riskini azaltmaktır. Ayrıca HIV testi yaptırmak, erken tanı ve tedaviye erişim sağlamak da önemlidir.",
     "Enfekte Oldum": "HIV enfeksiyonu tanı konduğunda, antiretroviral ilaçlar ve diğer tedavi yöntemleri önerilir. Erken tanı ve tedavi, HIV enfeksiyonunun ilerlemesini yavaşlatabilir ve AIDS'i önleyebilir. Ayrıca, hasta kişinin bağışıklık sistemini güçlendirmek ve sağlıklı bir yaşam tarzı benimsemek de önemlidir.",
-    "Etiketler": "enfeksiyon, kilo kaybı, yorgunluk, ateş, öksürük, ishal ",
+    "Etiketler": "Enfeksiyon,Kilo Kaybı,Yorgunluk,Yüksek Ateş,Öksürük,İshal ",
     "Benzer Hastalıklar": "Grip",
     "Görsel Link": "https://raw.githubusercontent.com/furkanmulayim/kaynakDosyasiSaglik/main/hastalik-gorseller/aids.png"
   },
@@ -67,7 +67,7 @@
     "Görülme Sıklığı": "7",
     "Korunma Yolları": "Hepatit B'den korunmanın en etkili yolu hepatit B aşısı yaptırmaktır. Ayrıca, cinsel ilişki sırasında prezervatif kullanmak, kontamine iğne kullanımından kaçınmak ve steril iğne paylaşmamak da önemlidir. Ayrıca, sağlık çalışanları ve diğer risk altındaki gruplar için aşılar önerilmektedir.",
     "Enfekte Oldum": "Kronik hepatit B tanısı konulduğunda, uzun vadeli izleme ve tedavi gerekebilir. Antiviral ilaçlar karaciğer hasarını kontrol etmeye ve virüsü kontrol altına almaya yardımcı olabilir. Ayrıca, sağlıklı bir yaşam tarzı benimsemek, alkolden kaçınmak ve doktor tavsiyelerine uymak önemlidir.",
-    "Etiketler": "sarılık, iştah kaybı, mide bulantısı, karın ağrısı, yorgunluk, halsizlik, kas ağrıları",
+    "Etiketler": "Sarılık,İştah Kaybı,Mide Bulantısı,Karın Ağrısı,Yorgunluk,Halsizlik,Kas Ağrıları",
     "Benzer Hastalıklar": "Hepatit A, Hepatit C,İshal, Siroz",
     "Görsel Link": "https://raw.githubusercontent.com/furkanmulayim/kaynakDosyasiSaglik/main/hastalik-gorseller/hepb.png"
   },
@@ -79,8 +79,92 @@
     "Görülme Sıklığı": "5",
     "Korunma Yolları": "Hepatit C'den korunmanın en etkili yollarından biri kontamine iğne kullanımından kaçınmak ve kan temasından kaçınmaktır. Güvenli cinsel ilişki uygulamaları, kontamine iğnelerin paylaşılmaması ve sağlık çalışanlarının güvenli önlemleri alması da önemlidir. Hepatit C'ye karşı spesifik bir aşı bulunmamaktadır.",
     "Enfekte Oldum": "Kronik hepatit C tanısı konulduğunda, antiviral ilaçlar ve diğer tedavi yöntemleri önerilir. Tedavi, karaciğer hasarını kontrol etmeye ve virüsü kontrol altına almaya yardımcı olabilir. Ayrıca, sağlıklı bir yaşam tarzı benimsemek, alkolden kaçınmak ve doktor tavsiyelerine uymak önemlidir.",
-    "Etiketler": "yorgunluk, iştah kaybı, bulantı, karın ağrısı, sarılık, karaciğer sorunları, kas ağrıları",
+    "Etiketler": "Yorgunluk,İştah Kaybı,Bulantı,Karın Ağrısı,Sarılık,Karaciğer Sorunları, Kas Ağrıları",
     "Benzer Hastalıklar": "İshal, Hepatit A, Hepatit B, Siroz",
     "Görsel Link": "https://raw.githubusercontent.com/furkanmulayim/kaynakDosyasiSaglik/main/hastalik-gorseller/hepc.png"
+  },
+  {
+    "Adı": "Verem",
+    "Latince Adı": "Tüberküloz",
+    "Hakkında": "Verem, solunum yoluyla bulaşan bir hastalıktır ve genellikle akciğerleri etkiler. Ancak, vücudun diğer bölgelerine de yayılabilir. Mikroplar, öksürme veya hapşırma sırasında havaya karışan damlacıklar aracılığıyla bulaşır. Mikrop, vücuda girdikten sonra bağışıklık sistemi tarafından kontrol edilmezse, kişi hastalanabilir.",
+    "Risk Oranı": "8",
+    "Görülme Sıklığı": "25",
+    "Korunma Yolları": "Veremden korunmak için en etkili yöntemlerden biri, BCG aşısının yaptırılmasıdır. Ayrıca, hasta kişilerle yakın teması sınırlamak, iyi havalandırılan yerlerde bulunmak ve hijyen kurallarına dikkat etmek de bulaşma riskini azaltabilir.",
+    "Enfekte Oldum": "Verem tespit edildiğinde, hastalığın türüne ve yayılma riskine göre antibiyotik tedavisi uygulanır. Tedavi, genellikle uzun bir süre boyunca devam eder (çoğu kez 6-9 ay). Tedavi kurallarına uyum son derece önemlidir, aksi takdirde dirençli tüberküloz gelişebilir.",
+    "Etiketler": "üksek Ateş, Baş Ağrısı,Öksürük, Kanlı Balgam, Halsizlik, İştahsızlık, Kilo Kaybı, Göğüs Ağrısı, Nefes Darlığı",
+    "Benzer Hastalıklar": "Koronavirüs,Astım,Bronşit, Koah",
+    "Görsel Link": "https://raw.githubusercontent.com/furkanmulayim/kaynakDosyasiSaglik/main/hastalik-gorseller/verem.png"
+  },
+  {
+    "Adı": "Kızamık",
+    "Latince Adı": "Measles",
+    "Hakkında": "Kızamık, öksürme veya hapşırma yoluyla hava yoluyla bulaşan bir hastalıktır. Genellikle ateş, öksürük, burun akıntısı, kızarıklık ve küçük beyaz lekelerle karakterize kızarıklık belirtileriyle başlar. Enfekte olan kişiler, enfeksiyöz aşamada birçok insanı etkileyebilir.",
+    "Risk Oranı": "3",
+    "Görülme Sıklığı": "10",
+    "Korunma Yolları": "Kızamıktan korunmak için en etkili yol, aşılanmaktır. Kızamık, kabakulak ve kızamıkçık (MMR) aşısı, çocuklar için rutin bir aşıdır ve bağışıklık kazanmalarını sağlar. Ayrıca, hasta kişilerle teması sınırlamak ve kişisel hijyene dikkat etmek de bulaşma riskini azaltabilir.",
+    "Enfekte Oldum": "Kızamık tedavisi için spesifik bir antiviral ilaç bulunmamakla birlikte, semptomların yönetilmesi önemlidir. İyileşme sürecini hızlandırmak ve komplikasyonları önlemek için dinlenme ve bol sıvı tüketimi önerilir. Doktor tavsiyelerine uymak önemlidir.",
+    "Etiketler": "Yüksek Ateş, Öksürük, Burun Akıntısı, Kızarıklık,Ciltte Döküntü, Gözlerde Kızarıklık, Halsizlik, İştahsızlık",
+    "Benzer Hastalıklar": "Suçiçeği,Ebola",
+    "Görsel Link": "https://raw.githubusercontent.com/furkanmulayim/kaynakDosyasiSaglik/main/hastalik-gorseller/kizamik.png"
+  },
+  {
+    "Adı": "Su Çiçeği",
+    "Latince Adı": "Varicella",
+    "Hakkında": "Su çiçeği, genellikle çocuklarda görülen ve kabarcıklarla karakterize döküntülerle kendini gösteren bir hastalıktır. Genellikle hafif bir hastalık olsa da bazı durumlarda komplikasyonlara yol açabilir. Su çiçeği virüsü, öksürme veya hapşırma yoluyla bulaşır ve ciddi komplikasyonlara neden olabilir.",
+    "Risk Oranı": "1",
+    "Görülme Sıklığı": "4",
+    "Korunma Yolları": "Su çiçeğinden korunmanın en etkili yolu, su çiçeği aşısının yaptırılmasıdır. Aşı, hastalığın şiddetini azaltır ve ciddi komplikasyon riskini azaltır. Ayrıca, hasta kişilerle teması sınırlamak ve kişisel hijyene dikkat etmek de bulaşma riskini azaltabilir.",
+    "Enfekte Oldum": "Su çiçeği tedavisi semptomların yönetilmesini içerir. İyileşme sürecini hızlandırmak ve kaşıntıyı azaltmak için antihistaminikler ve kremler kullanılabilir. Hasta kişi izole edilmeli ve teması sınırlanmalıdır.",
+    "Etiketler": "Yüksek Ateş, Baş Ağrısı, İştahsızlık, Kabarcık, Kaşıntı, Halsizlik",
+    "Benzer Hastalıklar": "Kızamık,Ebola",
+    "Görsel Link": "https://raw.githubusercontent.com/furkanmulayim/kaynakDosyasiSaglik/main/hastalik-gorseller/su.png"
+  },
+  {
+    "Adı": "Ebola",
+    "Latince Adı": "Ebola",
+    "Hakkında": "Ebola virüsü, özellikle Orta ve Batı Afrika'da ortaya çıkan salgınlarla ilişkilendirilen bir virüstür. İnsanlara vahşi hayvanlar aracılığıyla bulaşır ve daha sonra insanlar arasında temas yoluyla yayılabilir. Ebola, ciddi iç kanama ve organ yetmezliği gibi komplikasyonlara yol açabilir.",
+    "Risk Oranı": "50",
+    "Görülme Sıklığı": "2",
+    "Korunma Yolları": "Ebola'dan korunmanın en iyi yolu, teması sınırlamak ve koruyucu giysi kullanmaktır. Ebola salgını dönemlerinde hasta kişilerle teması önlemek çok önemlidir. Ayrıca, kişisel koruyucu ekipmanlar kullanmak, enfekte olma riskini azaltabilir.",
+    "Enfekte Oldum": "Ebola virüsü ile enfekte olan kişiler için henüz özel bir antiviral tedavi bulunmamaktadır. Ancak destekleyici tedavi sağlanmalıdır. İzolasyon ve enfekte kişilerle teması önleme tedbirleri alınmalıdır. Salgın durumlarında halk sağlığı önlemleri de uygulanmalıdır.",
+    "Etiketler": "Yüksek Ateş, Baş Ağrısı, Halsizlik, Kas Ağrıları, Kusma, İshal, Kanama",
+    "Benzer Hastalıklar": "Kızamık,Su Çiçeği",
+    "Görsel Link": "https://raw.githubusercontent.com/furkanmulayim/kaynakDosyasiSaglik/main/hastalik-gorseller/ebola.png"
+  },
+  {
+    "Adı": "Uyuz",
+    "Latince Adı": "Scabies",
+    "Hakkında": "Uyuz, cilt altına tüneller kazan parazitlerin neden olduğu bir deri enfeksiyonudur. Bu parazitler cildin altında tüneller kazarak yumurtlarlar ve bu durum şiddetli kaşıntıya neden olur. Uyuz, temas yoluyla bulaşır ve sıklıkla cinsel temas veya yakın temasla yayılır.",
+    "Risk Oranı": "1",
+    "Görülme Sıklığı": "10",
+    "Korunma Yolları": "Uyuzdan korunmanın en iyi yolu kişisel hijyene dikkat etmek ve enfekte kişilerle teması sınırlamaktır. Paylaşılan giysiler veya yatak takımları da uyuzun yayılmasına neden olabilir, bu nedenle kişisel eşyaların paylaşımına dikkat etmek önemlidir.",
+    "Enfekte Oldum": "Uyuzun tedavisi, özel bir ilaç olan skabisitlerin kullanılmasını içerir. Bu ilaçlar, parazitleri öldürmek ve semptomları hafifletmek için cilde uygulanır. Aynı zamanda enfekte kişinin giysileri ve yatak takımları sıcak su ile yıkanmalı veya temizlenmelidir.",
+    "Etiketler": "Şiddetli Kaşıntı, Kızarıklık, Kabarcık,Lezyon, Cilt Döküntüsü",
+    "Benzer Hastalıklar": "",
+    "Görsel Link": "https://raw.githubusercontent.com/furkanmulayim/kaynakDosyasiSaglik/main/hastalik-gorseller/uyuz.png"
+  },
+  {
+    "Adı": "Sifiliz",
+    "Latince Adı": "Sifiliz",
+    "Hakkında": "Sifiliz, genellikle cinsel temas yoluyla bulaşan bir hastalıktır, ancak doğum sırasında anneden bebeğe de geçebilir. Sifiliz farklı evrelerde gelişir ve tedavi edilmezse ciddi komplikasyonlara yol açabilir. Erken teşhis ve tedavi son derece önemlidir.",
+    "Risk Oranı": "60",
+    "Görülme Sıklığı": "6",
+    "Korunma Yolları": "Sifilizden korunmanın en etkili yolu, cinsel ilişki sırasında kondom kullanmaktır. Ayrıca, cinsel partnerlerin enfekte olup olmadığını bilmek ve düzenli olarak test yaptırmak da korunma önlemleridir.",
+    "Enfekte Oldum": "Sifiliz tedavisi için antibiyotikler kullanılır. Erken dönemde teşhis edilen sifiliz kolayca tedavi edilir, ancak tedaviye zamanında başlanmazsa ve enfeksiyon ilerlerse daha uzun süreli tedavi gerekebilir. Enfekte kişinin partnerleri de test edilmeli ve gerekirse tedavi edilmelidir.",
+    "Etiketler": "Genital Bölge Yaraları,Şankır,Lezyon,Cilt Döküntüsü,Yüksek Ateş, Halsizlik,Baş Ağrısı,Lenf Düğümlerinde Şişme",
+    "Benzer Hastalıklar": "HPV,HSV",
+    "Görsel Link": "https://raw.githubusercontent.com/furkanmulayim/kaynakDosyasiSaglik/main/hastalik-gorseller/sifiliz.png"
+  },
+  {
+    "Adı": "Bel Soğukluğu",
+    "Latince Adı": "Gonore",
+    "Hakkında": "el soğukluğu, genellikle cinsel temas yoluyla bulaşan bir hastalıktır. Genital bölgelerde, rektumda, boğazda veya gözlerde enfeksiyona neden olabilir. Bel soğukluğu, kadın ve erkeklerde farklı belirtiler gösterebilir ve tedavi edilmezse ciddi komplikasyonlara yol açabilir.",
+    "Risk Oranı": "30",
+    "Görülme Sıklığı": "8",
+    "Korunma Yolları": "Bel soğukluğundan korunmanın en etkili yolu, cinsel ilişki sırasında kondom kullanmaktır. Ayrıca, cinsel partnerlerin enfekte olup olmadığını bilmek ve düzenli olarak test yaptırmak da korunma önlemleridir.",
+    "Enfekte Oldum": " Bel soğukluğu tedavisi antibiyotiklerle yapılır. Ancak enfeksiyon ilerlemişse ve ciddi komplikasyonlar gelişmişse, uzun süreli tedavi gerekebilir. Ayrıca, enfekte kişinin partnerleri de test edilmeli ve gerekirse tedavi edilmelidir.",
+    "Etiketler": "İdrarda Yanma,İdrarda Akıntı, Genital Bölge Ağrısı,Vajinal Akıntı, Rektal Ağrı, Rektal Kanama",
+    "Benzer Hastalıklar": "",
+    "Görsel Link": "https://raw.githubusercontent.com/furkanmulayim/kaynakDosyasiSaglik/main/hastalik-gorseller/belsoguklugu.png"
   }
 ]
