@@ -9,7 +9,7 @@
     "Enfekte Oldum": "Grip belirtileri görüldüğünde dinlenmek, bol sıvı tüketmek, doktora başvurmak ve başkalarıyla teması sınırlamak önemlidir.",
     "Etiketler": "yüksek ateş, baş ağrısı, kas ağrıları, boğaz ağrısı, öksürük, burun akıntısı, halsizlik, titreme.",
     "Benzer Hastalıklar": "Soğuk Algınlığı,Koronavirüs",
-    "Görsel Link": "https://github.com/furkanmulayim/kaynakDosyasiSaglik/blob/main/hastalik-gorseller/grip.png"
+    "Görsel Link": "https://raw.githubusercontent.com/furkanmulayim/kaynakDosyasiSaglik/main/hastalik-gorseller/grip.png"
   },
   {
     "Adı": "Koronavirüs",
@@ -21,7 +21,7 @@
     "Enfekte Oldum": "COVID-19 belirtileri görüldüğünde, hemen sağlık kuruluşuyla iletişime geçmelisiniz. İzole olmalı ve doktorunuzun talimatlarını takip etmelisiniz.",
     "Etiketler": "yüksek ateş, öksürük, nefes darlığı, kas ağrıları, eklem ağrıları, baş ağrısı, boğaz ağrısı, tat kaybı, koku kaybı",
     "Benzer Hastalıklar": "Grip, Soğuk Algınlığı, Bronşit",
-    "Görsel Link": "https://github.com/furkanmulayim/kaynakDosyasiSaglik/blob/main/hastalik-gorseller/korona.png"
+    "Görsel Link": "https://raw.githubusercontent.com/furkanmulayim/kaynakDosyasiSaglik/main/hastalik-gorseller/korona.png"
   },
   {
     "Adı": "Soğuk Algınlığı",
@@ -33,7 +33,7 @@
     "Enfekte Oldum": "Soğuk algınlığı semptomları genellikle hafif ve kendiliğinden iyileşir. Dinlenmek, bol sıvı tüketmek ve semptomları hafifletmeye yardımcı olan reçetesiz ilaçları kullanmak genellikle tedavi için yeterlidir. Ancak, semptomlar uzun süre devam ederse veya ciddi hale gelirse, bir sağlık profesyoneline başvurmak önemlidir.",
     "Etiketler": "burun tıkanıklığı, hapşırma, boğaz ağrısı, öksürük, hafif ateş, yorgunluk",
     "Benzer Hastalıklar": "Grip, Koronavirüs",
-    "Görsel Link": "https://github.com/furkanmulayim/kaynakDosyasiSaglik/blob/main/hastalik-gorseller/soguk.png"
+    "Görsel Link": "https://raw.githubusercontent.com/furkanmulayim/kaynakDosyasiSaglik/main/hastalik-gorseller/soguk.png"
   },
   {
     "Adı": "AIDS",
@@ -45,7 +45,7 @@
     "Enfekte Oldum": "HIV enfeksiyonu tanı konduğunda, antiretroviral ilaçlar ve diğer tedavi yöntemleri önerilir. Erken tanı ve tedavi, HIV enfeksiyonunun ilerlemesini yavaşlatabilir ve AIDS'i önleyebilir. Ayrıca, hasta kişinin bağışıklık sistemini güçlendirmek ve sağlıklı bir yaşam tarzı benimsemek de önemlidir.",
     "Etiketler": "enfeksiyon, kilo kaybı, yorgunluk, ateş, öksürük, ishal ",
     "Benzer Hastalıklar": "Grip",
-    "Görsel Link": "https://github.com/furkanmulayim/kaynakDosyasiSaglik/blob/main/hastalik-gorseller/aids.png"
+    "Görsel Link": "https://raw.githubusercontent.com/furkanmulayim/kaynakDosyasiSaglik/main/hastalik-gorseller/aids.png"
   },
   {
     "Adı": "Hepatit A",
@@ -57,7 +57,7 @@
     "Enfekte Oldum": "Hepatit A teşhisi konulduğunda, genellikle destekleyici tedavi önerilir. Dinlenmek, bol sıvı tüketmek ve karaciğer sağlığını korumak için doktor tavsiyelerine uymak önemlidir. Çoğu insan tamamen iyileşir, ancak bazı durumlarda hastalık daha ciddi hale gelebilir.",
     "Etiketler": "halsizlik, iştah kaybı, mide bulantısı, karın ağrısı, ciltte sararma,sarılık",
     "Benzer Hastalıklar": "İshal, Hepatit B, Hepatit C",
-    "Görsel Link": "https://github.com/furkanmulayim/kaynakDosyasiSaglik/blob/main/hastalik-gorseller/hepa.png"
+    "Görsel Link": "https://raw.githubusercontent.com/furkanmulayim/kaynakDosyasiSaglik/main/hastalik-gorseller/hepa.png"
   },
   {
     "Adı": "Hepatit B",
@@ -69,7 +69,7 @@
     "Enfekte Oldum": "Kronik hepatit B tanısı konulduğunda, uzun vadeli izleme ve tedavi gerekebilir. Antiviral ilaçlar karaciğer hasarını kontrol etmeye ve virüsü kontrol altına almaya yardımcı olabilir. Ayrıca, sağlıklı bir yaşam tarzı benimsemek, alkolden kaçınmak ve doktor tavsiyelerine uymak önemlidir.",
     "Etiketler": "sarılık, iştah kaybı, mide bulantısı, karın ağrısı, yorgunluk, halsizlik, kas ağrıları",
     "Benzer Hastalıklar": "Hepatit A, Hepatit C,İshal, Siroz",
-    "Görsel Link": "https://github.com/furkanmulayim/kaynakDosyasiSaglik/blob/main/hastalik-gorseller/hepb.png"
+    "Görsel Link": "https://raw.githubusercontent.com/furkanmulayim/kaynakDosyasiSaglik/main/hastalik-gorseller/hepb.png"
   },
   {
     "Adı": "Hepatit C",
@@ -81,6 +81,6 @@
     "Enfekte Oldum": "Kronik hepatit C tanısı konulduğunda, antiviral ilaçlar ve diğer tedavi yöntemleri önerilir. Tedavi, karaciğer hasarını kontrol etmeye ve virüsü kontrol altına almaya yardımcı olabilir. Ayrıca, sağlıklı bir yaşam tarzı benimsemek, alkolden kaçınmak ve doktor tavsiyelerine uymak önemlidir.",
     "Etiketler": "yorgunluk, iştah kaybı, bulantı, karın ağrısı, sarılık, karaciğer sorunları, kas ağrıları",
     "Benzer Hastalıklar": "İshal, Hepatit A, Hepatit B, Siroz",
-    "Görsel Link": "https://github.com/furkanmulayim/kaynakDosyasiSaglik/blob/main/hastalik-gorseller/hepb.png"
+    "Görsel Link": "https://raw.githubusercontent.com/furkanmulayim/kaynakDosyasiSaglik/main/hastalik-gorseller/hepc.png"
   }
 ]
