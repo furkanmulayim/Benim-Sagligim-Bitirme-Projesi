@@ -52,17 +52,39 @@
 
 
             <TextView
-                android:id="@+id/hastalikAdiLatince"
+                android:id="@+id/parantex"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginStart="10dp"
+                android:layout_marginStart="5dp"
                 android:fontFamily="@font/inter"
-                android:text="(Latince Adı)"
+                android:text="("
                 android:textColor="@color/text_hosgeldin_h2"
                 android:textSize="16sp"
                 app:layout_constraintBottom_toBottomOf="@+id/hastalikAdi"
                 app:layout_constraintStart_toEndOf="@+id/hastalikAdi"
                 app:layout_constraintTop_toTopOf="@+id/hastalikAdi" />
+
+            <TextView
+                android:id="@+id/hastalikAdiLatince"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/inter"
+                android:textColor="@color/text_hosgeldin_h2"
+                android:textSize="16sp"
+                app:layout_constraintBottom_toBottomOf="@+id/parantex"
+                app:layout_constraintStart_toEndOf="@+id/parantex"
+                app:layout_constraintTop_toTopOf="@+id/parantex" />
+            <TextView
+                android:id="@+id/parantex2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/inter"
+                android:text=")"
+                android:textColor="@color/text_hosgeldin_h2"
+                android:textSize="16sp"
+                app:layout_constraintBottom_toBottomOf="@+id/hastalikAdiLatince"
+                app:layout_constraintStart_toEndOf="@+id/hastalikAdiLatince"
+                app:layout_constraintTop_toTopOf="@+id/hastalikAdiLatince" />
 
 
             <TextView
