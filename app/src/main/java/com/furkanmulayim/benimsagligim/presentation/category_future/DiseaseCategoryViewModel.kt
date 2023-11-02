@@ -59,8 +59,8 @@ class DiseaseCategoryViewModel : ViewModel() {
         }
 
         if (diseaseName.value.toString().equals("Nörolojik Hastalıklar")) {
-            a[0] = 1
-            a[1] = 3
+            a[0] = 20
+            a[1] = 35
         }
         return a
     }

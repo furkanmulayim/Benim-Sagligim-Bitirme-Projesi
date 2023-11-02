@@ -41,14 +41,19 @@ class DiseaseCategoryAdapter(
     override fun onBindViewHolder(holder: ViewHolder, position: Int) {
 
         val item = dataList[position]
-        val riskText = hastalikRiskOraniHesapla(item.riskOrani)
+        var riskText =""
+        if (item.riskOrani.isNotEmpty()){
+            riskText = hastalikRiskOraniHesapla(item.riskOrani)
+        }
 
         //veri listemizdeki bilgileri arayüze gönderiyoruz.
         holder.itemAdi.text = item.adi
         holder.itemLatincesi.text = item.latinAd
         holder.itemEtiket.text =item.etiketler.hastagsCutTheSmall()
         holder.itemDerecelendirme.text = riskText
-        holder.itemDereceBack.setBackgroundResource(riskText.toDrawableResource())
+        if (riskText.isNotEmpty()){
+            holder.itemDereceBack.setBackgroundResource(riskText.toDrawableResource())
+        }
         holder.image.loadImage(url = item.gorselLinki, ProgressBarr(holder.itemView.context))
 
         //Bilgileri bir dizide topladık

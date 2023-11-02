@@ -247,7 +247,7 @@
     "Görülme Sıklığı": "",
     "Korunma Yolları": "MS'nin kesin nedeni ve nasıl önlenebileceği hala tam olarak anlaşılamamıştır. Genetik faktörler ve çevresel etkenler MS riskini etkileyebilir, ancak korunma yöntemleri bilinmemektedir.",
     "Enfekte Oldum": "MS tedavisi, semptomların hafifletilmesini, atakların sıklığının azaltılmasını ve hastalığın ilerlemesinin yavaşlatılmasını hedefler. Tedavi yöntemleri arasında immünmodülatör ilaçlar, fizik tedavi, reçete edilen ilaçlar ve semptom yönetimi yer almaktadır. Yaşam boyu devam eden bir hastalıktır ve tedavi gerektirebilir. Erken teşhis ve tedavi, hastalığın etkilerini azaltabilir. MS ile yaşayan kişilerin sağlık profesyonelleri ile yakın bir işbirliği içinde olmaları önemlidir.",
-    "Etiketler": "İşitme Sorunları, Görme Sorunları, Denge Sorunları, Kas Zayıflığı, Yorgunluk, Kollarda ve Bacaklarda Koordinasyon Eksikliği, İdrar Sorunları, Bağırsak sorunları, Hafıza Sorunları,Bilişsel Sorunlar, Depresyon, Anksiyete",
+    "Etiketler": "İşitme Sorunları, Görme Sorunları, Denge Sorunları, Kas Zayıflığı, Yorgunluk, Kol ve Bacakta Koordinasyon Eksikliği, İdrar Sorunları, Bağırsak sorunları, Hafıza Sorunları,Bilişsel Sorunlar, Depresyon, Anksiyete",
     "Benzer Hastalıklar": "",
     "Görsel Link": "https://raw.githubusercontent.com/furkanmulayim/kaynakDosyasiSaglik/main/hastalik-gorseller/mantar.png"
   },
@@ -307,7 +307,7 @@
     "Görülme Sıklığı": "",
     "Korunma Yolları": "Otizmin kesin nedeni tam olarak bilinmemektedir ve genetik, çevresel ve gelişimsel faktörlerin rol oynadığı düşünülmektedir. Otizmi önlemek mümkün değildir, ancak erken teşhis ve müdahale, bireylerin yaşamlarını ve fonksiyonlarını iyileştirebilir.",
     "Enfekte Oldum": "Otizm spektrum bozukluğu yönetilebilir, ancak tedavi kişiselleştirilmelidir. Erken teşhis ve erken müdahale, bireylerin becerilerini geliştirmelerine yardımcı olabilir. Terapiler, dil ve iletişim becerileri, sosyal beceriler ve davranış problemleri gibi alanlarda destek sunabilir. Otizm, farklı enderlik derecelerinde görülebilen karmaşık bir bozukluktur. Erken teşhis, bireylerin ihtiyaçlarını anlama ve etkili müdahaleler uygulama sürecine yardımcı olabilir. Otizmli bireyler ve aileleri için destek ve kaynaklar bulunmaktadır.",
-    "Etiketler": "Sosyal Etkileşim Zorlukları, İletişim Zorlukları, Sınırlı İlgi Alanı, Teşrit Edici Davranışlar, Rutinlere Bağlılık,Duyu Hassasiyeti,Konuşma Gecikmeleri, Tekrarlayıcı Hareketler",
+    "Etiketler": "Sosyal Etkileşim Zorlukları, İletişim Zorlukları, Sınırlı İlgi Alanı, Teşrit Edici Davranışlar, Rutinlere Bağlılık,Duyu Hassasiyeti,Konuşma Güçlüğü, Tekrarlayıcı Hareketler",
     "Benzer Hastalıklar": "",
     "Görsel Link": "https://raw.githubusercontent.com/furkanmulayim/kaynakDosyasiSaglik/main/hastalik-gorseller/mantar.png"
   },
@@ -344,6 +344,78 @@
     "Korunma Yolları": "Alzheimer hastalığının kesin nedeni bilinmemektedir ve tam anlamıyla önlenemez. Ancak bilişsel sağlığı koruma potansiyeline sahip faktörler arasında sağlıklı bir yaşam tarzı sürdürmek, düzenli egzersiz yapmak, zihinsel olarak aktif kalmak ve dengeli bir diyet benimsemek bulunmaktadır.",
     "Enfekte Oldum": "Alzheimer hastalığının kesin bir tedavisi bulunmamakla birlikte semptomların yönetimi ve ilerlemenin yavaşlatılması için ilaçlar kullanılabilir. Ayrıca, bilişsel egzersizler, fiziksel aktivite ve sosyal etkileşim, yaşam kalitesini artırmada yardımcı olabilir. Alzheimer hastalığının kesin bir tedavisi bulunmamakla birlikte semptomların yönetimi ve ilerlemenin yavaşlatılması için ilaçlar kullanılabilir. Ayrıca, bilişsel egzersizler, fiziksel aktivite ve sosyal etkileşim, yaşam kalitesini artırmada yardımcı olabilir.",
     "Etiketler": "Hafıza Kaybı, Zaman ve Mekanı Karıştırma, Zihinsel Netliğin Azalması, Kelimeleri Unutma, Problem Çözmede Güçlük, Anksiyete, Depresyon",
+    "Benzer Hastalıklar": "",
+    "Görsel Link": "https://raw.githubusercontent.com/furkanmulayim/kaynakDosyasiSaglik/main/hastalik-gorseller/mantar.png"
+  },
+  {
+    "Adı": "Bunama",
+    "Latince Adı": "Demans",
+    "Hakkında": "Bunama, bilişsel yetilerin ciddi bir şekilde kaybedildiği bir nörolojik bozukluktur. Bu kayıp, günlük yaşam becerilerini etkileyebilir ve kişinin bağımsızlığını azaltabilir. Demans, yaşlılıkla sıkça ilişkilendirilse de genç yaşlarda da görülebilir. Bunama, birçok farklı nedenle ortaya çıkabilen bir durumdur. Alzheimer hastalığı, vasküler demans, Lewy cisimciği demans, frontotemporal demans gibi farklı alt tipleri vardır. Bunama, beyindeki nöronların hasar görmesi veya ölmesi sonucu meydana gelir. Bu hasar, bilişsel işlevlerin (hafıza, düşünme, problem çözme) kaybına yol açar.",
+    "Risk Oranı": "",
+    "Görülme Sıklığı": "",
+    "Korunma Yolları": "Bunamanın pek çok nedeni vardır ve bu nedenlerin bazıları önlenemez veya genetik olabilir. Ancak bazı yaşam tarzı seçimleri, bunama riskini azaltabilir. Bunlar arasında sağlıklı beslenme, düzenli egzersiz, zihinsel ve sosyal aktivitelerle aktif kalmak ve kronik hastalıkların yönetimi yer almaktadır.",
+    "Enfekte Oldum": "Demansın tedavisi, altta yatan neden ve tipine bağlı olarak değişir. Alzheimer hastalığı gibi bazı tipler için ilaçlar kullanılabilir. Ayrıca bilişsel egzersizler, fiziksel aktivite ve sosyal etkileşim, semptomların yönetiminde yardımcı olabilir. Demans tedavisi, hastalığın ilerlemesini yavaşlatmayı veya semptomları hafifletmeyi hedefler. Demans, yaşam boyu devam eden ve ilerleyici bir durumdur. Tedavi, semptomların yönetimine odaklanırken, aynı zamanda hasta ve ailesine destek sunar. Demans ile yaşayan kişilerin sağlık profesyonelleri ile yakın bir işbirliği içinde olmaları önemlidir.",
+    "Etiketler": "Hafıza Kaybı,Zaman ve Mekanı Karıştırma,Karar Verme Güçlüğü, Dil Becerilerinde Zorluk, İnsanları Tanıyamama, Kişilik Değişiklikleri,Bilinen Bilgilere Ulaşmada Zorluk, Günlük Yaşamda Zorluk",
+    "Benzer Hastalıklar": "",
+    "Görsel Link": "https://raw.githubusercontent.com/furkanmulayim/kaynakDosyasiSaglik/main/hastalik-gorseller/mantar.png"
+  },
+  {
+    "Adı": "Mystenia Gravis",
+    "Latince Adı": "Mystenia Gravis",
+    "Hakkında": "Myastenia Gravis (MG), kasların zayıflığına neden olan otoimmün bir nöromusküler hastalıktır. Bu hastalık, vücudun kendi savunma sistemi olan bağışıklık sistemi tarafından kasların nöromüsküler bağlantılarına saldırması sonucu ortaya çıkar. Myastenia Gravis, sinir ile kas arasındaki iletişimi sağlayan asetilkolin adı verilen bir kimyasalın eksikliği nedeniyle kas zayıflığına yol açar. MG'nin tam nedeni bilinmemekle birlikte genetik ve çevresel faktörlerin etkisi olabileceği düşünülmektedir.",
+    "Risk Oranı": "",
+    "Görülme Sıklığı": "",
+    "Korunma Yolları": "Myastenia Gravis'i önlemenin kesin bir yolu yoktur çünkü otoimmün hastalıkların nedenleri karmaşıktır. Ancak sigara içmemek ve çevresel toksinlere maruz kalmaktan kaçınmak, genel bağışıklık sağlığını korumak için önemli olabilir.",
+    "Enfekte Oldum": "Myastenia Gravis tedavisi semptomların kontrol altına alınmasını hedefler. İlaçlar, neostigmin ve pyridostigmin gibi asetilkolinesteraz inhibitörleri, kas zayıflığını hafifletmeye yardımcı olabilir. Steroidler ve immünsüpresan ilaçlar da kullanılabilir. Ayrıca timus bezinin cerrahi olarak çıkarılması (timektomi), bazı vakalarda etkili olabilir. Myastenia Gravis, yaşam boyu devam eden bir durum olabilir ve tedavi semptomların yönetilmesine odaklanır. Myastenia Gravis ile yaşayan kişilerin düzenli olarak bir nörolog veya uzman doktor ile işbirliği yapması, semptomların kontrol altında tutulmasına yardımcı olabilir.",
+    "Etiketler": "Zayıflık, Kas Güçsüzlüğü, Göz Kapağı Sallanmasıi, Göz Kapağı Düşmesi, Çift Görme, Konuşma Güçlüğü, Nefes Alma Güçlüğü, Yutma Güçlüğü, Yüz Kaslarında Sallanma, Kollarda Kas Zayıflığı,Bacaklarda Kas Zayıflığı, Halsizlik, ",
+    "Benzer Hastalıklar": "",
+    "Görsel Link": "https://raw.githubusercontent.com/furkanmulayim/kaynakDosyasiSaglik/main/hastalik-gorseller/mantar.png"
+  },
+  {
+    "Adı": "Wilson",
+    "Latince Adı": "Wilson",
+    "Hakkında": "Wilson hastalığı, bakırın vücutta normalden fazla biriktiği bir otozomal resesif bir genetik bozukluktur. Bu fazla bakır karaciğerde depolanır ve vücudun diğer dokularına zarar verebilir. Wilson hastalığı, ATP7B adı verilen bir genin mutasyonu sonucu bakırın vücutta düzenli bir şekilde atılamamasıyla ilişkilendirilir. Bu nedenle karaciğer bakırı vücutta biriktirir ve zamanla çeşitli organlara yayılır. Karaciğerdeki bakır birikimi, karaciğer hasarına yol açabilir ve diğer organlarda da hasara neden olabilir.",
+    "Risk Oranı": "",
+    "Görülme Sıklığı": "",
+    "Korunma Yolları": "Wilson hastalığı, genetik bir bozukluk olduğu için doğrudan önlenebilir bir durum değildir. Ancak aile geçmişi bilinen kişiler, genetik danışmanlık ve testlerle hastalığın erken teşhis edilmesine yardımcı olabilir.",
+    "Enfekte Oldum": "Wilson hastalığının tedavisi, vücuttaki fazla bakırın uzaklaştırılmasını hedefler. Bu amaçla kullanılan ilaçlar, bakır emilimini azaltır veya vücuttan atılmasına yardımcı olur. Bazı durumlarda karaciğer nakli gerekebilir.",
+    "Etiketler": "Karaciğer Sorunları, Sarılık, Karın Ağrısı, Halsizlik,Depresyon, Anksiyete, El Titremesi,Konuşma Güçlüğü, Hareket Koordinasyonundaki Bozukluklar, Kas Güçsüzlüğü,Bakır Birikimi,Gözde Halkalar",
+    "Benzer Hastalıklar": "",
+    "Görsel Link": "https://raw.githubusercontent.com/furkanmulayim/kaynakDosyasiSaglik/main/hastalik-gorseller/mantar.png"
+  },
+  {
+    "Adı": "Huntington",
+    "Latince Adı": "Huntington",
+    "Hakkında": "Huntington hastalığı, nörodejeneratif bir hastalık olan otozomal dominant bir genetik bozukluktur. Bu hastalık, motor becerilerin ve bilişsel işlevlerin bozulmasına yol açar. Genellikle orta yaşlarda başlar ve ilerleyici bir seyir gösterir. Huntington hastalığı, HTT adı verilen bir gende mutasyon sonucu ortaya çıkar. Bu mutasyon, vücutta anormal bir protein olan huntingtin proteininin birikmesine yol açar. Bu birikim, beyin hücrelerine zarar verir ve nörodejenerasyona neden olur. Hastalık, genetik bir bozukluk olduğu için aile geçmişi olan kişilerde risk taşır.",
+    "Risk Oranı": "",
+    "Görülme Sıklığı": "",
+    "Korunma Yolları": "Huntington hastalığı, genetik bir bozukluk olduğu için doğrudan önlenemez. Ancak hastalık riskini taşıyan bireyler genetik danışmanlık ve testlerle risklerini değerlendirebilirler.",
+    "Enfekte Oldum": "Huntington hastalığının tedavisi semptomların yönetilmesini hedefler. İlaçlar, semptomların yönetimine yardımcı olabilir. Psikoterapi ve fiziksel terapiler de kullanılabilir. Ancak hastalığın ilerleyici bir doğası olduğu için kesin bir tedavi yoktur.",
+    "Etiketler": "Hareket Bozuklukları, Denge Bozuklukları, Zihinsel Yeteneklerde Azalma, Hafıza Kaybı,Öfke Nöbetleri, İnatçılık, Zayıflama, Depresyon, Anksiyete, Konuşma Güçlüğü, Yürüme güçlüüğ, İştah Kaybı",
+    "Benzer Hastalıklar": "",
+    "Görsel Link": "https://raw.githubusercontent.com/furkanmulayim/kaynakDosyasiSaglik/main/hastalik-gorseller/mantar.png"
+  },
+  {
+    "Adı": "Rett Sendromu",
+    "Latince Adı": "Rett Sendromu",
+    "Hakkında": "Rett sendromu, nörolojik bir gelişim bozukluğu olup genellikle kız çocukları etkileyen nadir bir durumdur. Bu sendrom, sosyal becerilerin, el becerilerinin ve bilişsel yeteneklerin gerilemesi ile karakterizedir. Rett sendromu, genellikle X kromozomunda bulunan MECP2 genindeki mutasyonlar nedeniyle ortaya çıkar. Bu genin normal işlevi, nöronların işbirliği içinde çalışmasını düzenlemektir. MECP2 genindeki mutasyonlar nöronların normal işleyişini bozar ve Rett sendromu semptomlarına yol açar.",
+    "Risk Oranı": "",
+    "Görülme Sıklığı": "",
+    "Korunma Yolları": "Rett sendromu, genetik bir kökeni olduğu için doğrudan önlenemez. Genetik danışmanlık ve testler, risk taşıyan aileler için bilinçli bir seçenek olabilir.",
+    "Enfekte Oldum": "Rett sendromunun kesin bir tedavisi yoktur. Tedavi semptomların yönetilmesini hedefler. Fiziksel ve konuşma terapileri, semptomların hafifletilmesine yardımcı olabilir. Ayrıca ilaçlar, semptomların yönetiminde kullanılabilir. Genetik terapi araştırmaları da devam etmektedir.",
+    "Etiketler": "Dil Kaybı, Hareket Tekrarı, Sosyal İzolasyon, El Kayması, Nöbetler, Solunum Problemleri, Yavaş Büyüme, Nefes Tutma.",
+    "Benzer Hastalıklar": "",
+    "Görsel Link": "https://raw.githubusercontent.com/furkanmulayim/kaynakDosyasiSaglik/main/hastalik-gorseller/mantar.png"
+  },
+  {
+    "Adı": "Guillain-Barré Sendromu",
+    "Latince Adı": "Guillain-Barré",
+    "Hakkında": "Guillain-Barre sendromu (GBS), periferik sinir sisteminin iltihaplanması sonucu ortaya çıkan nadir bir nörolojik hastalıktır. Bu sendrom, kas zayıflığı, felç ve bazen solunum güçlüğüne yol açabilir. Bağışıklık sistemi tarafından sinir hücrelerine zarar verilmesi sonucu gelişir. Bu bağışıklık saldırısı, sinirlerdeki miyelin adı verilen izolasyon tabakasını tahrip eder. Sendromun nedeni tam olarak bilinmemekle birlikte, genellikle viral enfeksiyonlar veya bakteriyel enfeksiyonlar gibi tetikleyici faktörlerle ilişkilendirilir.",
+    "Risk Oranı": "",
+    "Görülme Sıklığı": "",
+    "Korunma Yolları": "Guillain-Barre sendromu, genellikle beklenmedik bir şekilde ortaya çıkar ve doğrudan önlenemez. Ancak bazı tetikleyici faktörlerden kaçınmak, enfeksiyonlardan korunmak ve sağlıklı bir yaşam tarzı sürdürmek, bağışıklık sisteminin sağlığını desteklemekte önemlidir.",
+    "Enfekte Oldum": "Guillain-Barre sendromunun tedavisi hastanın semptomlarına ve şiddetine bağlıdır. Hastaların genellikle hastaneye yatırılması ve izlemi gerekebilir. İntravenöz immünoglobulin (IVIG) veya plazmaferez gibi tedaviler, bağışıklık sisteminin yanıtını düzenlemek için kullanılabilir. Fizik tedavi ve rehabilitasyon, kas gücünün yeniden kazanılmasına yardımcı olabilir.",
+    "Etiketler": " Kas Güçsüzlüğü, Bacaklarda Zayıflık, Kollarda Zayıflık, Denge Bozuklukları, Yürüme Güçlüğü,Karıncalanma, Kas Kasılmaları, Yüz Kaslarında Zayıflık, Solunum Problemleri, Kalp Hızında Değişiklikler, Yorgunluk",
     "Benzer Hastalıklar": "",
     "Görsel Link": "https://raw.githubusercontent.com/furkanmulayim/kaynakDosyasiSaglik/main/hastalik-gorseller/mantar.png"
   }
