@@ -243,133 +243,133 @@
     "Adı": "MS",
     "Latince Adı": "Multipl Skleroz",
     "Hakkında": "Multipl Skleroz (MS), merkezi sinir sisteminde (beyin ve omurilik) iltihaplanma ve dejenerasyona neden olan otoimmün bir hastalıktır. MS, sinir hücrelerini etkileyerek çeşitli nörolojik sorunlara yol açabilir.  MS, bağışıklık sisteminin kendi vücut dokularına saldırması sonucu ortaya çıkar. Sinir hücrelerini koruyan miyelin adlı maddeye zarar verir ve bu, iletişimde sorunlara neden olur. MS semptomları ve şiddeti kişiden kişiye değişebilir.",
-    "Risk Oranı": "",
-    "Görülme Sıklığı": "",
+    "Risk Oranı": "12",
+    "Görülme Sıklığı": "3",
     "Korunma Yolları": "MS'nin kesin nedeni ve nasıl önlenebileceği hala tam olarak anlaşılamamıştır. Genetik faktörler ve çevresel etkenler MS riskini etkileyebilir, ancak korunma yöntemleri bilinmemektedir.",
     "Enfekte Oldum": "MS tedavisi, semptomların hafifletilmesini, atakların sıklığının azaltılmasını ve hastalığın ilerlemesinin yavaşlatılmasını hedefler. Tedavi yöntemleri arasında immünmodülatör ilaçlar, fizik tedavi, reçete edilen ilaçlar ve semptom yönetimi yer almaktadır. Yaşam boyu devam eden bir hastalıktır ve tedavi gerektirebilir. Erken teşhis ve tedavi, hastalığın etkilerini azaltabilir. MS ile yaşayan kişilerin sağlık profesyonelleri ile yakın bir işbirliği içinde olmaları önemlidir.",
     "Etiketler": "İşitme Sorunları, Görme Sorunları, Denge Sorunları, Kas Zayıflığı, Yorgunluk, Kol ve Bacakta Koordinasyon Eksikliği, İdrar Sorunları, Bağırsak sorunları, Hafıza Sorunları,Bilişsel Sorunlar, Depresyon, Anksiyete",
-    "Benzer Hastalıklar": "",
-    "Görsel Link": "https://raw.githubusercontent.com/furkanmulayim/kaynakDosyasiSaglik/main/hastalik-gorseller/mantar.png"
+    "Benzer Hastalıklar": "Parkinson, Guillian Barre Sendromu, Myastenia Gravis, Felç",
+    "Görsel Link": "https://raw.githubusercontent.com/furkanmulayim/kaynakDosyasiSaglik/main/hastalik-gorseller/ms.png"
   },
   {
     "Adı": "Sara",
     "Latince Adı": "Epilepsi",
     "Hakkında": "Sara, tekrarlayan nöbetlerin (epileptik nöbetler) meydana geldiği bir nörolojik bozukluktur. Bu nöbetler, beyin hücrelerinin anormal elektriksel aktivitesinin bir sonucu olarak ortaya çıkar. Farklı türlerde epileptik nöbetlere neden olabilir ve semptomlar kişiden kişiye değişebilir. Nöbetler, bilinç kaybı, kas seğirmeleri, bilinçli veya bilinçsiz hareketler ve çeşitli psikolojik değişiklikler gibi çeşitli semptomlarla karakterize edilebilir.",
-    "Risk Oranı": "",
-    "Görülme Sıklığı": "",
+    "Risk Oranı": "10",
+    "Görülme Sıklığı": "8",
     "Korunma Yolları": "Sara'nın kesin nedeni bilinmemekle birlikte, risk faktörleri arasında genetik yatkınlık, beyin yaralanmaları, enfeksiyonlar ve bazı metabolik bozukluklar yer alır. Sara'dan korunma yöntemleri, nöbetleri tetikleyen faktörlerden kaçınmayı içerebilir, ancak sara kendiliğinden ortaya çıkabilen bir durumdur.",
     "Enfekte Oldum": "Sara tedavisi, nöbet türüne ve şiddetine bağlı olarak değişiklik gösterir. İlaçlar (antiepileptik ilaçlar), diyet değişiklikleri (ketojen diyet), cerrahi girişimler ve diğer tedavi yöntemleri kullanılabilir. Tedavi, nöbetlerin kontrol altına alınmasını ve semptomların yönetilmesini hedefler. Sara, yaşam boyu devam eden bir durumdur ve tedavi gerektirebilir. İyi bir tıbbi yönetim ve ilaç tedavisi ile nöbetlerin kontrol altına alınması mümkün olabilir. Sara tanısı almış kişilerin sağlık profesyonelleri ile yakın bir işbirliği içinde olmaları önemlidir.",
     "Etiketler": "Bilinç Kaybı, Kas Seğirmeleri,Kas Kasılmaları, Duyusal Değişiklikler, Zihinsel Karışıklık, Psikolojik Değişiklikler",
     "Benzer Hastalıklar": "",
-    "Görsel Link": "https://raw.githubusercontent.com/furkanmulayim/kaynakDosyasiSaglik/main/hastalik-gorseller/mantar.png"
+    "Görsel Link": "https://raw.githubusercontent.com/furkanmulayim/kaynakDosyasiSaglik/main/hastalik-gorseller/sara.png"
   },
   {
     "Adı": "Migren",
     "Latince Adı": "Migren",
     "Hakkında": "Migren, şiddetli baş ağrısı nöbetleri, genellikle tek taraflı baş ağrısı, bulantı ve kusma ile karakterize edilen kronik bir nörolojik bozukluktur. Beyin damarlarının daralması ve genişlemesi ile ilişkilendirilen bir nörolojik bozukluktur. Genetik yatkınlık, çevresel etkenler ve hormonal değişiklikler migrenin tetikleyici faktörleridir. Migren nöbetleri, ağrı, ışığa ve sese duyarlılık, mide bulantısı ve kusma gibi semptomlarla karakterizedir.",
-    "Risk Oranı": "",
-    "Görülme Sıklığı": "",
+    "Risk Oranı": "1",
+    "Görülme Sıklığı": "10",
     "Korunma Yolları": "Migrenin kesin nedeni bilinmemekle birlikte, tetikleyici faktörlerin tanınması ve bunlardan kaçınma önemlidir. Bu faktörler arasında belirli gıdalar, stres, hormonal değişiklikler ve uyku eksikliği bulunabilir. İlaç tedavisi migren nöbetlerinin kontrol altına alınmasına yardımcı olabilir.",
     "Enfekte Oldum": "Migren tedavisi, nöbetlerin sıklığı ve şiddetine bağlı olarak değişiklik gösterebilir. Akut migren atakları için ağrı kesiciler, antiemetikler (kusma önleyici ilaçlar) ve triptanlar gibi ilaçlar kullanılabilir. Önleyici tedavi, sık migren ataklarına sahip kişiler için önerilebilir ve antidepresanlar, antiepileptik ilaçlar ve beta blokerler içerebilir. Kronik bir durum olup yaşam boyu devam edebilir. Migren atakları, kişinin günlük yaşamını etkileyebilir, bu nedenle etkili tedavi ve atakları tetikleyen faktörlerin tanınması önemlidir. Migrenle yaşayan kişilerin sağlık profesyonelleri ile yakın bir işbirliği içinde olmaları önemlidir.",
     "Etiketler": "Şiddetli Tek Taraflı Baş Ağrısı, Bulantı, Kusma, Işık ve Sese Duyarlılık, Duyusal Bozukluklar,Görme Sorunları ",
     "Benzer Hastalıklar": "",
-    "Görsel Link": "https://raw.githubusercontent.com/furkanmulayim/kaynakDosyasiSaglik/main/hastalik-gorseller/mantar.png"
+    "Görsel Link": "https://raw.githubusercontent.com/furkanmulayim/kaynakDosyasiSaglik/main/hastalik-gorseller/migren.png"
   },
   {
     "Adı": "Tourette Sendromu",
-    "Latince Adı": "Tourette Sendrom",
+    "Latince Adı": "Tourette",
     "Hakkında": "Tourette Sendromu, tekrarlayıcı tiklerin (aniden oluşan istemsiz hareketler veya vokal sesler) belirgin olduğu bir nörolojik bozukluktur. Tourette Sendromu, genellikle çocukluk döneminde başlar ve yaşam boyu sürebilir. Tourette Sendromu, genellikle genetik nedenlere dayandığından, önlenebilir bir durum değildir. Ancak semptomların yönetimi ve yaşam kalitesini artırmak için terapiler ve ilaçlar kullanılabilir.",
-    "Risk Oranı": "",
-    "Görülme Sıklığı": "",
+    "Risk Oranı": "1",
+    "Görülme Sıklığı": "5",
     "Korunma Yolları": "Tourette Sendromu, genellikle genetik nedenlere dayandığından, önlenebilir bir durum değildir. Ancak semptomların yönetimi ve yaşam kalitesini artırmak için terapiler ve ilaçlar kullanılabilir.",
     "Enfekte Oldum": "Tourette Sendromu tedavisi, semptomların yönetilmesini hedefler. Psikoterapi, davranış terapileri ve ilaçlar (antipsikotik ilaçlar) kullanılabilir. Tedavi kişinin semptomlarını hafifletebilir ve yaşam kalitesini artırabilir.",
     "Etiketler": "Tikler, İstemsiz Tekrarlayıcı Hareketler,İstemsiz Tekrarlayıcı Sesler, Hareket Kombinasyonları, Anlamsız Sözcükler",
-    "Benzer Hastalıklar": "",
-    "Görsel Link": "https://raw.githubusercontent.com/furkanmulayim/kaynakDosyasiSaglik/main/hastalik-gorseller/mantar.png"
+    "Benzer Hastalıklar": "Rett Sendromu",
+    "Görsel Link": "https://raw.githubusercontent.com/furkanmulayim/kaynakDosyasiSaglik/main/hastalik-gorseller/taurette.png"
   },
   {
-    "Adı": "İnme",
-    "Latince Adı": "Felç",
+    "Adı": "Felç",
+    "Latince Adı": "İnme",
     "Hakkında": "Felç, beyin dokusunun ölümü veya hasar görmesi sonucu vücudun bir bölümünün işlevini kaybetmesine yol açan bir tıbbi durumdur. İnme olarak da adlandırılan felç, kan akışının beyne aniden kesilmesi (iskemik inme) veya beyin kanaması (hemorajik inme) sonucu meydana gelebilir. Felç, beyin hasarı sonucu ortaya çıkar ve semptomları etkilenen beyin bölgesine bağlı olarak değişebilir. İnme, felçlerin en yaygın nedenlerinden biridir ve ani başlayan semptomlarla karakterizedir. İskemik inme, beyne kan akışının tıkanması sonucu meydana gelirken, hemorajik inme, beyin kanaması nedeniyle ortaya çıkar.",
-    "Risk Oranı": "",
-    "Görülme Sıklığı": "",
+    "Risk Oranı": "40",
+    "Görülme Sıklığı": "8",
     "Korunma Yolları": "Felç riskini azaltmanın yolları arasında sağlıklı bir yaşam tarzı sürdürmek, tansiyonu kontrol altında tutmak, sigara içmemek, düzenli egzersiz yapmak, sağlıklı bir diyet benimsemek ve düşük tuzlu beslenmek yer alır. İnme riskini azaltmaya yardımcı olabilecek bazı ilaçlar ve cerrahi müdahaleler de mevcuttur.",
     "Enfekte Oldum": "Felç tedavisi, inme türüne bağlı olarak değişir. İskemik inmelerde, tıkanmış olan damarın açılması veya kan pıhtısının çözülmesi amacıyla ilaç veya cerrahi müdahaleler kullanılabilir. Hemorajik inmelerde, kanamanın kontrol altına alınması ve beyin hasarının sınırlanması hedeflenir. Felç rehabilitasyonu, felç sonrası işlevselliği geri kazandırmaya yardımcı olabilir. Aacil tıbbi müdahale gerektiren ciddi bir durumdur. Erken teşhis ve tedavi, felç sonuçlarını iyileştirme şansını artırabilir. Felç risk faktörlerini tanımak ve sağlıklı yaşam tarzı seçimleri yapmak felç riskini azaltmaya yardımcı olabilir.",
     "Etiketler": "Felç, Vücudun Bir Tarafında Güçsüzlük, Konuşma Güçlüğü, Anlama Güçlüğü, Vücutta Asimetrik Sarkmalar, Denge Kaybı, Ani Baş Dönmesi ",
-    "Benzer Hastalıklar": "",
-    "Görsel Link": "https://raw.githubusercontent.com/furkanmulayim/kaynakDosyasiSaglik/main/hastalik-gorseller/mantar.png"
+    "Benzer Hastalıklar": "MS, Guillian Barre Sendromu, Myastenia Gravis ",
+    "Görsel Link": "https://raw.githubusercontent.com/furkanmulayim/kaynakDosyasiSaglik/main/hastalik-gorseller/felc.png"
   },
   {
-    "Adı": "Otizm Spektrum Bozukluğu",
+    "Adı": "Otizm",
     "Latince Adı": "ASD",
     "Hakkında": "Otizm Spektrum Bozukluğu (ASD), sosyal etkileşim ve iletişim zorlukları, tekrarlayıcı davranışlar ve sınırlı ilgi alanları ile karakterize edilen bir nörogelişimsel bozukluktur. Otizm, erken çocukluk döneminde başlayan ve yaşam boyu süren bir durumdur. Merkezi sinir sistemi işlevinde farklılık gösteren bir dizi nörobiyolojik faktörün sonucu olarak ortaya çıkar. Otizm, çok çeşitli semptomları içeren bir spektrum bozukluğu olarak kabul edilir. Bu, bazı bireylerin daha hafif semptomlara sahipken, diğerlerinin daha ciddi semptomlar göstermesi anlamına gelir.",
-    "Risk Oranı": "",
-    "Görülme Sıklığı": "",
+    "Risk Oranı": "60",
+    "Görülme Sıklığı": "10",
     "Korunma Yolları": "Otizmin kesin nedeni tam olarak bilinmemektedir ve genetik, çevresel ve gelişimsel faktörlerin rol oynadığı düşünülmektedir. Otizmi önlemek mümkün değildir, ancak erken teşhis ve müdahale, bireylerin yaşamlarını ve fonksiyonlarını iyileştirebilir.",
     "Enfekte Oldum": "Otizm spektrum bozukluğu yönetilebilir, ancak tedavi kişiselleştirilmelidir. Erken teşhis ve erken müdahale, bireylerin becerilerini geliştirmelerine yardımcı olabilir. Terapiler, dil ve iletişim becerileri, sosyal beceriler ve davranış problemleri gibi alanlarda destek sunabilir. Otizm, farklı enderlik derecelerinde görülebilen karmaşık bir bozukluktur. Erken teşhis, bireylerin ihtiyaçlarını anlama ve etkili müdahaleler uygulama sürecine yardımcı olabilir. Otizmli bireyler ve aileleri için destek ve kaynaklar bulunmaktadır.",
     "Etiketler": "Sosyal Etkileşim Zorlukları, İletişim Zorlukları, Sınırlı İlgi Alanı, Teşrit Edici Davranışlar, Rutinlere Bağlılık,Duyu Hassasiyeti,Konuşma Güçlüğü, Tekrarlayıcı Hareketler",
     "Benzer Hastalıklar": "",
-    "Görsel Link": "https://raw.githubusercontent.com/furkanmulayim/kaynakDosyasiSaglik/main/hastalik-gorseller/mantar.png"
+    "Görsel Link": "https://raw.githubusercontent.com/furkanmulayim/kaynakDosyasiSaglik/main/hastalik-gorseller/otizm.png"
   },
   {
     "Adı": "Vertigo",
     "Latince Adı": "Vertigo",
     "Hakkında": "Vertigo, iç kulak veya merkezi sinir sistemi ile ilgili sorunlar nedeniyle oluşan şiddetli baş dönmesi hissidir. Bu baş dönmesi, çevre dönmekteymiş gibi hissedilir ve denge kaybı yaşatabilir. Vertigo, iç kulak veya beyindeki denge merkezi ile ilgili problemler sonucu meydana gelebilir. En yaygın vertigo nedenlerinden biri benign pozisyonel paroksismal vertigo (BPPV) olarak bilinir. Bu durum iç kulakta yer alan küçük kristallerin dengesizlik nedeniyle hareket etmesine bağlı olarak baş dönmesi yapar.",
-    "Risk Oranı": "",
-    "Görülme Sıklığı": "",
+    "Risk Oranı": "1",
+    "Görülme Sıklığı": "10",
     "Korunma Yolları": "Vertigo genellikle başka bir sağlık sorununun sonucu olarak ortaya çıkar ve kendiliğinden önlenemez. Ancak bazı durumlarda vertigo nedenlerini tetikleyebilecek faktörlerden kaçınmak, örneğin iç kulakta dengeyi bozabilecek travmalardan kaçınmak önemlidir.",
     "Enfekte Oldum": "Vertigo tedavisi, altta yatan nedenlere bağlı olarak değişebilir. Benign pozisyonel paroksismal vertigo gibi bazı durumlar, fizyoterapi veya özel manevralarla tedavi edilebilir. Diğer durumlarda, altta yatan nedenin tedavisi gerekebilir. İlaçlar ve semptomları yönetmeye yardımcı olabilir. Vertigo baş dönmesi hissini yaşamak rahatsız edici olabilir ve kişinin günlük yaşamını etkileyebilir. Vertigo nedenlerinin teşhis edilmesi ve uygun tedavi yöntemlerinin uygulanması, semptomların hafifletilmesine yardımcı olabilir. Vertigo semptomlarına sahip kişilerin bir sağlık profesyoneli ile görüşmesi önerilir.",
     "Etiketler": "Baş Dönmesi, Dengesizlik,Mide Bulantısı, Kusma, Terleme, Görme Sorunları, Kulak Çınlaması",
     "Benzer Hastalıklar": "",
-    "Görsel Link": "https://raw.githubusercontent.com/furkanmulayim/kaynakDosyasiSaglik/main/hastalik-gorseller/mantar.png"
+    "Görsel Link": "https://raw.githubusercontent.com/furkanmulayim/kaynakDosyasiSaglik/main/hastalik-gorseller/vertigo.png"
   },
   {
     "Adı": "Parkinson",
     "Latince Adı": "Parkinson",
     "Hakkında": "Parkinson hastalığı, merkezi sinir sistemindeki dopamin üretimindeki eksiklik nedeniyle ortaya çıkan nörolojik bir bozukluktur. Bu bozukluk, titreme, kas sertliği, yavaş hareket ve denge sorunları gibi semptomlara yol açar. Parkinson hastalığı, beyindeki substantia nigra adı verilen bölgedeki dopamin üretiminin azalması veya kaybı ile ilişkilidir. Dopamin, vücudun hareket kontrolünde önemli bir rol oynar. Parkinson hastalığının kesin nedeni tam olarak bilinmemekle birlikte, genetik ve çevresel faktörlerin etkisi olabileceği düşünülmektedir.",
-    "Risk Oranı": "",
-    "Görülme Sıklığı": "",
+    "Risk Oranı": "3",
+    "Görülme Sıklığı": "9",
     "Korunma Yolları": "Parkinson hastalığını önlemenin kesin bir yolu bulunmamaktadır. Ancak sağlıklı bir yaşam tarzı, dengeli beslenme, egzersiz yapma ve sigara içmemek gibi faktörlerin riski azaltabileceği öne sürülmüştür.",
     "Enfekte Oldum": "Parkinson hastalığının tedavisi semptomların yönetimini hedefler. İlaçlar, fizik tedavi, konuşma terapisi ve cerrahi müdahaleler, semptomların kontrol altına alınmasına yardımcı olabilir. Derin beyin stimülasyonu (DBS) adı verilen cerrahi bir prosedür, ilerlemiş vakalarda kullanılabilir. Parkinson hastalığı yaşam boyu devam eden bir durumdur ve ilerleyici bir seyir gösterebilir. Tedavi ile semptomların hafifletilmesi ve yaşam kalitesinin artırılması mümkün olabilir. Parkinson hastalığı ile yaşayan kişilerin sağlık profesyonelleri ile yakın bir işbirliği içinde olmaları önemlidir.",
     "Etiketler": "Titreme, Kas Sertliği, Hareketlerde Yavaşlama,Denge Kaybı,Yüz İfadesinde Azalma, Konuşma Güçlüğü, Yazma Güçlüğü, Depresyon, Anksiyete",
-    "Benzer Hastalıklar": "",
-    "Görsel Link": "https://raw.githubusercontent.com/furkanmulayim/kaynakDosyasiSaglik/main/hastalik-gorseller/mantar.png"
+    "Benzer Hastalıklar": "MS, Guillian Barre Sendromu, Myastenia Gravis, Felç",
+    "Görsel Link": "https://raw.githubusercontent.com/furkanmulayim/kaynakDosyasiSaglik/main/hastalik-gorseller/parkinson.png"
   },
   {
     "Adı": "Alzheimer",
     "Latince Adı": "Alzheimer",
     "Hakkında": "Alzheimer hastalığı, ilerleyici bir nörodejeneratif hastalık olup, hafıza kaybı, bilişsel bozukluklar ve kişilik değişiklikleri gibi semptomlarla karakterize edilir. Alzheimer, yaşla birlikte yaygın olarak görülen bir hastalıktır ve beyindeki nöronların hasar görmesi sonucu meydana gelir. Alzheimer hastalığı, beyin hücrelerindeki anormal protein birikimi (amiloid plaklar ve nörofibriler yumaklar) ile ilişkilendirilir. Bu protein birikimleri nöronların işlevini bozarak hafıza kaybı ve bilişsel gerilemeye neden olur. Alzheimer hastalığı, ilerledikçe günlük yaşam becerilerini etkileyebilir.",
-    "Risk Oranı": "",
-    "Görülme Sıklığı": "",
+    "Risk Oranı": "40",
+    "Görülme Sıklığı": "6",
     "Korunma Yolları": "Alzheimer hastalığının kesin nedeni bilinmemektedir ve tam anlamıyla önlenemez. Ancak bilişsel sağlığı koruma potansiyeline sahip faktörler arasında sağlıklı bir yaşam tarzı sürdürmek, düzenli egzersiz yapmak, zihinsel olarak aktif kalmak ve dengeli bir diyet benimsemek bulunmaktadır.",
     "Enfekte Oldum": "Alzheimer hastalığının kesin bir tedavisi bulunmamakla birlikte semptomların yönetimi ve ilerlemenin yavaşlatılması için ilaçlar kullanılabilir. Ayrıca, bilişsel egzersizler, fiziksel aktivite ve sosyal etkileşim, yaşam kalitesini artırmada yardımcı olabilir. Alzheimer hastalığının kesin bir tedavisi bulunmamakla birlikte semptomların yönetimi ve ilerlemenin yavaşlatılması için ilaçlar kullanılabilir. Ayrıca, bilişsel egzersizler, fiziksel aktivite ve sosyal etkileşim, yaşam kalitesini artırmada yardımcı olabilir.",
     "Etiketler": "Hafıza Kaybı, Zaman ve Mekanı Karıştırma, Zihinsel Netliğin Azalması, Kelimeleri Unutma, Problem Çözmede Güçlük, Anksiyete, Depresyon",
-    "Benzer Hastalıklar": "",
-    "Görsel Link": "https://raw.githubusercontent.com/furkanmulayim/kaynakDosyasiSaglik/main/hastalik-gorseller/mantar.png"
+    "Benzer Hastalıklar": "Bunama",
+    "Görsel Link": "https://raw.githubusercontent.com/furkanmulayim/kaynakDosyasiSaglik/main/hastalik-gorseller/alzeheimer.png"
   },
   {
     "Adı": "Bunama",
     "Latince Adı": "Demans",
     "Hakkında": "Bunama, bilişsel yetilerin ciddi bir şekilde kaybedildiği bir nörolojik bozukluktur. Bu kayıp, günlük yaşam becerilerini etkileyebilir ve kişinin bağımsızlığını azaltabilir. Demans, yaşlılıkla sıkça ilişkilendirilse de genç yaşlarda da görülebilir. Bunama, birçok farklı nedenle ortaya çıkabilen bir durumdur. Alzheimer hastalığı, vasküler demans, Lewy cisimciği demans, frontotemporal demans gibi farklı alt tipleri vardır. Bunama, beyindeki nöronların hasar görmesi veya ölmesi sonucu meydana gelir. Bu hasar, bilişsel işlevlerin (hafıza, düşünme, problem çözme) kaybına yol açar.",
-    "Risk Oranı": "",
-    "Görülme Sıklığı": "",
+    "Risk Oranı": "12",
+    "Görülme Sıklığı": "5",
     "Korunma Yolları": "Bunamanın pek çok nedeni vardır ve bu nedenlerin bazıları önlenemez veya genetik olabilir. Ancak bazı yaşam tarzı seçimleri, bunama riskini azaltabilir. Bunlar arasında sağlıklı beslenme, düzenli egzersiz, zihinsel ve sosyal aktivitelerle aktif kalmak ve kronik hastalıkların yönetimi yer almaktadır.",
     "Enfekte Oldum": "Demansın tedavisi, altta yatan neden ve tipine bağlı olarak değişir. Alzheimer hastalığı gibi bazı tipler için ilaçlar kullanılabilir. Ayrıca bilişsel egzersizler, fiziksel aktivite ve sosyal etkileşim, semptomların yönetiminde yardımcı olabilir. Demans tedavisi, hastalığın ilerlemesini yavaşlatmayı veya semptomları hafifletmeyi hedefler. Demans, yaşam boyu devam eden ve ilerleyici bir durumdur. Tedavi, semptomların yönetimine odaklanırken, aynı zamanda hasta ve ailesine destek sunar. Demans ile yaşayan kişilerin sağlık profesyonelleri ile yakın bir işbirliği içinde olmaları önemlidir.",
     "Etiketler": "Hafıza Kaybı,Zaman ve Mekanı Karıştırma,Karar Verme Güçlüğü, Dil Becerilerinde Zorluk, İnsanları Tanıyamama, Kişilik Değişiklikleri,Bilinen Bilgilere Ulaşmada Zorluk, Günlük Yaşamda Zorluk",
-    "Benzer Hastalıklar": "",
-    "Görsel Link": "https://raw.githubusercontent.com/furkanmulayim/kaynakDosyasiSaglik/main/hastalik-gorseller/mantar.png"
+    "Benzer Hastalıklar": "Alzheimer, Şizofreni",
+    "Görsel Link": "https://raw.githubusercontent.com/furkanmulayim/kaynakDosyasiSaglik/main/hastalik-gorseller/bunama.png"
   },
   {
-    "Adı": "Mystenia Gravis",
-    "Latince Adı": "Mystenia Gravis",
+    "Adı": "Myastenia Gravis",
+    "Latince Adı": "MG",
     "Hakkında": "Myastenia Gravis (MG), kasların zayıflığına neden olan otoimmün bir nöromusküler hastalıktır. Bu hastalık, vücudun kendi savunma sistemi olan bağışıklık sistemi tarafından kasların nöromüsküler bağlantılarına saldırması sonucu ortaya çıkar. Myastenia Gravis, sinir ile kas arasındaki iletişimi sağlayan asetilkolin adı verilen bir kimyasalın eksikliği nedeniyle kas zayıflığına yol açar. MG'nin tam nedeni bilinmemekle birlikte genetik ve çevresel faktörlerin etkisi olabileceği düşünülmektedir.",
-    "Risk Oranı": "",
-    "Görülme Sıklığı": "",
+    "Risk Oranı": "5",
+    "Görülme Sıklığı": "15",
     "Korunma Yolları": "Myastenia Gravis'i önlemenin kesin bir yolu yoktur çünkü otoimmün hastalıkların nedenleri karmaşıktır. Ancak sigara içmemek ve çevresel toksinlere maruz kalmaktan kaçınmak, genel bağışıklık sağlığını korumak için önemli olabilir.",
     "Enfekte Oldum": "Myastenia Gravis tedavisi semptomların kontrol altına alınmasını hedefler. İlaçlar, neostigmin ve pyridostigmin gibi asetilkolinesteraz inhibitörleri, kas zayıflığını hafifletmeye yardımcı olabilir. Steroidler ve immünsüpresan ilaçlar da kullanılabilir. Ayrıca timus bezinin cerrahi olarak çıkarılması (timektomi), bazı vakalarda etkili olabilir. Myastenia Gravis, yaşam boyu devam eden bir durum olabilir ve tedavi semptomların yönetilmesine odaklanır. Myastenia Gravis ile yaşayan kişilerin düzenli olarak bir nörolog veya uzman doktor ile işbirliği yapması, semptomların kontrol altında tutulmasına yardımcı olabilir.",
     "Etiketler": "Zayıflık, Kas Güçsüzlüğü, Göz Kapağı Sallanmasıi, Göz Kapağı Düşmesi, Çift Görme, Konuşma Güçlüğü, Nefes Alma Güçlüğü, Yutma Güçlüğü, Yüz Kaslarında Sallanma, Kollarda Kas Zayıflığı,Bacaklarda Kas Zayıflığı, Halsizlik, ",
-    "Benzer Hastalıklar": "",
-    "Görsel Link": "https://raw.githubusercontent.com/furkanmulayim/kaynakDosyasiSaglik/main/hastalik-gorseller/mantar.png"
+    "Benzer Hastalıklar": "MS, Guillian Barre Sendromu, Felç",
+    "Görsel Link": "https://raw.githubusercontent.com/furkanmulayim/kaynakDosyasiSaglik/main/hastalik-gorseller/myastenia.png"
   },
   {
     "Adı": "Wilson",
@@ -381,7 +381,7 @@
     "Enfekte Oldum": "Wilson hastalığının tedavisi, vücuttaki fazla bakırın uzaklaştırılmasını hedefler. Bu amaçla kullanılan ilaçlar, bakır emilimini azaltır veya vücuttan atılmasına yardımcı olur. Bazı durumlarda karaciğer nakli gerekebilir.",
     "Etiketler": "Karaciğer Sorunları, Sarılık, Karın Ağrısı, Halsizlik,Depresyon, Anksiyete, El Titremesi,Konuşma Güçlüğü, Hareket Koordinasyonundaki Bozukluklar, Kas Güçsüzlüğü,Bakır Birikimi,Gözde Halkalar",
     "Benzer Hastalıklar": "",
-    "Görsel Link": "https://raw.githubusercontent.com/furkanmulayim/kaynakDosyasiSaglik/main/hastalik-gorseller/mantar.png"
+    "Görsel Link": "https://raw.githubusercontent.com/furkanmulayim/kaynakDosyasiSaglik/main/hastalik-gorseller/wilson.png"
   },
   {
     "Adı": "Huntington",
@@ -393,7 +393,7 @@
     "Enfekte Oldum": "Huntington hastalığının tedavisi semptomların yönetilmesini hedefler. İlaçlar, semptomların yönetimine yardımcı olabilir. Psikoterapi ve fiziksel terapiler de kullanılabilir. Ancak hastalığın ilerleyici bir doğası olduğu için kesin bir tedavi yoktur.",
     "Etiketler": "Hareket Bozuklukları, Denge Bozuklukları, Zihinsel Yeteneklerde Azalma, Hafıza Kaybı,Öfke Nöbetleri, İnatçılık, Zayıflama, Depresyon, Anksiyete, Konuşma Güçlüğü, Yürüme güçlüüğ, İştah Kaybı",
     "Benzer Hastalıklar": "",
-    "Görsel Link": "https://raw.githubusercontent.com/furkanmulayim/kaynakDosyasiSaglik/main/hastalik-gorseller/mantar.png"
+    "Görsel Link": "https://raw.githubusercontent.com/furkanmulayim/kaynakDosyasiSaglik/main/hastalik-gorseller/huntington.png"
   },
   {
     "Adı": "Rett Sendromu",
@@ -405,11 +405,11 @@
     "Enfekte Oldum": "Rett sendromunun kesin bir tedavisi yoktur. Tedavi semptomların yönetilmesini hedefler. Fiziksel ve konuşma terapileri, semptomların hafifletilmesine yardımcı olabilir. Ayrıca ilaçlar, semptomların yönetiminde kullanılabilir. Genetik terapi araştırmaları da devam etmektedir.",
     "Etiketler": "Dil Kaybı, Hareket Tekrarı, Sosyal İzolasyon, El Kayması, Nöbetler, Solunum Problemleri, Yavaş Büyüme, Nefes Tutma.",
     "Benzer Hastalıklar": "",
-    "Görsel Link": "https://raw.githubusercontent.com/furkanmulayim/kaynakDosyasiSaglik/main/hastalik-gorseller/mantar.png"
+    "Görsel Link": "https://raw.githubusercontent.com/furkanmulayim/kaynakDosyasiSaglik/main/hastalik-gorseller/rett.png"
   },
   {
-    "Adı": "Guillain-Barré Sendromu",
-    "Latince Adı": "Guillain-Barré",
+    "Adı": "Guillian Barre Sendromu",
+    "Latince Adı": "GBS",
     "Hakkında": "Guillain-Barre sendromu (GBS), periferik sinir sisteminin iltihaplanması sonucu ortaya çıkan nadir bir nörolojik hastalıktır. Bu sendrom, kas zayıflığı, felç ve bazen solunum güçlüğüne yol açabilir. Bağışıklık sistemi tarafından sinir hücrelerine zarar verilmesi sonucu gelişir. Bu bağışıklık saldırısı, sinirlerdeki miyelin adı verilen izolasyon tabakasını tahrip eder. Sendromun nedeni tam olarak bilinmemekle birlikte, genellikle viral enfeksiyonlar veya bakteriyel enfeksiyonlar gibi tetikleyici faktörlerle ilişkilendirilir.",
     "Risk Oranı": "",
     "Görülme Sıklığı": "",
@@ -417,6 +417,6 @@
     "Enfekte Oldum": "Guillain-Barre sendromunun tedavisi hastanın semptomlarına ve şiddetine bağlıdır. Hastaların genellikle hastaneye yatırılması ve izlemi gerekebilir. İntravenöz immünoglobulin (IVIG) veya plazmaferez gibi tedaviler, bağışıklık sisteminin yanıtını düzenlemek için kullanılabilir. Fizik tedavi ve rehabilitasyon, kas gücünün yeniden kazanılmasına yardımcı olabilir.",
     "Etiketler": " Kas Güçsüzlüğü, Bacaklarda Zayıflık, Kollarda Zayıflık, Denge Bozuklukları, Yürüme Güçlüğü,Karıncalanma, Kas Kasılmaları, Yüz Kaslarında Zayıflık, Solunum Problemleri, Kalp Hızında Değişiklikler, Yorgunluk",
     "Benzer Hastalıklar": "",
-    "Görsel Link": "https://raw.githubusercontent.com/furkanmulayim/kaynakDosyasiSaglik/main/hastalik-gorseller/mantar.png"
+    "Görsel Link": "https://raw.githubusercontent.com/furkanmulayim/kaynakDosyasiSaglik/main/hastalik-gorseller/guilian.png"
   }
 ]

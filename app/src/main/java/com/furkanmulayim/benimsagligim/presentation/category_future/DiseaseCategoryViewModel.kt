@@ -53,12 +53,13 @@ class DiseaseCategoryViewModel : ViewModel() {
 
     private fun hangisindeyik(): Array<Int> {
         var a = Array<Int>(2) { 0 }
-        if (diseaseName.value.toString().equals("Bulaşıcı Hastalıklar")) {
+        if (diseaseName.value.toString() == "Bulaşıcı Hastalıklar") {
             a[0] = 0
             a[1] = 20
-        }
-
-        if (diseaseName.value.toString().equals("Nörolojik Hastalıklar")) {
+        } else if (diseaseName.value.toString() == "Nörolojik Hastalıklar") {
+            a[0] = 20
+            a[1] = 35
+        } else if (diseaseName.value.toString() == "Solunum Sistemi Hastalıkları") {
             a[0] = 20
             a[1] = 35
         }

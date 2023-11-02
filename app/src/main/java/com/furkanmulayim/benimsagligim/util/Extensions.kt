@@ -33,10 +33,10 @@ fun hastalikRiskOraniHesapla(oran: String):String {
     val orani: Int = oran.toInt()
     var s = ""
 
-    s = if (orani in 1..29){
+    s = if (orani in 1..10){
         "Düşük Derece Risk"
     }
-    else if (orani in 30..49){
+    else if (orani in 11..40){
         "Orta Derece Risk"
     }
     else {
