@@ -33,14 +33,14 @@ fun hastalikRiskOraniHesapla(oran: String):String {
     val orani: Int = oran.toInt()
     var s = ""
 
-    if (orani in 1..39){
-        s = "Düşük Derece Risk"
+    s = if (orani in 1..29){
+        "Düşük Derece Risk"
     }
-    else if (orani in 40..60){
-        s = "Orta Derece Risk"
+    else if (orani in 30..49){
+        "Orta Derece Risk"
     }
     else {
-        s = "Yüksek Derece Risk"
+        "Yüksek Derece Risk"
     }
     return s
 }
@@ -56,13 +56,13 @@ fun String.hastagsCutTheSmall(): String {
 fun String.toDrawableResource(): Int {
     var back = 0
     back = if (this == "Düşük Derece Risk"){
-        R.drawable.risk_dusuk_back
+        R.drawable.r_3
     }
     else if (this =="Orta Derece Risk"){
-        R.drawable.risk_orta_back
+        R.drawable.r_2
     }
     else {
-        R.drawable.risk_yuksek_back
+        R.drawable.r_1
     }
     return back
 }

@@ -55,7 +55,7 @@ class DiseaseCategoryViewModel : ViewModel() {
         var a = Array<Int>(2) { 0 }
         if (diseaseName.value.toString().equals("Bulaşıcı Hastalıklar")) {
             a[0] = 0
-            a[1] = 14
+            a[1] = 20
         }
 
         if (diseaseName.value.toString().equals("Nörolojik Hastalıklar")) {
