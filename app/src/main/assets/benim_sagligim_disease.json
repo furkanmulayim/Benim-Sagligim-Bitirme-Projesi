@@ -391,7 +391,7 @@
     "Görülme Sıklığı": "5",
     "Korunma Yolları": "Huntington hastalığı, genetik bir bozukluk olduğu için doğrudan önlenemez. Ancak hastalık riskini taşıyan bireyler genetik danışmanlık ve testlerle risklerini değerlendirebilirler.",
     "Enfekte Oldum": "Huntington hastalığının tedavisi semptomların yönetilmesini hedefler. İlaçlar, semptomların yönetimine yardımcı olabilir. Psikoterapi ve fiziksel terapiler de kullanılabilir. Ancak hastalığın ilerleyici bir doğası olduğu için kesin bir tedavi yoktur.",
-    "Etiketler": "Hareket Bozuklukları, Denge Bozuklukları, Zihinsel Yeteneklerde Azalma, Hafıza Kaybı,Öfke Nöbetleri, İnatçılık, Zayıflama, Depresyon, Anksiyete, Konuşma Güçlüğü, Yürüme güçlüüğ, İştah Kaybı",
+    "Etiketler": "Hareket Bozuklukları, Denge Bozuklukları, Zihinsel Yeteneklerde Azalma, Hafıza Kaybı,Öfke Nöbetleri, İnatçılık, Zayıflama, Depresyon, Anksiyete, Konuşma Güçlüğü, Yürüme Güçlüğü, İştah Kaybı",
     "Benzer Hastalıklar": "Myastenia Gravis, Rett Sendromu",
     "Görsel Link": "https://raw.githubusercontent.com/furkanmulayim/kaynakDosyasiSaglik/main/hastalik-gorseller/huntington.png"
   },
@@ -429,19 +429,19 @@
     "Enfekte Oldum": "Astım tedavisi, semptomların kontrol altına alınmasını ve iltihabın azaltılmasını hedefler. İlaçlar, genellikle bronkodilatörler (hava yollarını genişleten ilaçlar) ve kortikosteroidler (iltihap önleyici ilaçlar) kullanılır. Tedavi planı kişiselleştirilir ve semptomların şiddetine göre ayarlanır.",
     "Etiketler": "Öksürük, Hırıltılı Solunum, Göğüs Sıkışması, Nefes Darlığı, Solunum Zorluğu, Hızlı Nefes Alma, Göğüs Ağrısı ",
     "Benzer Hastalıklar": "",
-    "Görsel Link": "https://raw.githubusercontent.com/furkanmulayim/kaynakDosyasiSaglik/main/hastalik-gorseller/guilian.png"
+    "Görsel Link": "https://raw.githubusercontent.com/furkanmulayim/kaynakDosyasiSaglik/main/hastalik-gorseller/astim.png"
   },
   {
     "Adı": "KOAH",
     "Latince Adı": "Kronik Obstrüktif Akciğer Hastalığı",
     "Hakkında": "KOAH'ın ana nedeni genellikle uzun yıllar boyunca sigara içmek ve/veya maruz kalınan hava kirliliği veya toz gibi zararlı maddelere maruz kalmaktır. Bu etkenler, akciğerlerdeki hava yollarının daralmasına ve akciğer fonksiyonlarının bozulmasına neden olur.",
-    "Risk Oranı": "6",
+    "Risk Oranı": "15",
     "Görülme Sıklığı": "19",
     "Korunma Yolları": "KOAH'ı önlemek için en etkili yol sigara içmeyi bırakmak veya sigara içmeye başlamamaktır. Ayrıca, hava kirliliği ve tozlu ortamlardan kaçınmak, akciğerlerin korunmasına yardımcı olabilir.",
     "Enfekte Oldum": "KOAH tedavisi semptomların hafifletilmesini ve hastalığın ilerlemesinin yavaşlatılmasını hedefler. İlaçlar, bronkodilatörler ve kortikosteroidler gibi, semptomların yönetilmesine yardımcı olabilir. Fiziksel aktivite, solunum egzersizleri ve diyet de tedavi planının bir parçası olabilir. Ağır vakalarda, oksijen tedavisi veya solunum cihazları gerekebilir.",
     "Etiketler": "",
     "Benzer Hastalıklar": "Öksürük, Balgam Üretimi, Nefes Darlığı, Göğüs Sıkışması, Yorgunluk, Solunum Zorluğu, Hırıltılı Solunum.",
-    "Görsel Link": "https://raw.githubusercontent.com/furkanmulayim/kaynakDosyasiSaglik/main/hastalik-gorseller/guilian.png"
+    "Görsel Link": "https://raw.githubusercontent.com/furkanmulayim/kaynakDosyasiSaglik/main/hastalik-gorseller/koah.png"
   },
   {
     "Adı": "Bronşit",
@@ -453,7 +453,7 @@
     "Enfekte Oldum": "Bronşit tedavisi semptomların hafifletilmesini hedefler. Akut bronşit çoğunlukla kendiliğinden geçer ve genellikle antibiyotik tedavisi gerektirmez. Kronik bronşit tedavisi ise semptomların şiddetine göre değişebilir. İlaçlar, öksürük kesiciler ve bronkodilatörler gibi, semptomların yönetilmesine yardımcı olabilir. Ayrıca nemlendirici havayı solumak ve yeterince su içmek de semptomları hafifletebilir.",
     "Etiketler": "Öksürük, Balgam Üretimi, Nefes Darlığı, Göğüs Ağrısı, Hırıltılı Solunum, Boğaz Ağrısı, Baş Ağrısı, Yorgunluk, Halsizlik, Yüksek Ateş",
     "Benzer Hastalıklar": "",
-    "Görsel Link": "https://raw.githubusercontent.com/furkanmulayim/kaynakDosyasiSaglik/main/hastalik-gorseller/guilian.png"
+    "Görsel Link": "https://raw.githubusercontent.com/furkanmulayim/kaynakDosyasiSaglik/main/hastalik-gorseller/brons.png"
   },
   {
     "Adı": "Akciğer Kanseri",
@@ -465,7 +465,7 @@
     "Enfekte Oldum": "Akciğer kanseri tedavisi, kanserin türüne, evresine ve hastanın genel sağlık durumuna bağlı olarak değişebilir. Tedavi seçenekleri şunları içerebilir: Cerrahi müdahale (tümörün çıkarılması), Radyoterapi, Kemoterapi, Hedefe yönelik ilaçlar ve İmmünoterapi. Tedavi genellikle çok disiplinli bir yaklaşım gerektirir.",
     "Etiketler": "Öksürük, Kanlı Balgam, Nefes Darlığı, Göğüs Ağrısı, Hırıltılı Solunum, İştah Kaybı, Kilo Kaybı, Yorgunluk, Halsizlik, Kulak Ağrısı, Boğaz Ağrısı,",
     "Benzer Hastalıklar": "",
-    "Görsel Link": "https://raw.githubusercontent.com/furkanmulayim/kaynakDosyasiSaglik/main/hastalik-gorseller/guilian.png"
+    "Görsel Link": "https://raw.githubusercontent.com/furkanmulayim/kaynakDosyasiSaglik/main/hastalik-gorseller/akckanser.png"
   },
   {
     "Adı": "Kistik Fibrozis",
@@ -477,7 +477,7 @@
     "Enfekte Oldum": "Kistik fibrozis tedavisi, semptomları hafifletmeyi ve yaşam kalitesini artırmayı hedefler. İlaçlar, mukolitikler ve bronkodilatörler gibi solunum semptomlarını hafifletmek için kullanılır. Ayrıca pankreas enzimleri takviyeleri, beslenme desteği ve solunum terapileri de yaygın tedavi yöntemleridir. Ciddi vakalarda, akciğer nakli gerekebilir.",
     "Etiketler": "Kronik Öksürük, Balgam Üretimi, Nefes Darlığı, Göğüs Ağrısı, Solunum Zorluğu, İştah Kaybı, Kilo Kaybı, Karın Ağrısı, Sindirim Problemleri, İshal, Yorgunluk, Halsizlik, Tuzlu Ter, Osteoporoz, Kısırlık, Adet Düzensizliği",
     "Benzer Hastalıklar": "",
-    "Görsel Link": "https://raw.githubusercontent.com/furkanmulayim/kaynakDosyasiSaglik/main/hastalik-gorseller/guilian.png"
+    "Görsel Link": "https://raw.githubusercontent.com/furkanmulayim/kaynakDosyasiSaglik/main/hastalik-gorseller/kistik.png"
   },
   {
     "Adı": "Verem",
@@ -489,7 +489,7 @@
     "Enfekte Oldum": "Verem, uygun antibiyotik tedavisi ile tedavi edilebilir. Tedavi, genellikle birkaç ay ila birkaç yıl sürebilir, ve ilaçların düzenli ve tam olarak alınması önemlidir. Tedaviyi yarıda bırakmak, dirençli tüberkülozun gelişme riskini artırabilir.",
     "Etiketler": "Titreme,Öksürük, Ateş, Nefes Darlığı, Göğüs Ağrısı, Halsizlik, Kilo Kaybı, Gece Terlemeleri, Kanlı Balgam, Göğüs Ağrısı, Hırıltılı Nefes, Boğaz Ağrısı, Lenf Bezlerinde Şişme, Baş Ağrısı, Kusma",
     "Benzer Hastalıklar": "",
-    "Görsel Link": "https://raw.githubusercontent.com/furkanmulayim/kaynakDosyasiSaglik/main/hastalik-gorseller/guilian.png"
+    "Görsel Link": "https://raw.githubusercontent.com/furkanmulayim/kaynakDosyasiSaglik/main/hastalik-gorseller/verem.png"
   },
   {
     "Adı": "Solunum Distres Sendromu",
@@ -501,7 +501,7 @@
     "Enfekte Oldum": "SDS tedavisi, hastalığın şiddetine ve yenidoğanın genel sağlık durumuna bağlı olarak değişebilir. Tedavi, genellikle mekanik solunum desteği (solunum cihazları), oksijen tedavisi ve bazen yüzey aktif madde tedarikini içerir. Yenidoğan yoğun bakım ünitesinde yakından izlenir ve tedavi edilir.",
     "Etiketler": "Nefes Darlığı, Hızlı Solunum, Ciltte Mavileşme, Düşük Oksijen Seviyeleri, Yorgunluk, Göğüs Ağrısı, Solunum Sıkıntısı, Karaciğer Fonksiyonlarında Bozulma, Solunum Zorluğu, Yüksek Ateş",
     "Benzer Hastalıklar": "",
-    "Görsel Link": "https://raw.githubusercontent.com/furkanmulayim/kaynakDosyasiSaglik/main/hastalik-gorseller/guilian.png"
+    "Görsel Link": "https://raw.githubusercontent.com/furkanmulayim/kaynakDosyasiSaglik/main/hastalik-gorseller/sds.png"
   },
   {
     "Adı": "Akciğer Embolisi",
@@ -513,7 +513,7 @@
     "Enfekte Oldum": "Akciğer embolisi tedavisi, hastanın durumunun şiddetine ve stabilitesine bağlı olarak değişebilir. Tedavi genellikle kan inceltici ilaçların kullanılmasını içerir, bu ilaçlar pıhtının büyümesini ve yeni pıhtıların oluşmasını önler. Ayrıca, semptomları hafifletmek ve hastanın oksijen almasını desteklemek için oksijen tedavisi verilebilir. Ciddi durumlarda, pıhtının cerrahi olarak çıkarılması gerekebilir.",
     "Etiketler": " Nefes Darlığı, Göğüs Ağrısı, Hızlı Kalp Atışı, Öksürük, Kanlı Balgam, Ani Bayılma, Ateş, Titreme, Bacaklarda Morarma,Kollarda Şişme, Kollarda Morarma,Bacaklarda Şişme, Anksiyete, Ajitasyon",
     "Benzer Hastalıklar": "",
-    "Görsel Link": "https://raw.githubusercontent.com/furkanmulayim/kaynakDosyasiSaglik/main/hastalik-gorseller/guilian.png"
+    "Görsel Link": "https://raw.githubusercontent.com/furkanmulayim/kaynakDosyasiSaglik/main/hastalik-gorseller/akcemb.png"
   },
   {
     "Adı": "Akciğer Apsesi",
@@ -525,7 +525,7 @@
     "Enfekte Oldum": "Akciğer absesi tedavisi, genellikle antibiyotiklerin kullanılmasını içerir. Antibiyotikler, enfeksiyonun neden olduğu bakterileri öldürmeye yardımcı olur. Bazı durumlarda, absenin drene edilmesi veya cerrahi olarak boşaltılması gerekebilir.",
     "Etiketler": "Yüksek Ateş, Şiddetli Öksürük, İştah Kaybı, Balgamda Kan, Halsizlik, Göğüs Ağrısı, Solunum Sıkıntısı,Yeşil Renkli Balgam, Titreme, Şişlik",
     "Benzer Hastalıklar": "",
-    "Görsel Link": "https://raw.githubusercontent.com/furkanmulayim/kaynakDosyasiSaglik/main/hastalik-gorseller/guilian.png"
+    "Görsel Link": "https://raw.githubusercontent.com/furkanmulayim/kaynakDosyasiSaglik/main/hastalik-gorseller/akcaps.png"
   },
   {
     "Adı": "Pulmoner Hipertansiyon",
@@ -537,7 +537,7 @@
     "Enfekte Oldum": "Pulmoner hipertansiyon tedavisi, altta yatan nedenlere bağlı olarak değişebilir. Tedavi, semptomları hafifletmeyi ve hastalığın ilerlemesini yavaşlatmayı hedefler. İlaçlar, kan damarlarını genişletmeye yardımcı olan ilaçlar (örneğin vazodilatörler), antikoagülanlar (kan pıhtılarını önleyen ilaçlar) ve diğer ilaçlar içerebilir. Ciddi durumlarda, akciğer nakli düşünülebilir.",
     "Etiketler": "Nefes Darlığı, Yorgunluk, Göğüs Ağrısı, Hızlı Kalp Atışı, Öksürük, Halsizlik, Ayak Bileklerinde Şişme, Bacaklarda Şişme, Bayılma, Solunum Sıkıntısı, Halsizlik",
     "Benzer Hastalıklar": "",
-    "Görsel Link": "https://raw.githubusercontent.com/furkanmulayim/kaynakDosyasiSaglik/main/hastalik-gorseller/guilian.png"
+    "Görsel Link": "https://raw.githubusercontent.com/furkanmulayim/kaynakDosyasiSaglik/main/hastalik-gorseller/pulhip.png"
   },
   {
     "Adı": "Apne",
@@ -549,7 +549,7 @@
     "Enfekte Oldum": "Apnenin tedavisi, nedenine bağlı olarak değişebilir. Uyku apnesi gibi durumlarda, CPAP (Sürekli Pozitif Hava Yolu Basıncı) cihazları veya oral aparatlar kullanılabilir. Ciddi apne vakalarında cerrahi müdahale gerekebilir.",
     "Etiketler": "Uykuda Solunum Durmaları, Nefes Kesilmeleri, Hızlı Uyanma, Gürültülü Horlama, Sabah Baş Ağrısı, Halsizlik, Uykusuzluk, Hafıza Sorunları, Dikkat Eksikliği, Huzursuz Uyku",
     "Benzer Hastalıklar": "",
-    "Görsel Link": "https://raw.githubusercontent.com/furkanmulayim/kaynakDosyasiSaglik/main/hastalik-gorseller/guilian.png"
+    "Görsel Link": "https://raw.githubusercontent.com/furkanmulayim/kaynakDosyasiSaglik/main/hastalik-gorseller/apne.png"
   },
   {
     "Adı": "Pnömotoraks",
@@ -561,7 +561,7 @@
     "Enfekte Oldum": "Pnömotoraks tedavisi, pnömotoraksun nedenine bağlı olarak değişebilir. Küçük pnömotoraks vakaları genellikle izlem altında tutulabilir, ancak daha ciddi durumlarda hava boşaltılabilir veya tıbbi müdahale gerekebilir. Bu işlem torakosentez olarak bilinir ve doktor tarafından gerçekleştirilir. Pnömotoraksın nedeni, tedavi planının bir parçası olarak ele alınmalıdır.",
     "Etiketler": "Göğüs Ağrısı, Nefes Darlığı, Nefes Alırken Acı, Göğüste Baskı, Göğüste Sıkışma, Öksürük, Hızlı Kalp Atışı, Göğüste Şişlik, Zayıflık, Solunum Sıkıntısı, Hızlı Solunum",
     "Benzer Hastalıklar": "",
-    "Görsel Link": "https://raw.githubusercontent.com/furkanmulayim/kaynakDosyasiSaglik/main/hastalik-gorseller/guilian.png"
+    "Görsel Link": "https://raw.githubusercontent.com/furkanmulayim/kaynakDosyasiSaglik/main/hastalik-gorseller/pnomotoroks.png"
   },
   {
     "Adı": "Anksiyete",
@@ -663,8 +663,8 @@
     "Adı": "Doğum Sonu Depresyon",
     "Latince Adı": "PPD",
     "Hakkında": "Postpartum Depresyon (PPD), doğum sonrası dönemde anneler arasında görülen ciddi bir depresyon türüdür. Bu durum, doğum sonrası ilk aylarda veya yıllarda ortaya çıkabilir. PPD, annelerin ruh hali, enerjileri ve günlük işlevlerini olumsuz etkileyebilir.",
-    "Risk Oranı": "",
-    "Görülme Sıklığı": "",
+    "Risk Oranı": "1",
+    "Görülme Sıklığı": "15",
     "Korunma Yolları": "PPD'nin kesin bir önleyici yöntemi yoktur, ancak risk faktörlerini tanıma ve destek sistemlerini güçlendirme önemlidir. Annelerin doğum sonrası dönemde iyi beslenmeleri, düzenli uyumaları ve fiziksel aktivite yapmaları da bu durumun riskini azaltabilir.",
     "Enfekte Oldum": " PPD tedavisi, psikoterapi (terapi) ve gerektiğinde ilaçlarla gerçekleştirilir. Terapi, annenin duygusal dengeyi sağlama ve bebek bakımı ile başa çıkma becerilerini geliştirmesine yardımcı olabilir. İlaçlar, depresyon semptomlarını hafifletmeye yardımcı olabilir.",
     "Etiketler": "Hüzün, Aşırı Endişe, Uykusuzluk, İştah Değişiklikleri, İlgisizlik, İrritabilite, Suçluluk Duyguları, Duygusal Dalgalanmalar, Anksiyete, Zayıflık,Halsizlik",
