@@ -79,7 +79,7 @@ fun ProgressBarr(context: Context): CircularProgressDrawable {
 
 //Görselleri indiriyoruz
 fun ImageView.loadImage(url: String?, progressDrawable: CircularProgressDrawable) {
-    val opt = RequestOptions().placeholder(progressDrawable).error(R.color.white)
+    val opt = RequestOptions().placeholder(progressDrawable)
     Glide.with(context).setDefaultRequestOptions(opt).load(url).into(this)
 }
 

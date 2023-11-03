@@ -41,6 +41,7 @@
     <!-- Text Colors -->
     <color name="text_hosgeldin_h2">#969696</color>
     <color name="text_h1">#424242</color>
+    <color name="text_h1_5">#575656</color>
     <color name="text_h2">#CCCCCC</color>
     <color name="text_neyim_var_h2">#C9F1D8</color>
     <color name="text_ilac_tara_h2">#C9E3F1</color>

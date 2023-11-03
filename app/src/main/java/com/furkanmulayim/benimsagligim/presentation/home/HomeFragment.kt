@@ -6,6 +6,7 @@ import android.view.View
 import android.view.ViewGroup
 import androidx.databinding.DataBindingUtil
 import androidx.fragment.app.Fragment
+import androidx.lifecycle.Observer
 import androidx.lifecycle.ViewModelProvider
 import androidx.recyclerview.widget.GridLayoutManager
 import androidx.recyclerview.widget.LinearLayoutManager
@@ -17,21 +18,29 @@ class HomeFragment : Fragment() {
 
     private lateinit var binding: FragmentHomeBinding
     private lateinit var viewModel: HomeViewModel
+    private var adapter = MostViewsAdapter(arrayListOf())
 
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?, savedInstanceState: Bundle?
     ): View {
         binding = DataBindingUtil.inflate(inflater, R.layout.fragment_home, container, false)
         viewModel = ViewModelProvider(this)[HomeViewModel::class.java]
+
         return binding.root
     }
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
         binding.viewModel = viewModel
+
+        binding.mostViewsDisease.layoutManager =
+            LinearLayoutManager(requireContext(), LinearLayoutManager.HORIZONTAL, false)
+        binding.mostViewsDisease.adapter = adapter
+
+        viewModel.loadMostViews()
+        observeLiveData()
         clickListeners()
         showCategory()
-        showSimilarDisease()
     }
 
     private fun showCategory() {
@@ -40,11 +49,15 @@ class HomeFragment : Fragment() {
         binding.categoryRcyc.adapter = adapter
     }
 
-    private fun showSimilarDisease() {
-        val adapter = MostViewsAdapter(viewModel.denemeList)
-        binding.mostViewsDisease.layoutManager = LinearLayoutManager(requireContext(),LinearLayoutManager.HORIZONTAL,false)
-        binding.mostViewsDisease.adapter = adapter
+
+    private fun observeLiveData() {
+        viewModel.diseaseList.observe(viewLifecycleOwner, Observer {
+            it?.let {
+                adapter.updateList(it)
+            }
+        })
     }
+
 
     private fun clickListeners() {
 
@@ -64,11 +77,11 @@ class HomeFragment : Fragment() {
         }
 
         binding.emergencyCall.setOnClickListener {
-            requireActivity().startCallWithPermission("5344533008",123)
+            requireActivity().startCallWithPermission("5344533008", 123)
         }
 
         binding.pillDetectButton.setOnClickListener {
-            viewModel.navigate(requireView(),R.id.action_homeFragment_to_pillInformationFragment)
+            viewModel.navigate(requireView(), R.id.action_homeFragment_to_pillInformationFragment)
         }
 
     }

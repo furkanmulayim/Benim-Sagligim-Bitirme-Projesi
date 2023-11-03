@@ -2,9 +2,9 @@
     <!-- Base application theme. -->
     <style name="Theme.BenimSağlığım" parent="Theme.MaterialComponents.DayNight.NoActionBar">
         <!-- Primary brand color. -->
-        <item name="colorPrimary">@color/item_background</item>
-        <item name="colorPrimaryVariant">@color/item_background</item>
-        <item name="colorOnPrimary">@color/white</item>
+        <item name="colorPrimary">@color/green</item>
+        <item name="colorPrimaryVariant">@color/item_border</item>
+        <item name="colorOnPrimary">@color/black</item>
         <!-- Secondary brand color. -->
         <item name="colorSecondary">@color/norolojik_h1</item>
         <item name="colorSecondaryVariant">@color/norolojik_h2</item>
@@ -21,4 +21,14 @@
     <style name="rounded_1" parent="">
         <item name="cornerFamily">rounded</item>
         <item name="cornerSize">10dp</item>
-    </style></resources>
+    </style>
+
+
+    <style name="rounden_tops">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSizeTopRight">12dp</item>
+        <item name="cornerSizeTopLeft">12dp</item>
+    </style>
+
+
+</resources>

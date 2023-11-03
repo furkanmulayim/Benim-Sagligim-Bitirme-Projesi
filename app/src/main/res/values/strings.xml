@@ -72,6 +72,8 @@
 
     <string name="ilac_tara_button1">Fotoğraf Çek</string>
     <string name="ilac_tara_button2">Görsel Yükle</string>
+    <string name="tedavi_yontem">Tedavi Yöntemi Nasıldır?</string>
+    <string name="hakkinda">Hakkında</string>
 
 </resources>
 

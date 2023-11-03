@@ -17,7 +17,6 @@ import io.reactivex.schedulers.Schedulers
 class DiseaseCategoryViewModel : ViewModel() {
 
     private val diseaseApiService = DiseaseAPIService()
-
     //Kullan at değişkenimiz.. Hafıza tüketmememek için
     private val disposable = CompositeDisposable()
 
@@ -65,6 +64,9 @@ class DiseaseCategoryViewModel : ViewModel() {
         } else if (diseaseName.value.toString() == "Ruhsal Hastalıklar") {
             a[0] = 47
             a[1] = 56
+        } else if (diseaseName.value.toString() == "Üreme Sistemi Hastalıkları") {
+            a[0] = 56
+            a[1] = 66
         }
         return a
     }

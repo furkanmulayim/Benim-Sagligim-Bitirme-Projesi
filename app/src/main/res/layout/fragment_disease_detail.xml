@@ -35,6 +35,7 @@
                 android:layout_marginStart="20dp"
                 android:layout_marginTop="20dp"
                 android:background="@drawable/back_back"
+                android:elevation="5dp"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent">
 
@@ -53,6 +54,7 @@
                 android:layout_height="50dp"
                 android:layout_marginTop="20dp"
                 android:layout_marginEnd="20dp"
+                android:elevation="5dp"
                 android:background="@drawable/back_back"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintTop_toTopOf="parent">
@@ -97,7 +99,7 @@
                         android:layout_marginStart="15dp"
                         android:layout_marginTop="25dp"
                         android:fontFamily="@font/inter_medium"
-                        android:text="Hakkında"
+                        android:text="@string/hakkinda"
                         android:textColor="@color/text_h1"
                         android:textSize="17sp" />
 
@@ -109,9 +111,9 @@
                         android:layout_marginTop="5dp"
                         android:layout_marginEnd="15dp"
                         android:layout_marginBottom="15dp"
-                        android:fontFamily="@font/inter_medium"
+                        android:fontFamily="@font/inter_light"
                         android:text="@{viewModel.hakkinda}"
-                        android:textColor="@color/text_hosgeldin_h2"
+                        android:textColor="@color/text_h1_5"
                         android:textSize="15sp" />
 
                 </LinearLayout>
@@ -119,7 +121,7 @@
                 <androidx.constraintlayout.widget.ConstraintLayout
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:background="@drawable/risk_orta_back"
+                    android:background="@drawable/gradient3"
                     android:paddingStart="25dp"
                     android:paddingTop="10dp"
                     android:paddingEnd="25dp"
@@ -137,16 +139,7 @@
                         app:layout_constraintStart_toStartOf="parent"
                         app:layout_constraintTop_toTopOf="parent"/>
 
-                    <TextView
-                        android:id="@+id/dene"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:paddingBottom="10dp"
-                        android:text="-"
-                        android:textColor="@color/orange_h5"
-                        android:layout_marginStart="5dp"
-                        app:layout_constraintStart_toEndOf="@id/hastalikAdiDetay"
-                        app:layout_constraintTop_toTopOf="parent"/>
+
 
                     <TextView
                         android:id="@+id/hastalikAdiLatinceDetay"
@@ -156,7 +149,7 @@
                         android:text="@{viewModel.latinAd}"
                         android:textColor="@color/orange_h5"
                         android:layout_marginStart="5dp"
-                        app:layout_constraintStart_toEndOf="@id/dene"
+                        app:layout_constraintStart_toEndOf="@id/hastalikAdiDetay"
                         app:layout_constraintTop_toTopOf="parent"/>
                 </androidx.constraintlayout.widget.ConstraintLayout>
 
@@ -171,7 +164,8 @@
                 android:layout_marginTop="10dp"
                 android:orientation="horizontal"
                 app:layout_constraintTop_toBottomOf="@+id/constraintLayout5"
-                tools:layout_editor_absoluteX="20dp">
+                tools:layout_editor_absoluteX="20dp"
+                android:baselineAligned="false">
 
                 <LinearLayout
                     android:layout_width="match_parent"
@@ -309,9 +303,9 @@
                         android:layout_marginBottom="15dp"
                         android:layout_marginTop="25dp"
                         android:layout_marginEnd="15dp"
-                        android:fontFamily="@font/inter_medium"
+                        android:fontFamily="@font/inter_light"
                         android:text="@{viewModel.korunmaYollari}"
-                        android:textColor="@color/text_hosgeldin_h2"
+                        android:textColor="@color/text_h1_5"
                         android:textSize="15sp" />
 
                 </LinearLayout>
@@ -319,7 +313,7 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:background="@drawable/risk_dusuk_back"
+                    android:background="@drawable/gradient4"
                     android:paddingStart="25dp"
                     android:paddingTop="10dp"
                     android:paddingEnd="25dp"
@@ -361,9 +355,9 @@
                         android:layout_marginTop="25dp"
                         android:layout_marginEnd="15dp"
                         android:layout_marginBottom="15dp"
-                        android:fontFamily="@font/inter_medium"
+                        android:fontFamily="@font/inter_light"
                         android:text="@{viewModel.enfekteOldum}"
-                        android:textColor="@color/text_hosgeldin_h2"
+                        android:textColor="@color/text_h1_5"
                         android:textSize="15sp" />
 
                 </LinearLayout>
@@ -371,12 +365,12 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:background="@drawable/risk_yuksek_back"
+                    android:background="@drawable/gradient5"
                     android:paddingStart="25dp"
                     android:paddingTop="10dp"
                     android:paddingEnd="25dp"
                     android:paddingBottom="10dp"
-                    android:text="Covid-19 Oldum Ne Yapabilirim?"
+                    android:text="@string/tedavi_yontem"
                     android:textColor="@color/white"
                     app:layout_constraintBottom_toTopOf="@+id/linearLayout8"
                     app:layout_constraintEnd_toEndOf="parent"
@@ -405,11 +399,11 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="25dp"
                 android:fontFamily="@font/inter_medium"
-                android:text="Buna Benzer Hastalıklar"
+                android:text="Benzer Hastalıklar"
                 app:layout_constraintTop_toBottomOf="@id/rcycDetailsHastags"
                 app:layout_constraintStart_toStartOf="@id/rcycDetailsHastags"
                 android:textColor="@color/text_h1"
-                android:textSize="17sp" />
+                android:textSize="15sp" />
 
             <androidx.recyclerview.widget.RecyclerView
                 android:id="@+id/benzerRcyc"

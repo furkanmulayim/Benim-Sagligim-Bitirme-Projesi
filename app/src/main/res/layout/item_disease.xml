@@ -31,10 +31,12 @@
             app:shapeAppearanceOverlay="@style/rounded_1"/>
 
         <androidx.constraintlayout.widget.ConstraintLayout
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginStart="100dp"
+            android:layout_marginEnd="50dp"
             app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent">
 
@@ -44,47 +46,25 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:fontFamily="@font/inter"
-                android:text="Hastalık Adı"
                 android:textColor="@color/text_h1"
-                android:textSize="18sp"
+                android:textSize="15sp"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent" />
 
 
-            <TextView
-                android:id="@+id/parantex"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginStart="5dp"
-                android:fontFamily="@font/inter"
-                android:text="("
-                android:textColor="@color/text_hosgeldin_h2"
-                android:textSize="16sp"
-                app:layout_constraintBottom_toBottomOf="@+id/hastalikAdi"
-                app:layout_constraintStart_toEndOf="@+id/hastalikAdi"
-                app:layout_constraintTop_toTopOf="@+id/hastalikAdi" />
 
             <TextView
                 android:id="@+id/hastalikAdiLatince"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:fontFamily="@font/inter"
+                android:layout_marginStart="3dp"
                 android:textColor="@color/text_hosgeldin_h2"
-                android:textSize="16sp"
-                app:layout_constraintBottom_toBottomOf="@+id/parantex"
-                app:layout_constraintStart_toEndOf="@+id/parantex"
-                app:layout_constraintTop_toTopOf="@+id/parantex" />
-            <TextView
-                android:id="@+id/parantex2"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:fontFamily="@font/inter"
-                android:text=")"
-                android:textColor="@color/text_hosgeldin_h2"
-                android:textSize="16sp"
-                app:layout_constraintBottom_toBottomOf="@+id/hastalikAdiLatince"
-                app:layout_constraintStart_toEndOf="@+id/hastalikAdiLatince"
-                app:layout_constraintTop_toTopOf="@+id/hastalikAdiLatince" />
+                android:textSize="13sp"
+                app:layout_constraintBottom_toBottomOf="@+id/hastalikAdi"
+                app:layout_constraintStart_toEndOf="@+id/hastalikAdi"
+                app:layout_constraintTop_toTopOf="@+id/hastalikAdi" />
+
 
 
             <TextView
@@ -92,7 +72,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:fontFamily="@font/inter"
-                android:text="#Burada #Etiketler #Olacak"
+                android:maxLines="1"
                 android:textColor="@color/text_hosgeldin_h2"
                 android:textSize="12sp"
                 app:layout_constraintStart_toStartOf="parent"
@@ -102,21 +82,21 @@
             <androidx.constraintlayout.widget.ConstraintLayout
                 android:id="@+id/riskBack"
                 android:layout_width="wrap_content"
-                android:layout_height="20dp"
+                android:layout_height="18dp"
                 android:layout_marginTop="5dp"
-                android:background="@drawable/risk_yuksek_back"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/etiketler">
 
                 <ImageView
                     android:id="@+id/rectangle"
-                    android:layout_width="16dp"
-                    android:layout_height="16dp"
+                    android:layout_width="14dp"
+                    android:layout_height="14dp"
                     android:layout_marginStart="2dp"
                     android:background="@drawable/dot_rectangle"
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toTopOf="parent" />
+                    app:layout_constraintTop_toTopOf="parent"
+                    android:contentDescription="@string/app_name" />
 
                 <TextView
                     android:id="@+id/riskText"
@@ -124,9 +104,8 @@
                     android:layout_height="wrap_content"
                     android:layout_marginStart="3dp"
                     android:paddingEnd="10dp"
-                    android:text="Yüksek Derece Risk"
                     android:textColor="@color/white"
-                    android:textSize="11dp"
+                    android:textSize="13sp"
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintStart_toEndOf="@+id/rectangle"
@@ -142,6 +121,7 @@
             android:layout_height="30dp"
             android:layout_marginEnd="15dp"
             android:background="@drawable/arrow_svg"
+            android:contentDescription="@string/app_name"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
