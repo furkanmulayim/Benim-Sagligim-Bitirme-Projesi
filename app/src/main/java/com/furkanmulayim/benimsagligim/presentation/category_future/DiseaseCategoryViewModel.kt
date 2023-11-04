@@ -8,6 +8,7 @@ import androidx.lifecycle.ViewModel
 import androidx.navigation.Navigation
 import com.furkanmulayim.benimsagligim.data.service.DiseaseAPIService
 import com.furkanmulayim.benimsagligim.domain.model.Disease
+import com.furkanmulayim.benimsagligim.util.categoryListeSiraBul
 import io.reactivex.android.schedulers.AndroidSchedulers
 import io.reactivex.disposables.CompositeDisposable
 import io.reactivex.observers.DisposableSingleObserver
@@ -52,21 +53,28 @@ class DiseaseCategoryViewModel : ViewModel() {
 
     private fun hangisindeyik(): Array<Int> {
         val a = Array(2) { 0 }
-        if (diseaseName.value.toString() == "Bulaşıcı Hastalıklar") {
-            a[0] = 0
-            a[1] = 20
-        } else if (diseaseName.value.toString() == "Nörolojik Hastalıklar") {
-            a[0] = 20
-            a[1] = 35
-        } else if (diseaseName.value.toString() == "Solunum Sistemi Hastalıkları") {
-            a[0] = 35
-            a[1] = 47
-        } else if (diseaseName.value.toString() == "Ruhsal Hastalıklar") {
-            a[0] = 47
-            a[1] = 56
-        } else if (diseaseName.value.toString() == "Üreme Sistemi Hastalıkları") {
-            a[0] = 56
-            a[1] = 66
+        val listeSira = diseaseName.value.toString().categoryListeSiraBul()
+        when {
+            diseaseName.value.toString() == "Bulaşıcı Hastalıklar" -> {
+                a[0] = 0
+                a[1] = 20
+            }
+            diseaseName.value.toString() == "Nörolojik Hastalıklar" -> {
+                a[0] = 20
+                a[1] = 35
+            }
+            diseaseName.value.toString() == "Solunum Sistemi Hastalıkları" -> {
+                a[0] = 35
+                a[1] = 47
+            }
+            diseaseName.value.toString() == "Ruhsal Hastalıklar" -> {
+                a[0] = 47
+                a[1] = 56
+            }
+            diseaseName.value.toString() == "Üreme Sistemi Hastalıkları" -> {
+                a[0] = 56
+                a[1] = 66
+            }
         }
         return a
     }
@@ -76,8 +84,8 @@ class DiseaseCategoryViewModel : ViewModel() {
         diseaseName.value = name
         backgroun.value = back
         foregroun.value = fore
-        cl.setBackgroundResource(backgroun.value.toString().toInt())
-        iv.setBackgroundResource(foregroun.value.toString().toInt())
+        //cl.setBackgroundResource(backgroun.value.toString().toInt())
+        //iv.setBackgroundResource(foregroun.value.toString().toInt())
     }
 
     fun navigate(view: View, pageId: Int) {

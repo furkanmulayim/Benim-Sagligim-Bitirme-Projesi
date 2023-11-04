@@ -1,5 +1,6 @@
 package com.furkanmulayim.benimsagligim.presentation.home
 
+import android.annotation.SuppressLint
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
@@ -13,7 +14,7 @@ import com.furkanmulayim.benimsagligim.domain.model.CategoryListDisease
 
 
 class CategoryListAdapter(
-    private val dataList: List<CategoryListDisease>
+    private val dataList: ArrayList<CategoryListDisease>
 ) : RecyclerView.Adapter<CategoryListAdapter.ViewHolder>() {
 
     class ViewHolder(itemView: View) : RecyclerView.ViewHolder(itemView) {
@@ -33,19 +34,26 @@ class CategoryListAdapter(
         //Pozisyondaki veri
         val item = dataList[position]
         //Pozisyondaki verileri iteme yerleştiriyoruz.
-        holder.itemAdi.text = item.name
-        holder.itemBack.setBackgroundResource(item.background)
-        holder.itemFront.setBackgroundResource(item.foreground)
+        holder.itemAdi.text = item.Adi
 
         //Hangi iteme tıklanırsa kategori detay sayfasına bilgileri gönderiyor.
         holder.itemView.setOnClickListener {
-           val action = HomeFragmentDirections.actionHomeFragmentToDiseaseCategoryFragment(item.name,item.background,item.foreground)
-           Navigation.findNavController(it).navigate(action)
+            val action = HomeFragmentDirections.actionHomeFragmentToDiseaseCategoryFragment(
+                item.Adi, item.Background, item.Foreground
+            )
+            Navigation.findNavController(it).navigate(action)
         }
     }
 
     override fun getItemCount(): Int {
         return dataList.size
+    }
+
+    @SuppressLint("NotifyDataSetChanged")
+    fun updateList(newList: List<CategoryListDisease>) {
+        dataList.clear()
+        dataList.addAll((newList))
+        notifyDataSetChanged()
     }
 }
 

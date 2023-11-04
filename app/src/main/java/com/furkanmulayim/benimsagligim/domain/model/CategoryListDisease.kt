@@ -1,5 +1,13 @@
 package com.furkanmulayim.benimsagligim.domain.model
 
+import com.google.gson.annotations.SerializedName
+
 data class CategoryListDisease(
-    var name: String, var background: Int, var foreground: Int
+
+    @SerializedName("Adı")
+    var Adi: String,
+    @SerializedName("Background")
+    var Background: Int,
+    @SerializedName("Foreground")
+    var Foreground: Int
 )

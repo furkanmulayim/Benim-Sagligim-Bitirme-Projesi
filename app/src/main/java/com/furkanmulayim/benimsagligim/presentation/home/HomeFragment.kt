@@ -16,9 +16,12 @@ import com.furkanmulayim.benimsagligim.util.startCallWithPermission
 
 class HomeFragment : Fragment() {
 
+    //ui bilesenlerim
     private lateinit var binding: FragmentHomeBinding
     private lateinit var viewModel: HomeViewModel
-    private var adapter = MostViewsAdapter(arrayListOf())
+    //adaptör nesnelerim
+    private var adapterDisease = MostViewsAdapter(arrayListOf())
+    private var adapterCategories = CategoryListAdapter(arrayListOf())
 
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?, savedInstanceState: Bundle?
@@ -33,28 +36,29 @@ class HomeFragment : Fragment() {
         super.onViewCreated(view, savedInstanceState)
         binding.viewModel = viewModel
 
-        binding.mostViewsDisease.layoutManager =
-            LinearLayoutManager(requireContext(), LinearLayoutManager.HORIZONTAL, false)
-        binding.mostViewsDisease.adapter = adapter
+        binding.mostViewsDisease.layoutManager = LinearLayoutManager(requireContext(), LinearLayoutManager.HORIZONTAL, false)
+        binding.mostViewsDisease.adapter = adapterDisease
+
+        binding.categoryRcyc.layoutManager = GridLayoutManager(requireContext(), 4)
+        binding.categoryRcyc.adapter = adapterCategories
 
         viewModel.loadMostViews()
         observeLiveData()
         clickListeners()
-        showCategory()
-    }
-
-    private fun showCategory() {
-        val adapter = CategoryListAdapter(viewModel.categoryList)
-        binding.categoryRcyc.layoutManager = GridLayoutManager(requireContext(), 4)
-        binding.categoryRcyc.adapter = adapter
     }
 
 
     private fun observeLiveData() {
         viewModel.diseaseList.observe(viewLifecycleOwner, Observer {
-            it?.let {
-                adapter.updateList(it)
+            adapterDisease.updateList(it)
+        })
+
+        viewModel.categoriesList.observe(viewLifecycleOwner, Observer {
+            adapterCategories.updateList(it)
+            for (i in it) {
+                println(i.Adi)
             }
+
         })
     }
 
