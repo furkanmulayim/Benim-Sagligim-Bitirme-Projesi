@@ -7,7 +7,7 @@ data class CategoryListDisease(
     @SerializedName("Adı")
     var Adi: String,
     @SerializedName("Background")
-    var Background: Int,
+    var Background: String,
     @SerializedName("Foreground")
-    var Foreground: Int
+    var Foreground: String
 )

@@ -29,17 +29,15 @@ fun Context.showMessage(message: String) {
 }
 
 //verilen yüzdelik değere göre risk hesaplama
-fun hastalikRiskOraniHesapla(oran: String):String {
+fun hastalikRiskOraniHesapla(oran: String): String {
     val orani: Int = oran.toInt()
     var s = ""
 
-    s = if (orani in 1..10){
+    s = if (orani in 1..10) {
         "Düşük Derece Risk"
-    }
-    else if (orani in 11..40){
+    } else if (orani in 11..40) {
         "Orta Derece Risk"
-    }
-    else {
+    } else {
         "Yüksek Derece Risk"
     }
     return s
@@ -55,16 +53,50 @@ fun String.hastagsCutTheSmall(): String {
 //yüzdelik değere göre background ayarlamak için
 fun String.toDrawableResource(): Int {
     var back = 0
-    back = if (this == "Düşük Derece Risk"){
+    back = if (this == "Düşük Derece Risk") {
         R.drawable.r_3
-    }
-    else if (this =="Orta Derece Risk"){
+    } else if (this == "Orta Derece Risk") {
         R.drawable.r_2
-    }
-    else {
+    } else {
         R.drawable.r_1
     }
     return back
+}
+
+fun String.categoryListeSiraBul(): Array<Int> {
+    val a = Array(2) { 0 }
+
+    if (this == "Bulaşıcı Hastalıklar") {
+        a[0] = 0
+        a[1] = 20
+    }
+    else if (this == "Nörolojik Hastalıklar") {
+        a[0] = 20
+        a[1] = 35
+    }
+    else if (this == "Solunum Sistemi Hastalıkları") {
+        a[0] = 35
+        a[1] = 47
+    }
+    else if (this == "Ruhsal Hastalıklar") {
+        a[0] = 47
+        a[1] = 56
+    }
+    else if (this == "Üreme Sistemi Hastalıkları") {
+        a[0] = 56
+        a[1] = 66
+    }else if (this == "Boşaltım Sistemi Hastalıkları") {
+        a[0] = 56
+        a[1] = 66
+    }else if (this == "Sindirim Sistemi Hastalıkları") {
+        a[0] = 56
+        a[1] = 66
+    }else if (this == "Kas-İskelet Sistemi Hastalıkları") {
+        a[0] = 56
+        a[1] = 66
+    }
+
+    return a
 }
 
 //Görseller Yüklenirken kullanıcıya bildiriyoruz

@@ -55,10 +55,6 @@ class HomeFragment : Fragment() {
 
         viewModel.categoriesList.observe(viewLifecycleOwner, Observer {
             adapterCategories.updateList(it)
-            for (i in it) {
-                println(i.Adi)
-            }
-
         })
     }
 
