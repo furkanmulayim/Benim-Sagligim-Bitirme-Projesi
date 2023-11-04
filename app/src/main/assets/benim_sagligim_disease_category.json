@@ -1,42 +1,42 @@
 [
   {
     "Adı": "Bulaşıcı Hastalıklar",
-    "Background": "1",
-    "Foreground": "1"
+    "Background": "https://raw.githubusercontent.com/furkanmulayim/kaynakDosyasiSaglik/main/kategori-gorseller/bulasici.png",
+    "Foreground": "https://raw.githubusercontent.com/furkanmulayim/kaynakDosyasiSaglik/main/kategori-gorseller/bulasiciback.png"
   },
   {
     "Adı": "Nörolojik Hastalıklar",
-    "Background": "1",
-    "Foreground": "1"
+    "Background": "https://raw.githubusercontent.com/furkanmulayim/kaynakDosyasiSaglik/main/kategori-gorseller/noro.png",
+    "Foreground": "https://raw.githubusercontent.com/furkanmulayim/kaynakDosyasiSaglik/main/kategori-gorseller/noroback.png"
   },
   {
     "Adı": "Solunum Sistemi Hastalıkları",
-    "Background": "1",
-    "Foreground": "1"
+    "Background": "https://raw.githubusercontent.com/furkanmulayim/kaynakDosyasiSaglik/main/kategori-gorseller/sol.png",
+    "Foreground": "https://raw.githubusercontent.com/furkanmulayim/kaynakDosyasiSaglik/main/kategori-gorseller/solback.png"
   },
   {
     "Adı": "Ruhsal Hastalıklar",
-    "Background": "1",
-    "Foreground": "1"
+    "Background": "https://raw.githubusercontent.com/furkanmulayim/kaynakDosyasiSaglik/main/kategori-gorseller/mental.png",
+    "Foreground": "https://raw.githubusercontent.com/furkanmulayim/kaynakDosyasiSaglik/main/kategori-gorseller/mentalback.png"
   },
   {
     "Adı": "Üreme Sistemi Hastalıkları",
-    "Background": "1",
-    "Foreground": "1"
+    "Background": "https://raw.githubusercontent.com/furkanmulayim/kaynakDosyasiSaglik/main/kategori-gorseller/ureme.png",
+    "Foreground": "https://raw.githubusercontent.com/furkanmulayim/kaynakDosyasiSaglik/main/kategori-gorseller/uremeback.png"
   },
   {
     "Adı": "Boşaltım Sistemi Hastalıkları",
-    "Background": "1",
-    "Foreground": "1"
+    "Background": "https://raw.githubusercontent.com/furkanmulayim/kaynakDosyasiSaglik/main/kategori-gorseller/bosaltim.png",
+    "Foreground": "https://raw.githubusercontent.com/furkanmulayim/kaynakDosyasiSaglik/main/kategori-gorseller/bosaltimback.png"
   },
   {
     "Adı": "Sindirim Sistemi Hastalıkları",
-    "Background": "1",
-    "Foreground": "1"
+    "Background": "https://raw.githubusercontent.com/furkanmulayim/kaynakDosyasiSaglik/main/kategori-gorseller/sindir.png",
+    "Foreground": "https://raw.githubusercontent.com/furkanmulayim/kaynakDosyasiSaglik/main/kategori-gorseller/sindirback.png"
   },
   {
     "Adı": "Kas-İskelet Sistemi Hastalıkları",
-    "Background": "1",
-    "Foreground": "https://raw.githubusercontent.com/furkanmulayim/kaynakDosyasiSaglik/main/kategori-gorseller/kas.png"
+    "Background": "https://raw.githubusercontent.com/furkanmulayim/kaynakDosyasiSaglik/main/kategori-gorseller/kas.png",
+    "Foreground": "https://raw.githubusercontent.com/furkanmulayim/kaynakDosyasiSaglik/main/kategori-gorseller/kasback.png"
   }
 ]
