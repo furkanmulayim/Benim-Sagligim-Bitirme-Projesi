@@ -1,42 +1,42 @@
 [
   {
     "Adı": "Bulaşıcı Hastalıklar",
-    "Background": "https://raw.githubusercontent.com/furkanmulayim/kaynakDosyasiSaglik/main/kategori-gorseller/bulasici.png",
-    "Foreground": "https://raw.githubusercontent.com/furkanmulayim/kaynakDosyasiSaglik/main/kategori-gorseller/bulasiciback.png"
+    "Background": "https://raw.githubusercontent.com/furkanmulayim/kaynakDosyasiSaglik/main/kategori-gorseller/bulasiciback.png",
+    "Foreground": "https://raw.githubusercontent.com/furkanmulayim/kaynakDosyasiSaglik/main/kategori-gorseller/bulasici.png"
   },
   {
     "Adı": "Nörolojik Hastalıklar",
-    "Background": "https://raw.githubusercontent.com/furkanmulayim/kaynakDosyasiSaglik/main/kategori-gorseller/noro.png",
-    "Foreground": "https://raw.githubusercontent.com/furkanmulayim/kaynakDosyasiSaglik/main/kategori-gorseller/noroback.png"
+    "Background": "https://raw.githubusercontent.com/furkanmulayim/kaynakDosyasiSaglik/main/kategori-gorseller/noroback.png",
+    "Foreground": "https://raw.githubusercontent.com/furkanmulayim/kaynakDosyasiSaglik/main/kategori-gorseller/noro.png"
   },
   {
     "Adı": "Solunum Sistemi Hastalıkları",
-    "Background": "https://raw.githubusercontent.com/furkanmulayim/kaynakDosyasiSaglik/main/kategori-gorseller/sol.png",
-    "Foreground": "https://raw.githubusercontent.com/furkanmulayim/kaynakDosyasiSaglik/main/kategori-gorseller/solback.png"
+    "Background": "https://raw.githubusercontent.com/furkanmulayim/kaynakDosyasiSaglik/main/kategori-gorseller/solback.png",
+    "Foreground": "https://raw.githubusercontent.com/furkanmulayim/kaynakDosyasiSaglik/main/kategori-gorseller/sol.png"
   },
   {
     "Adı": "Ruhsal Hastalıklar",
-    "Background": "https://raw.githubusercontent.com/furkanmulayim/kaynakDosyasiSaglik/main/kategori-gorseller/mental.png",
-    "Foreground": "https://raw.githubusercontent.com/furkanmulayim/kaynakDosyasiSaglik/main/kategori-gorseller/mentalback.png"
+    "Background": "https://raw.githubusercontent.com/furkanmulayim/kaynakDosyasiSaglik/main/kategori-gorseller/mentalback.png",
+    "Foreground": "https://raw.githubusercontent.com/furkanmulayim/kaynakDosyasiSaglik/main/kategori-gorseller/mental.png"
   },
   {
     "Adı": "Üreme Sistemi Hastalıkları",
-    "Background": "https://raw.githubusercontent.com/furkanmulayim/kaynakDosyasiSaglik/main/kategori-gorseller/ureme.png",
-    "Foreground": "https://raw.githubusercontent.com/furkanmulayim/kaynakDosyasiSaglik/main/kategori-gorseller/uremeback.png"
+    "Background": "https://raw.githubusercontent.com/furkanmulayim/kaynakDosyasiSaglik/main/kategori-gorseller/kasback.png",
+    "Foreground": "https://raw.githubusercontent.com/furkanmulayim/kaynakDosyasiSaglik/main/kategori-gorseller/kas.png"
   },
   {
     "Adı": "Boşaltım Sistemi Hastalıkları",
-    "Background": "https://raw.githubusercontent.com/furkanmulayim/kaynakDosyasiSaglik/main/kategori-gorseller/bosaltim.png",
-    "Foreground": "https://raw.githubusercontent.com/furkanmulayim/kaynakDosyasiSaglik/main/kategori-gorseller/bosaltimback.png"
+    "Background": "https://raw.githubusercontent.com/furkanmulayim/kaynakDosyasiSaglik/main/kategori-gorseller/bosaltimback.png",
+    "Foreground": "https://raw.githubusercontent.com/furkanmulayim/kaynakDosyasiSaglik/main/kategori-gorseller/bosaltim.png"
   },
   {
     "Adı": "Sindirim Sistemi Hastalıkları",
-    "Background": "https://raw.githubusercontent.com/furkanmulayim/kaynakDosyasiSaglik/main/kategori-gorseller/sindir.png",
-    "Foreground": "https://raw.githubusercontent.com/furkanmulayim/kaynakDosyasiSaglik/main/kategori-gorseller/sindirback.png"
+    "Background": "https://raw.githubusercontent.com/furkanmulayim/kaynakDosyasiSaglik/main/kategori-gorseller/sindirback.png",
+    "Foreground": "https://raw.githubusercontent.com/furkanmulayim/kaynakDosyasiSaglik/main/kategori-gorseller/sindir.png"
   },
   {
     "Adı": "Kas-İskelet Sistemi Hastalıkları",
-    "Background": "https://raw.githubusercontent.com/furkanmulayim/kaynakDosyasiSaglik/main/kategori-gorseller/kas.png",
-    "Foreground": "https://raw.githubusercontent.com/furkanmulayim/kaynakDosyasiSaglik/main/kategori-gorseller/kasback.png"
+    "Background": "https://raw.githubusercontent.com/furkanmulayim/kaynakDosyasiSaglik/main/kategori-gorseller/uremeback.png",
+    "Foreground": "https://raw.githubusercontent.com/furkanmulayim/kaynakDosyasiSaglik/main/kategori-gorseller/ureme.png"
   }
 ]

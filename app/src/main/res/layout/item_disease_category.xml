@@ -16,14 +16,23 @@
         android:layout_gravity="center">
 
         <ImageView
-            android:id="@+id/categoryFront"
-            android:layout_width="20dp"
-            android:layout_height="20dp"
+            android:id="@+id/categoryBacke"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
 
+
+        <ImageView
+            android:id="@+id/categoryFronte"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 
@@ -32,9 +41,9 @@
         android:layout_width="wrap_content"
         android:layout_height="45dp"
         android:layout_gravity="center"
-        android:textAlignment="center"
         android:layout_marginTop="3dp"
         android:fontFamily="@font/inter_medium"
+        android:textAlignment="center"
         android:textColor="@color/text_h1"
         android:textSize="11sp" />
 

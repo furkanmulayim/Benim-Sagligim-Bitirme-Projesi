@@ -6,8 +6,6 @@ import android.view.View
 import android.view.ViewGroup
 import android.widget.ImageView
 import android.widget.TextView
-import androidx.constraintlayout.widget.ConstraintLayout
-import androidx.navigation.Navigation
 import androidx.recyclerview.widget.RecyclerView
 import com.furkanmulayim.benimsagligim.R
 import com.furkanmulayim.benimsagligim.domain.model.CategoryListDisease
@@ -21,8 +19,8 @@ class CategoryListAdapter(
 
     class ViewHolder(itemView: View) : RecyclerView.ViewHolder(itemView) {
         val itemAdi: TextView = itemView.findViewById(R.id.categoryName)
-        val itemBack: ConstraintLayout = itemView.findViewById(R.id.categoryBack)
-        val itemFront: ImageView = itemView.findViewById(R.id.categoryFront)
+        val itemBack: ImageView = itemView.findViewById(R.id.categoryBacke)
+        val itemFront: ImageView = itemView.findViewById(R.id.categoryFronte)
 
     }
 
@@ -38,10 +36,11 @@ class CategoryListAdapter(
         //Pozisyondaki verileri iteme yerleştiriyoruz.
         holder.itemAdi.text = item.Adi
         holder.itemFront.loadImage(item.Foreground, ProgressBarr(holder.itemView.context))
+        holder.itemBack.loadImage(item.Background, ProgressBarr(holder.itemView.context))
 
         //Hangi iteme tıklanırsa kategori detay sayfasına bilgileri gönderiyor.
         holder.itemView.setOnClickListener {
-          //  val action = HomeFragmentDirections.actionHomeFragmentToDiseaseCategoryFragment( //item.Adi, item.Background, item.Foreground)
+            //  val action = HomeFragmentDirections.actionHomeFragmentToDiseaseCategoryFragment( //item.Adi, item.Background, item.Foreground)
             //Navigation.findNavController(it).navigate(action)
         }
     }
