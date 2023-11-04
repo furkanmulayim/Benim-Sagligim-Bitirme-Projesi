@@ -1,0 +1,42 @@
+[
+  {
+    "Adı": "Bulaşıcı Hastalıklar",
+    "Background": "https://raw.githubusercontent.com/furkanmulayim/kaynakDosyasiSaglik/main/hastalik-gorseller/grip.png",
+    "Foreground": "https://raw.githubusercontent.com/furkanmulayim/kaynakDosyasiSaglik/main/hastalik-gorseller/grip.png"
+  },
+  {
+    "Adı": "Nörolojik Hastalıklar",
+    "Background": "https://raw.githubusercontent.com/furkanmulayim/kaynakDosyasiSaglik/main/hastalik-gorseller/grip.png",
+    "Foreground": "https://raw.githubusercontent.com/furkanmulayim/kaynakDosyasiSaglik/main/hastalik-gorseller/grip.png"
+  },
+  {
+    "Adı": "Solunum Sistemi Hastalıkları",
+    "Background": "https://raw.githubusercontent.com/furkanmulayim/kaynakDosyasiSaglik/main/hastalik-gorseller/grip.png",
+    "Foreground": "https://raw.githubusercontent.com/furkanmulayim/kaynakDosyasiSaglik/main/hastalik-gorseller/grip.png"
+  },
+  {
+    "Adı": "Ruhsal Hastalıklar",
+    "Background": "https://raw.githubusercontent.com/furkanmulayim/kaynakDosyasiSaglik/main/hastalik-gorseller/grip.png",
+    "Foreground": "https://raw.githubusercontent.com/furkanmulayim/kaynakDosyasiSaglik/main/hastalik-gorseller/grip.png"
+  },
+  {
+    "Adı": "Üreme Sistemi Hastalıkları",
+    "Background": "https://raw.githubusercontent.com/furkanmulayim/kaynakDosyasiSaglik/main/hastalik-gorseller/grip.png",
+    "Foreground": "https://raw.githubusercontent.com/furkanmulayim/kaynakDosyasiSaglik/main/hastalik-gorseller/grip.png"
+  },
+  {
+    "Adı": "Boşaltım Sistemi Hastalıkları",
+    "Background": "https://raw.githubusercontent.com/furkanmulayim/kaynakDosyasiSaglik/main/hastalik-gorseller/grip.png",
+    "Foreground": "https://raw.githubusercontent.com/furkanmulayim/kaynakDosyasiSaglik/main/hastalik-gorseller/grip.png"
+  },
+  {
+    "Adı": "Sindirim Sistemi Hastalıkları",
+    "Background": "https://raw.githubusercontent.com/furkanmulayim/kaynakDosyasiSaglik/main/hastalik-gorseller/grip.png",
+    "Foreground": "https://raw.githubusercontent.com/furkanmulayim/kaynakDosyasiSaglik/main/hastalik-gorseller/grip.png"
+  },
+  {
+    "Adı": "Kas-İskelet Sistemi Hastalıkları",
+    "Background": "https://raw.githubusercontent.com/furkanmulayim/kaynakDosyasiSaglik/main/hastalik-gorseller/grip.png",
+    "Foreground": "https://raw.githubusercontent.com/furkanmulayim/kaynakDosyasiSaglik/main/hastalik-gorseller/grip.png"
+  }
+]
