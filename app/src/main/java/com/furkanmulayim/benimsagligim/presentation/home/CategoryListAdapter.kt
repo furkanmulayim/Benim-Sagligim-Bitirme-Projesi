@@ -11,6 +11,8 @@ import androidx.navigation.Navigation
 import androidx.recyclerview.widget.RecyclerView
 import com.furkanmulayim.benimsagligim.R
 import com.furkanmulayim.benimsagligim.domain.model.CategoryListDisease
+import com.furkanmulayim.benimsagligim.util.ProgressBarr
+import com.furkanmulayim.benimsagligim.util.loadImage
 
 
 class CategoryListAdapter(
@@ -35,13 +37,12 @@ class CategoryListAdapter(
         val item = dataList[position]
         //Pozisyondaki verileri iteme yerleştiriyoruz.
         holder.itemAdi.text = item.Adi
+        holder.itemFront.loadImage(item.Foreground, ProgressBarr(holder.itemView.context))
 
         //Hangi iteme tıklanırsa kategori detay sayfasına bilgileri gönderiyor.
         holder.itemView.setOnClickListener {
-            val action = HomeFragmentDirections.actionHomeFragmentToDiseaseCategoryFragment(
-                item.Adi, item.Background, item.Foreground
-            )
-            Navigation.findNavController(it).navigate(action)
+          //  val action = HomeFragmentDirections.actionHomeFragmentToDiseaseCategoryFragment( //item.Adi, item.Background, item.Foreground)
+            //Navigation.findNavController(it).navigate(action)
         }
     }
 
