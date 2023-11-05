@@ -115,3 +115,8 @@ fun ImageView.loadImage(url: String?, progressDrawable: CircularProgressDrawable
     Glide.with(context).setDefaultRequestOptions(opt).load(url).into(this)
 }
 
+fun ImageView.loadImageCategpry(url: String?) {
+    val opt = RequestOptions().error(R.drawable.r_3)
+    Glide.with(context).setDefaultRequestOptions(opt).load(url).into(this).waitForLayout()
+}
+

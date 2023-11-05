@@ -42,7 +42,7 @@ class HomeFragment : Fragment() {
         binding.categoryRcyc.layoutManager = GridLayoutManager(requireContext(), 4)
         binding.categoryRcyc.adapter = adapterCategories
 
-        viewModel.loadMostViews()
+        viewModel.refreshData()
         observeLiveData()
         clickListeners()
     }
@@ -50,36 +50,44 @@ class HomeFragment : Fragment() {
 
     private fun observeLiveData() {
         viewModel.diseaseList.observe(viewLifecycleOwner, Observer {
-            adapterDisease.updateList(it)
+            it?.let {
+                adapterDisease.updateList(it)
+            }
         })
 
         viewModel.categoriesList.observe(viewLifecycleOwner, Observer {
-            adapterCategories.updateList(it)
+            it?.let {
+                adapterCategories.updateList(it)
+            }
         })
+
+
     }
 
 
     private fun clickListeners() {
 
-        //back button tıklandığında BANA ÖZEL SAYFASINA gidecek.
+        //bana özele
         binding.banaOzelButton.setOnClickListener {
             viewModel.navigate(requireView(), R.id.action_homeFragment_to_forMeFragment)
         }
 
-        //back button tıklandığında NEYİM VAR SAYFASINA gidecek.
+        //neyim var
         binding.constraintLayout3.setOnClickListener {
             viewModel.navigate(requireView(), R.id.action_homeFragment_to_diseaseDetectionFragment)
         }
 
-        //search button tıklanınca ARAMA SAYFASINA gidecek.
+        //search page
         binding.searchDiseaseButton.setOnClickListener {
             viewModel.navigate(requireView(), R.id.action_homeFragment_to_searchFragment)
         }
 
+        //acila arama
         binding.emergencyCall.setOnClickListener {
             requireActivity().startCallWithPermission("5344533008", 123)
         }
 
+        //ilaç tara
         binding.pillDetectButton.setOnClickListener {
             viewModel.navigate(requireView(), R.id.action_homeFragment_to_pillInformationFragment)
         }

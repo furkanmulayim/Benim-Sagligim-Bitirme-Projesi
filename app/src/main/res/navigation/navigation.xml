@@ -43,10 +43,10 @@
             app:argType="string" />
         <argument
             android:name="diseaseBackground"
-            app:argType="integer" />
+            app:argType="string" />
         <argument
             android:name="diseaseForeground"
-            app:argType="integer" />
+            app:argType="string" />
     </fragment>
     <fragment
         android:id="@+id/forMeFragment"

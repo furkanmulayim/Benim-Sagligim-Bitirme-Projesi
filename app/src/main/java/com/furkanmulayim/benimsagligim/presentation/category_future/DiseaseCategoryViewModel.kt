@@ -22,8 +22,8 @@ class DiseaseCategoryViewModel : ViewModel() {
     private val disposable = CompositeDisposable()
 
     val diseaseName = MutableLiveData<String>()
-    val backgroun = MutableLiveData<Int>()
-    val foregroun = MutableLiveData<Int>()
+    val backgroun = MutableLiveData<String>()
+    val foregroun = MutableLiveData<String>()
 
     val diseaseList = MutableLiveData<List<Disease>>()
 
@@ -41,46 +41,22 @@ class DiseaseCategoryViewModel : ViewModel() {
                 .subscribeWith(object : DisposableSingleObserver<List<Disease>>() {
                     override fun onSuccess(t: List<Disease>) {
 
-                        diseaseList.value = t.subList(hangisindeyik()[0], hangisindeyik()[1])
+                        diseaseList.value = t.subList(hangiHastaliktaOldugunuBul()[0], hangiHastaliktaOldugunuBul()[1])
                     }
 
                     override fun onError(e: Throwable) {
-                        println("furkaaaan" + e.localizedMessage)
+                        println(e.localizedMessage)
                     }
                 })
         )
     }
 
-    private fun hangisindeyik(): Array<Int> {
-        val a = Array(2) { 0 }
-        val listeSira = diseaseName.value.toString().categoryListeSiraBul()
-        when {
-            diseaseName.value.toString() == "Bulaşıcı Hastalıklar" -> {
-                a[0] = 0
-                a[1] = 20
-            }
-            diseaseName.value.toString() == "Nörolojik Hastalıklar" -> {
-                a[0] = 20
-                a[1] = 35
-            }
-            diseaseName.value.toString() == "Solunum Sistemi Hastalıkları" -> {
-                a[0] = 35
-                a[1] = 47
-            }
-            diseaseName.value.toString() == "Ruhsal Hastalıklar" -> {
-                a[0] = 47
-                a[1] = 56
-            }
-            diseaseName.value.toString() == "Üreme Sistemi Hastalıkları" -> {
-                a[0] = 56
-                a[1] = 66
-            }
-        }
-        return a
+    private fun hangiHastaliktaOldugunuBul(): Array<Int> {
+        return diseaseName.value.toString().categoryListeSiraBul()
     }
 
 
-    fun setBundle(name: String, back: Int, fore: Int, cl: ConstraintLayout, iv: ImageView) {
+    fun setBundle(name: String, back: String, fore: String, cl: ConstraintLayout, iv: ImageView) {
         diseaseName.value = name
         backgroun.value = back
         foregroun.value = fore

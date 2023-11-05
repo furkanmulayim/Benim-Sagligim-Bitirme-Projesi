@@ -1,61 +1,44 @@
 package com.furkanmulayim.benimsagligim.presentation.home
 
+import android.app.Application
 import android.view.View
 import androidx.lifecycle.MutableLiveData
-import androidx.lifecycle.ViewModel
+import androidx.lifecycle.viewModelScope
 import androidx.navigation.Navigation
-import com.furkanmulayim.benimsagligim.R
 import com.furkanmulayim.benimsagligim.data.service.CategoryAPIService
 import com.furkanmulayim.benimsagligim.data.service.DiseaseAPIService
+import com.furkanmulayim.benimsagligim.data.service.DiseaseDatabase
 import com.furkanmulayim.benimsagligim.domain.model.CategoryListDisease
 import com.furkanmulayim.benimsagligim.domain.model.Disease
+import com.furkanmulayim.benimsagligim.util.SharedPrefs
 import io.reactivex.android.schedulers.AndroidSchedulers
 import io.reactivex.disposables.CompositeDisposable
 import io.reactivex.observers.DisposableSingleObserver
 import io.reactivex.schedulers.Schedulers
+import kotlinx.coroutines.Dispatchers
+import kotlinx.coroutines.launch
+import kotlinx.coroutines.withContext
 
-class HomeViewModel : ViewModel() {
+class HomeViewModel(application: Application) : BaseViewModel(application) {
+
+    private var sp = SharedPrefs(getApplication())
+
+    private var refreshTime = 5 * 1000 * 1000 * 1000L //10 dakika
 
     private val diseaseApiService = DiseaseAPIService()
-    //Kullan at değişkenimiz.. Hafıza tüketmememek için
-    private val disposable = CompositeDisposable()
-    //hastalıkları almak için
-    val diseaseList = MutableLiveData<List<Disease>>()
-
     private val categoryApiService = CategoryAPIService()
-    //Kullan at değişkenimiz.. Hafıza tüketmememek için
+
+    private val disposable = CompositeDisposable()//Kullan at değişkenimiz.. Hafıza tüketmememek için
     private val disp2 = CompositeDisposable()
-    //hastalıkları almak için
-    val categoriesList = MutableLiveData<List<CategoryListDisease>>()
+
+    val diseaseList = MutableLiveData<List<Disease>>()//hastalıkları almak için
+    val categoriesList = MutableLiveData<List<CategoryListDisease>>()//kategorileri almak için
 
 
-    fun loadMostViews(){
-        getDataFromApi()
-        getCatregoriesApi()
-    }
-
-    private fun getDataFromApi() {
-        disposable.add(
-            diseaseApiService.getData()
-                //Async Olarak Yeni threadde yapar
-                .subscribeOn(Schedulers.newThread())
-                //Ana Threadde göstereceğiz
-                .observeOn(AndroidSchedulers.mainThread())
-                .subscribeWith(object : DisposableSingleObserver<List<Disease>>() {
-                    override fun onSuccess(t: List<Disease>) {
-                        diseaseList.value = t
-                    }
-
-                    override fun onError(e: Throwable) {
-                    }
-                })
-        )
-    }
-
+    //kategorileri apiden getirir getirir
     private fun getCatregoriesApi() {
         disp2.add(
-            categoryApiService.getCategories()
-                .subscribeOn(Schedulers.newThread())
+            categoryApiService.getCategories().subscribeOn(Schedulers.newThread())
                 .observeOn(AndroidSchedulers.mainThread())
                 .subscribeWith(object : DisposableSingleObserver<List<CategoryListDisease>>() {
                     override fun onSuccess(t: List<CategoryListDisease>) {
@@ -67,6 +50,67 @@ class HomeViewModel : ViewModel() {
                     }
                 })
         )
+    }
+
+    fun refreshData() {
+        val updateTime = sp.getTime()
+
+        if (updateTime != null && updateTime != 0L) {
+            getDataFromSqlite()
+        } else {
+            getDataFromApi()
+        }
+        getCatregoriesApi()
+    }
+
+
+    //apiden hastalık verileri alır
+    private fun getDataFromApi() {
+        disposable.add(
+            diseaseApiService.getData()
+                //Async Olarak Yeni threadde yapar
+                .subscribeOn(Schedulers.newThread())
+                //Ana Threadde göstereceğiz
+                .observeOn(AndroidSchedulers.mainThread())
+                .subscribeWith(object : DisposableSingleObserver<List<Disease>>() {
+                    override fun onSuccess(t: List<Disease>) {
+                        depolaSQLite(t)//Apiden gelen listeyi depoya gönderik
+                        showDiseases(t) //Apiden gelen listeyi döndürdük
+                    }
+
+                    override fun onError(e: Throwable) {
+                        println(e.localizedMessage)
+                    }
+                })
+        )
+    }
+
+    //hastalık verilerini Room ile sqlde depolar
+    private fun depolaSQLite(list: List<Disease>) {
+
+        viewModelScope.launch(Dispatchers.IO) {
+            val dao = DiseaseDatabase(getApplication()).diseaseDao()
+            dao.deleteAlldisease()
+            val listLong = dao.insertAll(*list.toTypedArray())
+            var i = 0
+            while (i < list.size) {
+                list[i].uuid = listLong[i].toInt()
+                i++
+            }
+        }
+        sp.saveTime(System.nanoTime())
+    }
+
+    //
+    private fun showDiseases(diseLis: List<Disease>) {
+        diseaseList.postValue(diseLis)
+    }
+
+    private fun getDataFromSqlite() {
+        launch {
+            val disease = DiseaseDatabase(getApplication()).diseaseDao().getAllDiseases()
+            showDiseases(disease)
+        }
     }
 
     fun navigate(view: View, pageId: Int) {

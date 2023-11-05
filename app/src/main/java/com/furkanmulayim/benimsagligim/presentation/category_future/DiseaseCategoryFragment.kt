@@ -41,6 +41,7 @@ class DiseaseCategoryFragment : Fragment() {
         observeLiveData()
 
         incomingDataToPage()
+        refreshListener()
         clickListeners()
     }
 
@@ -55,6 +56,13 @@ class DiseaseCategoryFragment : Fragment() {
                 binding.diseaseNameSpace,
                 binding.hastalikSvg
             )
+        }
+    }
+
+    private fun refreshListener() {
+        binding.refreshLayout.setOnRefreshListener {
+            viewModel.refresh()
+            binding.refreshLayout.isRefreshing = false
         }
     }
 

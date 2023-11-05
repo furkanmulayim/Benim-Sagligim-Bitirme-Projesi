@@ -21,8 +21,8 @@
   },
   {
     "Adı": "Üreme Sistemi Hastalıkları",
-    "Background": "https://raw.githubusercontent.com/furkanmulayim/kaynakDosyasiSaglik/main/kategori-gorseller/kasback.png",
-    "Foreground": "https://raw.githubusercontent.com/furkanmulayim/kaynakDosyasiSaglik/main/kategori-gorseller/kas.png"
+    "Background": "https://raw.githubusercontent.com/furkanmulayim/kaynakDosyasiSaglik/main/kategori-gorseller/uremeback.png",
+    "Foreground": "https://raw.githubusercontent.com/furkanmulayim/kaynakDosyasiSaglik/main/kategori-gorseller/ureme.png"
   },
   {
     "Adı": "Boşaltım Sistemi Hastalıkları",
@@ -36,7 +36,7 @@
   },
   {
     "Adı": "Kas-İskelet Sistemi Hastalıkları",
-    "Background": "https://raw.githubusercontent.com/furkanmulayim/kaynakDosyasiSaglik/main/kategori-gorseller/uremeback.png",
-    "Foreground": "https://raw.githubusercontent.com/furkanmulayim/kaynakDosyasiSaglik/main/kategori-gorseller/ureme.png"
+    "Background": "https://raw.githubusercontent.com/furkanmulayim/kaynakDosyasiSaglik/main/kategori-gorseller/kasback.png",
+    "Foreground": "https://raw.githubusercontent.com/furkanmulayim/kaynakDosyasiSaglik/main/kategori-gorseller/kas.png"
   }
 ]
