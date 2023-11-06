@@ -1,4 +1,4 @@
-package com.furkanmulayim.benimsagligim.data.service
+package com.furkanmulayim.benimsagligim.data.service.disease
 
 import com.furkanmulayim.benimsagligim.domain.model.Disease
 import io.reactivex.Single

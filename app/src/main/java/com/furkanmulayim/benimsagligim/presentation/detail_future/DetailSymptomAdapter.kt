@@ -1,15 +1,17 @@
 package com.furkanmulayim.benimsagligim.presentation.detail_future
 
+import android.annotation.SuppressLint
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
 import com.furkanmulayim.benimsagligim.R
+import com.furkanmulayim.benimsagligim.domain.model.Disease
 
 
 class DetailSymptomAdapter(
-    private val dataList: List<String>
+    private val dataList: ArrayList<String>
 ) : RecyclerView.Adapter<DetailSymptomAdapter.ViewHolder>() {
 
     class ViewHolder(itemView: View) : RecyclerView.ViewHolder(itemView) {
@@ -30,5 +32,13 @@ class DetailSymptomAdapter(
     override fun getItemCount(): Int {
         return dataList.size
     }
+
+    @SuppressLint("NotifyDataSetChanged")
+    fun updateList(newList: ArrayList<String>) {
+        dataList.clear()
+        dataList.addAll((newList))
+        notifyDataSetChanged()
+    }
+
 }
 

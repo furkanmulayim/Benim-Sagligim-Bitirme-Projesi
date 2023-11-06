@@ -1,4 +1,4 @@
-package com.furkanmulayim.benimsagligim.data.service
+package com.furkanmulayim.benimsagligim.data.service.disease
 
 import androidx.room.Dao
 import androidx.room.Insert
@@ -23,6 +23,9 @@ interface DiseaseDAO {
     //detay sayfası için tek veri döndürür, parametre olarak primary key alır
     @Query("SELECT * FROM disease WHERE uuid = :diseaseId")
     suspend fun getDiseases(diseaseId: Int): Disease
+
+    @Query("SELECT * FROM disease WHERE adi = :name")
+    suspend fun getDiseaseSimilar(name: String): Disease
 
     //kullanıcı verileri temizlemesi için
     @Query("DELETE FROM disease")

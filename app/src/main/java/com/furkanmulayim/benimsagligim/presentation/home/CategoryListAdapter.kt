@@ -38,6 +38,7 @@ class CategoryListAdapter(
         holder.itemFront.loadImageCategpry(item.Foreground)
         holder.itemBack.loadImageCategpry(item.Background)
 
+
         //Hangi iteme tıklanırsa kategori detay sayfasına bilgileri gönderiyor.
         holder.itemView.setOnClickListener {
             val action = HomeFragmentDirections.actionHomeFragmentToDiseaseCategoryFragment(

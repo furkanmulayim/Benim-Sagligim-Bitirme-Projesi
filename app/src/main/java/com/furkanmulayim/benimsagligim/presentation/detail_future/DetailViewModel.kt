@@ -1,120 +1,82 @@
 package com.furkanmulayim.benimsagligim.presentation.detail_future
 
-import android.content.Context
+import android.app.Application
 import android.widget.ImageView
 import androidx.lifecycle.MutableLiveData
-import androidx.lifecycle.ViewModel
-import com.furkanmulayim.benimsagligim.data.service.DiseaseAPIService
+import androidx.lifecycle.viewModelScope
+import com.furkanmulayim.benimsagligim.data.service.disease.DiseaseDatabase
 import com.furkanmulayim.benimsagligim.domain.model.Disease
-import com.furkanmulayim.benimsagligim.util.ProgressBarr
+import com.furkanmulayim.benimsagligim.presentation.home.BaseViewModel
 import com.furkanmulayim.benimsagligim.util.fillPieChart
-import com.furkanmulayim.benimsagligim.util.loadImage
+import com.furkanmulayim.benimsagligim.util.loadImageCategpry
 import com.github.mikephil.charting.charts.PieChart
-import io.reactivex.android.schedulers.AndroidSchedulers
-import io.reactivex.disposables.CompositeDisposable
-import io.reactivex.observers.DisposableSingleObserver
-import io.reactivex.schedulers.Schedulers
+import kotlinx.coroutines.Dispatchers
+import kotlinx.coroutines.launch
 
-class DetailViewModel : ViewModel() {
+class DetailViewModel(application: Application) : BaseViewModel(application) {
 
-    //Kullan at değişkenimiz.. Hafıza tüketmememek için
-    private val disposable = CompositeDisposable()
-    private val diseaseApiService = DiseaseAPIService()
+    //Room ile gelen hastalık verileri bu listeyle adaptöre göndereceğiz
+    val hastalik = MutableLiveData<Disease>()
 
+    //Room ile gelen benzer hastalık verileri bu listeyle adaptöre göndereceğiz
+    val similarDiseaseList = MutableLiveData<List<Disease>>()
 
-    private var list: Array<String>? = null
-    val diseases = MutableLiveData<List<Disease>>()
-
-    val adi = MutableLiveData<String>()
-    val latinAd = MutableLiveData<String>()
-    val hakkinda = MutableLiveData<String>()
-    val riskOrani = MutableLiveData<String>()
-    val gorulmeSikligi = MutableLiveData<String>()
-    val riskText = MutableLiveData<String>()
-    val gorulmeText = MutableLiveData<String>()
-    val korunmaYollari = MutableLiveData<String>()
-    val enfekteOldum = MutableLiveData<String>()
-    val etiketler = MutableLiveData<String>()
-    val benzerHastaliklar = MutableLiveData<String>()
-
-    fun getDataFromApi() {
-        disposable.add(
-            diseaseApiService.getData()
-                //Async Olarak Yeni threadde yapar
-                .subscribeOn(Schedulers.newThread())
-                //Ana Threadde göstereceğiz
-                .observeOn(AndroidSchedulers.mainThread())
-                .subscribeWith(object : DisposableSingleObserver<List<Disease>>() {
-                    override fun onSuccess(t: List<Disease>) {
-
-                        val listemiz = benzerHastaliklar.value?.let { benzerListAyikla(it) }
-                        val temp = mutableListOf<Disease>()
-
-                        for (i in t) {
-                            if (listemiz != null) {
-                                for (x in listemiz) {
-                                    if (x == i.adi) {
-                                        temp.add(i)
-                                    }
-                                }
-                            }
-                        }
-                        diseases.value = temp
-
-                    }
-
-                    override fun onError(e: Throwable) {
-                        println("furkaaaan" + e.localizedMessage)
-                    }
-                })
-        )
+    fun refresh(id: Int) {
+        //room ile verileri çektik bu fonksiyon frgamentten çağırılacak
+        getDiseasesDataFromRoom(id)
     }
 
+    private fun getDiseasesDataFromRoom(uuid: Int) {
+        //hastakiklari ROOM'dan alıyoruz (bundle ile gelen UUID sayesinde)
+        viewModelScope.launch(Dispatchers.IO) {
+            val dao = DiseaseDatabase(getApplication()).diseaseDao()
+            val hasta = dao.getDiseases(uuid)
+            hastalik.postValue(hasta)
+        }
+    }
 
-    //bundle array ile gelen veriyi eşitliyoruz
-    fun verileriEsle(diseaseArray: Array<String>?) {
-        list = diseaseArray
-        list.let {
-            if (it != null) {
-                adi.value = it[0]
-                latinAd.value = it[1]
-                hakkinda.value = it[2]
-                riskOrani.value = it[3]
-                gorulmeSikligi.value = it[4]
-                korunmaYollari.value = it[5]
-                enfekteOldum.value = it[6]
-                etiketler.value = it[7]
-                benzerHastaliklar.value = it[8]
-
-                riskText.value = "%" + it[3]
-                gorulmeText.value = "%" + it[4]
+    private fun getSimilarDiseasesDataFromRoom(list: List<String>) {
+        //benzer hastalıkları Room ile Çekeceğiz
+        //parametre olarak gelen veri (HSV,HPV,Kolera) liste türünden
+        val temp: MutableList<Disease> = arrayListOf() //geçici liste
+        var x = 0
+        for (i in list.indices) {
+            x++
+            viewModelScope.launch(Dispatchers.IO) {
+                val dao = DiseaseDatabase(getApplication()).diseaseDao()
+                //eğer listedeki hastalık herhangi bir hastalık ismi ile eşleşirse
+                val hasta = dao.getDiseaseSimilar(list[i])
+                if (hasta != null) {
+                    //ve hasta değişkeni boş değilse geçici listeye ekler
+                    temp.add(hasta)
+                }
             }
         }
+        //en son geçici listemizden asıl listemize paslarız
+        similarDiseaseList.postValue(temp)
     }
 
-    fun gorselEsitle(image: ImageView, context: Context) {
-        image.loadImage(list?.get(9), ProgressBarr(context))
+    fun getSimilar(benzer: String) {
+        //string olarak gelen benzer hastalıkları liste haline dönüştürür ve Room fonksiyonuna paslar.
+        return getSimilarDiseasesDataFromRoom(benzer.split(",").map { it.trim() })
     }
 
-    fun pieChartEsitle(pieChartRisk: PieChart, pieChartGorulme: PieChart) {
-        val riskOranSayisi = riskOrani.value?.toFloat()
-        val gorulmeSiklikSayisi = gorulmeSikligi.value?.toFloat()
-
-        if (riskOranSayisi != null) {
-            pieChartRisk.fillPieChart(riskOranSayisi, (100 - riskOranSayisi))
-        }
-
-        if (gorulmeSiklikSayisi != null) {
-            pieChartGorulme.fillPieChart(gorulmeSiklikSayisi, (100 - gorulmeSiklikSayisi))
-        }
+    fun etiketAyiklaEsitle(etiketler: String): List<String> {
+        //string olarak gelen benzer hastalıkları liste haline döndürür
+        return etiketler.split(",").map { it.trim() }
     }
 
-    fun etiketAyiklaEsitle(): List<String>? {
-        return etiketler.value?.split(",")?.map { it.trim() }
+    fun gorselEsitle(image: ImageView, link: String) {
+        //string olarak gelen linki image view'a indirir.
+        image.loadImageCategpry(link)
     }
 
-    fun benzerListAyikla(s: String): List<String> {
-        return s.split(",").map { it.trim() }
+    fun pieChartEsitle(
+        pieChartRisk: PieChart, risko: Float, pieChartGorulme: PieChart, gorulmes: Float
+    ) {
+        // risk oranı ve görülme oranlarını şema olarak görüntülemek için kullanıyoruz
+        pieChartRisk.fillPieChart(risko, 100 - risko)
+        pieChartGorulme.fillPieChart(gorulmes, 100 - gorulmes)
     }
 
 

@@ -1,25 +1,20 @@
 package com.furkanmulayim.benimsagligim.presentation.category_future
 
+import android.app.Application
 import android.view.View
 import android.widget.ImageView
 import androidx.constraintlayout.widget.ConstraintLayout
 import androidx.lifecycle.MutableLiveData
-import androidx.lifecycle.ViewModel
 import androidx.navigation.Navigation
-import com.furkanmulayim.benimsagligim.data.service.DiseaseAPIService
+import com.furkanmulayim.benimsagligim.data.service.disease.DiseaseDatabase
 import com.furkanmulayim.benimsagligim.domain.model.Disease
+import com.furkanmulayim.benimsagligim.presentation.home.BaseViewModel
 import com.furkanmulayim.benimsagligim.util.categoryListeSiraBul
-import io.reactivex.android.schedulers.AndroidSchedulers
-import io.reactivex.disposables.CompositeDisposable
-import io.reactivex.observers.DisposableSingleObserver
-import io.reactivex.schedulers.Schedulers
+import com.furkanmulayim.benimsagligim.util.loadImageCategpry
+import kotlinx.coroutines.launch
 
 
-class DiseaseCategoryViewModel : ViewModel() {
-
-    private val diseaseApiService = DiseaseAPIService()
-    //Kullan at değişkenimiz.. Hafıza tüketmememek için
-    private val disposable = CompositeDisposable()
+class DiseaseCategoryViewModel(application: Application) : BaseViewModel(application) {
 
     val diseaseName = MutableLiveData<String>()
     val backgroun = MutableLiveData<String>()
@@ -28,40 +23,33 @@ class DiseaseCategoryViewModel : ViewModel() {
     val diseaseList = MutableLiveData<List<Disease>>()
 
     fun refresh() {
-        getDataFromApi()
+        getDiseasesDataFromRoom()
     }
 
-    private fun getDataFromApi() {
-        disposable.add(
-            diseaseApiService.getData()
-                //Async Olarak Yeni threadde yapar
-                .subscribeOn(Schedulers.newThread())
-                //Ana Threadde göstereceğiz
-                .observeOn(AndroidSchedulers.mainThread())
-                .subscribeWith(object : DisposableSingleObserver<List<Disease>>() {
-                    override fun onSuccess(t: List<Disease>) {
-
-                        diseaseList.value = t.subList(hangiHastaliktaOldugunuBul()[0], hangiHastaliktaOldugunuBul()[1])
-                    }
-
-                    override fun onError(e: Throwable) {
-                        println(e.localizedMessage)
-                    }
-                })
-        )
+    //hastakiklari ROOM'dan al
+    private fun getDiseasesDataFromRoom() {
+        launch {
+            val dao = DiseaseDatabase(getApplication()).diseaseDao().getAllDiseases()
+            showDiseases(dao)
+        }
     }
 
-    private fun hangiHastaliktaOldugunuBul(): Array<Int> {
+    //yeni hastalıkları görüntülenecek olan listeye ekle
+    private fun showDiseases(diseLis: List<Disease>) {
+        var newList = diseLis.subList(diseaseBolum()[0], diseaseBolum()[1])
+        diseaseList.postValue(newList)
+    }
+
+    //listeden hastalığın hangi aralıkta olduğunu bul
+    private fun diseaseBolum(): Array<Int> {
         return diseaseName.value.toString().categoryListeSiraBul()
     }
 
 
-    fun setBundle(name: String, back: String, fore: String, cl: ConstraintLayout, iv: ImageView) {
+    fun setBundle(name: String,fore: String, iv: ImageView) {
         diseaseName.value = name
-        backgroun.value = back
         foregroun.value = fore
-        //cl.setBackgroundResource(backgroun.value.toString().toInt())
-        //iv.setBackgroundResource(foregroun.value.toString().toInt())
+        iv.loadImageCategpry(fore)
     }
 
     fun navigate(view: View, pageId: Int) {

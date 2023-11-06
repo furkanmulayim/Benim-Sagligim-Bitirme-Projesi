@@ -51,9 +51,7 @@ class DiseaseCategoryFragment : Fragment() {
         if (bundle.diseaseName.isNotEmpty()) {
             viewModel.setBundle(
                 bundle.diseaseName,
-                bundle.diseaseBackground,
                 bundle.diseaseForeground,
-                binding.diseaseNameSpace,
                 binding.hastalikSvg
             )
         }
@@ -62,7 +60,6 @@ class DiseaseCategoryFragment : Fragment() {
     private fun refreshListener() {
         binding.refreshLayout.setOnRefreshListener {
             viewModel.refresh()
-            binding.refreshLayout.isRefreshing = false
         }
     }
 

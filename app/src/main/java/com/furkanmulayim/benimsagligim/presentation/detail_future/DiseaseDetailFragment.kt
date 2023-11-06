@@ -14,9 +14,12 @@ import com.furkanmulayim.benimsagligim.R
 import com.furkanmulayim.benimsagligim.databinding.FragmentDiseaseDetailBinding
 
 class DiseaseDetailFragment : Fragment() {
+
     private lateinit var binding: FragmentDiseaseDetailBinding
     private lateinit var viewModel: DetailViewModel
-    private var adapter = SimilarDiseaseAdapter(arrayListOf())
+    private var diseaseUuid = 0
+    private var adapterSimilar = SimilarDiseaseAdapter(arrayListOf())
+    private var adapterHastags = DetailSymptomAdapter(arrayListOf())
 
 
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -26,54 +29,99 @@ class DiseaseDetailFragment : Fragment() {
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?, savedInstanceState: Bundle?
     ): View {
-        binding = DataBindingUtil.inflate(inflater, R.layout.fragment_disease_detail, container, false)
+        //ui nesnelerine erisebilmek amacıyla binding mesnesi oluşturup layout veriyoruz
+        binding =
+            DataBindingUtil.inflate(inflater, R.layout.fragment_disease_detail, container, false)
+
+        //viewmodel kullanacağımızı ve sınıfın hangisi olduğunu söylüyoruz
         viewModel = ViewModelProvider(this)[DetailViewModel::class.java]
 
+        //kategori list adaptöründen gelen uuidleri bundle aracılığı ile alıyoruz
+        arguments?.let {
+            diseaseUuid = DiseaseDetailFragmentArgs.fromBundle(it).uuid
+        }
+        //Detay Adaptörünü ayarlayarak esitliyoruz
+        binding.rcycDetailsHastags.layoutManager = GridLayoutManager(requireContext(), 3)
+        binding.rcycDetailsHastags.adapter = adapterHastags
+
+        //BenzerList Adaptörünü ayarlayarak esitliyoruz
         binding.benzerRcyc.layoutManager =
             LinearLayoutManager(requireContext(), LinearLayoutManager.HORIZONTAL, false)
-        binding.benzerRcyc.adapter = adapter
+        binding.benzerRcyc.adapter = adapterSimilar
 
         return binding.root
     }
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
+        //görünümdeki viewmodel ile oluşturduğumuz viewmodeli bağladık
         binding.viewModel = viewModel
-        verileriAlEsitle()
-        backButton()
-        etiketListele()
-        viewModel.getDataFromApi()
+
+        //çeşitli fonksiyonlar..
+        viewModel.refresh(diseaseUuid)
+        onClickListeners()
         observeLiveData()
+
     }
 
-    fun verileriAlEsitle() {
-        val diseaseArray = arguments?.getStringArray("diseaseBundle")
-        viewModel.verileriEsle(diseaseArray)
-
-        viewModel.gorselEsitle(binding.shapeableImageView, requireContext())
-
-        viewModel.pieChartEsitle(binding.pieChartRisk, binding.pieChartGorulme)
-    }
-
-
-    private fun backButton() {
+    private fun onClickListeners() {
+        //button click olaylarını dinliyoruz
         binding.backButton.setOnClickListener {
             requireActivity().onBackPressed()
         }
     }
 
-    private fun etiketListele() {
-        binding.rcycDetailsHastags.layoutManager = GridLayoutManager(requireContext(), 3)
-        binding.rcycDetailsHastags.adapter =
-            viewModel.etiketAyiklaEsitle()?.let { DetailSymptomAdapter(it) }
+    fun semaEsitle(risk: Float, gorulme: Float) {
+        //pieChart oluşturmak için viewModel'e verileri Gönderiyoruz
+        viewModel.pieChartEsitle(binding.pieChartRisk, risk, binding.pieChartGorulme, gorulme)
+
+    }
+
+    fun gorselEsitle(link: String) {
+        //linkini verdiğimiz görsellerimizi image viewa basar
+        viewModel.gorselEsitle(binding.shapeableImageView, link)
     }
 
     private fun observeLiveData() {
-        viewModel.diseases.observe(viewLifecycleOwner, Observer {
-            it?.let {
-                adapter.updateList(it)
-            }
-        })
-    }
 
+        viewModel.let { vm ->
+            vm.hastalik.observe(viewLifecycleOwner, Observer { hast ->
+                hast.let {
+                    //gelenleri ui uzerie basıyoruz
+                    binding.let { b ->
+                        b.hastalikAdiDetay.text = hast.adi
+                        b.hastalikAdiLatinceDetay.text = hast.latinAd
+                        b.hakkindaDetay.text = hast.hakkinda
+                        b.hastalikKorunmaYollariDetay.text = hast.korunmaYollari
+                        b.enfekteOldum.text = hast.enfekteOldum
+                        b.riskText.text = hast.riskOrani
+                        b.gorulmeText.text = hast.gorulmeSikligi
+                    }
+
+                    //gorulme ve risk oranlarını tip dönüşümü yaparak sema gösterme sınıfına gönderiyoruz
+                    val gorulme = hast.gorulmeSikligi.toFloat()
+                    val risk = hast.riskOrani.toFloat()
+                    semaEsitle(risk, gorulme)
+
+                    val link = vm.hastalik.value?.gorselLinki.toString()
+                    gorselEsitle(link)
+
+                    //etiket listesi ve benzer hastalıklar listelerini ayarlıyoruz
+                    val etiketList = vm.etiketAyiklaEsitle(hast.etiketler) as ArrayList<String>
+                    vm.getSimilar(hast.benzerHastaliklar)
+
+                    // etiketleri adaptöre gönderiyoruz
+                    adapterHastags.updateList(etiketList)
+
+                    //benzer hastalıkları gözlemliyoruz
+                    vm.similarDiseaseList.observe(viewLifecycleOwner, Observer {
+                        if (it.isNotEmpty()) {
+                            //benezer hastalıklar adaptörüne benzer listemizi veriyoruz
+                            adapterSimilar.updateList(it)
+                        }
+                    })
+                }
+            })
+        }
+    }
 }

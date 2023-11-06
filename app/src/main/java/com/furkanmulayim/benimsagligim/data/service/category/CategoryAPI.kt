@@ -1,4 +1,4 @@
-package com.furkanmulayim.benimsagligim.data.service
+package com.furkanmulayim.benimsagligim.data.service.category
 
 import com.furkanmulayim.benimsagligim.domain.model.CategoryListDisease
 import com.furkanmulayim.benimsagligim.domain.model.Disease

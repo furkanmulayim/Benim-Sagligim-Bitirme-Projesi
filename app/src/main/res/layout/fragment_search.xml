@@ -39,23 +39,23 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="50dp"
-            android:background="@drawable/search_back"
             android:layout_marginStart="60dp"
             android:layout_marginEnd="60dp"
+            android:background="@drawable/search_back"
             android:orientation="horizontal"
-            app:layout_constraintEnd_toStartOf="@+id/constraintLayout2"
+            app:layout_constraintEnd_toStartOf="@+id/scanCamera"
             app:layout_constraintStart_toEndOf="@+id/backButton"
             app:layout_constraintTop_toTopOf="parent">
 
             <EditText
-                android:layout_weight="1"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_gravity="center"
+                android:layout_weight="1"
                 android:backgroundTint="@color/item_background"
+                android:focusedByDefault="true"
                 android:hint="@string/search"
                 android:paddingStart="10dp"
-                android:focusedByDefault="true"
                 android:paddingEnd="10dp"
                 android:textColor="@color/text_h1"
                 android:textSize="15sp" />

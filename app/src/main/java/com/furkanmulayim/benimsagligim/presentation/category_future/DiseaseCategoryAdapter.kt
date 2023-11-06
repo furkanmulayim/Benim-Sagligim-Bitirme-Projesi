@@ -56,27 +56,12 @@ class DiseaseCategoryAdapter(
         }
         holder.image.loadImage(url = item.gorselLinki, ProgressBarr(holder.itemView.context))
 
-        //Bilgileri bir dizide topladık
-        val diseaseArray = arrayOf(
-            item.adi,
-            item.latinAd,
-            item.hakkinda,
-            item.riskOrani,
-            item.gorulmeSikligi,
-            item.korunmaYollari,
-            item.enfekteOldum,
-            item.etiketler,
-            item.benzerHastaliklar,
-            item.gorselLinki
-        )
+
 
         //herhangi bir iteme tıklanınca olacaklar
         holder.button.setOnClickListener {
             //Navigasyon ile detay sayfasına geçiş yaparken listemizi de bundle ile gönderiyoruz
-            val action =
-                DiseaseCategoryFragmentDirections.actionDiseaseCategoryFragmentToDiseaseDetailFragment(
-                    diseaseArray
-                )
+            val action = DiseaseCategoryFragmentDirections.actionDiseaseCategoryFragmentToDiseaseDetailFragment(item.uuid)
             Navigation.findNavController(it).navigate(action)
         }
 

@@ -7,12 +7,10 @@ import android.view.ViewGroup
 import android.widget.ImageView
 import android.widget.TextView
 import androidx.constraintlayout.widget.ConstraintLayout
-import androidx.navigation.Navigation
 import androidx.recyclerview.widget.RecyclerView
 import androidx.swiperefreshlayout.widget.CircularProgressDrawable
 import com.furkanmulayim.benimsagligim.R
 import com.furkanmulayim.benimsagligim.domain.model.Disease
-import com.furkanmulayim.benimsagligim.presentation.category_future.DiseaseCategoryFragmentDirections
 import com.furkanmulayim.benimsagligim.util.loadImage
 
 

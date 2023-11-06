@@ -80,12 +80,13 @@
           <action
             android:id="@+id/action_diseaseDetailFragment_to_diseaseCategoryFragment"
             app:destination="@id/diseaseCategoryFragment"/>
-        <argument
-            android:name="diseaseBundle"
-            app:argType="string[]" />
         <action
             android:id="@+id/action_diseaseDetailFragment_self"
             app:destination="@id/diseaseDetailFragment" />
+        <argument
+            android:name="uuid"
+            app:argType="integer"
+            android:defaultValue="0" />
     </fragment>
     <fragment
         android:id="@+id/resultFragment"

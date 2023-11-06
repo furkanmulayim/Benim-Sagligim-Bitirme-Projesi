@@ -14,10 +14,10 @@
     <androidx.swiperefreshlayout.widget.SwipeRefreshLayout
         android:id="@+id/refreshLayout"
         android:layout_width="match_parent"
+        android:layout_height="match_parent"
         android:layout_marginStart="20dp"
         android:layout_marginTop="20dp"
-        android:layout_marginEnd="20dp"
-        android:layout_height="match_parent">
+        android:layout_marginEnd="20dp">
 
 
         <androidx.constraintlayout.widget.ConstraintLayout
@@ -47,7 +47,7 @@
                 android:id="@+id/diseaseNameSpace"
                 android:layout_width="wrap_content"
                 android:layout_height="50dp"
-                android:background="@drawable/kategori_bulasici_back"
+                android:background="@drawable/back_back"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintTop_toTopOf="parent">
 
@@ -56,7 +56,6 @@
                     android:layout_width="20dp"
                     android:layout_height="20dp"
                     android:layout_marginStart="15dp"
-                    android:background="@drawable/kategori_bulasici_on"
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toTopOf="parent" />

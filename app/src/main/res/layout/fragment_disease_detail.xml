@@ -112,7 +112,6 @@
                         android:layout_marginEnd="15dp"
                         android:layout_marginBottom="15dp"
                         android:fontFamily="@font/inter_light"
-                        android:text="@{viewModel.hakkinda}"
                         android:textColor="@color/text_h1_5"
                         android:textSize="15sp" />
 
@@ -134,7 +133,6 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:paddingBottom="10dp"
-                        android:text="@{viewModel.adi}"
                         android:textColor="@color/white"
                         app:layout_constraintStart_toStartOf="parent"
                         app:layout_constraintTop_toTopOf="parent"/>
@@ -146,8 +144,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:paddingBottom="10dp"
-                        android:text="@{viewModel.latinAd}"
-                        android:textColor="@color/orange_h5"
+                        android:textColor="@color/orange_h6"
                         android:layout_marginStart="5dp"
                         app:layout_constraintStart_toEndOf="@id/hastalikAdiDetay"
                         app:layout_constraintTop_toTopOf="parent"/>
@@ -202,13 +199,13 @@
                             app:layout_constraintTop_toTopOf="parent" />
 
                         <TextView
+                            android:id="@+id/riskText"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:layout_margin="15dp"
                             android:fontFamily="@font/inter_black"
                             android:textAlignment="center"
                             android:textColor="@color/orange"
-                            android:text="@{viewModel.riskText}"
                             android:textSize="13sp"
                             app:layout_constraintBottom_toBottomOf="parent"
                             app:layout_constraintEnd_toEndOf="parent"
@@ -256,6 +253,7 @@
                             app:layout_constraintTop_toTopOf="parent" />
 
                         <TextView
+                            android:id="@+id/gorulmeText"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:layout_margin="15dp"
@@ -263,7 +261,6 @@
                             android:textAlignment="center"
                             android:textColor="@color/orange"
                             android:textSize="13sp"
-                            android:text="@{viewModel.gorulmeText}"
                             app:layout_constraintBottom_toBottomOf="parent"
                             app:layout_constraintEnd_toEndOf="parent"
                             app:layout_constraintStart_toStartOf="parent"
@@ -304,7 +301,6 @@
                         android:layout_marginTop="25dp"
                         android:layout_marginEnd="15dp"
                         android:fontFamily="@font/inter_light"
-                        android:text="@{viewModel.korunmaYollari}"
                         android:textColor="@color/text_h1_5"
                         android:textSize="15sp" />
 
@@ -349,6 +345,7 @@
                     app:layout_constraintStart_toStartOf="parent">
 
                     <TextView
+                        android:id="@+id/enfekteOldum"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginStart="15dp"
@@ -356,7 +353,6 @@
                         android:layout_marginEnd="15dp"
                         android:layout_marginBottom="15dp"
                         android:fontFamily="@font/inter_light"
-                        android:text="@{viewModel.enfekteOldum}"
                         android:textColor="@color/text_h1_5"
                         android:textSize="15sp" />
 
