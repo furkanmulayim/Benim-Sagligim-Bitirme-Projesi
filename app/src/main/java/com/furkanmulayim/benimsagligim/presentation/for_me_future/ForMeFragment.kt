@@ -6,6 +6,8 @@ import android.view.View
 import android.view.ViewGroup
 import androidx.databinding.DataBindingUtil
 import androidx.fragment.app.Fragment
+import androidx.lifecycle.Observer
+import androidx.lifecycle.ViewModelProvider
 import androidx.navigation.Navigation
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.furkanmulayim.benimsagligim.R
@@ -15,17 +17,25 @@ import com.furkanmulayim.benimsagligim.domain.model.ItemDisease
 class ForMeFragment : Fragment() {
 
     private lateinit var binding: FragmentForMeBinding
-    override fun onCreate(savedInstanceState: Bundle?) {
-        super.onCreate(savedInstanceState)
+    private lateinit var vm: SavedViewModel
+    private var adapter = ForMeAdapter(arrayListOf())
 
-    }
 
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?, savedInstanceState: Bundle?
     ): View {
         binding = DataBindingUtil.inflate(inflater, R.layout.fragment_for_me, container, false)
-        showOnAdapter()
+
+        //viewmodel kullanacağımızı ve sınıfın hangisi olduğunu söylüyoruz
+        vm = ViewModelProvider(this)[SavedViewModel::class.java]
+
+        //adapter ayarlıyoruz
+        binding.savedDiseases.layoutManager = LinearLayoutManager(requireContext())
+        binding.savedDiseases.adapter = adapter
+
+        vm.showDiseases()
         clickListeners()
+        observeLiveData()
         return binding.root
     }
 
@@ -41,20 +51,12 @@ class ForMeFragment : Fragment() {
         }
     }
 
-    private fun showOnAdapter() {
-        val dataList = listOf(
-            ItemDisease(
-                "Hastalık", "Latince İsmi", "Etiket1, Etiket2, Etiket3", "Derecelendirmesi"
-            ),
-            ItemDisease(
-                "Hastalık", "Latince İsmi", "Etiket1, Etiket2, Etiket3", "Derecelendirmesi"
-            ),
-        )
-
-        val adapter = ForMeAdapter(dataList)
-
-        binding.savedDiseases.layoutManager = LinearLayoutManager(requireContext())
-        binding.savedDiseases.adapter = adapter
+    private fun observeLiveData() {
+        vm.savedDiseaseList.observe(viewLifecycleOwner, Observer {list->
+            list.let {
+                adapter.updateList(list)
+            }
+        })
     }
 
 }

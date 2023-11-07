@@ -12,6 +12,7 @@ import androidx.recyclerview.widget.GridLayoutManager
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.furkanmulayim.benimsagligim.R
 import com.furkanmulayim.benimsagligim.databinding.FragmentDiseaseDetailBinding
+import com.furkanmulayim.benimsagligim.util.showMessage
 
 class DiseaseDetailFragment : Fragment() {
 
@@ -21,10 +22,6 @@ class DiseaseDetailFragment : Fragment() {
     private var adapterSimilar = SimilarDiseaseAdapter(arrayListOf())
     private var adapterHastags = DetailSymptomAdapter(arrayListOf())
 
-
-    override fun onCreate(savedInstanceState: Bundle?) {
-        super.onCreate(savedInstanceState)
-    }
 
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?, savedInstanceState: Bundle?
@@ -62,28 +59,33 @@ class DiseaseDetailFragment : Fragment() {
         onClickListeners()
         observeLiveData()
 
+        viewModel.deneme()
+    }
+
+    fun denemek() {
+        viewModel.savedDiseaseList.observe(viewLifecycleOwner, Observer {
+            for (i in it) {
+                println("Saved Hastaliks: " + i.adi)
+            }
+        })
     }
 
     private fun onClickListeners() {
         //button click olaylarını dinliyoruz
         binding.backButton.setOnClickListener {
+            //geri butonu tıklandı
             requireActivity().onBackPressed()
+        }
+
+        binding.kaydetbutton.setOnClickListener {
+            //hastalığı (UUID ile) kaydetmek
+            viewModel.diseaseSave(diseaseUuid)
+            denemek()
         }
     }
 
-    fun semaEsitle(risk: Float, gorulme: Float) {
-        //pieChart oluşturmak için viewModel'e verileri Gönderiyoruz
-        viewModel.pieChartEsitle(binding.pieChartRisk, risk, binding.pieChartGorulme, gorulme)
-
-    }
-
-    fun gorselEsitle(link: String) {
-        //linkini verdiğimiz görsellerimizi image viewa basar
-        viewModel.gorselEsitle(binding.shapeableImageView, link)
-    }
 
     private fun observeLiveData() {
-
         viewModel.let { vm ->
             vm.hastalik.observe(viewLifecycleOwner, Observer { hast ->
                 hast.let {
@@ -101,10 +103,14 @@ class DiseaseDetailFragment : Fragment() {
                     //gorulme ve risk oranlarını tip dönüşümü yaparak sema gösterme sınıfına gönderiyoruz
                     val gorulme = hast.gorulmeSikligi.toFloat()
                     val risk = hast.riskOrani.toFloat()
-                    semaEsitle(risk, gorulme)
+                    //pieChart oluşturmak için viewModel'e verileri Gönderiyoruz
+                    viewModel.pieChartEsitle(
+                        binding.pieChartRisk, risk, binding.pieChartGorulme, gorulme
+                    )
 
                     val link = vm.hastalik.value?.gorselLinki.toString()
-                    gorselEsitle(link)
+                    //linkini verdiğimiz görsellerimizi image viewa basar
+                    viewModel.gorselEsitle(binding.shapeableImageView, link)
 
                     //etiket listesi ve benzer hastalıklar listelerini ayarlıyoruz
                     val etiketList = vm.etiketAyiklaEsitle(hast.etiketler) as ArrayList<String>
@@ -121,6 +127,10 @@ class DiseaseDetailFragment : Fragment() {
                         }
                     })
                 }
+            })
+
+            vm.message.observe(viewLifecycleOwner, Observer { msg ->
+                requireActivity().showMessage(msg)
             })
         }
     }

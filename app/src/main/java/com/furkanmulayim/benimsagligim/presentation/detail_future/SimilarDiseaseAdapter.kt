@@ -32,11 +32,12 @@ class SimilarDiseaseAdapter(
 
     override fun onBindViewHolder(holder: ViewHolder, position: Int) {
         val item = dataList[position]
-        holder.hastalikAdi.text = item.adi
-        holder.gorseli.loadImage(
-            item.gorselLinki, CircularProgressDrawable(holder.itemView.context)
-        )
-
+        if (item != null){
+            holder.hastalikAdi.text = item.adi
+            holder.gorseli.loadImage(
+                item.gorselLinki, CircularProgressDrawable(holder.itemView.context)
+            )
+        }
     }
 
     override fun getItemCount(): Int {

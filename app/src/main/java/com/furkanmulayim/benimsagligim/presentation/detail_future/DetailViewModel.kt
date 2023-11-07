@@ -5,6 +5,7 @@ import android.widget.ImageView
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.viewModelScope
 import com.furkanmulayim.benimsagligim.data.service.disease.DiseaseDatabase
+import com.furkanmulayim.benimsagligim.data.service.saved.SavedDiseaseDatabase
 import com.furkanmulayim.benimsagligim.domain.model.Disease
 import com.furkanmulayim.benimsagligim.presentation.home.BaseViewModel
 import com.furkanmulayim.benimsagligim.util.fillPieChart
@@ -20,6 +21,12 @@ class DetailViewModel(application: Application) : BaseViewModel(application) {
 
     //Room ile gelen benzer hastalık verileri bu listeyle adaptöre göndereceğiz
     val similarDiseaseList = MutableLiveData<List<Disease>>()
+
+    //kaydedilen hastalıkların listesi
+    val savedDiseaseList = MutableLiveData<List<Disease>>()
+
+    //kullanıcıya mesaj göstermek için
+    val message = MutableLiveData<String>()
 
     fun refresh(id: Int) {
         //room ile verileri çektik bu fonksiyon frgamentten çağırılacak
@@ -55,6 +62,52 @@ class DetailViewModel(application: Application) : BaseViewModel(application) {
         //en son geçici listemizden asıl listemize paslarız
         similarDiseaseList.postValue(temp)
     }
+
+    fun diseaseSave(uuid: Int) {
+        //önce hastalık buluruz
+        hastalikBul(uuid)
+    }
+
+    private fun hastalikBul(uuid: Int) {
+        viewModelScope.launch(Dispatchers.IO) {
+            val dao = DiseaseDatabase(getApplication()).diseaseDao()
+            val hastalik = dao.getDiseases(uuid)
+            //hastalığı kaydetmek için Room fonk.erisiriz
+            if (hastalik != null) {
+                savedDepolaSQLite(hastalik)
+            }
+        }
+    }
+
+    private fun savedDepolaSQLite(hastalik: Disease) {
+        //hastalık verilerini Room ile sqlde depolar
+        viewModelScope.launch(Dispatchers.IO) {
+            val dao = SavedDiseaseDatabase(getApplication()).savedDiseaseDao()
+            val existingDisease = dao.getDiseases(hastalik.uuid)
+            if (existingDisease == null) {
+                dao.insert(hastalik)
+                message.postValue("Hastalık Başarıyla Kaydedildi..")
+                deneme()
+            } else {
+                message.postValue("Hastalık Zaten Kaydedilmiş..")
+            }
+        }
+    }
+
+
+    fun deneme() {
+        viewModelScope.launch(Dispatchers.IO) {
+            val dao = SavedDiseaseDatabase(getApplication()).savedDiseaseDao()
+            val hastalik = dao.getAllDiseases()
+            showDiseases(hastalik)
+        }
+    }
+
+
+    private fun showDiseases(diseLis: List<Disease>) {
+        savedDiseaseList.postValue(diseLis)
+    }
+
 
     fun getSimilar(benzer: String) {
         //string olarak gelen benzer hastalıkları liste haline dönüştürür ve Room fonksiyonuna paslar.
