@@ -79,11 +79,5 @@ class DiseaseCategoryFragment : Fragment() {
             viewModel.navigate(requireView(), R.id.action_diseaseCategoryFragment_to_homeFragment)
         }
 
-        //hastalık button tıklandığında bir DETAY SAYFASINA gidecek.
-        binding.diseaseNameSpace.setOnClickListener {
-            viewModel.navigate(
-                requireView(), R.id.action_diseaseCategoryFragment_to_diseaseDetailFragment
-            )
-        }
     }
 }

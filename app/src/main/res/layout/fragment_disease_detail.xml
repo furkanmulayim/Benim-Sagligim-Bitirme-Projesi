@@ -94,22 +94,13 @@
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintStart_toStartOf="parent">
 
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_marginStart="15dp"
-                        android:layout_marginTop="25dp"
-                        android:fontFamily="@font/inter_medium"
-                        android:text="@string/hakkinda"
-                        android:textColor="@color/text_h1"
-                        android:textSize="17sp" />
 
                     <TextView
                         android:id="@+id/hakkindaDetay"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginStart="15dp"
-                        android:layout_marginTop="5dp"
+                        android:layout_marginTop="25dp"
                         android:layout_marginEnd="15dp"
                         android:layout_marginBottom="15dp"
                         android:fontFamily="@font/inter_light"
@@ -133,6 +124,7 @@
                         android:id="@+id/hastalikAdiDetay"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
+                        android:textSize="15sp"
                         android:paddingBottom="10dp"
                         android:textColor="@color/white"
                         app:layout_constraintStart_toStartOf="parent"
@@ -145,8 +137,9 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:paddingBottom="10dp"
-                        android:textColor="@color/orange_h6"
+                        android:textColor="@color/orange_h5"
                         android:layout_marginStart="5dp"
+                        android:textSize="15sp"
                         app:layout_constraintStart_toEndOf="@id/hastalikAdiDetay"
                         app:layout_constraintTop_toTopOf="parent"/>
                 </androidx.constraintlayout.widget.ConstraintLayout>
@@ -286,7 +279,7 @@
                     android:id="@+id/linearLayout6"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:background="@drawable/disease_details_back"
+                    android:background="@drawable/disease_details_korunma_back"
                     android:orientation="vertical"
                     app:layout_constraintBaseline_toTopOf="parent"
                     app:layout_constraintBottom_toBottomOf="parent"
@@ -338,7 +331,7 @@
                     android:id="@+id/linearLayout8"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:background="@drawable/disease_details_back"
+                    android:background="@drawable/disease_details_enfeekte_back"
                     android:orientation="vertical"
                     app:layout_constraintBaseline_toTopOf="parent"
                     app:layout_constraintBottom_toBottomOf="parent"

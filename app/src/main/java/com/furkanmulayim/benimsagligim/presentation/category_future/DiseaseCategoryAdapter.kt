@@ -39,8 +39,8 @@ class DiseaseCategoryAdapter(
 
     @SuppressLint("SetTextI18n")
     override fun onBindViewHolder(holder: ViewHolder, position: Int) {
-
         val item = dataList[position]
+
         var riskText =""
         if (item.riskOrani.isNotEmpty()){
             riskText = hastalikRiskOraniHesapla(item.riskOrani)
@@ -55,7 +55,6 @@ class DiseaseCategoryAdapter(
             holder.itemDereceBack.setBackgroundResource(riskText.toDrawableResource())
         }
         holder.image.loadImage(url = item.gorselLinki, ProgressBarr(holder.itemView.context))
-
 
 
         //herhangi bir iteme tıklanınca olacaklar

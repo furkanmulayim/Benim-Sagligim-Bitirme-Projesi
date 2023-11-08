@@ -37,7 +37,8 @@ class MostViewsAdapter(
         holder.gorseli.loadImage(item.gorselLinki, ProgressBarr(holder.itemView.context))
 
         holder.button.setOnClickListener {
-           // Navigation.findNavController(it).navigate(R.id.action_homeFragment_to_diseaseDetailFragment2,)
+            val action = HomeFragmentDirections.actionHomeFragmentToDiseaseDetailFragment2(item.uuid)
+            Navigation.findNavController(it).navigate(action)
         }
     }
 

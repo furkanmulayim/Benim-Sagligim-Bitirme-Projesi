@@ -19,6 +19,7 @@ class HomeFragment : Fragment() {
     //ui bilesenlerim
     private lateinit var binding: FragmentHomeBinding
     private lateinit var viewModel: HomeViewModel
+
     //adaptör nesnelerim
     private var adapterDisease = MostViewsAdapter(arrayListOf())
     private var adapterCategories = CategoryListAdapter(arrayListOf())
@@ -36,12 +37,16 @@ class HomeFragment : Fragment() {
         super.onViewCreated(view, savedInstanceState)
         binding.viewModel = viewModel
 
-        binding.mostViewsDisease.layoutManager = LinearLayoutManager(requireContext(), LinearLayoutManager.HORIZONTAL, false)
+        //adaptör ayarlama
+        binding.mostViewsDisease.layoutManager =
+            LinearLayoutManager(requireContext(), LinearLayoutManager.HORIZONTAL, false)
         binding.mostViewsDisease.adapter = adapterDisease
 
+        //adaptör ayarlama
         binding.categoryRcyc.layoutManager = GridLayoutManager(requireContext(), 4)
         binding.categoryRcyc.adapter = adapterCategories
 
+        //metotları görünüm oluşturulduktan sonra çağırmak
         viewModel.refreshData()
         observeLiveData()
         clickListeners()
@@ -50,12 +55,14 @@ class HomeFragment : Fragment() {
 
     private fun observeLiveData() {
         viewModel.diseaseList.observe(viewLifecycleOwner, Observer {
+            //viewmodelden gelen hastalık verilerini ile adaptörü güncelliyoruz
             it?.let {
                 adapterDisease.updateList(it)
             }
         })
 
         viewModel.categoriesList.observe(viewLifecycleOwner, Observer {
+            //viewmodelden gelen kategori verilerini ile adaptörü güncelliyoruz
             it?.let {
                 adapterCategories.updateList(it)
             }

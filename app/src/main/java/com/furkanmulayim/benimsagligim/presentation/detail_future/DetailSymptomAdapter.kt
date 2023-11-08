@@ -25,8 +25,11 @@ class DetailSymptomAdapter(
     }
 
     override fun onBindViewHolder(holder: ViewHolder, position: Int) {
+        if (position !=null){
         val item = dataList[position]
-        holder.itemTextView.text = item
+            holder.itemTextView.text = item
+        }
+
     }
 
     override fun getItemCount(): Int {

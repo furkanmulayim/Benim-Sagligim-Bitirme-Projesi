@@ -6,8 +6,10 @@ import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.viewModelScope
 import androidx.navigation.Navigation
 import com.furkanmulayim.benimsagligim.data.service.category.CategoryAPIService
+import com.furkanmulayim.benimsagligim.data.service.category.CategoryDAO
 import com.furkanmulayim.benimsagligim.data.service.category.CategoryDatabase
 import com.furkanmulayim.benimsagligim.data.service.disease.DiseaseAPIService
+import com.furkanmulayim.benimsagligim.data.service.disease.DiseaseDAO
 import com.furkanmulayim.benimsagligim.data.service.disease.DiseaseDatabase
 import com.furkanmulayim.benimsagligim.domain.model.CategoryListDisease
 import com.furkanmulayim.benimsagligim.domain.model.Disease
@@ -21,13 +23,18 @@ import kotlinx.coroutines.launch
 
 class HomeViewModel(application: Application) : BaseViewModel(application) {
 
+    //shared preferences nesnesi
     private var sp = SharedPrefs(getApplication())
 
+    //api nesneleri
     private val diseaseApiService = DiseaseAPIService()
     private val categoryApiService = CategoryAPIService()
 
+    //room nesneleri
+    private val diseaseDao: DiseaseDAO = DiseaseDatabase(getApplication()).diseaseDao()
+    private val categoryDao: CategoryDAO = CategoryDatabase(getApplication()).categoryDao()
+
     private val disposable = CompositeDisposable()//Kullan at değişkenimiz..
-    private val disp2 = CompositeDisposable()
 
     val diseaseList = MutableLiveData<List<Disease>>()//hastalıkları almak için
     val categoriesList = MutableLiveData<List<CategoryListDisease>>()//kategorileri almak için
@@ -66,25 +73,25 @@ class HomeViewModel(application: Application) : BaseViewModel(application) {
         )
     }
 
-    //hastalık verilerini Room ile sqlde depolar
-    private fun diseaseDepolaSQLite(list: List<Disease>) {
 
+    private fun diseaseDepolaSQLite(list: List<Disease>) {
+        //hastalık verilerini Room ile sqlde depolar
         viewModelScope.launch(Dispatchers.IO) {
-            val dao = DiseaseDatabase(getApplication()).diseaseDao()
-            dao.deleteAlldisease()
-            val listLong = dao.insertAll(*list.toTypedArray())
+            diseaseDao.deleteAlldisease()
+            val listLong = diseaseDao.insertAll(*list.toTypedArray())
             var i = 0
             while (i < list.size) {
                 list[i].uuid = listLong[i].toInt()
                 i++
             }
         }
+        //kaydedilen zamanı alıyoruz
         sp.saveTime(System.nanoTime())
     }
 
     private fun getDiseaseDataFromSqlite() {
         launch {
-            val disease = DiseaseDatabase(getApplication()).diseaseDao().getAllDiseases()
+            val disease = diseaseDao.getAllDiseases()
             showDiseases(disease.shuffled())
         }
     }
@@ -96,7 +103,7 @@ class HomeViewModel(application: Application) : BaseViewModel(application) {
     /**======================================KATEGORİLER========================================*/
     //kategorileri apiden getirir getirir
     private fun getCatregoriesApi() {
-        disp2.add(
+        disposable.add(
             categoryApiService.getCategories().subscribeOn(Schedulers.newThread())
                 .observeOn(AndroidSchedulers.mainThread())
                 .subscribeWith(object : DisposableSingleObserver<List<CategoryListDisease>>() {

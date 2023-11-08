@@ -31,8 +31,9 @@ class SimilarDiseaseAdapter(
     }
 
     override fun onBindViewHolder(holder: ViewHolder, position: Int) {
+        if (position !=null){
         val item = dataList[position]
-        if (item != null){
+
             holder.hastalikAdi.text = item.adi
             holder.gorseli.loadImage(
                 item.gorselLinki, CircularProgressDrawable(holder.itemView.context)
