@@ -74,6 +74,8 @@
     <string name="ilac_tara_button2">Görsel Yükle</string>
     <string name="tedavi_yontem">Tedavi Yöntemi Nasıldır?</string>
     <string name="hakkinda">Hakkında</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 
 </resources>
 

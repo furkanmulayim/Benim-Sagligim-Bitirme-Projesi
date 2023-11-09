@@ -3,7 +3,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/navigation"
-    app:startDestination="@id/homeFragment">
+    app:startDestination="@id/splashFragment2">
     <fragment
         android:id="@+id/homeFragment"
         android:name="com.furkanmulayim.benimsagligim.presentation.home.HomeFragment"
@@ -182,6 +182,14 @@
         <action
             android:id="@+id/action_scanSearchFragment_to_searchFragment"
             app:destination="@id/searchFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/splashFragment2"
+        android:name="com.furkanmulayim.benimsagligim.presentation.splash_future.SplashFragment"
+        android:label="SplashFragment" >
+        <action
+            android:id="@+id/action_splashFragment2_to_homeFragment"
+            app:destination="@id/homeFragment" />
     </fragment>
 
 </navigation>
