@@ -27,8 +27,6 @@ class SplashViewModel(application: Application) : BaseViewModel(application) {
         _isInternetAvailable.value = networkCapabilities?.hasCapability(NetworkCapabilities.NET_CAPABILITY_INTERNET) == true
     }
 
-
-
     fun baglantiVar(view: View) {
         launch {
             delay(2000)
@@ -39,5 +37,4 @@ class SplashViewModel(application: Application) : BaseViewModel(application) {
     fun baglantiYok() {
         checkInternetConnection()
     }
-
 }

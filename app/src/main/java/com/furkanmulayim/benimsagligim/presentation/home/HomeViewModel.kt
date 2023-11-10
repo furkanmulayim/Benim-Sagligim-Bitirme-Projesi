@@ -122,9 +122,8 @@ class HomeViewModel(application: Application) : BaseViewModel(application) {
     private fun categoryDepolaSQLite(list: List<CategoryListDisease>) {
 
         viewModelScope.launch(Dispatchers.IO) {
-            val dao = CategoryDatabase(getApplication()).categoryDao()
-            dao.deleteAllCategory()
-            val listLong = dao.insertAll(*list.toTypedArray())
+            categoryDao.deleteAllCategory()
+            val listLong = categoryDao.insertAll(*list.toTypedArray())
             var i = 0
             while (i < list.size) {
                 list[i].uuid = listLong[i].toInt()

@@ -67,8 +67,6 @@ class HomeFragment : Fragment() {
                 adapterCategories.updateList(it)
             }
         })
-
-
     }
 
 
