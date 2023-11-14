@@ -41,33 +41,18 @@ class SearchFragment : Fragment() {
 
         //gerekli fonksiyonları çağırıyoruz
         viewModel.refresh()
-        observeLiveData()
         clickListeners()
         searchControl()
     }
 
     private fun searchControl() {
-
-        binding.sorguEditText.addTextChangedListener(object : TextWatcher {
-            override fun beforeTextChanged(s: CharSequence?, p1: Int, p2: Int, p3: Int) {
-
-            }
-
-            override fun onTextChanged(s: CharSequence?, p1: Int, p2: Int, p3: Int) {
-                //
-            }
-
-            override fun afterTextChanged(s: Editable?) {
-                //
-            }
-
-        })
+        viewModel.searchControl(binding.sorguEditText, arananHastalik())
     }
 
-    private fun observeLiveData() {
-        viewModel.allDiseaseList.observe(viewLifecycleOwner, Observer { hastaliklar ->
-            hastaliklar.let {
-                adapterSearchDisease.updateList(hastaliklar)
+    private fun arananHastalik() {
+        viewModel.seciliHasta.observe(viewLifecycleOwner, Observer { hasta ->
+            hasta.let {
+                adapterSearchDisease.updateList(hasta)
             }
         })
     }
