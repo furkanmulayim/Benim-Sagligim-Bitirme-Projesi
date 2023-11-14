@@ -1,8 +1,6 @@
 package com.furkanmulayim.benimsagligim.presentation.search_future
 
 import android.os.Bundle
-import android.text.Editable
-import android.text.TextWatcher
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
@@ -13,11 +11,14 @@ import androidx.lifecycle.ViewModelProvider
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.furkanmulayim.benimsagligim.R
 import com.furkanmulayim.benimsagligim.databinding.FragmentSearchBinding
+import com.furkanmulayim.benimsagligim.util.SharedPrefs
 
 class SearchFragment : Fragment() {
     //ui nesnelerim
     private lateinit var binding: FragmentSearchBinding
     private lateinit var viewModel: SearchViewModel
+
+    private var sp = SharedPrefs()
 
     //adapter nesnesi
     private var adapterSearchDisease = SearchAdapter(arrayListOf())
@@ -43,6 +44,12 @@ class SearchFragment : Fragment() {
         viewModel.refresh()
         clickListeners()
         searchControl()
+        imageGeldiMi()
+    }
+
+    private fun imageGeldiMi() {
+        /** burası değişecektir... */
+        binding.sorguEditText.setText(sp.getImageUriInShared())
     }
 
     private fun searchControl() {
@@ -50,6 +57,13 @@ class SearchFragment : Fragment() {
     }
 
     private fun arananHastalik() {
+        //tüm hastalıkları gözlemlemek için kullanıyoruz
+        viewModel.allDiseaseList.observe(viewLifecycleOwner, Observer { tumHasta ->
+            tumHasta.let {
+                adapterSearchDisease.updateList(tumHasta)
+            }
+        })
+        //sadece aranan hastalıkalrı gözlemlemek için kullanıyoruz
         viewModel.seciliHasta.observe(viewLifecycleOwner, Observer { hasta ->
             hasta.let {
                 adapterSearchDisease.updateList(hasta)

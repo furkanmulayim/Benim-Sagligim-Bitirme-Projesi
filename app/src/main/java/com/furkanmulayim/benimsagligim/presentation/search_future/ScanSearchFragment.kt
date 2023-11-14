@@ -20,8 +20,10 @@ import androidx.core.content.ContextCompat
 import androidx.databinding.DataBindingUtil
 import androidx.fragment.app.Fragment
 import androidx.lifecycle.ViewModelProvider
+import androidx.navigation.Navigation
 import com.furkanmulayim.benimsagligim.R
 import com.furkanmulayim.benimsagligim.databinding.FragmentScanSearchBinding
+import com.furkanmulayim.benimsagligim.util.SharedPrefs
 import com.furkanmulayim.benimsagligim.util.showMessage
 
 class ScanSearchFragment : Fragment() {
@@ -41,7 +43,6 @@ class ScanSearchFragment : Fragment() {
     private lateinit var viewModel: ScanSearchViewModel
 
     private var imageUri: Uri? = null
-    private lateinit var prefs: SharedPreferences
 
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?, savedInstanceState: Bundle?
@@ -60,7 +61,6 @@ class ScanSearchFragment : Fragment() {
             Manifest.permission.CAMERA, Manifest.permission.WRITE_EXTERNAL_STORAGE
         )
         storagePermissions = arrayOf(Manifest.permission.WRITE_EXTERNAL_STORAGE)
-        prefs = requireActivity().getSharedPreferences("SearchPrefs", Context.MODE_PRIVATE)
 
         clickListeners()
     }
@@ -78,14 +78,12 @@ class ScanSearchFragment : Fragment() {
     }
 
     private fun resultLaunchersInit() {
-
         cameraActivityResultLauncher =
             registerForActivityResult(ActivityResultContracts.StartActivityForResult()) { result ->
                 if (result.resultCode == Activity.RESULT_OK) {
-                    val editor = prefs.edit()
-                    editor.putString("image_uri", imageUri.toString())
-                    editor.apply()
-                    message("Fotoğraf Başarıyla Çekildi ${imageUri.toString()}")
+                    imageUriKaydet(imageUri.toString())
+                    message("Fotoğraf Başarıyla Çekildi")
+                    Navigation.findNavController(requireView()).navigate(R.id.action_scanSearchFragment_to_cropFragment)
                 } else {
                     message("Fotoğraf Çekilmedi!")
                 }
@@ -97,10 +95,7 @@ class ScanSearchFragment : Fragment() {
                     val data = result.data
                     if (data != null) {
                         imageUri = data.data
-                        val editor = prefs.edit()
-                        editor.putString("image_uri", imageUri.toString())
-                        editor.apply()
-                        message("Fotoğraf Başarıyla Seçildi ${imageUri.toString()}")
+                        imageUriKaydet(imageUri.toString())
                     }
                 } else {
                     message("Görsel Seçilmedi!")
@@ -195,6 +190,10 @@ class ScanSearchFragment : Fragment() {
             requestPermissionGallery()
             message("Bu Özellik İçin İzne İhtiyacımız Var..")
         }
+    }
+
+    private fun imageUriKaydet(imageUri:String){
+        viewModel.gorselUriKaydet(imageUri)
     }
 
     private fun message(message: String) {

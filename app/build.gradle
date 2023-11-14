@@ -83,6 +83,9 @@ dependencies {
     //MP Android Pie Chart
     implementation 'com.github.PhilJay:MPAndroidChart:v3.1.0'
 
+    //theartofdev - Image Cropper 
+    implementation"com.theartofdev.edmodo:android-image-cropper:2.8.0"
+
     implementation 'androidx.core:core-ktx:1.8.0'
     implementation 'androidx.appcompat:appcompat:1.4.1'
     implementation 'com.google.android.material:material:1.5.0'

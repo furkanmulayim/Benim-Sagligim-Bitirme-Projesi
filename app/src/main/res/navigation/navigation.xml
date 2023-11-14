@@ -182,6 +182,9 @@
         <action
             android:id="@+id/action_scanSearchFragment_to_searchFragment"
             app:destination="@id/searchFragment" />
+        <action
+            android:id="@+id/action_scanSearchFragment_to_cropFragment"
+            app:destination="@id/cropFragment" />
     </fragment>
     <fragment
         android:id="@+id/splashFragment2"
@@ -190,6 +193,14 @@
         <action
             android:id="@+id/action_splashFragment2_to_homeFragment"
             app:destination="@id/homeFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/cropFragment"
+        android:name="com.furkanmulayim.benimsagligim.presentation.crop_future.CropFragment"
+        android:label="CropFragment" >
+        <action
+            android:id="@+id/action_cropFragment_to_searchFragment"
+            app:destination="@id/searchFragment" />
     </fragment>
 
 </navigation>

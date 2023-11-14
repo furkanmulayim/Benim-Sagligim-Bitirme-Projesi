@@ -11,6 +11,7 @@ import com.furkanmulayim.benimsagligim.data.service.disease.DiseaseDAO
 import com.furkanmulayim.benimsagligim.data.service.disease.DiseaseDatabase
 import com.furkanmulayim.benimsagligim.domain.model.Disease
 import com.furkanmulayim.benimsagligim.presentation.home.BaseViewModel
+import com.furkanmulayim.benimsagligim.util.SharedPrefs
 import kotlinx.coroutines.launch
 
 class SearchViewModel(application: Application) : BaseViewModel(application) {
@@ -18,6 +19,7 @@ class SearchViewModel(application: Application) : BaseViewModel(application) {
     private val diseaseDao: DiseaseDAO = DiseaseDatabase(getApplication()).diseaseDao()
     val allDiseaseList = MutableLiveData<List<Disease>>()
     val seciliHasta = MutableLiveData<List<Disease>>()
+    private var sp = SharedPrefs(getApplication())
 
     fun navigate(view: View, pageId: Int) {
         //Sayfa Geçişileri için kullanılan method
