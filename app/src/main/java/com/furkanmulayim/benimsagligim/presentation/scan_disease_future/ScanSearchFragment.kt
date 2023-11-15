@@ -1,11 +1,9 @@
-package com.furkanmulayim.benimsagligim.presentation.search_future
+package com.furkanmulayim.benimsagligim.presentation.scan_disease_future
 
 import android.Manifest
 import android.app.Activity
 import android.content.ContentValues
-import android.content.Context
 import android.content.Intent
-import android.content.SharedPreferences
 import android.content.pm.PackageManager
 import android.net.Uri
 import android.os.Bundle
@@ -23,7 +21,6 @@ import androidx.lifecycle.ViewModelProvider
 import androidx.navigation.Navigation
 import com.furkanmulayim.benimsagligim.R
 import com.furkanmulayim.benimsagligim.databinding.FragmentScanSearchBinding
-import com.furkanmulayim.benimsagligim.util.SharedPrefs
 import com.furkanmulayim.benimsagligim.util.showMessage
 
 class ScanSearchFragment : Fragment() {

@@ -7,14 +7,14 @@
     <data>
         <variable
             name="viewModel"
-            type="com.furkanmulayim.benimsagligim.presentation.search_future.ScanSearchViewModel" />
+            type="com.furkanmulayim.benimsagligim.presentation.scan_disease_future.ScanSearchViewModel" />
     </data>
 
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        tools:context=".presentation.search_future.ScanSearchFragment">
+        tools:context=".presentation.scan_disease_future.ScanSearchFragment">
 
         <ScrollView
             android:layout_width="match_parent"

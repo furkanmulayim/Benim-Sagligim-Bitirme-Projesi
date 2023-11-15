@@ -1,4 +1,4 @@
-package com.furkanmulayim.benimsagligim.presentation.search_future
+package com.furkanmulayim.benimsagligim.presentation.scan_disease_future
 
 import android.app.Application
 import android.net.Uri

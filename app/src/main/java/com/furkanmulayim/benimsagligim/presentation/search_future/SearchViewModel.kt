@@ -19,7 +19,6 @@ class SearchViewModel(application: Application) : BaseViewModel(application) {
     private val diseaseDao: DiseaseDAO = DiseaseDatabase(getApplication()).diseaseDao()
     val allDiseaseList = MutableLiveData<List<Disease>>()
     val seciliHasta = MutableLiveData<List<Disease>>()
-    private var sp = SharedPrefs(getApplication())
 
     fun navigate(view: View, pageId: Int) {
         //Sayfa Geçişileri için kullanılan method
@@ -31,11 +30,6 @@ class SearchViewModel(application: Application) : BaseViewModel(application) {
         getDiseaseRoom()
     }
 
-    fun showDisease(disease: List<Disease>) {
-        //Parametre olarak gelen hastalıkları değişkende saklar
-        allDiseaseList.postValue(disease)
-    }
-
     private fun getDiseaseRoom() {
         //Tüm Hastalıkları Getirir
         launch {
@@ -44,21 +38,26 @@ class SearchViewModel(application: Application) : BaseViewModel(application) {
         }
     }
 
-    fun searchControl(editText: EditText, arananHastalik: Unit) {
+    fun showDisease(disease: List<Disease>) {
+        //Parametre olarak gelen hastalıkları değişkende saklar
+        allDiseaseList.postValue(disease)
+    }
+
+    fun searchControl(editText: EditText, observeArananHastalik: Unit) {
         //arama sorgusunu yönetecek fonksiyon her harfe basılınca tetiklenir
         editText.addTextChangedListener(object : TextWatcher {
             override fun beforeTextChanged(s: CharSequence?, p1: Int, p2: Int, p3: Int) {}
             override fun onTextChanged(s: CharSequence?, p1: Int, p2: Int, p3: Int) {}
             override fun afterTextChanged(s: Editable?) {
                 arananHastalikListele(s.toString())
-                return arananHastalik
+                return observeArananHastalik
             }
         })
     }
 
-
     fun arananHastalikListele(s: String) {
-        //her harf geldiğinde sorgu yapacağız. ve listeye ekleyeceğiz
+        println("arguments view modelde : $s")
+        //veri geldiğinde sorgu yapacağız. ve listeye ekleyeceğiz
         allDiseaseList.value?.let { diseaseList ->
             val filteredDiseases = diseaseList.filter { it.adi.startsWith(s, true) }
             seciliHasta.postValue(filteredDiseases)

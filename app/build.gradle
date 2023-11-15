@@ -62,6 +62,10 @@ dependencies {
     implementation "androidx.navigation:navigation-ui-ktx:2.6.0"
     implementation 'androidx.fragment:fragment-ktx:1.6.0'
 
+    //Google Machine Learning Kit
+    implementation 'com.google.mlkit:text-recognition:16.0.0'
+    implementation 'com.google.android.gms:play-services-mlkit-text-recognition:19.0.0'
+
     //Work Manager
     implementation "androidx.work:work-runtime:2.8.1"
 

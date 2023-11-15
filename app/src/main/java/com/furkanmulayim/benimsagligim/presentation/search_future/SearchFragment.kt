@@ -17,6 +17,7 @@ class SearchFragment : Fragment() {
     //ui nesnelerim
     private lateinit var binding: FragmentSearchBinding
     private lateinit var viewModel: SearchViewModel
+    private var recogText: String = ""
 
     private var sp = SharedPrefs()
 
@@ -26,8 +27,15 @@ class SearchFragment : Fragment() {
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?, savedInstanceState: Bundle?
     ): View {
+        //ui bilessenleri
         binding = DataBindingUtil.inflate(inflater, R.layout.fragment_search, container, false)
         viewModel = ViewModelProvider(this)[SearchViewModel::class.java]
+
+        //bundle ile gelen verilerimiz
+        arguments?.let {
+            recogText = SearchFragmentArgs.fromBundle(it).recognition.toString()
+        }
+
         return binding.root
     }
 
@@ -35,40 +43,46 @@ class SearchFragment : Fragment() {
         super.onViewCreated(view, savedInstanceState)
         binding.viewModel = viewModel
 
-        //adapter ayarlama
-        binding.rcycSearch.layoutManager =
-            LinearLayoutManager(requireContext(), LinearLayoutManager.VERTICAL, false)
-        binding.rcycSearch.adapter = adapterSearchDisease
+        binding.rcycSearch.let {
+            //adapter ayarlamak için
+            it.layoutManager =
+                LinearLayoutManager(requireContext(), LinearLayoutManager.VERTICAL, false)
+            it.adapter = adapterSearchDisease
+        }
 
         //gerekli fonksiyonları çağırıyoruz
         viewModel.refresh()
+        observeTumHastalik()
         clickListeners()
-        searchControl()
-        imageGeldiMi()
     }
 
-    private fun imageGeldiMi() {
-        /** burası değişecektir... */
-        binding.sorguEditText.setText(sp.getImageUriInShared())
-    }
-
-    private fun searchControl() {
-        viewModel.searchControl(binding.sorguEditText, arananHastalik())
-    }
-
-    private fun arananHastalik() {
+    private fun observeTumHastalik() {
         //tüm hastalıkları gözlemlemek için kullanıyoruz
         viewModel.allDiseaseList.observe(viewLifecycleOwner, Observer { tumHasta ->
             tumHasta.let {
                 adapterSearchDisease.updateList(tumHasta)
+                //burası önemli ms sürelerde çalıştığı için tüm hastalıklar gelince çalışıcak..
+                searchBarControl()
             }
         })
+    }
+
+    private fun observeArananHastalik() {
         //sadece aranan hastalıkalrı gözlemlemek için kullanıyoruz
         viewModel.seciliHasta.observe(viewLifecycleOwner, Observer { hasta ->
             hasta.let {
                 adapterSearchDisease.updateList(hasta)
             }
         })
+    }
+
+    private fun searchBarControl() {
+        //arama cubuğunda yazılan metin için
+        viewModel.searchControl(binding.sorguEditText, observeArananHastalik())
+
+        //recognize edilen metni arama çubuğuna yazarak hastalık listeleme fonk. atıyoruz
+        binding.sorguEditText.setText(recogText)
+        viewModel.arananHastalikListele(recogText)
     }
 
     private fun clickListeners() {
