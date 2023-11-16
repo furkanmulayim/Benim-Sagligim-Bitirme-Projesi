@@ -14,7 +14,7 @@ import com.furkanmulayim.benimsagligim.R
 import com.furkanmulayim.benimsagligim.databinding.FragmentDiseaseDetailBinding
 import com.furkanmulayim.benimsagligim.util.showMessage
 
-class DiseaseDetailFragment : Fragment() {
+class DetailFragment : Fragment() {
 
     private lateinit var binding: FragmentDiseaseDetailBinding
     private lateinit var viewModel: DetailViewModel
@@ -35,7 +35,7 @@ class DiseaseDetailFragment : Fragment() {
 
         //kategori list adaptöründen gelen uuidleri bundle aracılığı ile alıyoruz
         arguments?.let {
-            diseaseUuid = DiseaseDetailFragmentArgs.fromBundle(it).uuid
+            diseaseUuid = DetailFragmentArgs.fromBundle(it).uuid
         }
         //Detay Adaptörünü ayarlayarak esitliyoruz
         binding.rcycDetailsHastags.layoutManager = GridLayoutManager(requireContext(), 3)
@@ -60,6 +60,10 @@ class DiseaseDetailFragment : Fragment() {
         observeLiveData()
 
         viewModel.deneme()
+
+        viewModel.getGPTResponse("sadece 2 adet isim ver kısaca.") { response ->
+            //requireActivity().showMessage(response)
+        }
     }
 
     fun denemek() {

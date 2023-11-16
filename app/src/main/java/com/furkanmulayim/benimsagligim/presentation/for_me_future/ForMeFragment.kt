@@ -12,7 +12,7 @@ import androidx.navigation.Navigation
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.furkanmulayim.benimsagligim.R
 import com.furkanmulayim.benimsagligim.databinding.FragmentForMeBinding
-import com.furkanmulayim.benimsagligim.domain.model.ItemDisease
+import com.furkanmulayim.benimsagligim.presentation.saved_future.SavedViewModel
 
 class ForMeFragment : Fragment() {
 

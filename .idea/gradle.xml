@@ -12,6 +12,13 @@
           <set>
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/app" />
+            <option value="$PROJECT_DIR$/openai-client" />
+            <option value="$PROJECT_DIR$/openai-client-bom" />
+            <option value="$PROJECT_DIR$/openai-core" />
+            <option value="$PROJECT_DIR$/sample" />
+            <option value="$PROJECT_DIR$/sample/js" />
+            <option value="$PROJECT_DIR$/sample/jvm" />
+            <option value="$PROJECT_DIR$/sample/native" />
           </set>
         </option>
       </GradleProjectSettings>

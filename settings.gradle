@@ -26,3 +26,10 @@ dependencyResolutionManagement {
 }
 rootProject.name = "Benim Sağlığım"
 include ':app'
+include(":openai-core")
+include(":openai-client")
+include(":openai-client-bom")
+
+include(":sample:jvm")
+include(":sample:js")
+include(":sample:native")

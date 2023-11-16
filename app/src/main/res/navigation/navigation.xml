@@ -118,7 +118,7 @@
     </fragment>
     <fragment
         android:id="@+id/diseaseDetailFragment"
-        android:name="com.furkanmulayim.benimsagligim.presentation.detail_future.DiseaseDetailFragment"
+        android:name="com.furkanmulayim.benimsagligim.presentation.detail_future.DetailFragment"
         android:label="DiseaseDetailFragment">
           <action
             android:id="@+id/action_diseaseDetailFragment_to_diseaseCategoryFragment"

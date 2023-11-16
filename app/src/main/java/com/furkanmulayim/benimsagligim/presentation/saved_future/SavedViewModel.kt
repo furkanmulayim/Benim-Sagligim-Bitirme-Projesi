@@ -1,4 +1,4 @@
-package com.furkanmulayim.benimsagligim.presentation.for_me_future
+package com.furkanmulayim.benimsagligim.presentation.saved_future
 
 import android.app.Application
 import androidx.lifecycle.MutableLiveData

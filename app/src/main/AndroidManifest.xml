@@ -11,9 +11,12 @@
         android:name="android.hardware.camera"
         android:required="false" />
 
+    <!-- internet erişimi ve izni -->
     <uses-permission android:name="android.permission.INTERNET" />
-    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+
+    <!-- Çeşitli Donanım izinleri -->
+    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
     <uses-permission android:name="android.permission.VIBRATE" />
     <uses-permission android:name="android.permission.CALL_PHONE" />
 
@@ -23,13 +26,12 @@
     <!-- Depolama izni -->
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
 
-    <!-- Bu izin, uygulamanızın kullanıcının fotoğraflarına, medyasına ve dosyalarına erişmesine izin verir -->
+    <!-- kullanıcının fotoğraflarına, medyasına ve dosyalarına erişmesine(read) izin verir -->
     <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
 
-    <!-- Bu izin, uygulamanızın kullanıcının cihazındaki dosyaları değiştirmesine izin verir -->
+    <!-- kullanıcının cihazındaki dosyaları değiştirmesine (manage/yönetim) izin verir -->
     <uses-permission android:name="android.permission.MANAGE_EXTERNAL_STORAGE"
         tools:ignore="ScopedStorage"/>
-
 
 
     <application
