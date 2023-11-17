@@ -67,15 +67,6 @@ class SearchFragment : Fragment() {
         })
     }
 
-    private fun observeArananHastalik() {
-        //sadece aranan hastalıkalrı gözlemlemek için kullanıyoruz
-        viewModel.seciliHasta.observe(viewLifecycleOwner, Observer { hasta ->
-            hasta.let {
-                adapterSearchDisease.updateList(hasta)
-            }
-        })
-    }
-
     private fun searchBarControl() {
         //arama cubuğunda yazılan metin için
         viewModel.searchControl(binding.sorguEditText, observeArananHastalik())
@@ -83,6 +74,15 @@ class SearchFragment : Fragment() {
         //recognize edilen metni arama çubuğuna yazarak hastalık listeleme fonk. atıyoruz
         binding.sorguEditText.setText(recogText)
         viewModel.arananHastalikListele(recogText)
+    }
+
+    private fun observeArananHastalik() {
+        //sadece aranan hastalıkalrı gözlemlemek için kullanıyoruz
+        viewModel.seciliHasta.observe(viewLifecycleOwner, Observer { hasta ->
+            hasta.let {
+                adapterSearchDisease.updateList(hasta)
+            }
+        })
     }
 
     private fun clickListeners() {

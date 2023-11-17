@@ -10,9 +10,9 @@ import android.view.ViewGroup
 import androidx.databinding.DataBindingUtil
 import androidx.fragment.app.Fragment
 import androidx.lifecycle.ViewModelProvider
-import androidx.navigation.Navigation
 import com.furkanmulayim.benimsagligim.R
 import com.furkanmulayim.benimsagligim.databinding.FragmentCropBinding
+import com.furkanmulayim.benimsagligim.util.showMessage
 import com.theartofdev.edmodo.cropper.CropImage
 import com.theartofdev.edmodo.cropper.CropImageView
 
@@ -29,7 +29,7 @@ class CropFragment : Fragment() {
         binding = DataBindingUtil.inflate(inflater, R.layout.fragment_crop, container, false)
         viewModel = ViewModelProvider(this)[CropViewModel::class.java]
         getImageUri()
-        clickListeners()
+        goingForCrop()
         return binding.root
     }
 
@@ -38,17 +38,11 @@ class CropFragment : Fragment() {
         binding.imageIv.setImageURI(imageUri)
     }
 
-    private fun clickListeners(){
-        binding.imageDontCrop.setOnClickListener {
-            passForNAvigation(R.id.action_cropFragment_to_recognitionFragment)
-        }
-
-        binding.imageCrop.setOnClickListener {
-            val cropImageIntent =
-                CropImage.activity(imageUri).setGuidelines(CropImageView.Guidelines.ON)
-                    .setMultiTouchEnabled(true).getIntent(requireContext())
-            startActivityForResult(cropImageIntent, 1001)
-        }
+    private fun goingForCrop() {
+        val cropImageIntent =
+            CropImage.activity(imageUri).setGuidelines(CropImageView.Guidelines.ON)
+                .setMultiTouchEnabled(true).getIntent(requireContext())
+        startActivityForResult(cropImageIntent, 1001)
     }
 
     override fun onActivityResult(requestCode: Int, resultCode: Int, data: Intent?) {
@@ -62,13 +56,13 @@ class CropFragment : Fragment() {
                 passForNAvigation(R.id.action_cropFragment_to_recognitionFragment)
             } else if (resultCode == CropImage.CROP_IMAGE_ACTIVITY_RESULT_ERROR_CODE) {
                 val error = result.error
-                // Hata durumu
+                requireActivity().showMessage("Resim Kırpılamadı Tekrar Deneyin! " + error.localizedMessage)
             }
         }
     }
 
     private fun passForNAvigation(pageId: Int) {
-        viewModel.navigate(requireView(),pageId)
+        viewModel.navigate(requireView(), pageId)
     }
 
 }

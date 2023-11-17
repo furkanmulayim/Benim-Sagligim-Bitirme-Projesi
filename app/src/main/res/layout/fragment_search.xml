@@ -59,10 +59,11 @@
 
             <EditText
                 android:id="@+id/sorguEditText"
-                android:layout_width="match_parent"
+                android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:layout_gravity="center"
                 android:layout_weight="1"
+
                 android:backgroundTint="@color/item_background"
                 android:focusedByDefault="true"
                 android:hint="@string/search"

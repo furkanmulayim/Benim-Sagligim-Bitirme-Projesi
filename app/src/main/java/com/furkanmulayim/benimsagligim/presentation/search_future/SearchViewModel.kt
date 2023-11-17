@@ -49,6 +49,7 @@ class SearchViewModel(application: Application) : BaseViewModel(application) {
             override fun beforeTextChanged(s: CharSequence?, p1: Int, p2: Int, p3: Int) {}
             override fun onTextChanged(s: CharSequence?, p1: Int, p2: Int, p3: Int) {}
             override fun afterTextChanged(s: Editable?) {
+                //listeleme fonksiyonuna gönderiyoruz
                 arananHastalikListele(s.toString())
                 return observeArananHastalik
             }
@@ -59,7 +60,7 @@ class SearchViewModel(application: Application) : BaseViewModel(application) {
         println("arguments view modelde : $s")
         //veri geldiğinde sorgu yapacağız. ve listeye ekleyeceğiz
         allDiseaseList.value?.let { diseaseList ->
-            val filteredDiseases = diseaseList.filter { it.adi.startsWith(s, true) }
+            val filteredDiseases = diseaseList.filter { it.adi.contains(s, true) }
             seciliHasta.postValue(filteredDiseases)
         }
     }

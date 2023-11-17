@@ -150,7 +150,7 @@ class DetailViewModel(application: Application) : BaseViewModel(application) {
 
 
     fun getGPTResponse(gptQuery: String, callback: (String) -> Unit) {
-        val apiKey = "--"
+        val apiKey = "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"
         val url = "https://api.openai.com/v1/engines/davinci/completions"
 
         val requestBody = """

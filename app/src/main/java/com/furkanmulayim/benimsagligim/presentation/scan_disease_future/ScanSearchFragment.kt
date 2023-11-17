@@ -30,9 +30,6 @@ class ScanSearchFragment : Fragment() {
         private const val GALLERY_PERMISSION_REQUEST_CODE = 101
     }
 
-    private lateinit var cameraPermissions: Array<String>
-    private lateinit var storagePermissions: Array<String>
-
     private lateinit var cameraActivityResultLauncher: ActivityResultLauncher<Intent>
     private lateinit var galleryActivityResultLauncher: ActivityResultLauncher<Intent>
 
@@ -46,18 +43,14 @@ class ScanSearchFragment : Fragment() {
     ): View {
         binding = DataBindingUtil.inflate(inflater, R.layout.fragment_scan_search, container, false)
         viewModel = ViewModelProvider(this)[ScanSearchViewModel::class.java]
-        resultLaunchersInit()
+        galleryResultListener()
+        cameraResultListener()
         return binding.root
     }
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
         binding.viewModel = viewModel
-
-        cameraPermissions = arrayOf(
-            Manifest.permission.CAMERA, Manifest.permission.WRITE_EXTERNAL_STORAGE
-        )
-        storagePermissions = arrayOf(Manifest.permission.WRITE_EXTERNAL_STORAGE)
 
         clickListeners()
     }
@@ -74,30 +67,18 @@ class ScanSearchFragment : Fragment() {
         }
     }
 
-    private fun resultLaunchersInit() {
-        cameraActivityResultLauncher =
-            registerForActivityResult(ActivityResultContracts.StartActivityForResult()) { result ->
-                if (result.resultCode == Activity.RESULT_OK) {
-                    imageUriKaydet(imageUri.toString())
-                    message("Fotoğraf Başarıyla Çekildi")
-                    Navigation.findNavController(requireView()).navigate(R.id.action_scanSearchFragment_to_cropFragment)
-                } else {
-                    message("Fotoğraf Çekilmedi!")
-                }
+    fun cameraResultListener() {
+        cameraActivityResultLauncher = registerForActivityResult(
+            ActivityResultContracts.StartActivityForResult()
+        ) { result ->
+            if (result.resultCode == Activity.RESULT_OK) {
+                imageUriKaydet(imageUri.toString())
+                Navigation.findNavController(requireView())
+                    .navigate(R.id.action_scanSearchFragment_to_cropFragment)
+            } else {
+                message("Fotoğraf Çekilmedi!")
             }
-
-        galleryActivityResultLauncher =
-            registerForActivityResult(ActivityResultContracts.StartActivityForResult()) { result ->
-                if (result.resultCode == Activity.RESULT_OK) {
-                    val data = result.data
-                    if (data != null) {
-                        imageUri = data.data
-                        imageUriKaydet(imageUri.toString())
-                    }
-                } else {
-                    message("Görsel Seçilmedi!")
-                }
-            }
+        }
     }
 
 
@@ -128,6 +109,44 @@ class ScanSearchFragment : Fragment() {
         }
     }
 
+
+    private fun pickImageCamera() {
+        if (ContextCompat.checkSelfPermission(
+                requireContext(), Manifest.permission.CAMERA
+            ) == PackageManager.PERMISSION_GRANTED
+        ) {
+            val values = ContentValues()
+            values.put(MediaStore.Images.Media.TITLE, "Sample Title")
+            values.put(MediaStore.Images.Media.DESCRIPTION, "Sample Description")
+            imageUri = activity?.contentResolver?.insert(
+                MediaStore.Images.Media.EXTERNAL_CONTENT_URI, values
+            )
+            val intent = Intent(MediaStore.ACTION_IMAGE_CAPTURE)
+            intent.putExtra(MediaStore.EXTRA_OUTPUT, imageUri)
+            cameraActivityResultLauncher.launch(intent)
+        } else {
+            requestPermissionCamera()
+            message("Bu Özellik İçin İzne İhtiyacımız Var..")
+        }
+    }
+
+    private fun galleryResultListener() {
+        galleryActivityResultLauncher =
+            registerForActivityResult(ActivityResultContracts.StartActivityForResult()) { result ->
+                if (result.resultCode == Activity.RESULT_OK) {
+                    val data = result.data
+                    if (data != null) {
+                        imageUri = data.data
+                        imageUriKaydet(imageUri.toString())
+                        Navigation.findNavController(requireView())
+                            .navigate(R.id.action_scanSearchFragment_to_cropFragment)
+                    }
+                } else {
+                    message("Görsel Seçilmedi!")
+                }
+            }
+    }
+
     private fun requestPermissionGallery() {
         if (ContextCompat.checkSelfPermission(
                 requireContext(), Manifest.permission.READ_EXTERNAL_STORAGE
@@ -155,25 +174,6 @@ class ScanSearchFragment : Fragment() {
         }
     }
 
-    private fun pickImageCamera() {
-        if (ContextCompat.checkSelfPermission(
-                requireContext(), Manifest.permission.CAMERA
-            ) == PackageManager.PERMISSION_GRANTED
-        ) {
-            val values = ContentValues()
-            values.put(MediaStore.Images.Media.TITLE, "Sample Title")
-            values.put(MediaStore.Images.Media.DESCRIPTION, "Sample Description")
-            imageUri = activity?.contentResolver?.insert(
-                MediaStore.Images.Media.EXTERNAL_CONTENT_URI, values
-            )
-            val intent = Intent(MediaStore.ACTION_IMAGE_CAPTURE)
-            intent.putExtra(MediaStore.EXTRA_OUTPUT, imageUri)
-            cameraActivityResultLauncher.launch(intent)
-        } else {
-            requestPermissionCamera()
-            message("Bu Özellik İçin İzne İhtiyacımız Var..")
-        }
-    }
 
     private fun pickImageGallery() {
         if (ContextCompat.checkSelfPermission(
@@ -189,7 +189,7 @@ class ScanSearchFragment : Fragment() {
         }
     }
 
-    private fun imageUriKaydet(imageUri:String){
+    private fun imageUriKaydet(imageUri: String) {
         viewModel.gorselUriKaydet(imageUri)
     }
 

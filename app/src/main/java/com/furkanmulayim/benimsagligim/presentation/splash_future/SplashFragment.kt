@@ -39,11 +39,9 @@ class SplashFragment : Fragment() {
         viewModel.isInternetAvailable.observe(viewLifecycleOwner, Observer { connect ->
             if (connect == true) {
                 //eğer bağlantı varsa
-                requireActivity().showMessage("Bağlantı Sağlandı")
                 viewModel.baglantiVar(requireView())
             } else {
                 //eğer bağlantı yoksa
-                requireActivity().showMessage("Bağlantı Yok")
                 binding.baglaniYokButton.visibility = View.VISIBLE
                 baglantiClickListener()
             }
@@ -54,7 +52,6 @@ class SplashFragment : Fragment() {
 
     private fun baglantiClickListener() {
         binding.button.setOnClickListener {
-            requireActivity().showMessage("Bağlantı Aranıyor")
             binding.baglaniYokButton.visibility = View.GONE
             viewModel.baglantiYok()
         }
