@@ -1,7 +1,6 @@
 package com.furkanmulayim.benimsagligim.presentation.detail_future
 
 import android.app.Application
-import android.util.Log
 import android.widget.ImageView
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.viewModelScope
@@ -10,21 +9,12 @@ import com.furkanmulayim.benimsagligim.data.service.saved.SavedDiseaseDatabase
 import com.furkanmulayim.benimsagligim.domain.model.Disease
 import com.furkanmulayim.benimsagligim.presentation.home.BaseViewModel
 import com.furkanmulayim.benimsagligim.util.fillPieChart
+import com.furkanmulayim.benimsagligim.util.getGPTResponse
 import com.furkanmulayim.benimsagligim.util.loadImageCategpry
 import com.github.mikephil.charting.charts.PieChart
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch
-import okhttp3.Call
-import okhttp3.Callback
-import okhttp3.MediaType.Companion.toMediaTypeOrNull
 import okhttp3.OkHttpClient
-import okhttp3.Request
-import okhttp3.RequestBody.Companion.toRequestBody
-import okhttp3.Response
-import org.json.JSONArray
-import org.json.JSONException
-import org.json.JSONObject
-import java.io.IOException
 
 
 class DetailViewModel(application: Application) : BaseViewModel(application) {
@@ -148,53 +138,8 @@ class DetailViewModel(application: Application) : BaseViewModel(application) {
         pieChartGorulme.fillPieChart(gorulmes, 100 - gorulmes)
     }
 
-
-    fun getGPTResponse(gptQuery: String, callback: (String) -> Unit) {
-        val apiKey = "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"
-        val url = "https://api.openai.com/v1/engines/davinci/completions"
-
-        val requestBody = """
-        {
-            "prompt": "$gptQuery",
-            "max_tokens": 9,
-            "temperature": 0.5,
-            "n": 1
-        }
-    """.trimIndent()
-
-        val request = Request.Builder()
-            .url(url)
-            .header("Content-Type", "application/json")
-            .addHeader("Authorization", "Bearer $apiKey")
-            .post(requestBody.toRequestBody("application/json".toMediaTypeOrNull()))
-            .build()
-
-        OkHttpClient().newCall(request).enqueue(object : Callback {
-            override fun onFailure(call: Call, e: IOException) {
-                Log.e(e.message, "Request Hatası!")
-            }
-
-            override fun onResponse(call: Call, response: Response) {
-                val body = response.body?.string()
-                if (!body.isNullOrEmpty()) {
-                    Log.v("data", body)
-                } else {
-                    Log.v("data", "Boş La Liste")
-                }
-
-                println(body)
-                try {
-                    val jsoObject = JSONObject(body)
-                    val choices = jsoObject.getJSONArray("choices")
-                    val firstChoice = choices.getJSONObject(0)
-                    val textResult = firstChoice.getString("text")
-                    callback(textResult)
-                } catch (e: JSONException) {
-                    e.printStackTrace()
-                    println("La Hata var " + e.message.toString())
-                }
-            }
-        })
+    fun getGPT(query: String, callback: (String) -> Unit) {
+        getGPTResponse(query, callback)
     }
 
 }

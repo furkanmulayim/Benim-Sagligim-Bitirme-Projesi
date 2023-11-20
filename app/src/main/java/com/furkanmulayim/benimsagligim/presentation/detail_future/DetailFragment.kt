@@ -61,17 +61,9 @@ class DetailFragment : Fragment() {
 
         viewModel.deneme()
 
-        viewModel.getGPTResponse("sadece 2 adet isim ver kısaca.") { response ->
-            //requireActivity().showMessage(response)
+        viewModel.getGPT("maksimum 35 karakterlik ibuprofen hakkında bilhi verir misin  ") { response ->
+            println("GPT: $response")
         }
-    }
-
-    fun denemek() {
-        viewModel.savedDiseaseList.observe(viewLifecycleOwner, Observer {
-            for (i in it) {
-                println("Saved Hastaliks: " + i.adi)
-            }
-        })
     }
 
     private fun onClickListeners() {
@@ -84,7 +76,6 @@ class DetailFragment : Fragment() {
         binding.kaydetbutton.setOnClickListener {
             //hastalığı (UUID ile) kaydetmek
             viewModel.diseaseSave(diseaseUuid)
-            denemek()
         }
     }
 
