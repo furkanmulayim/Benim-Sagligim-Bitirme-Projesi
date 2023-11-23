@@ -27,7 +27,7 @@ class ResultAdapter(
     override fun onBindViewHolder(holder: ViewHolder, position: Int) {
         val item = dataList[position]
         holder.hastalikAdi.text = item.name
-        holder.gorseli.setBackgroundResource(R.drawable.sil)
+        //holder.gorseli.setBackgroundResource(R.drawable.sil)
     }
 
     override fun getItemCount(): Int {

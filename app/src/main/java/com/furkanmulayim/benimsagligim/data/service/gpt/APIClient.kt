@@ -10,7 +10,7 @@ import okhttp3.RequestBody.Companion.toRequestBody
 class APIClient {
     //Buraya kendi API anahtarınızı girin..
     private val apiKey = GptAPIConfig().apiKey
-    private val url = "https://api.openai.com/v1/engines/text-davinci-003/completions"
+    private val url = "https://api.openai.com/v1/engines/gpt-3.5-turbo-instruct-0914/completions"
     private val client = OkHttpClient()
 
     fun post(requestBody: String, callback: Callback) {
@@ -18,6 +18,7 @@ class APIClient {
             .addHeader("Authorization", "Bearer $apiKey")
             .post(requestBody.toRequestBody("application/json".toMediaTypeOrNull())).build()
 
+        println(request.toString())
         client.newCall(request).enqueue(callback)
     }
 }

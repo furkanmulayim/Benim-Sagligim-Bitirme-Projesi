@@ -17,7 +17,6 @@ import kotlinx.coroutines.launch
 class DiseaseCategoryViewModel(application: Application) : BaseViewModel(application) {
 
     val diseaseName = MutableLiveData<String>()
-    val backgroun = MutableLiveData<String>()
     val foregroun = MutableLiveData<String>()
 
     val diseaseList = MutableLiveData<List<Disease>>()

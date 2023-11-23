@@ -59,11 +59,6 @@ class DetailFragment : Fragment() {
         onClickListeners()
         observeLiveData()
 
-        viewModel.deneme()
-
-        viewModel.getGPT("maksimum 35 karakterlik ibuprofen hakkında bilhi verir misin  ") { response ->
-            println("GPT: $response")
-        }
     }
 
     private fun onClickListeners() {

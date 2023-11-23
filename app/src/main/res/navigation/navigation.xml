@@ -51,7 +51,8 @@
     <fragment
         android:id="@+id/diseaseCategoryFragment"
         android:name="com.furkanmulayim.benimsagligim.presentation.category_future.DiseaseCategoryFragment"
-        android:label="DiseaseCategoryFragment">
+        android:label="DiseaseCategoryFragment"
+        tools:layout="@layout/fragment_disease_category">
         <action
             android:id="@+id/action_diseaseCategoryFragment_to_homeFragment"
             app:destination="@id/homeFragment"/>
@@ -75,7 +76,8 @@
     <fragment
         android:id="@+id/forMeFragment"
         android:name="com.furkanmulayim.benimsagligim.presentation.for_me_future.ForMeFragment"
-        android:label="ForMeFragment">
+        android:label="ForMeFragment"
+        tools:layout="@layout/fragment_for_me">
         <action
             android:id="@+id/action_forMeFragment_to_homeFragment"
             app:destination="@id/homeFragment"
@@ -108,7 +110,8 @@
     <fragment
         android:id="@+id/diseaseDetectionFragment"
         android:name="com.furkanmulayim.benimsagligim.presentation.detection_future.DiseaseDetectionFragment"
-        android:label="DiseaseDetectionFragment">
+        android:label="DiseaseDetectionFragment"
+        tools:layout="@layout/fragment_disease_detection">
         <action
             android:id="@+id/action_diseaseDetectionFragment_to_homeFragment"
             app:destination="@id/homeFragment"/>
@@ -119,7 +122,8 @@
     <fragment
         android:id="@+id/diseaseDetailFragment"
         android:name="com.furkanmulayim.benimsagligim.presentation.detail_future.DetailFragment"
-        android:label="DiseaseDetailFragment">
+        android:label="DiseaseDetailFragment"
+        tools:layout="@layout/fragment_disease_detail">
           <action
             android:id="@+id/action_diseaseDetailFragment_to_diseaseCategoryFragment"
             app:destination="@id/diseaseCategoryFragment"/>
@@ -134,7 +138,8 @@
     <fragment
         android:id="@+id/resultFragment"
         android:name="com.furkanmulayim.benimsagligim.presentation.result_future.ResultFragment"
-        android:label="ResultFragment">
+        android:label="ResultFragment"
+        tools:layout="@layout/fragment_result">
         <action
             android:id="@+id/action_resultFragment_to_diseaseDetectionFragment"
             app:destination="@id/diseaseDetectionFragment" />
@@ -142,7 +147,8 @@
     <fragment
         android:id="@+id/searchFragment"
         android:name="com.furkanmulayim.benimsagligim.presentation.search_future.SearchFragment"
-        android:label="SearchFragment" >
+        android:label="SearchFragment"
+        tools:layout="@layout/fragment_search" >
         <action
             android:id="@+id/action_searchFragment_to_homeFragment"
             app:destination="@id/homeFragment" />
@@ -158,7 +164,8 @@
     <fragment
         android:id="@+id/notificationFragment"
         android:name="com.furkanmulayim.benimsagligim.presentation.notification_future.NotificationFragment"
-        android:label="NotificationFragment" >
+        android:label="NotificationFragment"
+        tools:layout="@layout/fragment_notification" >
         <action
             android:id="@+id/action_notificationFragment_to_forMeFragment"
             app:destination="@id/forMeFragment" />
@@ -171,11 +178,15 @@
         <action
             android:id="@+id/action_pillInformationFragment_to_homeFragment"
             app:destination="@id/homeFragment" />
+        <action
+            android:id="@+id/action_pillInformationFragment_to_informationFragment"
+            app:destination="@id/informationFragment" />
     </fragment>
     <fragment
         android:id="@+id/savedFragment"
         android:name="com.furkanmulayim.benimsagligim.presentation.saved_future.SavedFragment"
-        android:label="SavedFragment" >
+        android:label="SavedFragment"
+        tools:layout="@layout/fragment_saved">
         <action
             android:id="@+id/action_savedFragment_to_forMeFragment"
             app:destination="@id/forMeFragment" />
@@ -183,7 +194,8 @@
     <fragment
         android:id="@+id/scanSearchFragment"
         android:name="com.furkanmulayim.benimsagligim.presentation.scan_disease_future.ScanSearchFragment"
-        android:label="ScanSearchFragment" >
+        android:label="ScanSearchFragment"
+        tools:layout="@layout/fragment_scan_search">
         <action
             android:id="@+id/action_scanSearchFragment_to_cropFragment"
             app:destination="@id/cropFragment" />
@@ -194,7 +206,8 @@
     <fragment
         android:id="@+id/splashFragment2"
         android:name="com.furkanmulayim.benimsagligim.presentation.splash_future.SplashFragment"
-        android:label="SplashFragment" >
+        android:label="SplashFragment"
+        tools:layout="@layout/fragment_splash">
         <action
             android:id="@+id/action_splashFragment2_to_homeFragment"
             app:destination="@id/homeFragment" />
@@ -202,7 +215,8 @@
     <fragment
         android:id="@+id/cropFragment"
         android:name="com.furkanmulayim.benimsagligim.presentation.crop_future.CropFragment"
-        android:label="CropFragment" >
+        android:label="CropFragment"
+        tools:layout="@layout/fragment_crop">
         <action
             android:id="@+id/action_cropFragment_to_recognitionFragment"
             app:destination="@id/recognitionFragment" />
@@ -210,10 +224,20 @@
     <fragment
         android:id="@+id/recognitionFragment"
         android:name="com.furkanmulayim.benimsagligim.presentation.recognition_future.RecognitionFragment"
-        android:label="RecognitionFragment" >
+        android:label="RecognitionFragment"
+        tools:layout="@layout/fragment_recognition">
         <action
             android:id="@+id/action_recognitionFragment_to_searchFragment"
             app:destination="@id/searchFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/informationFragment"
+        android:name="com.furkanmulayim.benimsagligim.presentation.information.InformationFragment"
+        android:label="InformationFragment"
+        tools:layout="@layout/fragment_information">
+        <action
+            android:id="@+id/action_informationFragment_to_homeFragment"
+            app:destination="@id/homeFragment" />
     </fragment>
 
 </navigation>

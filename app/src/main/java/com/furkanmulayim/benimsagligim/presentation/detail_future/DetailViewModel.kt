@@ -19,9 +19,6 @@ import okhttp3.OkHttpClient
 
 class DetailViewModel(application: Application) : BaseViewModel(application) {
 
-
-    private val client = OkHttpClient()
-
     //Room ile gelen hastalık verileri bu listeyle adaptöre göndereceğiz
     val hastalik = MutableLiveData<Disease>()
 
@@ -93,27 +90,11 @@ class DetailViewModel(application: Application) : BaseViewModel(application) {
             if (existingDisease == null) {
                 dao.insert(hastalik)
                 message.postValue("Hastalık Başarıyla Kaydedildi..")
-                deneme()
             } else {
                 message.postValue("Hastalık Zaten Kaydedilmiş..")
             }
         }
     }
-
-
-    fun deneme() {
-        viewModelScope.launch(Dispatchers.IO) {
-            val dao = SavedDiseaseDatabase(getApplication()).savedDiseaseDao()
-            val hastalik = dao.getAllDiseases()
-            showDiseases(hastalik)
-        }
-    }
-
-
-    private fun showDiseases(diseLis: List<Disease>) {
-        savedDiseaseList.postValue(diseLis)
-    }
-
 
     fun getSimilar(benzer: String) {
         //string olarak gelen benzer hastalıkları liste haline dönüştürür ve Room fonksiyonuna paslar.
@@ -136,10 +117,6 @@ class DetailViewModel(application: Application) : BaseViewModel(application) {
         // risk oranı ve görülme oranlarını şema olarak görüntülemek için kullanıyoruz
         pieChartRisk.fillPieChart(risko, 100 - risko)
         pieChartGorulme.fillPieChart(gorulmes, 100 - gorulmes)
-    }
-
-    fun getGPT(query: String, callback: (String) -> Unit) {
-        getGPTResponse(query, callback)
     }
 
 }
