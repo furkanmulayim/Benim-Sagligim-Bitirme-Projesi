@@ -41,7 +41,6 @@ android {
 }
 
 dependencies {
-
     implementation 'androidx.swiperefreshlayout:swiperefreshlayout:1.1.0'
     def retrofitVersion = '2.8.1'
     def rxJavaVersion = '2.1.1'
@@ -87,13 +86,11 @@ dependencies {
     //MP Android Pie Chart
     implementation 'com.github.PhilJay:MPAndroidChart:v3.1.0'
 
-    //theartofdev - Image Cropper 
+    //theartofdev - Image Cropper
     implementation "com.theartofdev.edmodo:android-image-cropper:2.8.0"
 
     //OkHTTP
     implementation("com.squareup.okhttp3:okhttp:4.11.0")
-
-
 
     implementation 'androidx.core:core-ktx:1.8.0'
     implementation 'androidx.appcompat:appcompat:1.4.1'

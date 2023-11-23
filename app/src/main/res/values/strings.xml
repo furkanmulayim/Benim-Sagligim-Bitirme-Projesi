@@ -74,8 +74,15 @@
     <string name="ilac_tara_button2">Görsel Yükle</string>
     <string name="tedavi_yontem">Tedavi Yöntemi Nasıldır?</string>
     <string name="hakkinda">Hakkında</string>
-    <!-- TODO: Remove or change this placeholder text -->
-    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+    <string name="izin">Bu Özellik İçin İzne İhtiyacımız Var..</string>
+    <string name="secilmedi">Görsel Seçilmedi!</string>
+    <string name="cekilmedi">Fotoğraf Çekilmedi!</string>
+    <string name="ilac_ara">İlaç İsmi Girin!</string>
+    <string name="gpt_metin_ornek">Lütfen ilaç ismini girerek tik işaretli butona basın ve cevabınızı bekleyin... 🙂</string>
+    <string name="sabir">Biraz sabır 🧘 İlacınızı getiriyoruz ✅</string>
+
 
 </resources>
 

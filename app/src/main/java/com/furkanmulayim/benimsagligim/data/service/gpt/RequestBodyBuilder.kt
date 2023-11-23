@@ -5,7 +5,7 @@ class RequestBodyBuilder {
         return """
         {
             "prompt": "You are a helpful assistant.\\nUser: $gptQuery",
-            "max_tokens": 20,
+            "max_tokens": 35,
             "temperature": 0.2,
             "n": 1
         }

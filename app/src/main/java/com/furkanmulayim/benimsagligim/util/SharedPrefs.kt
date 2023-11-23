@@ -9,6 +9,7 @@ class SharedPrefs {
 
     companion object {
         private val preferencesTime = "preferences_time"
+        private val preferencesGptTime = "gpt_time"
         private val prefImage = "preferences_image"
 
         private var sp: SharedPreferences? = null
@@ -36,10 +37,17 @@ class SharedPrefs {
         sp?.edit(commit = true) {
             putLong(preferencesTime, time)
         }
-
     }
-
     fun getTime() = sp?.getLong(preferencesTime, 0)
+
+
+    //kullanıcının indirdiği zamanı kaydedip almak için tutuyoruz
+    fun saveGptTime(time: Long) {
+        sp?.edit(commit = true) {
+            putLong(preferencesGptTime, time)
+        }
+    }
+    fun getGptTime() = sp?.getLong(preferencesGptTime, 0)
 
 
     //kullanıcının çektiği fotoğrafı bir sonraki fotograf çekene kadar tutuyoruz
@@ -48,6 +56,5 @@ class SharedPrefs {
             putString(prefImage, uriString)
         }
     }
-
     fun getImageUriInShared() = sp?.getString(prefImage,"")
 }
