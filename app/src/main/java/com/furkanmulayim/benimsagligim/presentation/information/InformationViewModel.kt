@@ -25,7 +25,7 @@ class InformationViewModel(application: Application) : BaseViewModel(application
     fun getGPT(query: String) {
         sorguZamaniKaydet()
         println(query)
-        getGPTResponse("$query bu ilaç hangi tedavide kullanılır bir cümle ile anlatır mısın?") { response ->
+        getGPTResponse("$query ") { response ->
             gptResponseLiveData.postValue(response)
         }
     }

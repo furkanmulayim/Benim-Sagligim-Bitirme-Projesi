@@ -18,7 +18,6 @@ class DiseaseCategoryViewModel(application: Application) : BaseViewModel(applica
 
     val diseaseName = MutableLiveData<String>()
     val foregroun = MutableLiveData<String>()
-
     val diseaseList = MutableLiveData<List<Disease>>()
 
     fun refresh() {

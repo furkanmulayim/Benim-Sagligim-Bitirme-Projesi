@@ -4,7 +4,6 @@ import android.Manifest
 import android.app.Activity
 import android.content.ContentValues
 import android.content.Intent
-import android.content.SharedPreferences
 import android.content.pm.PackageManager
 import android.net.Uri
 import android.os.Bundle
@@ -125,7 +124,7 @@ class PillInformationFragment : Fragment() {
             cameraActivityResultLauncher.launch(intent)
         } else {
             requestPermissionCamera()
-            message(getString(R.string.izin))
+            message(getString(R.string.izinn))
         }
     }
 
@@ -167,7 +166,7 @@ class PillInformationFragment : Fragment() {
             galleryActivityResultLauncher.launch(intent)
         } else {
             requestPermissionGallery()
-            message(getString(R.string.izin))
+            message(getString(R.string.izinn))
         }
     }
 

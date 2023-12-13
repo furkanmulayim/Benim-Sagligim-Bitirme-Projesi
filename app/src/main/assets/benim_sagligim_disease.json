@@ -7,7 +7,7 @@
     "Görülme Sıklığı": "35",
     "Korunma Yolları": "En iyi korunma yolu, aşı olmaktır. Mevsimsel grip aşıları, hastalığın yaygın olduğu dönemlerde önerilir. El hijyeni önemlidir; sık sık ellerinizi yıkamak veya el dezenfektanı kullanmak enfeksiyon riskini azaltabilir. Hasta kişilerle yakın teması önlemek ve hasta olduğunuzda evde kalmak, yayılma riskini azaltabilir. Öksürürken veya hapşırırken ağzınızı ve burnunuzu kapatmak için bir mendil veya dirseğinizi kullanmak yayılma riskini azaltabilir. Kamu alanlarında maske takmak, enfeksiyonun yayılmasını engellemeye yardımcı olabilir.",
     "Enfekte Oldum": "Hasta olduğunuzda dinlenmek ve bol sıvı tüketmek, iyileşme sürecinizi hızlandırabilir. Doktora başvurmak gerekebilir, özellikle de belirtiler ciddi hale gelirse veya yüksek riskli bir grupta iseniz. Doktorun önerdiği ilaçları düzenli olarak kullanmak, enfeksiyonun süresini kısaltabilir ve komplikasyon riskini azaltabilir. Hasta iken başkalarıyla teması sınırlamak, hastalığın yayılmasını önlemeye yardımcı olabilir. Özellikle ağır belirtiler, nefes darlığı veya ciddi komplikasyonlar yaşanıyorsa hemen tıbbi yardım almak önemlidir.",
-    "Etiketler": "Yüksek Ateş,Baş Ağrısı,Kas Ağrıları,Boğaz Ağrısı,Öksürük,Burun Akıntısı,Halsizlik,Titreme",
+    "Etiketler": " Ateş,Baş Ağrısı,Kas Ağrıları,Boğaz Ağrısı,Öksürük,Burun Akıntısı,Halsizlik,Titreme",
     "Benzer Hastalıklar": "Soğuk Algınlığı,Koronavirüs",
     "Görsel Link": "https://raw.githubusercontent.com/furkanmulayim/kaynakDosyasiSaglik/main/hastalik-gorseller/grip.png"
   },
@@ -19,7 +19,7 @@
     "Görülme Sıklığı": "40",
     "Korunma Yolları": "Maske takmak, sosyal mesafeyi korumak, sık sık ellerinizi yıkamak, aşı yaptırmak, kalabalık ortamlardan kaçınmak.",
     "Enfekte Oldum": "COVID-19 belirtileri görüldüğünde, hemen sağlık kuruluşuyla iletişime geçmelisiniz. İzole olmalı ve doktorunuzun talimatlarını takip etmelisiniz.",
-    "Etiketler": "Yüksek Ateş,Öksürük,Nefes Darlığı,Kas Ağrıları,Eklem Ağrıları,Baş Ağrısı,Boğaz Ağrısı,Tat Kaybı,Koku Kaybı",
+    "Etiketler": " Ateş,Öksürük,Nefes Darlığı,Kas Ağrıları,Eklem Ağrıları,Baş Ağrısı,Boğaz Ağrısı,Tat Kaybı,Koku Kaybı",
     "Benzer Hastalıklar": "Grip, Soğuk Algınlığı, Bronşit",
     "Görsel Link": "https://raw.githubusercontent.com/furkanmulayim/kaynakDosyasiSaglik/main/hastalik-gorseller/korona.png"
   },
@@ -31,7 +31,7 @@
     "Görülme Sıklığı": "27",
     "Korunma Yolları": "Soğuk algınlığından korunmanın en etkili yolu hijyenik önlemleri uygulamaktır. Sık sık ellerinizi yıkamak, el dezenfektanları kullanmak, hasta kişilerle yakın teması sınırlamak ve burun ve ağızla temas etmekten kaçınmak önemlidir. Ayrıca, bağışıklık sistemini güçlendirmek için sağlıklı bir yaşam tarzı benimsemek ve dengeli beslenmek de yardımcı olabilir.",
     "Enfekte Oldum": "Soğuk algınlığı semptomları genellikle hafif ve kendiliğinden iyileşir. Dinlenmek, bol sıvı tüketmek ve semptomları hafifletmeye yardımcı olan reçetesiz ilaçları kullanmak genellikle tedavi için yeterlidir. Ancak, semptomlar uzun süre devam ederse veya ciddi hale gelirse, bir sağlık profesyoneline başvurmak önemlidir.",
-    "Etiketler": "Burun Tıkanıklığı,Hapşırma,Boğaz Ağrısı,Öksürük,Hafif Ateş,Yorgunluk",
+    "Etiketler": "Burun Tıkanıklığı,Hapşırma,Boğaz Ağrısı,Öksürük, Ateş,Yorgunluk",
     "Benzer Hastalıklar": "Grip, Koronavirüs",
     "Görsel Link": "https://raw.githubusercontent.com/furkanmulayim/kaynakDosyasiSaglik/main/hastalik-gorseller/soguk.png"
   },
@@ -43,7 +43,7 @@
     "Görülme Sıklığı": "7",
     "Korunma Yolları": "HIV enfeksiyonundan korunmanın en etkili yollarından biri cinsel ilişki sırasında korunma (prezervatif kullanma), güvenli iğne kullanımı ve kan, semen, vajinal sıvı veya anneden bebeğe geçiş gibi yollarla HIV bulaşma riskini azaltmaktır. Ayrıca HIV testi yaptırmak, erken tanı ve tedaviye erişim sağlamak da önemlidir.",
     "Enfekte Oldum": "HIV enfeksiyonu tanı konduğunda, antiretroviral ilaçlar ve diğer tedavi yöntemleri önerilir. Erken tanı ve tedavi, HIV enfeksiyonunun ilerlemesini yavaşlatabilir ve AIDS'i önleyebilir. Ayrıca, hasta kişinin bağışıklık sistemini güçlendirmek ve sağlıklı bir yaşam tarzı benimsemek de önemlidir.",
-    "Etiketler": "Enfeksiyon,Kilo Kaybı,Yorgunluk,Yüksek Ateş,Öksürük,İshal ",
+    "Etiketler": "Enfeksiyon,Kilo Kaybı,Yorgunluk, Ateş,Öksürük,İshal ",
     "Benzer Hastalıklar": "Grip",
     "Görsel Link": "https://raw.githubusercontent.com/furkanmulayim/kaynakDosyasiSaglik/main/hastalik-gorseller/aids.png"
   },
@@ -91,7 +91,7 @@
     "Görülme Sıklığı": "25",
     "Korunma Yolları": "Veremden korunmak için en etkili yöntemlerden biri, BCG aşısının yaptırılmasıdır. Ayrıca, hasta kişilerle yakın teması sınırlamak, iyi havalandırılan yerlerde bulunmak ve hijyen kurallarına dikkat etmek de bulaşma riskini azaltabilir.",
     "Enfekte Oldum": "Verem tespit edildiğinde, hastalığın türüne ve yayılma riskine göre antibiyotik tedavisi uygulanır. Tedavi, genellikle uzun bir süre boyunca devam eder (çoğu kez 6-9 ay). Tedavi kurallarına uyum son derece önemlidir, aksi takdirde dirençli tüberküloz gelişebilir.",
-    "Etiketler": "Yüksek Ateş, Baş Ağrısı,Öksürük, Kanlı Balgam, Halsizlik, İştah Kaybı, Kilo Kaybı, Göğüs Ağrısı, Nefes Darlığı",
+    "Etiketler": " Ateş, Baş Ağrısı,Öksürük, Kanlı Balgam, Halsizlik, İştah Kaybı, Kilo Kaybı, Göğüs Ağrısı, Nefes Darlığı",
     "Benzer Hastalıklar": "Koronavirüs,Astım,Bronşit, Koah",
     "Görsel Link": "https://raw.githubusercontent.com/furkanmulayim/kaynakDosyasiSaglik/main/hastalik-gorseller/verem.png"
   },
@@ -103,7 +103,7 @@
     "Görülme Sıklığı": "10",
     "Korunma Yolları": "Kızamıktan korunmak için en etkili yol, aşılanmaktır. Kızamık, kabakulak ve kızamıkçık (MMR) aşısı, çocuklar için rutin bir aşıdır ve bağışıklık kazanmalarını sağlar. Ayrıca, hasta kişilerle teması sınırlamak ve kişisel hijyene dikkat etmek de bulaşma riskini azaltabilir.",
     "Enfekte Oldum": "Kızamık tedavisi için spesifik bir antiviral ilaç bulunmamakla birlikte, semptomların yönetilmesi önemlidir. İyileşme sürecini hızlandırmak ve komplikasyonları önlemek için dinlenme ve bol sıvı tüketimi önerilir. Doktor tavsiyelerine uymak önemlidir.",
-    "Etiketler": "Yüksek Ateş, Öksürük, Burun Akıntısı, Kızarıklık,Ciltte Döküntü, Gözlerde Kızarıklık, Halsizlik, İştah Kaybı",
+    "Etiketler": " Ateş, Öksürük, Burun Akıntısı, Kızarıklık,Ciltte Döküntü, Göz Kızarıklığı, Halsizlik, İştah Kaybı",
     "Benzer Hastalıklar": "Suçiçeği,Ebola",
     "Görsel Link": "https://raw.githubusercontent.com/furkanmulayim/kaynakDosyasiSaglik/main/hastalik-gorseller/kızamik.png"
   },
@@ -115,7 +115,7 @@
     "Görülme Sıklığı": "4",
     "Korunma Yolları": "Su çiçeğinden korunmanın en etkili yolu, su çiçeği aşısının yaptırılmasıdır. Aşı, hastalığın şiddetini azaltır ve ciddi komplikasyon riskini azaltır. Ayrıca, hasta kişilerle teması sınırlamak ve kişisel hijyene dikkat etmek de bulaşma riskini azaltabilir.",
     "Enfekte Oldum": "Su çiçeği tedavisi semptomların yönetilmesini içerir. İyileşme sürecini hızlandırmak ve kaşıntıyı azaltmak için antihistaminikler ve kremler kullanılabilir. Hasta kişi izole edilmeli ve teması sınırlanmalıdır.",
-    "Etiketler": "Yüksek Ateş, Baş Ağrısı, İştah Kaybı, Kabarcık, Kaşıntı, Halsizlik",
+    "Etiketler": " Ateş, Baş Ağrısı, İştah Kaybı, Kabarcık, Kaşıntı, Halsizlik",
     "Benzer Hastalıklar": "Kızamık,Ebola",
     "Görsel Link": "https://raw.githubusercontent.com/furkanmulayim/kaynakDosyasiSaglik/main/hastalik-gorseller/sucicegi.png"
   },
@@ -127,7 +127,7 @@
     "Görülme Sıklığı": "2",
     "Korunma Yolları": "Ebola'dan korunmanın en iyi yolu, teması sınırlamak ve koruyucu giysi kullanmaktır. Ebola salgını dönemlerinde hasta kişilerle teması önlemek çok önemlidir. Ayrıca, kişisel koruyucu ekipmanlar kullanmak, enfekte olma riskini azaltabilir.",
     "Enfekte Oldum": "Ebola virüsü ile enfekte olan kişiler için henüz özel bir antiviral tedavi bulunmamaktadır. Ancak destekleyici tedavi sağlanmalıdır. İzolasyon ve enfekte kişilerle teması önleme tedbirleri alınmalıdır. Salgın durumlarında halk sağlığı önlemleri de uygulanmalıdır.",
-    "Etiketler": "Yüksek Ateş, Baş Ağrısı, Halsizlik, Kas Ağrıları, Kusma, İshal, Kanama",
+    "Etiketler": " Ateş, Baş Ağrısı, Halsizlik, Kas Ağrıları, Kusma, İshal, Kanama",
     "Benzer Hastalıklar": "Kızamık,Su Çiçeği",
     "Görsel Link": "https://raw.githubusercontent.com/furkanmulayim/kaynakDosyasiSaglik/main/hastalik-gorseller/ebola.png"
   },
@@ -139,7 +139,7 @@
     "Görülme Sıklığı": "10",
     "Korunma Yolları": "Uyuzdan korunmanın en iyi yolu kişisel hijyene dikkat etmek ve enfekte kişilerle teması sınırlamaktır. Paylaşılan giysiler veya yatak takımları da uyuzun yayılmasına neden olabilir, bu nedenle kişisel eşyaların paylaşımına dikkat etmek önemlidir.",
     "Enfekte Oldum": "Uyuzun tedavisi, özel bir ilaç olan skabisitlerin kullanılmasını içerir. Bu ilaçlar, parazitleri öldürmek ve semptomları hafifletmek için cilde uygulanır. Aynı zamanda enfekte kişinin giysileri ve yatak takımları sıcak su ile yıkanmalı veya temizlenmelidir.",
-    "Etiketler": "Şiddetli Kaşıntı, Kızarıklık, Kabarcık,Lezyon, Ciltte Döküntü",
+    "Etiketler": "Kaşıntı, Kızarıklık, Kabarcık,Lezyon, Ciltte Döküntü",
     "Benzer Hastalıklar": "",
     "Görsel Link": "https://raw.githubusercontent.com/furkanmulayim/kaynakDosyasiSaglik/main/hastalik-gorseller/uyuz.png"
   },
@@ -151,7 +151,7 @@
     "Görülme Sıklığı": "6",
     "Korunma Yolları": "Sifilizden korunmanın en etkili yolu, cinsel ilişki sırasında kondom kullanmaktır. Ayrıca, cinsel partnerlerin enfekte olup olmadığını bilmek ve düzenli olarak test yaptırmak da korunma önlemleridir.",
     "Enfekte Oldum": "Sifiliz tedavisi için antibiyotikler kullanılır. Erken dönemde teşhis edilen sifiliz kolayca tedavi edilir, ancak tedaviye zamanında başlanmazsa ve enfeksiyon ilerlerse daha uzun süreli tedavi gerekebilir. Enfekte kişinin partnerleri de test edilmeli ve gerekirse tedavi edilmelidir.",
-    "Etiketler": "Genital Bölge Yaraları,Şankır,Lezyon,Ciltte Döküntü,Yüksek Ateş, Halsizlik,Baş Ağrısı,Lenf Düğümlerinde Şişme",
+    "Etiketler": "Genital Yara,Şankır,Lezyon,Ciltte Döküntü, Ateş, Halsizlik,Baş Ağrısı,Lenflerde Şişlik",
     "Benzer Hastalıklar": "HPV,HSV",
     "Görsel Link": "https://raw.githubusercontent.com/furkanmulayim/kaynakDosyasiSaglik/main/hastalik-gorseller/sifiliz.png"
   },
@@ -163,7 +163,7 @@
     "Görülme Sıklığı": "8",
     "Korunma Yolları": "Bel soğukluğundan korunmanın en etkili yolu, cinsel ilişki sırasında kondom kullanmaktır. Ayrıca, cinsel partnerlerin enfekte olup olmadığını bilmek ve düzenli olarak test yaptırmak da korunma önlemleridir.",
     "Enfekte Oldum": " Bel soğukluğu tedavisi antibiyotiklerle yapılır. Ancak enfeksiyon ilerlemişse ve ciddi komplikasyonlar gelişmişse, uzun süreli tedavi gerekebilir. Ayrıca, enfekte kişinin partnerleri de test edilmeli ve gerekirse tedavi edilmelidir.",
-    "Etiketler": "İdrarda Yanma,Genital Akıntı, Genital Bölge Ağrısı,Vajinal Akıntı, Rektal Ağrı, Rektal Kanama",
+    "Etiketler": "İdrarda Yanma,Genital Akıntı, Genital Ağrı ,Vajinal Akıntı, Rektal Ağrı, Rektal Kanama",
     "Benzer Hastalıklar": "",
     "Görsel Link": "https://raw.githubusercontent.com/furkanmulayim/kaynakDosyasiSaglik/main/hastalik-gorseller/belsoguklugu.png"
   },
@@ -175,7 +175,7 @@
     "Görülme Sıklığı": "15",
     "Korunma Yolları": "HSV'den korunmanın en etkili yollarından biri, cinsel ilişki sırasında kondom kullanmaktır. Ayrıca, temas halinde olan partnerlerin enfekte olup olmadığını bilmek ve cinsel ilişkilerde dikkatli olmak da önemlidir.",
     "Enfekte Oldum": "HSV enfeksiyonları için antiviral ilaçlar bulunmaktadır. Bu ilaçlar semptomları hafifletir, iyileşme sürecini hızlandırır ve tekrarlayıcı enfeksiyonları önler. Ancak, HSV ömür boyu vücutta kalır ve dönem dönem nükseder.",
-    "Etiketler": "Ağızda Kaşıntı, Genital Kaşıntı, Kabarcık,Yara ve Ağrısı,Hafif Ateş,Halsizlik,Lenf Düğümlerinde Şişme ",
+    "Etiketler": "Ağızda Kaşıntı, Genital Kaşıntı, Kabarcık,Genital Yara, Genital Ağrı, Ateş,Halsizlik,Lenflerde Şişlik ",
     "Benzer Hastalıklar": "Sifiliz,HPV",
     "Görsel Link": "https://raw.githubusercontent.com/furkanmulayim/kaynakDosyasiSaglik/main/hastalik-gorseller/hsv.png"
   },
@@ -199,7 +199,7 @@
     "Görülme Sıklığı": "7",
     "Korunma Yolları": "Zatürreden korunmanın en etkili yollarından biri aşılanmaktır. Pnömokok aşısı ve grip aşısı, zatürre riskini azaltır. Ayrıca kişisel hijyene dikkat etmek, el yıkamak ve hasta kişilerle teması sınırlamak da bulaşma riskini azaltabilir.",
     "Enfekte Oldum": "Zatürre tedavisi antibiyotiklerle yapılır. Tedaviye erken başlandığında, hastanın genellikle hızlı bir şekilde iyileşmesi mümkündür. İlaçlar, enfeksiyonu kontrol altına alır ve semptomları hafifletir.",
-    "Etiketler": "Yüksek Ateş, Şiddetli Öksürük, Solunum Zorluğu, Göğüs Ağrısı,Titreme, Halsizlik, İştahsızlık, Baş Ağrısı",
+    "Etiketler": " Ateş,Öksürük, Nefes Darlığı, Göğüs Ağrısı,Titreme, Halsizlik, İştah Kaybı, Baş Ağrısı",
     "Benzer Hastalıklar": "Koronavirüs,Grip, Bronşit , Astım, Koah",
     "Görsel Link": "https://raw.githubusercontent.com/furkanmulayim/kaynakDosyasiSaglik/main/hastalik-gorseller/zaturre.png"
   },
@@ -211,7 +211,7 @@
     "Görülme Sıklığı": "7",
     "Korunma Yolları": "Rotavirüs enfeksiyonlarından korunmanın en etkili yolu, rotavirüs aşısı ile bağışıklık kazanmaktır. Ayrıca, temizlik kurallarına dikkat etmek, el yıkamak ve enfekte kişilerle teması sınırlamak da bulaşma riskini azaltabilir.",
     "Enfekte Oldum": "Rotavirüs enfeksiyonlarının tedavisi semptomların yönetilmesini içerir. Elektrolitlerin yeniden dengelenmesi için sıvı takviyesi gerekebilir. Özellikle çocuklar için rotavirüs aşısı, enfeksiyon riskini azaltabilir. Rotavirüs enfeksiyonları, özellikle bebeklerde ve küçük çocuklarda ciddi komplikasyonlara neden olabilir. Erken teşhis, semptomların yönetimi ve yeterli sıvı alımı enfeksiyonun etkilerini azaltabilir. Rotavirüs aşısı, bu hastalığın önlenmesinde önemlidir.",
-    "Etiketler": "Şiddetli İshal, Kusma, Yüksek Ateş, Halsizlik, İştah Kaybı, Karın Ağrısı",
+    "Etiketler": " İshal, Kusma,  Ateş, Halsizlik, İştah Kaybı, Karın Ağrısı",
     "Benzer Hastalıklar": "Kolera, İshal",
     "Görsel Link": "https://raw.githubusercontent.com/furkanmulayim/kaynakDosyasiSaglik/main/hastalik-gorseller/rota.png"
   },
@@ -223,7 +223,7 @@
     "Görülme Sıklığı": "8",
     "Korunma Yolları": "Kolera'dan korunmanın en etkili yolu temiz su tüketmek ve hijyen kurallarına dikkat etmektir. Ayrıca, aşılama programları, kolera salgınlarını kontrol altına almak için kullanılır.",
     "Enfekte Oldum": "Kolera tedavisi, kaybedilen sıvıların ve elektrolitlerin yeniden dengelenmesini içerir. Oral rehidrasyon çözümleri (ORS) veya intravenöz sıvı takviyeleri kullanılabilir. Antibiyotikler de tedaviye yardımcı olabilir.",
-    "Etiketler": "İshal, Şiddetli Kusma, Dehidrasyon,Cilt Kuruluğu, Ağızda Kuruluk,Nabız Yüksekliği, Kas Krampları",
+    "Etiketler": "İshal,Kusma,Ciltte Kuruluk, Ağızda Kuruluk,Nabız Yüksekliği, Kas Krampları",
     "Benzer Hastalıklar": "Rotavirüs, İshal",
     "Görsel Link": "https://raw.githubusercontent.com/furkanmulayim/kaynakDosyasiSaglik/main/hastalik-gorseller/kolera.png"
   },
@@ -235,7 +235,7 @@
     "Görülme Sıklığı": "18",
     "Korunma Yolları": "Mantar enfeksiyonlarından korunmanın bazı yolları şunlar olabilir: Temizlik kurallarına dikkat etmek, nemli kıyafetleri ve ayakkabıları sık sık değiştirmek, kişisel hijyeni sürdürmek, ortak kullanılan havlu ve eşyaları sınırlamak, hijyenik ayakkabı ve çorap giymek.",
     "Enfekte Oldum": "Mantar enfeksiyonlarının tedavisi, enfekte bölgeye ve mantar türüne göre değişiklik gösterir. Antifungal ilaçlar, kremler veya losyonlar sıkça kullanılır. Tedaviye erken başlandığında, enfeksiyon genellikle iyileşir. Ancak bazı durumlarda tekrarlayan enfeksiyonlar olabilir. Mantar hastalıkları cilt, tırnak, saç ve mukoza zarları gibi farklı bölgeleri etkileyebilir. Mantar enfeksiyonları genellikle tedavi edilebilir, ancak tekrarlamaları önlemek ve enfeksiyonların yayılmasını engellemek için hijyen önlemlerine dikkat etmek önemlidir. Eğer belirtiler devam eder veya şiddetlenirse, bir sağlık profesyoneline başvurmak önerilir.",
-    "Etiketler": "Kaşıntı, Kızarıklık, Ciltte Döküntü, Tırnak Değişiklikleri, Lezyon",
+    "Etiketler": "Kaşıntı, Kızarıklık, Ciltte Döküntü, Lezyon",
     "Benzer Hastalıklar": "",
     "Görsel Link": "https://raw.githubusercontent.com/furkanmulayim/kaynakDosyasiSaglik/main/hastalik-gorseller/mantar.png"
   },
@@ -247,7 +247,7 @@
     "Görülme Sıklığı": "3",
     "Korunma Yolları": "MS'nin kesin nedeni ve nasıl önlenebileceği hala tam olarak anlaşılamamıştır. Genetik faktörler ve çevresel etkenler MS riskini etkileyebilir, ancak korunma yöntemleri bilinmemektedir.",
     "Enfekte Oldum": "MS tedavisi, semptomların hafifletilmesini, atakların sıklığının azaltılmasını ve hastalığın ilerlemesinin yavaşlatılmasını hedefler. Tedavi yöntemleri arasında immünmodülatör ilaçlar, fizik tedavi, reçete edilen ilaçlar ve semptom yönetimi yer almaktadır. Yaşam boyu devam eden bir hastalıktır ve tedavi gerektirebilir. Erken teşhis ve tedavi, hastalığın etkilerini azaltabilir. MS ile yaşayan kişilerin sağlık profesyonelleri ile yakın bir işbirliği içinde olmaları önemlidir.",
-    "Etiketler": "İşitme Sorunları, Görme Sorunları, Denge Sorunları, Kas Zayıflığı, Yorgunluk, Kol ve Bacakta Koordinasyon Eksikliği, İdrar Sorunları, Bağırsak sorunları, Hafıza Sorunları,Bilişsel Sorunlar, Depresyon, Anksiyete",
+    "Etiketler": "İşitme Sorunları, Görme Sorunları, Denge Kaybı, Kas Güçsüzlüğü, Yorgunluk, Kordinasyon Bozukluğu, İdrar Sorunları, Bağırsak sorunları, Hafıza Kaybı,Bilişsel Sorunlar, Depresyon, Anksiyete",
     "Benzer Hastalıklar": "Parkinson, Guillian Barre Sendromu, Myastenia Gravis, Felç",
     "Görsel Link": "https://raw.githubusercontent.com/furkanmulayim/kaynakDosyasiSaglik/main/hastalik-gorseller/ms.png"
   },
@@ -259,7 +259,7 @@
     "Görülme Sıklığı": "8",
     "Korunma Yolları": "Sara'nın kesin nedeni bilinmemekle birlikte, risk faktörleri arasında genetik yatkınlık, beyin yaralanmaları, enfeksiyonlar ve bazı metabolik bozukluklar yer alır. Sara'dan korunma yöntemleri, nöbetleri tetikleyen faktörlerden kaçınmayı içerebilir, ancak sara kendiliğinden ortaya çıkabilen bir durumdur.",
     "Enfekte Oldum": "Sara tedavisi, nöbet türüne ve şiddetine bağlı olarak değişiklik gösterir. İlaçlar (antiepileptik ilaçlar), diyet değişiklikleri (ketojen diyet), cerrahi girişimler ve diğer tedavi yöntemleri kullanılabilir. Tedavi, nöbetlerin kontrol altına alınmasını ve semptomların yönetilmesini hedefler. Sara, yaşam boyu devam eden bir durumdur ve tedavi gerektirebilir. İyi bir tıbbi yönetim ve ilaç tedavisi ile nöbetlerin kontrol altına alınması mümkün olabilir. Sara tanısı almış kişilerin sağlık profesyonelleri ile yakın bir işbirliği içinde olmaları önemlidir.",
-    "Etiketler": "Bilinç Kaybı, Kas Seğirmeleri,Kas Kasılmaları, Duyusal Değişiklikler, Zihinsel Karışıklık, Psikolojik Değişiklikler",
+    "Etiketler": "Bilinç Kaybı,Kas Kasılmaları, Duyusal Değişiklikler, Zihinsel Bulanıklık",
     "Benzer Hastalıklar": "",
     "Görsel Link": "https://raw.githubusercontent.com/furkanmulayim/kaynakDosyasiSaglik/main/hastalik-gorseller/sara.png"
   },
@@ -271,7 +271,7 @@
     "Görülme Sıklığı": "10",
     "Korunma Yolları": "Migrenin kesin nedeni bilinmemekle birlikte, tetikleyici faktörlerin tanınması ve bunlardan kaçınma önemlidir. Bu faktörler arasında belirli gıdalar, stres, hormonal değişiklikler ve uyku eksikliği bulunabilir. İlaç tedavisi migren nöbetlerinin kontrol altına alınmasına yardımcı olabilir.",
     "Enfekte Oldum": "Migren tedavisi, nöbetlerin sıklığı ve şiddetine bağlı olarak değişiklik gösterebilir. Akut migren atakları için ağrı kesiciler, antiemetikler (kusma önleyici ilaçlar) ve triptanlar gibi ilaçlar kullanılabilir. Önleyici tedavi, sık migren ataklarına sahip kişiler için önerilebilir ve antidepresanlar, antiepileptik ilaçlar ve beta blokerler içerebilir. Kronik bir durum olup yaşam boyu devam edebilir. Migren atakları, kişinin günlük yaşamını etkileyebilir, bu nedenle etkili tedavi ve atakları tetikleyen faktörlerin tanınması önemlidir. Migrenle yaşayan kişilerin sağlık profesyonelleri ile yakın bir işbirliği içinde olmaları önemlidir.",
-    "Etiketler": "Şiddetli Tek Taraflı Baş Ağrısı, Bulantı, Kusma, Işık ve Sese Duyarlılık, Duyusal Bozukluklar,Görme Sorunları ",
+    "Etiketler": "Baş Ağrısı, Bulantı, Kusma, Işık ve Sese Duyarlılığı, Duyusal Bozukluklar,Görme Sorunları ",
     "Benzer Hastalıklar": "",
     "Görsel Link": "https://raw.githubusercontent.com/furkanmulayim/kaynakDosyasiSaglik/main/hastalik-gorseller/migren.png"
   },
@@ -283,7 +283,7 @@
     "Görülme Sıklığı": "5",
     "Korunma Yolları": "Tourette Sendromu, genellikle genetik nedenlere dayandığından, önlenebilir bir durum değildir. Ancak semptomların yönetimi ve yaşam kalitesini artırmak için terapiler ve ilaçlar kullanılabilir.",
     "Enfekte Oldum": "Tourette Sendromu tedavisi, semptomların yönetilmesini hedefler. Psikoterapi, davranış terapileri ve ilaçlar (antipsikotik ilaçlar) kullanılabilir. Tedavi kişinin semptomlarını hafifletebilir ve yaşam kalitesini artırabilir.",
-    "Etiketler": "Tikler, İstemsiz Tekrarlayıcı Hareketler,İstemsiz Tekrarlayıcı Sesler, Hareket Kombinasyonları, Anlamsız Sözcükler",
+    "Etiketler": "Tikler, Tekrarlayıcı Hareketler,İstemsiz Ses Tekrarı,Hareket Bozuklukları,Anlamsız Sözcükler",
     "Benzer Hastalıklar": "Rett Sendromu",
     "Görsel Link": "https://raw.githubusercontent.com/furkanmulayim/kaynakDosyasiSaglik/main/hastalik-gorseller/taurette.png"
   },
@@ -295,7 +295,7 @@
     "Görülme Sıklığı": "8",
     "Korunma Yolları": "Felç riskini azaltmanın yolları arasında sağlıklı bir yaşam tarzı sürdürmek, tansiyonu kontrol altında tutmak, sigara içmemek, düzenli egzersiz yapmak, sağlıklı bir diyet benimsemek ve düşük tuzlu beslenmek yer alır. İnme riskini azaltmaya yardımcı olabilecek bazı ilaçlar ve cerrahi müdahaleler de mevcuttur.",
     "Enfekte Oldum": "Felç tedavisi, inme türüne bağlı olarak değişir. İskemik inmelerde, tıkanmış olan damarın açılması veya kan pıhtısının çözülmesi amacıyla ilaç veya cerrahi müdahaleler kullanılabilir. Hemorajik inmelerde, kanamanın kontrol altına alınması ve beyin hasarının sınırlanması hedeflenir. Felç rehabilitasyonu, felç sonrası işlevselliği geri kazandırmaya yardımcı olabilir. Aacil tıbbi müdahale gerektiren ciddi bir durumdur. Erken teşhis ve tedavi, felç sonuçlarını iyileştirme şansını artırabilir. Felç risk faktörlerini tanımak ve sağlıklı yaşam tarzı seçimleri yapmak felç riskini azaltmaya yardımcı olabilir.",
-    "Etiketler": "Felç, Vücudun Bir Tarafında Güçsüzlük, Konuşma Güçlüğü, Anlama Güçlüğü, Vücutta Asimetrik Sarkmalar, Denge Kaybı, Ani Baş Dönmesi ",
+    "Etiketler": "Felç, Vücutta Tek Taraflı Güçsüzlük, Konuşma Güçlüğü, Anlama Güçlüğü,Asimetrik Sarkma, Denge Kaybı, Baş Dönmesi ",
     "Benzer Hastalıklar": "MS, Guillian Barre Sendromu, Myastenia Gravis ",
     "Görsel Link": "https://raw.githubusercontent.com/furkanmulayim/kaynakDosyasiSaglik/main/hastalik-gorseller/felc.png"
   },
@@ -307,7 +307,7 @@
     "Görülme Sıklığı": "10",
     "Korunma Yolları": "Otizmin kesin nedeni tam olarak bilinmemektedir ve genetik, çevresel ve gelişimsel faktörlerin rol oynadığı düşünülmektedir. Otizmi önlemek mümkün değildir, ancak erken teşhis ve müdahale, bireylerin yaşamlarını ve fonksiyonlarını iyileştirebilir.",
     "Enfekte Oldum": "Otizm spektrum bozukluğu yönetilebilir, ancak tedavi kişiselleştirilmelidir. Erken teşhis ve erken müdahale, bireylerin becerilerini geliştirmelerine yardımcı olabilir. Terapiler, dil ve iletişim becerileri, sosyal beceriler ve davranış problemleri gibi alanlarda destek sunabilir. Otizm, farklı enderlik derecelerinde görülebilen karmaşık bir bozukluktur. Erken teşhis, bireylerin ihtiyaçlarını anlama ve etkili müdahaleler uygulama sürecine yardımcı olabilir. Otizmli bireyler ve aileleri için destek ve kaynaklar bulunmaktadır.",
-    "Etiketler": "Sosyal Etkileşim Zorlukları, İletişim Zorlukları, Sınırlı İlgi Alanı, Teşrit Edici Davranışlar, Rutinlere Bağlılık,Duyu Hassasiyeti,Konuşma Güçlüğü, Tekrarlayıcı Hareketler",
+    "Etiketler": "Sosyal İzolasyon, İletişim Zorlukları,Duyu Hassasiyeti,Konuşma Güçlüğü, Tekrarlayıcı Hareketler",
     "Benzer Hastalıklar": "",
     "Görsel Link": "https://raw.githubusercontent.com/furkanmulayim/kaynakDosyasiSaglik/main/hastalik-gorseller/otizm.png"
   },
@@ -319,7 +319,7 @@
     "Görülme Sıklığı": "10",
     "Korunma Yolları": "Vertigo genellikle başka bir sağlık sorununun sonucu olarak ortaya çıkar ve kendiliğinden önlenemez. Ancak bazı durumlarda vertigo nedenlerini tetikleyebilecek faktörlerden kaçınmak, örneğin iç kulakta dengeyi bozabilecek travmalardan kaçınmak önemlidir.",
     "Enfekte Oldum": "Vertigo tedavisi, altta yatan nedenlere bağlı olarak değişebilir. Benign pozisyonel paroksismal vertigo gibi bazı durumlar, fizyoterapi veya özel manevralarla tedavi edilebilir. Diğer durumlarda, altta yatan nedenin tedavisi gerekebilir. İlaçlar ve semptomları yönetmeye yardımcı olabilir. Vertigo baş dönmesi hissini yaşamak rahatsız edici olabilir ve kişinin günlük yaşamını etkileyebilir. Vertigo nedenlerinin teşhis edilmesi ve uygun tedavi yöntemlerinin uygulanması, semptomların hafifletilmesine yardımcı olabilir. Vertigo semptomlarına sahip kişilerin bir sağlık profesyoneli ile görüşmesi önerilir.",
-    "Etiketler": "Baş Dönmesi, Dengesizlik,Mide Bulantısı, Kusma, Terleme, Görme Sorunları, Kulak Çınlaması",
+    "Etiketler": "Baş Dönmesi, Denge Kaybı ,Mide Bulantısı, Kusma, Terleme, Görme Sorunları,Çınlama",
     "Benzer Hastalıklar": "",
     "Görsel Link": "https://raw.githubusercontent.com/furkanmulayim/kaynakDosyasiSaglik/main/hastalik-gorseller/vertigo.png"
   },
@@ -343,7 +343,7 @@
     "Görülme Sıklığı": "6",
     "Korunma Yolları": "Alzheimer hastalığının kesin nedeni bilinmemektedir ve tam anlamıyla önlenemez. Ancak bilişsel sağlığı koruma potansiyeline sahip faktörler arasında sağlıklı bir yaşam tarzı sürdürmek, düzenli egzersiz yapmak, zihinsel olarak aktif kalmak ve dengeli bir diyet benimsemek bulunmaktadır.",
     "Enfekte Oldum": "Alzheimer hastalığının kesin bir tedavisi bulunmamakla birlikte semptomların yönetimi ve ilerlemenin yavaşlatılması için ilaçlar kullanılabilir. Ayrıca, bilişsel egzersizler, fiziksel aktivite ve sosyal etkileşim, yaşam kalitesini artırmada yardımcı olabilir. Alzheimer hastalığının kesin bir tedavisi bulunmamakla birlikte semptomların yönetimi ve ilerlemenin yavaşlatılması için ilaçlar kullanılabilir. Ayrıca, bilişsel egzersizler, fiziksel aktivite ve sosyal etkileşim, yaşam kalitesini artırmada yardımcı olabilir.",
-    "Etiketler": "Hafıza Kaybı, Zaman ve Mekanı Karıştırma, Zihinsel Netliğin Azalması, Kelimeleri Unutma, Problem Çözmede Güçlük, Anksiyete, Depresyon",
+    "Etiketler": "Hafıza Kaybı, Zaman ve Mekan Karışıklığı, Zihinsel Bulanıklık, Problem Çözmede Güçlük, Anksiyete, Depresyon",
     "Benzer Hastalıklar": "Bunama",
     "Görsel Link": "https://raw.githubusercontent.com/furkanmulayim/kaynakDosyasiSaglik/main/hastalik-gorseller/alzeheimer.png"
   },
@@ -355,7 +355,7 @@
     "Görülme Sıklığı": "5",
     "Korunma Yolları": "Bunamanın pek çok nedeni vardır ve bu nedenlerin bazıları önlenemez veya genetik olabilir. Ancak bazı yaşam tarzı seçimleri, bunama riskini azaltabilir. Bunlar arasında sağlıklı beslenme, düzenli egzersiz, zihinsel ve sosyal aktivitelerle aktif kalmak ve kronik hastalıkların yönetimi yer almaktadır.",
     "Enfekte Oldum": "Demansın tedavisi, altta yatan neden ve tipine bağlı olarak değişir. Alzheimer hastalığı gibi bazı tipler için ilaçlar kullanılabilir. Ayrıca bilişsel egzersizler, fiziksel aktivite ve sosyal etkileşim, semptomların yönetiminde yardımcı olabilir. Demans tedavisi, hastalığın ilerlemesini yavaşlatmayı veya semptomları hafifletmeyi hedefler. Demans, yaşam boyu devam eden ve ilerleyici bir durumdur. Tedavi, semptomların yönetimine odaklanırken, aynı zamanda hasta ve ailesine destek sunar. Demans ile yaşayan kişilerin sağlık profesyonelleri ile yakın bir işbirliği içinde olmaları önemlidir.",
-    "Etiketler": "Hafıza Kaybı,Zaman ve Mekanı Karıştırma,Karar Verme Güçlüğü, Dil Becerilerinde Zorluk, İnsanları Tanıyamama, Kişilik Değişiklikleri,Bilinen Bilgilere Ulaşmada Zorluk, Günlük Yaşamda Zorluk",
+    "Etiketler": "Hafıza Kaybı,Zaman ve Mekan Karışıklığı,Karar Verme Güçlüğü, Konuşma Güçlüğü, Kişilik Değişiklikleri,Bilinen Bilgilere Ulaşmada Zorluk",
     "Benzer Hastalıklar": "Alzheimer, Şizofreni",
     "Görsel Link": "https://raw.githubusercontent.com/furkanmulayim/kaynakDosyasiSaglik/main/hastalik-gorseller/bunama.png"
   },
@@ -367,7 +367,7 @@
     "Görülme Sıklığı": "15",
     "Korunma Yolları": "Myastenia Gravis'i önlemenin kesin bir yolu yoktur çünkü otoimmün hastalıkların nedenleri karmaşıktır. Ancak sigara içmemek ve çevresel toksinlere maruz kalmaktan kaçınmak, genel bağışıklık sağlığını korumak için önemli olabilir.",
     "Enfekte Oldum": "Myastenia Gravis tedavisi semptomların kontrol altına alınmasını hedefler. İlaçlar, neostigmin ve pyridostigmin gibi asetilkolinesteraz inhibitörleri, kas zayıflığını hafifletmeye yardımcı olabilir. Steroidler ve immünsüpresan ilaçlar da kullanılabilir. Ayrıca timus bezinin cerrahi olarak çıkarılması (timektomi), bazı vakalarda etkili olabilir. Myastenia Gravis, yaşam boyu devam eden bir durum olabilir ve tedavi semptomların yönetilmesine odaklanır. Myastenia Gravis ile yaşayan kişilerin düzenli olarak bir nörolog veya uzman doktor ile işbirliği yapması, semptomların kontrol altında tutulmasına yardımcı olabilir.",
-    "Etiketler": "Zayıflık, Kas Güçsüzlüğü, Göz Kapağı Sallanmasıi, Göz Kapağı Düşmesi, Çift Görme, Konuşma Güçlüğü, Nefes Alma Güçlüğü, Yutma Güçlüğü, Yüz Kaslarında Sallanma, Kollarda Kas Zayıflığı,Bacaklarda Kas Zayıflığı, Halsizlik, ",
+    "Etiketler": "Zayıflık,Kas Güçsüzlüğü, Göz Kapağı Düşmesi, Çift Görme, Konuşma Güçlüğü,Nefes Darlığı, Yutma Güçlüğü,Kas Güçsüzlüğü, Halsizlik, ",
     "Benzer Hastalıklar": "MS, Guillian Barre Sendromu, Felç",
     "Görsel Link": "https://raw.githubusercontent.com/furkanmulayim/kaynakDosyasiSaglik/main/hastalik-gorseller/myastenia.png"
   },
@@ -379,7 +379,7 @@
     "Görülme Sıklığı": "3",
     "Korunma Yolları": "Wilson hastalığı, genetik bir bozukluk olduğu için doğrudan önlenebilir bir durum değildir. Ancak aile geçmişi bilinen kişiler, genetik danışmanlık ve testlerle hastalığın erken teşhis edilmesine yardımcı olabilir.",
     "Enfekte Oldum": "Wilson hastalığının tedavisi, vücuttaki fazla bakırın uzaklaştırılmasını hedefler. Bu amaçla kullanılan ilaçlar, bakır emilimini azaltır veya vücuttan atılmasına yardımcı olur. Bazı durumlarda karaciğer nakli gerekebilir.",
-    "Etiketler": "Karaciğer Sorunları, Sarılık, Karın Ağrısı, Halsizlik,Depresyon, Anksiyete, El Titremesi,Konuşma Güçlüğü, Hareket Koordinasyonundaki Bozukluklar, Kas Güçsüzlüğü,Bakır Birikimi,Gözde Halkalar",
+    "Etiketler": "Karaciğer Sorunları, Sarılık, Karın Ağrısı, Halsizlik,Depresyon, Anksiyete, El Titremesi,Konuşma Güçlüğü, Hareket Bozuklukları,Kas Güçsüzlüğü,Gözde Halka",
     "Benzer Hastalıklar": "Şizofreni, Parkinson",
     "Görsel Link": "https://raw.githubusercontent.com/furkanmulayim/kaynakDosyasiSaglik/main/hastalik-gorseller/wilson.png"
   },
@@ -391,7 +391,7 @@
     "Görülme Sıklığı": "5",
     "Korunma Yolları": "Huntington hastalığı, genetik bir bozukluk olduğu için doğrudan önlenemez. Ancak hastalık riskini taşıyan bireyler genetik danışmanlık ve testlerle risklerini değerlendirebilirler.",
     "Enfekte Oldum": "Huntington hastalığının tedavisi semptomların yönetilmesini hedefler. İlaçlar, semptomların yönetimine yardımcı olabilir. Psikoterapi ve fiziksel terapiler de kullanılabilir. Ancak hastalığın ilerleyici bir doğası olduğu için kesin bir tedavi yoktur.",
-    "Etiketler": "Hareket Bozuklukları, Denge Bozuklukları, Zihinsel Yeteneklerde Azalma, Hafıza Kaybı,Öfke Nöbetleri, İnatçılık, Zayıflama, Depresyon, Anksiyete, Konuşma Güçlüğü, Yürüme Güçlüğü, İştah Kaybı",
+    "Etiketler": "Hareket Bozuklukları, Denge Kaybı, Zihinsel Yeteneklerde Azalma, Hafıza Kaybı,Öfke Nöbetleri, İnatçılık, Zayıflık, Depresyon, Anksiyete, Konuşma Güçlüğü, Yürüme Güçlüğü, İştah Kaybı",
     "Benzer Hastalıklar": "Myastenia Gravis, Rett Sendromu",
     "Görsel Link": "https://raw.githubusercontent.com/furkanmulayim/kaynakDosyasiSaglik/main/hastalik-gorseller/huntington.png"
   },
@@ -403,7 +403,7 @@
     "Görülme Sıklığı": "2",
     "Korunma Yolları": "Rett sendromu, genetik bir kökeni olduğu için doğrudan önlenemez. Genetik danışmanlık ve testler, risk taşıyan aileler için bilinçli bir seçenek olabilir.",
     "Enfekte Oldum": "Rett sendromunun kesin bir tedavisi yoktur. Tedavi semptomların yönetilmesini hedefler. Fiziksel ve konuşma terapileri, semptomların hafifletilmesine yardımcı olabilir. Ayrıca ilaçlar, semptomların yönetiminde kullanılabilir. Genetik terapi araştırmaları da devam etmektedir.",
-    "Etiketler": "Dil Kaybı, Hareket Tekrarı, Sosyal İzolasyon, El Kayması, Nöbetler, Solunum Problemleri, Yavaş Büyüme, Nefes Tutma.",
+    "Etiketler": "Konuşma Güçlüğü, Tekrarlayıcı Hareketler, Sosyal İzolasyon, Nöbetler, Nefes Darlığı, Yavaş Büyüme",
     "Benzer Hastalıklar": "Huntington, Otizim",
     "Görsel Link": "https://raw.githubusercontent.com/furkanmulayim/kaynakDosyasiSaglik/main/hastalik-gorseller/rett.png"
   },
@@ -415,7 +415,7 @@
     "Görülme Sıklığı": "2",
     "Korunma Yolları": "Guillain-Barre sendromu, genellikle beklenmedik bir şekilde ortaya çıkar ve doğrudan önlenemez. Ancak bazı tetikleyici faktörlerden kaçınmak, enfeksiyonlardan korunmak ve sağlıklı bir yaşam tarzı sürdürmek, bağışıklık sisteminin sağlığını desteklemekte önemlidir.",
     "Enfekte Oldum": "Guillain-Barre sendromunun tedavisi hastanın semptomlarına ve şiddetine bağlıdır. Hastaların genellikle hastaneye yatırılması ve izlemi gerekebilir. İntravenöz immünoglobulin (IVIG) veya plazmaferez gibi tedaviler, bağışıklık sisteminin yanıtını düzenlemek için kullanılabilir. Fizik tedavi ve rehabilitasyon, kas gücünün yeniden kazanılmasına yardımcı olabilir.",
-    "Etiketler": " Kas Güçsüzlüğü, Bacaklarda Zayıflık, Kollarda Zayıflık, Denge Bozuklukları, Yürüme Güçlüğü,Karıncalanma, Kas Kasılmaları, Yüz Kaslarında Zayıflık, Solunum Problemleri, Kalp Hızında Değişiklikler, Yorgunluk",
+    "Etiketler": " Kas Güçsüzlüğü, Denge Kaybı, Yürüme Güçlüğü,Karıncalanma, Kas Kasılmaları, Yüz Kaslarında Zayıflık, Nefes Darlığı, Yorgunluk",
     "Benzer Hastalıklar": "Karpal Tünel Sendromu,Felç,Myastenia Gravis",
     "Görsel Link": "https://raw.githubusercontent.com/furkanmulayim/kaynakDosyasiSaglik/main/hastalik-gorseller/guilian.png"
   },
@@ -427,7 +427,7 @@
     "Görülme Sıklığı": "8",
     "Korunma Yolları": "Astımın kesin bir önlenmesi yoktur. Ancak semptomların tetikleyici faktörlerden kaçınmak veya bu faktörlerle başa çıkmak için bazı önlemler alınabilir. Sigara içmemek, alerjenlere maruziyeti sınırlamak, düzenli egzersiz yapmak ve astım ilaçlarını düzenli olarak kullanmak bu önlemler arasındadır.",
     "Enfekte Oldum": "Astım tedavisi, semptomların kontrol altına alınmasını ve iltihabın azaltılmasını hedefler. İlaçlar, genellikle bronkodilatörler (hava yollarını genişleten ilaçlar) ve kortikosteroidler (iltihap önleyici ilaçlar) kullanılır. Tedavi planı kişiselleştirilir ve semptomların şiddetine göre ayarlanır.",
-    "Etiketler": "Öksürük, Hırıltılı Solunum, Göğüs Sıkışması, Nefes Darlığı, Solunum Zorluğu, Hızlı Nefes Alma, Göğüs Ağrısı ",
+    "Etiketler": "Öksürük, Hırıltılı Solunum, Göğüs Sıkışması, Nefes Darlığı,Nefes Darlığı, Hızlı Nefes Alma, Göğüs Ağrısı ",
     "Benzer Hastalıklar": "Koah, Bronşit, Akciğer Kanseri, Solunum Distres Sendromu",
     "Görsel Link": "https://raw.githubusercontent.com/furkanmulayim/kaynakDosyasiSaglik/main/hastalik-gorseller/astim.png"
   },
@@ -439,7 +439,7 @@
     "Görülme Sıklığı": "6",
     "Korunma Yolları": "KOAH'ı önlemek için en etkili yol sigara içmeyi bırakmak veya sigara içmeye başlamamaktır. Ayrıca, hava kirliliği ve tozlu ortamlardan kaçınmak, akciğerlerin korunmasına yardımcı olabilir.",
     "Enfekte Oldum": "KOAH tedavisi semptomların hafifletilmesini ve hastalığın ilerlemesinin yavaşlatılmasını hedefler. İlaçlar, bronkodilatörler ve kortikosteroidler gibi, semptomların yönetilmesine yardımcı olabilir. Fiziksel aktivite, solunum egzersizleri ve diyet de tedavi planının bir parçası olabilir. Ağır vakalarda, oksijen tedavisi veya solunum cihazları gerekebilir.",
-    "Etiketler": "Öksürük, Balgam Üretimi, Nefes Darlığı, Göğüs Sıkışması, Yorgunluk, Solunum Zorluğu, Hırıltılı Solunum",
+    "Etiketler": "Öksürük, Balgam, Nefes Darlığı, Göğüs Sıkışması, Yorgunluk, Nefes Darlığı, Hırıltılı Solunum",
     "Benzer Hastalıklar": "Astım, Bronşit, Akciğer Kanseri, Kistik Fibrozis, Verem ",
     "Görsel Link": "https://raw.githubusercontent.com/furkanmulayim/kaynakDosyasiSaglik/main/hastalik-gorseller/koah.png"
   },
@@ -451,7 +451,7 @@
     "Görülme Sıklığı": "3",
     "Korunma Yolları": "Bronşiti önlemek için sigara içmemek veya sigara içenlerle maruziyeti sınırlamak önemlidir. Ayrıca hijyen kurallarına uygun şekilde ellerin yıkanması ve enfeksiyonlardan kaçınılması da etkili olabilir.",
     "Enfekte Oldum": "Bronşit tedavisi semptomların hafifletilmesini hedefler. Akut bronşit çoğunlukla kendiliğinden geçer ve genellikle antibiyotik tedavisi gerektirmez. Kronik bronşit tedavisi ise semptomların şiddetine göre değişebilir. İlaçlar, öksürük kesiciler ve bronkodilatörler gibi, semptomların yönetilmesine yardımcı olabilir. Ayrıca nemlendirici havayı solumak ve yeterince su içmek de semptomları hafifletebilir.",
-    "Etiketler": "Öksürük, Balgam Üretimi, Nefes Darlığı, Göğüs Ağrısı, Hırıltılı Solunum, Boğaz Ağrısı, Baş Ağrısı, Yorgunluk, Halsizlik, Yüksek Ateş",
+    "Etiketler": "Öksürük, Balgam , Nefes Darlığı, Göğüs Ağrısı, Hırıltılı Solunum, Boğaz Ağrısı, Baş Ağrısı, Yorgunluk, Halsizlik,  Ateş",
     "Benzer Hastalıklar": "Astım, Koah, Verem",
     "Görsel Link": "https://raw.githubusercontent.com/furkanmulayim/kaynakDosyasiSaglik/main/hastalik-gorseller/brons.png"
   },
@@ -475,7 +475,7 @@
     "Görülme Sıklığı": "2",
     "Korunma Yolları": " Kistik fibrozis genetik bir hastalıktır ve genetik testlerle taşıyıcı olup olmadığınızı öğrenebilirsiniz. Eğer aile geçmişi veya genetik testler bu hastalığı taşıdığınızı gösteriyorsa, genetik danışmanlık hizmeti alarak riskleri değerlendirebilirsiniz.",
     "Enfekte Oldum": "Kistik fibrozis tedavisi, semptomları hafifletmeyi ve yaşam kalitesini artırmayı hedefler. İlaçlar, mukolitikler ve bronkodilatörler gibi solunum semptomlarını hafifletmek için kullanılır. Ayrıca pankreas enzimleri takviyeleri, beslenme desteği ve solunum terapileri de yaygın tedavi yöntemleridir. Ciddi vakalarda, akciğer nakli gerekebilir.",
-    "Etiketler": "Kronik Öksürük, Balgam Üretimi, Nefes Darlığı, Göğüs Ağrısı, Solunum Zorluğu, İştah Kaybı, Kilo Kaybı, Karın Ağrısı, Sindirim Problemleri, İshal, Yorgunluk, Halsizlik, Tuzlu Ter, Osteoporoz, Kısırlık, Adet Düzensizliği",
+    "Etiketler": "Öksürük, Balgam , Nefes Darlığı, Göğüs Ağrısı,Nefes Darlığı, İştah Kaybı, Kilo Kaybı, Karın Ağrısı, İshal, Yorgunluk, Halsizlik, Terleme, Osteoporoz, Kısırlık, Adet Düzensizliği",
     "Benzer Hastalıklar": "Koah",
     "Görsel Link": "https://raw.githubusercontent.com/furkanmulayim/kaynakDosyasiSaglik/main/hastalik-gorseller/kistik.png"
   },
@@ -487,7 +487,7 @@
     "Görülme Sıklığı": "6",
     "Korunma Yolları": "Veremi önlemek için en etkili yöntem, aşılamadır. Bacillus Calmette-Guérin (BCG) aşısı, verem enfeksiyonu riskini azaltmaya yardımcı olabilir. Ayrıca enfekte kişilerle temas etmekten kaçınmak, iyi havalandırılan ortamlarda bulunmak ve sağlıklı bir yaşam tarzı sürdürmek de enfeksiyon riskini azaltabilir.",
     "Enfekte Oldum": "Verem, uygun antibiyotik tedavisi ile tedavi edilebilir. Tedavi, genellikle birkaç ay ila birkaç yıl sürebilir, ve ilaçların düzenli ve tam olarak alınması önemlidir. Tedaviyi yarıda bırakmak, dirençli tüberkülozun gelişme riskini artırabilir.",
-    "Etiketler": "Titreme,Öksürük, Ateş, Nefes Darlığı, Göğüs Ağrısı, Halsizlik, Kilo Kaybı, Gece Terlemeleri, Kanlı Balgam, Göğüs Ağrısı, Hırıltılı Nefes, Boğaz Ağrısı, Lenf Bezlerinde Şişme, Baş Ağrısı, Kusma",
+    "Etiketler": "Titreme,Öksürük,  Ateş, Nefes Darlığı, Göğüs Ağrısı, Halsizlik, Kilo Kaybı, Gece Terlemeleri, Kanlı Balgam, Göğüs Ağrısı, Hırıltılı Nefes, Boğaz Ağrısı, Lenflerde Şişlik, Baş Ağrısı, Kusma",
     "Benzer Hastalıklar": "Koah,Bronşit",
     "Görsel Link": "https://raw.githubusercontent.com/furkanmulayim/kaynakDosyasiSaglik/main/hastalik-gorseller/verem.png"
   },
@@ -499,7 +499,7 @@
     "Görülme Sıklığı": "2",
     "Korunma Yolları": "SDS'yi önlemek için prematürite riskini azaltmak önemlidir. Bu, annenin sağlıklı bir gebelik süreci geçirmesi, yetersiz gebelik boyutunu ölçmek ve prematürite riskini değerlendirmek için doktor kontrollerini sıkı bir şekilde takip etmesi gerektiği anlamına gelir.",
     "Enfekte Oldum": "SDS tedavisi, hastalığın şiddetine ve yenidoğanın genel sağlık durumuna bağlı olarak değişebilir. Tedavi, genellikle mekanik solunum desteği (solunum cihazları), oksijen tedavisi ve bazen yüzey aktif madde tedarikini içerir. Yenidoğan yoğun bakım ünitesinde yakından izlenir ve tedavi edilir.",
-    "Etiketler": "Nefes Darlığı, Hızlı Solunum, Ciltte Mavileşme, Düşük Oksijen Seviyeleri, Yorgunluk, Göğüs Ağrısı, Solunum Sıkıntısı, Karaciğer Fonksiyonlarında Bozulma, Solunum Zorluğu, Yüksek Ateş",
+    "Etiketler": "Nefes Darlığı, Hızlı Solunum, Ciltte Mavileşme, Düşük Oksijen Seviyeleri, Yorgunluk, Göğüs Ağrısı, Solunum Sıkıntısı, Karaciğer Fonksiyonlarında Bozulma,Nefes Darlığı,  Ateş",
     "Benzer Hastalıklar": "Astım, Apne",
     "Görsel Link": "https://raw.githubusercontent.com/furkanmulayim/kaynakDosyasiSaglik/main/hastalik-gorseller/sds.png"
   },
@@ -511,7 +511,7 @@
     "Görülme Sıklığı": "2",
     "Korunma Yolları": "Akciğer embolisini önlemek için en önemli yol, DVT risk faktörlerini tanımak ve DVT'yi önlemek veya tedavi etmek için uygun önlemleri almak (örneğin, uzun süre hareketsiz kalmaktan kaçınmak, bacakları düzenli olarak hareket ettirmek, doktorun tavsiyelerine uymak). Ayrıca, DVT riski taşıyan kişilere kan inceltici ilaçlar verilebilir.",
     "Enfekte Oldum": "Akciğer embolisi tedavisi, hastanın durumunun şiddetine ve stabilitesine bağlı olarak değişebilir. Tedavi genellikle kan inceltici ilaçların kullanılmasını içerir, bu ilaçlar pıhtının büyümesini ve yeni pıhtıların oluşmasını önler. Ayrıca, semptomları hafifletmek ve hastanın oksijen almasını desteklemek için oksijen tedavisi verilebilir. Ciddi durumlarda, pıhtının cerrahi olarak çıkarılması gerekebilir.",
-    "Etiketler": " Nefes Darlığı, Göğüs Ağrısı, Hızlı Kalp Atışı, Öksürük, Kanlı Balgam, Ani Bayılma, Ateş, Titreme, Bacaklarda Morarma,Kollarda Şişme, Kollarda Morarma,Bacaklarda Şişme, Anksiyete, Ajitasyon",
+    "Etiketler": " Nefes Darlığı, Göğüs Ağrısı,Nabız Yüksekliği, Öksürük, Kanlı Balgam,  Bayılma,  Ateş, Titreme, Bacaklarda Morluk, Kollarda Morarma,Bacaklarda Şişme, Anksiyete, Ajitasyon",
     "Benzer Hastalıklar": "Pnömotoraks, Bronşek",
     "Görsel Link": "https://raw.githubusercontent.com/furkanmulayim/kaynakDosyasiSaglik/main/hastalik-gorseller/akcemb.png"
   },
@@ -523,7 +523,7 @@
     "Görülme Sıklığı": "2",
     "Korunma Yolları": "Akciğer absesini önlemek için enfeksiyonlardan kaçınmak ve enfekte kişilerle teması sınırlamak önemlidir. Sigara içmeyi bırakmak veya sigara içmeyenlerle sigara dumanına maruziyeti sınırlamak da akciğer sağlığını koruma açısından önemlidir.",
     "Enfekte Oldum": "Akciğer absesi tedavisi, genellikle antibiyotiklerin kullanılmasını içerir. Antibiyotikler, enfeksiyonun neden olduğu bakterileri öldürmeye yardımcı olur. Bazı durumlarda, absenin drene edilmesi veya cerrahi olarak boşaltılması gerekebilir.",
-    "Etiketler": "Yüksek Ateş, Şiddetli Öksürük, İştah Kaybı, Balgamda Kan, Halsizlik, Göğüs Ağrısı, Solunum Sıkıntısı,Yeşil Renkli Balgam, Titreme, Şişlik",
+    "Etiketler": " Ateş,Öksürük, İştah Kaybı, Kanlı Balgam, Halsizlik, Göğüs Ağrısı,Nefes Darlığı,Yeşil Balgam, Titreme, Şişlik",
     "Benzer Hastalıklar": "Akciğer Embolisi, Plörezi, Bronşit,Koah, Verem",
     "Görsel Link": "https://raw.githubusercontent.com/furkanmulayim/kaynakDosyasiSaglik/main/hastalik-gorseller/akcaps.png"
   },
@@ -535,7 +535,7 @@
     "Görülme Sıklığı": "1",
     "Korunma Yolları": "Pulmoner hipertansiyonun temel nedenleri arasında genetik faktörler, otoimmün hastalıklar ve bazı ilaçlar yer alır. Bu nedenle, bu faktörlerden kaçınmak veya risk faktörlerini değerlendirmek için bir sağlık profesyoneli ile görüşmek önemlidir.",
     "Enfekte Oldum": "Pulmoner hipertansiyon tedavisi, altta yatan nedenlere bağlı olarak değişebilir. Tedavi, semptomları hafifletmeyi ve hastalığın ilerlemesini yavaşlatmayı hedefler. İlaçlar, kan damarlarını genişletmeye yardımcı olan ilaçlar (örneğin vazodilatörler), antikoagülanlar (kan pıhtılarını önleyen ilaçlar) ve diğer ilaçlar içerebilir. Ciddi durumlarda, akciğer nakli düşünülebilir.",
-    "Etiketler": "Nefes Darlığı, Yorgunluk, Göğüs Ağrısı, Hızlı Kalp Atışı, Öksürük, Halsizlik, Ayak Bileklerinde Şişme, Bacaklarda Şişme, Bayılma, Solunum Sıkıntısı, Halsizlik",
+    "Etiketler": "Nefes Darlığı, Yorgunluk, Göğüs Ağrısı,Nabız Yüksekliği, Öksürük, Halsizlik, Ayak Bileğinde Şişme, Bacaklarda Şişme, Bayılma, Solunum Sıkıntısı, Halsizlik",
     "Benzer Hastalıklar": "Pnömotoraks, Plörezi, Koah",
     "Görsel Link": "https://raw.githubusercontent.com/furkanmulayim/kaynakDosyasiSaglik/main/hastalik-gorseller/pulhip.png"
   },
@@ -547,7 +547,7 @@
     "Görülme Sıklığı": "6",
     "Korunma Yolları": "Apne, birçok farklı nedenle ortaya çıkabilir, bu nedenle korunma yolları nedenine bağlıdır. Uyku apnesi gibi uykuyla ilişkili apne durumları, yaşam tarzı değişiklikleri, kilo kaybı ve uyku pozisyonunun düzeltilmesi gibi önlemlerle yönetilebilir.",
     "Enfekte Oldum": "Apnenin tedavisi, nedenine bağlı olarak değişebilir. Uyku apnesi gibi durumlarda, CPAP (Sürekli Pozitif Hava Yolu Basıncı) cihazları veya oral aparatlar kullanılabilir. Ciddi apne vakalarında cerrahi müdahale gerekebilir.",
-    "Etiketler": "Uykuda Solunum Durmaları, Nefes Kesilmeleri, Hızlı Uyanma, Gürültülü Horlama, Sabah Baş Ağrısı, Halsizlik, Uykusuzluk, Hafıza Sorunları, Dikkat Eksikliği, Huzursuz Uyku",
+    "Etiketler": "Uykuda Solunum Durmalası,Uyku Bozukluğu, Gürültülü Horlama,Baş Ağrısı, Halsizlik, Uykusuzluk, Hafıza Kaybı, Dikkat Eksikliği,Uyku Bozukluğu",
     "Benzer Hastalıklar": "",
     "Görsel Link": "https://raw.githubusercontent.com/furkanmulayim/kaynakDosyasiSaglik/main/hastalik-gorseller/apne.png"
   },
@@ -559,7 +559,7 @@
     "Görülme Sıklığı": "7",
     "Korunma Yolları": "Pnömotoraks, bazen travmatik olaylar nedeniyle meydana gelir, bu nedenle bu tür durumları önlemek için güvenlik önlemleri almak önemlidir. Özellikle yüksek riskli işlerde çalışan kişiler, koruyucu ekipman kullanmalıdır.",
     "Enfekte Oldum": "Pnömotoraks tedavisi, pnömotoraksun nedenine bağlı olarak değişebilir. Küçük pnömotoraks vakaları genellikle izlem altında tutulabilir, ancak daha ciddi durumlarda hava boşaltılabilir veya tıbbi müdahale gerekebilir. Bu işlem torakosentez olarak bilinir ve doktor tarafından gerçekleştirilir. Pnömotoraksın nedeni, tedavi planının bir parçası olarak ele alınmalıdır.",
-    "Etiketler": "Göğüs Ağrısı, Nefes Darlığı, Nefes Alırken Acı, Göğüste Baskı, Göğüste Sıkışma, Öksürük, Hızlı Kalp Atışı, Göğüste Şişlik, Zayıflık, Solunum Sıkıntısı, Hızlı Solunum",
+    "Etiketler": "Göğüs Ağrısı, Nefes Darlığı, Göğüste Baskı, Göğüs Sıkışması, Öksürük, Nabız Yüksekliği, Göğüste Şişlik, Zayıflık,Nefes Darlığı",
     "Benzer Hastalıklar": "Akciğer Embolisi, Pulmoner Hipertansiyon,Plörezi , Akciğer Apsesi",
     "Görsel Link": "https://raw.githubusercontent.com/furkanmulayim/kaynakDosyasiSaglik/main/hastalik-gorseller/pnomotoroks.png"
   },
@@ -571,7 +571,7 @@
     "Görülme Sıklığı": "6",
     "Korunma Yolları": "Anksiyeteyi tamamen önlemek mümkün olmasa da, anksiyete düzeylerini azaltmak ve başa çıkmak için bazı yöntemler vardır. Düzenli egzersiz, sağlıklı beslenme, stresten kaçınma veya stres yönetimi teknikleri, uyku düzenine dikkat etmek ve rahatlama teknikleri gibi yaşam tarzı değişiklikleri anksiyete ile başa çıkmaya yardımcı olabilir.",
     "Enfekte Oldum": "Anksiyete bozuklukları tedavi edilebilir. Tedavi seçenekleri arasında terapi (psikoterapi), ilaçlar veya bu iki yaklaşımın bir kombinasyonu bulunur. Terapi, anksiyete ile başa çıkmak için etkili bir yoldur ve danışmanlık veya bilişsel davranış terapisi gibi farklı terapi türleri uygulanabilir. İlaçlar, anksiyete semptomlarını hafifletmek veya kontrol altına almak için kullanılabilir.",
-    "Etiketler": "İç Huzursuzluk, Sürekli Endişe, Nefes Darlığı, Terleme, Titreme, Kas Gerginliği, Odaklanma Zorluğu, Uykusuzluk, Mide Rahatsızlığı, İrritabilite",
+    "Etiketler": "İç Huzursuzluk, Endişe, Nefes Darlığı, Terleme, Titreme, Kas Sertliği, Odaklanma Sorunu, Uykusuzluk, İrritabilite",
     "Benzer Hastalıklar": "Depresyon",
     "Görsel Link": "https://raw.githubusercontent.com/furkanmulayim/kaynakDosyasiSaglik/main/hastalik-gorseller/anksi.png"
   },
@@ -583,7 +583,7 @@
     "Görülme Sıklığı": "30",
     "Korunma Yolları": "Depresyonun kesin bir önleyici yöntemi olmasa da, sağlıklı yaşam tarzı seçimleri, stres yönetimi, destek sistemlerinin oluşturulması ve düzenli fiziksel aktivite gibi faktörler depresyon riskini azaltmaya yardımcı olabilir.",
     "Enfekte Oldum": " Depresyon tedavisi, terapi (psikoterapi) ve ilaçlar gibi yaklaşımları içerebilir. Psikoterapi, duygu ve düşünceleri yönetmeye yardımcı olabilir. İlaçlar, kimyasal dengesizlikleri düzeltmeye yardımcı olabilir. Tedavi genellikle bir sağlık profesyoneli tarafından kişiselleştirilir ve semptomların şiddeti, süresi ve kişinin ihtiyaçlarına göre ayarlanır.",
-    "Etiketler": "Duygusal Hüzün, İntihar Düşünceleri, İştahta Azalma, İştahta Artma, Uykusuzluk, Aşırı Uyuma, Halsizlik, İlgisizlik, Konsantrasyon Eksikliği, Hafıza Sorunları, İrritabilite, Sosyal Çekilme",
+    "Etiketler": "Hüzün, İntihar Düşünceleri, İştah Kaybı, İştahta Artma, Uykusuzluk,Uyku Bozukluğu, Halsizlik, İlgisizlik, Dikkat Eksikliği, Hafıza Kaybı, İrritabilite, Sosyal İzolasyon",
     "Benzer Hastalıklar": "Anksiyete",
     "Görsel Link": "https://raw.githubusercontent.com/furkanmulayim/kaynakDosyasiSaglik/main/hastalik-gorseller/depr.png"
   },
@@ -596,7 +596,7 @@
     "Korunma Yolları": "Bipolar bozukluğun kesin bir önleyici yöntemi bulunmamakla birlikte, erken teşhis ve uygun tedavi ile semptomların yönetilmesi ve kontrol altına alınması mümkün olabilir. Ayrıca, stres yönetimi, düzenli uyku düzeni ve sağlıklı yaşam tarzı seçimleri, bipolar bozukluk semptomlarını hafifletebilir.",
     "Enfekte Oldum": "Bipolar bozukluğun tedavisi, psikoterapi (terapi) ve ilaçlar ile gerçekleştirilir. Psikoterapi, duygusal dengeyi sağlama ve kriz durumlarıyla başa çıkma konularında yardımcı olabilir. İlaçlar, mani ve depresyon semptomlarını kontrol altına almada etkilidir. Tedavi, kişinin semptomlarının şiddeti ve dönemlerine göre ayarlanır.",
     "Etiketler": "Depresyon ",
-    "Benzer Hastalıklar": "Mani Atakları, Depresyon Dönemleri, Enerji Artışı, Yüksek Özsaygı, Düşünce Hızlanması, Hızlı Konuşma, İrritabilite, Uykusuzluk, Dikkat Eksikliği, Özeleştiri",
+    "Benzer Hastalıklar": "Mani Atakları, Depresyon, Enerji Artışı, Yüksek Özsaygı, Düşünce Hızlanması, Hızlı Konuşma, İrritabilite, Uykusuzluk, Dikkat Eksikliği, Özeleştiri",
     "Görsel Link": "https://raw.githubusercontent.com/furkanmulayim/kaynakDosyasiSaglik/main/hastalik-gorseller/bipol.png"
   },
   {
@@ -607,7 +607,7 @@
     "Görülme Sıklığı": "2",
     "Korunma Yolları": "OKB'nin tam olarak önlenmesi mümkün olmasa da, erken teşhis ve etkili tedavi ile semptomların yönetilmesi ve kontrol altına alınması mümkün olabilir. OKB riskini artırabilecek stresle başa çıkma becerileri geliştirme ve psikolojik destek almak da önleyici bir rol oynayabilir.",
     "Enfekte Oldum": "OKB tedavisi, psikoterapi (terapi) ve ilaçlar gibi yaklaşımları içerebilir. Kognitif-davranış terapisi (KDT) en yaygın kullanılan terapi türlerindendir ve kişinin obsesyonlarını ve kompulsiyonlarını anlamasına ve yönetmesine yardımcı olur. İlaçlar, anksiyete ve obsesyonları hafifletmeye yardımcı olabilir.",
-    "Etiketler": "Zorlayıcı Düşünceler,Zorlayıcı Davranışlar, Aşırı Temizlik, Tekrarlayan Hareketler, Düzenleme Takıntıları, Şüphecilik, Korku, Kaygı, Mükemmeliyetçilik, Zihinsel Tekrarlar, Kompulsif Ritüeller",
+    "Etiketler": "Zorlayıcı Düşünceler, Zorlayıcı Davranışlar, Tekrarlayıcı Hareketler,  Takıntı, Şüphecilik, Korku, Kaygı, Mükemmeliyetçilik",
     "Benzer Hastalıklar": "Borderline Kişilik, Bulumia,Histronik Kişilik Bozukluğu",
     "Görsel Link": "https://raw.githubusercontent.com/furkanmulayim/kaynakDosyasiSaglik/main/hastalik-gorseller/okb.png"
   },
@@ -619,7 +619,7 @@
     "Görülme Sıklığı": "2",
     "Korunma Yolları": "Borderline Kişilik Bozukluğu'nun kesin bir önleyici yöntemi yoktur, ancak erken teşhis ve etkili tedavi ile semptomların yönetilmesi ve kontrol altına alınması mümkün olabilir. Ayrıca, kişilerin duygusal düzenleme becerilerini geliştirmeleri ve ilişki becerilerini güçlendirmeleri önemlidir.",
     "Enfekte Oldum": "BKB tedavisi, terapi (psikoterapi) genellikle temel bir bileşeni içerir. Dialektik Davranış Terapisi (DDT) ve Kognitif-Davranış Terapisi (KDT), BKB'nin tedavisinde etkili olan terapi türlerindendir. Terapi, kişinin duygusal dengeyi sağlama, kendini daha iyi anlama ve olumsuz davranışları değiştirme konularında yardımcı olur.",
-    "Etiketler": "Duygusal Dalgalanmalar, İlişki Sorunları, Kimlik Bocalaması, Aşırı Öfke, Öfke Patlamaları, İntihar Düşünceleri, Hızlı Duygu Değişiklikleri,Öfke Nöbetleri",
+    "Etiketler": "Duygusal Değişiklikler, Sosyal Sorunlar, Kimlik Bocalaması,Öfke Nöbetleri, İntihar Düşünceleri",
     "Benzer Hastalıklar": "Obsesif Kompulsif Bozukluk,Bipolar bozuklluk",
     "Görsel Link": "https://raw.githubusercontent.com/furkanmulayim/kaynakDosyasiSaglik/main/hastalik-gorseller/borderline.png"
   },
@@ -631,7 +631,7 @@
     "Görülme Sıklığı": "3",
     "Korunma Yolları": "HPB'nin kesin bir önleyici yöntemi yoktur, ancak kişilerin bu tür duygusal ve davranışsal özellikler gösterdiğini fark eden veya gözlemleyen kişilerin destek ve rehberlik sağlaması önemlidir. Bu kişiler, ilişkilerde dengeli ve sağlıklı davranışları teşvik eden bir çevre içinde yetiştirilmelidir.",
     "Enfekte Oldum": "HPB tedavisi, psikoterapi (terapi) ile gerçekleştirilir. Terapi, kişinin duygusal dengeyi sağlama, daha sağlıklı ilişkiler kurma ve olumsuz davranışları değiştirme konularında yardımcı olabilir. Terapi süreci, kişinin bu bozukluğun altında yatan nedenlerini anlamasına yardımcı olabilir.",
-    "Etiketler": "Duygusa Arayış, Dramatik Davranışlar, Yüzeysel İlişkiler, Aşırı Duyarlılık, İlgi Çekme,  Duygusal Durum Değişikliği, Onay Alma, Cinsel Çekicilikte Sergilenme, İlgisizlikten Korku, Manipülasyon Eğilimi",
+    "Etiketler": "Yüzeysel İlişkiler, Aşırı Duyarlılık, İlgi Çekme,Duygusal Değişiklikler, Cinsel Bozukluk",
     "Benzer Hastalıklar": "Obsesif Kompulsif Bozukluk",
     "Görsel Link": "https://raw.githubusercontent.com/furkanmulayim/kaynakDosyasiSaglik/main/hastalik-gorseller/histrionik.png"
   },
@@ -643,7 +643,7 @@
     "Görülme Sıklığı": "7",
     "Korunma Yolları": "Anoreksiya Nevroza'nın kesin bir önlenme yöntemi yoktur, ancak sağlıklı yeme alışkanlıkları, olumlu vücut imajı teşviki ve psikolojik destek bu bozukluğun riskini azaltabilir.",
     "Enfekte Oldum": "Anoreksiya Nevroza, psikoterapi, tıbbi gözetim ve beslenme desteği gibi çok disiplinli bir yaklaşım gerektirir. Tedavi, hem fiziksel hem de psikolojik sağlığı iyileştirmeyi amaçlar. Anoreksiya Nevroza ile mücadele eden kişilerin profesyonel yardım alması ve tedavi planını takip etmesi önemlidir. Bu hastalık ciddi sonuçlara yol açabilir, ancak erken teşhis ve tedavi ile iyileştirilebilir.",
-    "Etiketler": "Aşırı Kilo Kaybı, Aşırı Yemek Yememe, Kendini Aç Bırakma, Vücut İmajının Bozulması, Ciltte Sararma, Zayıflama, Halsizlik, Kalp Atışlarının Yavaşlaması, Menstrüel Döngünün Kaybı, Saç Dökülmesi",
+    "Etiketler": "Kilo Kaybı, İştah Kaybı, Kendini Aç Bırakma,Beden İmajında Değişiklikler, Ciltte Sararma, Zayıflık, Halsizlik,Nabız Düşüklüğü, Adet Görememe, Saç Dökülmesi",
     "Benzer Hastalıklar": "Obsesif Kompulsif Bozukluk,Anoreksiya Nevroza,Depresyon",
     "Görsel Link": "https://raw.githubusercontent.com/furkanmulayim/kaynakDosyasiSaglik/main/hastalik-gorseller/anoreksiya.png"
   },
@@ -655,7 +655,7 @@
     "Görülme Sıklığı": "2",
     "Korunma Yolları": "Bulimia Nevroza'nın kesin bir önlenme yöntemi yoktur, ancak sağlıklı yeme alışkanlıkları, olumlu vücut imajını destekleme ve psikolojik destek bu bozukluğun riskini azaltabilir.",
     "Enfekte Oldum": "Bulimia Nevroza tedavisi, hem fiziksel hem de psikolojik sağlığı iyileştirmeyi amaçlar. Tedavi genellikle terapi (psikoterapi) ve beslenme danışmanlığı içerir. Kognitif-Davranış Terapisi (KDT) sıkça kullanılan bir terapi türüdür ve kişinin yeme atakları ve kusma davranışlarıyla başa çıkmasına yardımcı olabilir.",
-    "Etiketler": "Yeme Nöbetleri, Kendini Kusturma, Açlık Dönemleri, Tıkanma Dönemleri, Kaygı, Diş Problemleri, Elektrolit Dengesizlikleri, İştah Kontrol Kaybı, Kilo Dalgalanmaları, Öz Eleştiri, Gizli Yeme Davranışları",
+    "Etiketler": "Yeme Bozuklukları, Kaygı, Elektrolit Dengesizlikleri, İştah Kaybı, Kilo Kaybı, Öz Eleştiri",
     "Benzer Hastalıklar": "Obsesif Kompulsif Bozukluk,",
     "Görsel Link": "https://raw.githubusercontent.com/furkanmulayim/kaynakDosyasiSaglik/main/hastalik-gorseller/bulimnia.png"
   },
@@ -667,7 +667,7 @@
     "Görülme Sıklığı": "15",
     "Korunma Yolları": "PPD'nin kesin bir önleyici yöntemi yoktur, ancak risk faktörlerini tanıma ve destek sistemlerini güçlendirme önemlidir. Annelerin doğum sonrası dönemde iyi beslenmeleri, düzenli uyumaları ve fiziksel aktivite yapmaları da bu durumun riskini azaltabilir.",
     "Enfekte Oldum": " PPD tedavisi, psikoterapi (terapi) ve gerektiğinde ilaçlarla gerçekleştirilir. Terapi, annenin duygusal dengeyi sağlama ve bebek bakımı ile başa çıkma becerilerini geliştirmesine yardımcı olabilir. İlaçlar, depresyon semptomlarını hafifletmeye yardımcı olabilir.",
-    "Etiketler": "Hüzün, Aşırı Endişe, Uykusuzluk, İştah Değişiklikleri, İlgisizlik, İrritabilite, Suçluluk Duyguları, Duygusal Dalgalanmalar, Anksiyete, Zayıflık,Halsizlik",
+    "Etiketler": "Hüzün,  Endişe, Uykusuzluk, İlgisizlik, İrritabilite, Duygusal Değişiklikler, Anksiyete, Zayıflık,Halsizlik",
     "Benzer Hastalıklar": "Depresyon,Anksiyete",
     "Görsel Link": "https://raw.githubusercontent.com/furkanmulayim/kaynakDosyasiSaglik/main/hastalik-gorseller/dogum.png"
   },
@@ -679,7 +679,7 @@
     "Görülme Sıklığı": "8",
     "Korunma Yolları": "Polikistik Over Sendromu’ndan korunma yolları arasında sağlıklı beslenme ve düzenli egzersiz yapma önemli bir yer tutar. Ayrıca, aşırı kilolu ya da obez kişilerin kilo vermesi de faydalı olabilir. Şeker ilaveli besinlerden ve işlenmiş gıdalardan uzak durulması, tahıllı ürünler, meyve, sebze, yağsız-az yağlı et tüketilmesi, kan şekerinin düşük seviyelerde tutulması için gerekli desteğin alınması da önerilir.",
     "Enfekte Oldum": " Polikistik over tedavisi yumurtlama bozukluğu, tüylenme, kilo fazlalığı ve insülin direnci gibi sorunları gidermeye yönelik çeşitli yöntemler içerir. Tedavide kullanılan yöntemler arasında kilo verme, diyet ve egzersiz, adet düzenleyici, yumurta geliştirici ve metformin gibi ilaçlar, aşılama veya tüp bebek tedavisi, laparoskopik cerrahi ile yumurtalıklara delme işlemi ve bitkisel tedaviler bulunmaktadır. Kan testinde çıkan hormonsal bozukluklara göre doğum kontrol hapları veya adet düzenleyici ilaçlar önerilebilir.",
-    "Etiketler": "Adet Düzensizliği, Kısırlık, Tüylenme Artışı, Saç Dökülmesi,Akne, İnsülin Artışı, Depresyon, Anksiyete, Uyku Apnesi,Erken Adet Olmak",
+    "Etiketler": "Adet Düzensizliği, Kısırlık, Tüylenme, Saç Dökülmesi,Akne, Depresyon, Anksiyete, Uykuda Solunum Durması",
     "Benzer Hastalıklar": "İnfertilite",
     "Görsel Link": "https://raw.githubusercontent.com/furkanmulayim/kaynakDosyasiSaglik/main/hastalik-gorseller/pcos.png"
   },
@@ -691,7 +691,7 @@
     "Görülme Sıklığı": "10",
     "Korunma Yolları": "Endometriozis, rahim içini döşeyen endometrium tabakasının rahmin dışındaki başka bir bölgede büyümesi sonucu gelişen ve sıklıkla ağrılı seyreden bir hastalıktır. Endometriozis en sık olarak yumurtalıklar, fallop tüpleri ve pelvisi örten dokuda görülür. Endometriozis, alt karın ağrısı, adet dönemlerinde ağrı, cinsel ilişki sırasında ağrı ve hamile kalma güçlüğü gibi semptomlarla kendini gösterir. Endometriozis dünya genelinde yaklaşık 176 milyon kadını etkileyen yaygın bir hastalıktır.",
     "Enfekte Oldum": "Endometriozis tedavisi ilaç ve cerrahi tedavi olarak iki şekilde yapılır. İlaç tedavisi: Erken evre hastalıkta adet dönemlerindeki ağrıları önlemek, adetleri düzene sokmak ve endometriotik odakları baskılamak amacı ile kullanılan başlıca ilaç grupları; doğum kontrol hapları, progestinler, danazol ve GnRH analoglarıdır. Cerrahi tedavi: Endometrioziste ağrıyı azaltmak ve fertilite (üreme) potansiyelini arttırmak için cerrahi de yapılabilinir.",
-    "Etiketler": "Pelvik Ağrı, Ağrılı Adet Dönemleri, İlişki Sırasında Ağrı, İshal, Kabızlık, İdrar Yolu Problemleri, İnfertilite, Yorgunluk, Karın Ağrısı, Bel Ağrısı, Bağırsak Problemleri, Mesane Problemleri",
+    "Etiketler": "Kasık Ağrısı, Ağrılı Adet, İlişkide Ağrı, İshal, Kabızlık, İdrar Sorunları, Kısırlık, Yorgunluk, Karın Ağrısı, Bel Ağrısı, Bağırsak sorunları",
     "Benzer Hastalıklar": "Yumurtalık Kanseri, İnfertilite",
     "Görsel Link": "https://raw.githubusercontent.com/furkanmulayim/kaynakDosyasiSaglik/main/hastalik-gorseller/endomert.png"
   },
@@ -703,7 +703,7 @@
     "Görülme Sıklığı": "15",
     "Korunma Yolları": "İnfertilite’den korunma yolları arasında sağlıklı beslenme ve düzenli egzersiz yapma önemli bir yer tutar. Ayrıca, aşırı kilolu ya da obez kişilerin kilo vermesi de faydalı olabilir. Şeker ilaveli besinlerden ve işlenmiş gıdalardan uzak durulması, tahıllı ürünler, meyve, sebze, yağsız-az yağlı et tüketilmesi, kan şekerinin düşük seviyelerde tutulması için gerekli desteğin alınması da önerilir",
     "Enfekte Oldum": "Hormonal bozukluk varlığında ilaç tedavisi (tiroid bezinin hastalıkları, prolaktin hormonu yüksekliği gibi) Yumurtlama tedavisi (ovülasyon indüksiyonu) Aşılama tedavisi (intrauterin inseminasyon) Kısırlık ilaç tedavisi Kısırlık iğne tedavisi Kısırlık aşılama yöntemi",
-    "Etiketler": "Hamilelikte Zorluk, Düzensiz Adet Döngüsü, Ağrılı Adet Dönemleri, Anormal Vajinal Kanama, İlişki Sırasında Ağrı, Sık İdrara Çıkma, Cinsel İsteksizlik, Hormonal Dengesizlikler, Testis Ağrısı, Yumurtalık Ağrısı, Düşük Yapmak",
+    "Etiketler": "Adet Düzensizliği, Ağrılı Adet , Vajinal Kanama, İlişkide Ağrı, İdrar Sorunları, Cinsel Bozukluk, Testis Ağrısı, Karınaşırır  Ağrısı",
     "Benzer Hastalıklar": "Polikistik Over, Endometriozis, Amonore",
     "Görsel Link": "https://raw.githubusercontent.com/furkanmulayim/kaynakDosyasiSaglik/main/hastalik-gorseller/infertility.png"
   },
@@ -715,7 +715,7 @@
     "Görülme Sıklığı": "5",
     "Korunma Yolları": "Prolapsusu önlemek ve sürülerde görülme sıklığını azaltmak için; rasyonlara yeterli miktarda kalsiyum ilavesi yapılmalı, yüksek kalsiyumu ile birlikte rasyon %13 düzeyinde sodyum ihtiva etmeli ve uzun süreli yetersiz protein beslemesinden kaçınılmalıdır.",
     "Enfekte Oldum": "Prolapsus uterinin tedavisi operatif olarak yapılır. Dışarı dönmüş uterus temizlendikten sonra içeri konulabileceği gibi laparatomi yapılarakta uterus içeri alınabilir. Genellikle tekrar yavru almak istenmiyorsa uterusun amputasyonu tercih edilir.",
-    "Etiketler": "Pelvik Baskı, Pelvik  Ağrı, Vajinal Basınç, İdrar Kaçırma, İlişki Sırasında Ağrı, Vajinal Kanama, Sık İdrara Çıkma, Kabızlık, İdrar Yolu Enfeksiyonları, Rahim Sarkması, Bel Ağrısı",
+    "Etiketler": "Kasık  Ağrısı,İdrar Sorunları, İlişkide Ağrı, Vajinal Kanama, Kabızlık,Enfeksiyon, Rahim Sarkması, Bel Ağrısı",
     "Benzer Hastalıklar": "",
     "Görsel Link": "https://raw.githubusercontent.com/furkanmulayim/kaynakDosyasiSaglik/main/hastalik-gorseller/prlpss.png"
   },
@@ -727,7 +727,7 @@
     "Görülme Sıklığı": "6",
     "Korunma Yolları": "Amenore’den korunma yolları arasında sağlıklı beslenme ve düzenli egzersiz yapma önemli bir yer tutar. Ayrıca, aşırı kilolu ya da obez kişilerin kilo vermesi de faydalı olabilir.",
     "Enfekte Oldum": "Tedavi: Amenore tedavisinde kullanılan diğer yöntemler arasında ilaçlar, hormon replasman tedavisi, cerrahi müdahale ve yaşam tarzı değişiklikleri yer alabilir. Bununla birlikte, her vakada tedavi yöntemi farklılık gösterir ve her hasta için özelleştirilmiş bir tedavi planı gereklidir.",
-    "Etiketler": "Adet Kanamasının Olmaması, Adet Dönemi Düzensizliği, Adet Kanamasının Normalden Uzun Süre Kesilmesi, Düzensiz Adet Dönemi, Adet Döneminin Normalden Az Olması, Hormonal Dengesizlikler, Pelvik Ağrı, Vücut Ağırlığında Değişiklik, Saç Büyümesinde Artış , Saç Büyümesinde Azalma",
+    "Etiketler": "Adet Görememe, Adet Düzensizliği, Kasık Ağrısı, Zayıflık, Saç Dökülmesi",
     "Benzer Hastalıklar": "İnfertilite",
     "Görsel Link": "https://raw.githubusercontent.com/furkanmulayim/kaynakDosyasiSaglik/main/hastalik-gorseller/ameno.png"
   },
@@ -739,7 +739,7 @@
     "Görülme Sıklığı": "5",
     "Korunma Yolları": "Yumurtalık kanseri tedavisi için cerrahi müdahale ve kemoterapi kombinasyonu ve bazı vakalarda radyoterapi uygulamaları kullanılır. Erken evrelerde sadece uygun ameliyat ile tamamen tedavi edilebilir. İleri evrelerde ise ameliyat ve kemoterapi, tedavide birlikte kullanılır.",
     "Enfekte Oldum": "Yumurtalık kanserinden korunma yolları arasında sağlıklı beslenme ve düzenli egzersiz yapma önemli bir yer tutar. Ayrıca, aşırı kilolu ya da obez kişilerin kilo vermesi de faydalı olabilir.",
-    "Etiketler": "Karın Ağrısı, Pelvik Ağrı, İştah Kaybı, Karında Şişlik, İdrar Yolu Problemleri, Kabızlık, İshal, Halsizlik, Zayıflama, Yorgunluk, Adet Dönemi Değişiklikleri, Bulantı, Kusma.",
+    "Etiketler": "Karın Ağrısı, Kasık Ağrısı, İştah Kaybı, Karında Şişlik, İdrar Sorunları, Kabızlık, İshal, Halsizlik, Zayıflama, Yorgunluk, Adet Düzensizliği, Mide Bulantısı, Kusma",
     "Benzer Hastalıklar": "Endometriozis, Rahim Kanseri",
     "Görsel Link": "https://raw.githubusercontent.com/furkanmulayim/kaynakDosyasiSaglik/main/hastalik-gorseller/yumcnc.png"
   },
@@ -751,7 +751,7 @@
     "Görülme Sıklığı": "17",
     "Korunma Yolları": "Prostat kanserinden korunma yolları arasında sağlıklı beslenme ve düzenli egzersiz yapma önemli bir yer tutar. Ayrıca, aşırı kilolu ya da obez kişilerin kilo vermesi de faydalı olabilir. Sağlıklı bir kiloda kalmaya dikkat edilmeli – obezite önemli bir tetikleyicidir. Tütün mamullerinden uzak durulmalı. Doğum kontrol hapları yalnızca hekim kontrolünde kullanılmalı. Ailede meme, rahim ya da yumurtalık kanseri öyküsü bulunuyor ise rutin kontroller gerçekleştirilmeli.",
     "Enfekte Oldum": "Aktif izlem: Prostat kanserinin ameliyatsız tedavisi. Sadece prostatın düşük risk grubu kanserlerinde uygulanır. Prostat kanseri ameliyatı: Prostat kanseri ameliyatında 3 ayrı teknik vardır; Açık ameliyat, Laparoskopik teknik. Radyoterapi: Prostat bezi içerisindeki kanser hücrelerini öldürmeyi amaçlar. İki şekilde uygulanabilir. Kryoablasyon: Prostatın kısmen veya tamamen dondurulmasıdır.",
-    "Etiketler": "İdrada Zorluk, İdrarda Artış, İdrarın Başlaması ve Durması Sırasında Zorluk, İdrarda Yanma,İdrarda Ağrı, Kanlı Semen, Kasık Ağrısı, İdrarda Sızma, İdrar Sonrası Hissizlik, İştah Kaybı, Kilo Kaybı",
+    "Etiketler": "İdrada Problemleri, Kanlı Semen, Kasık Ağrısı,İştah Kaybı, Kilo Kaybı",
     "Benzer Hastalıklar": "Sistit",
     "Görsel Link": "https://raw.githubusercontent.com/furkanmulayim/kaynakDosyasiSaglik/main/hastalik-gorseller/prostat.png"
   },
@@ -763,7 +763,7 @@
     "Görülme Sıklığı": "5",
     "Korunma Yolları": "Mümkünse geceleri, yeterli ve düzenli uyku uyumak Kişinin yaşına ve kondisyonuna uygun düzenli egzersiz programı oluşturmak ve uygulamak Taze sebze ve meyve yönünden zengin beslenmek, paketli ve işlenmiş gıdaları tüketmemek.",
     "Enfekte Oldum": "Serviks kanseri erken evrede teşhis edilirse tedavisi basit ve başarı oranı yüksektir. Cerrahi, kemoterapi ve radyoterapi başlıca tedavi yöntemleri arasında yer alır. Erken tedavi aşamalarında cerrahi, ileri tedavilerde ise kemoradyoterapi çok daha iyi etki eder. Eğer hastalık ilerlemiş ve uzak dokulara sıçramış ise kemoterapi ve hedefe yönelik akıllı ilaçlar uygulanabilmektedir.",
-    "Etiketler": "Vajinal Kanama, İlişkide Ağrı, Pelvik Ağrı, Vajinal Akıntı, İdrar Yaparken Ağrı, Kanlı Vajinal Akıntı, Bel Ağrısı, Halsizlik, İştah Kaybı, Kilo Kaybı, Anemi",
+    "Etiketler": "Vajinal Kanama, İlişkide Ağrı, Kasık Ağrısı, Vajinal Akıntı, İdrar Sorunları,Bel Ağrısı, Halsizlik, İştah Kaybı, Kilo Kaybı",
     "Benzer Hastalıklar": "Rahim Kanseri",
     "Görsel Link": "https://raw.githubusercontent.com/furkanmulayim/kaynakDosyasiSaglik/main/hastalik-gorseller/serviks.png"
   },
@@ -775,7 +775,7 @@
     "Görülme Sıklığı": "3",
     "Korunma Yolları": "Testis kanserinden korunma yolları arasında sağlıklı beslenme ve düzenli egzersiz yapma önemli bir yer tutar. Ayrıca, aşırı kilolu ya da obez kişilerin kilo vermesi de faydalı olabilir. Mümkünse geceleri, yeterli ve düzenli uyku uyumak Kişinin yaşına ve kondisyonuna uygun düzenli egzersiz programı oluşturmak ve uygulamak Taze sebze ve meyve yönünden zengin beslenmek, paketli ve işlenmiş gıdaları tüketmemek.",
     "Enfekte Oldum": "Aktif izlem: Prostat kanserinin ameliyatsız tedavisi. Sadece prostatın düşük risk grubu kanserlerinde uygulanır. Prostat kanseri ameliyatı: Prostat kanseri ameliyatında 3 ayrı teknik vardır; Açık ameliyat, Laparoskopik teknik. Radyoterapi: Prostat bezi içerisindeki kanser hücrelerini öldürmeyi amaçlar. İki şekilde uygulanabilir. Kryoablasyon: Prostatın kısmen veya tamamen dondurulmasıdır. Hormon terapisi, kemoterapi gibi pek çok yöntemlerden de yararlanılabilir.",
-    "Etiketler": "Testiste Ağrı, Testiste Şişlik, Testislerde Anormal Kitle, Sırt veya Kasık Ağrısı, Meme Büyümesi, Karın Ağrısı, İdrar yaparken Zorluk, Göğüs Ağrısı, Solunum Zorluğu, İştah Kaybı, Kilo Kaybı, Halsizlik",
+    "Etiketler": "Testis Ağrısı,Kasık Ağrısı, Karın Ağrısı, İdrar Sorunları, Göğüs Ağrısı, Nefes Darlığı, İştah Kaybı, Kilo Kaybı, Halsizlik",
     "Benzer Hastalıklar": "",
     "Görsel Link": "https://raw.githubusercontent.com/furkanmulayim/kaynakDosyasiSaglik/main/hastalik-gorseller/testis.png"
   },
@@ -787,7 +787,7 @@
     "Görülme Sıklığı": "2",
     "Korunma Yolları": "Sigara ve alkol gibi kanser yapıcı maddelerden uzak durmak. Doğum kontrol ilaçlarının kullanımı kanseri riskini azaltmaya yardımcı olmaktadır. Cinsel ilişki sırasında prezervatif koruyucu önlemler arasında ilk sıralarda yer almaktadır. Düzenli smear testi yaptırmak. HPV aşısı yaptırmak",
     "Enfekte Oldum": "Cerrahi tedavi: En sık kullanılan tedavi yöntemidir. Rahim, tüp ve yumurtalıklar ve lenf bezleri çıkartılır. Kemoterapi: Ameliyat sonrası rahim kanserinin ileri bir evrede ve başka organlara yayılımı olduğu görülürse kanserli hücrelerin öldürülmesi için uygulanır. Radyoterapi: Cerrahi müdahale sonrası kanserin tekrarlama riski söz konusuysa rahmin alınması işleminin ardından radyasyon tedavisi yapılır. Hormon tedavisi: Bazı vakalarda kanser hücrelerinin büyümesini durdurmak için yüksek dozlarda progesteron verilebilir.",
-    "Etiketler": "Vajinal Kanama, Pelvik Ağrı, İdrada Ağrı,İlişkide Ağrı, İdrar Yolunda Daralma, İdrar Yolunda Kanama, Kilo Kaybı, İştah Kaybı, Halsizlik",
+    "Etiketler": "Vajinal Kanama, Kasık Ağrısı, İdrar Sorunlarıı,İlişkide Ağrı, Kilo Kaybı, İştah Kaybı, Halsizlik",
     "Benzer Hastalıklar": "Yumurtalık Kanseri, Serviks Kanseri ",
     "Görsel Link": "https://raw.githubusercontent.com/furkanmulayim/kaynakDosyasiSaglik/main/hastalik-gorseller/rhmcnc.png"
   },
@@ -799,7 +799,7 @@
     "Görülme Sıklığı": "9",
     "Korunma Yolları": "Böbrek taşı oluşumuna karşı alınabilecek en iyi tedbir yeterince su içmektir. Günde 2 litre idrar çıkartacak kadar başta su olmak üzere sıvı tüketilmeli. Tuz tüketimi kısıtlanmalı ve aşırı et tüketiminden kaçınılmalı. Ayrıca, hayvansal proteinlerden ziyade, bitkisel proteinler alınmalı. Fazla tuz tüketimi kalp-damar hastalıkları ve yüksek tansiyon gibi ciddi hastalıklar yanı sıra, böbrek taşına da yol açar.",
     "Enfekte Oldum": "Böbrek taşı tedavisi için şu yöntemler kullanılabilir: Kendiliğinden taşın düşmesini bekleme, Şok dalgası ile böbrek taşı kırma (ESWL), Kapalı böbrek taşı ve kapalı üreter ameliyatları, Açık böbrek taşı ameliyatı, Alfa bloker ilaçlar, Lithotripsy adı verilen bir şok dalgası terapisi, Retrograd İntrarenal Cerrahi yardımıyla üreteroskopi ile taş kırma veya çıkarma işlemleri.",
-    "Etiketler": "Sırt Ağrısı, Karın Ağrısı, İdrada Ağrı, Bulanık İdrar, İdrarda Kan, İdrar Yolunda Sıkışma Hissi, İdrar Yolu Enfeksiyonları, İştah KAybı, Kusma, İdrarda Artış",
+    "Etiketler": "Sırt Ağrısı, Karın Ağrısı, İdrar Sorunları,Enfeksiyon, İştah Kaybı, Kusma",
     "Benzer Hastalıklar": "Sistit, Piyelonefr",
     "Görsel Link": "https://raw.githubusercontent.com/furkanmulayim/kaynakDosyasiSaglik/main/hastalik-gorseller/bobtas.png"
   },
@@ -811,7 +811,7 @@
     "Görülme Sıklığı": "2",
     "Korunma Yolları": "Piyelonefrit ve beslenme alışkanlıkları arasında bir ilişki yoktur. Ancak bol sıvı tüketimi piyelonefrit oluşumunu önlemede yardımcı olabilmektedir. Günde en az 8 bardak su tüketimi piyelonefrit oluşmasını önleyebilir. Diğer yandan sık idrara çıkma ve mesanenin tamamen boşaltılması gibi faktörler de piyelonefrit oluşumunu önleyebilir.",
     "Enfekte Oldum": "Piyelonefrit tedavisi için öncelikli seçenek ilaç uygulamasıdır. Ateşli vakalarda hastanın ateşi düşürülür. İdrar tahlili ve kültürü yapılarak kültürde üreyen mikroorganizmanın hassaslık gösterdiği antibiyotikler ile tedaviye devam edilir. Antibiyotik tedavisi yaklaşık 15 gün uygulanır.",
-    "Etiketler": "Yüksek Ateş, Bel Ağrısı, Yan Ağrısı, İdrarda Ağrı, İdrarda Yanma, Sık İdrar, Titreme, İştah Kaybı, Bulantı ve Kusma, İdrarda Kan, İdrar Renginde Değişiklik",
+    "Etiketler": " Ateş, Bel Ağrısı, Yan Ağrısı,İdrar Sorunları, Titreme, İştah Kaybı, Mide Bulantısı, Kusma",
     "Benzer Hastalıklar": "Böbrek Taşı, Sistit, Hidronefroz",
     "Görsel Link": "https://raw.githubusercontent.com/furkanmulayim/kaynakDosyasiSaglik/main/hastalik-gorseller/piyelo.png"
   },
@@ -823,7 +823,7 @@
     "Görülme Sıklığı": "16",
     "Korunma Yolları": "Böbrek yetmezliği önleme yolları arasında düzenli egzersiz yapma, sağlıklı beslenme ve vücut ağırlığını koruma, tuzu azaltma, yeterli sıvı alımı, sigara içmemek, ağrı kesici ilaçlardan kaçınma, kan basıncını ve kan şekerini düzenli olarak ölçtürme, risk grubunda iseniz böbreklerinizi düzenli olarak kontrol ettirme bulunmaktadır.",
     "Enfekte Oldum": "Böbrek yetmezliği tedavisi için çeşitli yöntemler kullanılabilir. Bunlar arasında diyabet ve hipertansiyon kontrolü, ilaç tedavisi, diyaliz ve böbrek nakli bulunmaktadır. Diyabet ve hipertansiyon kontrolü, böbrek yetmezliğinin en yaygın nedenleri arasında diyabet ve yüksek tansiyon bulunur. İlaç tedavisi kapsamında çeşitli ilaçlar kullanılabilir. Diyaliz, böbrek fonksiyonlarını yapay olarak yerine getiren bir tedavi yöntemidir. Böbrek yetmezliği durumunda en iyi tedavi seçeneği böbrek naklidir.",
-    "Etiketler": "Yorgunluk, İştah Kaybı,Metalik Tat, İdrarda Azalma, İdrar Renginde Değişiklik, Vücutta Ödem, Kan Basıncı Yüksekliği, Solunum Zorluğu, Deride Kaşıntı, Mide Bulantısı,Kusma",
+    "Etiketler": "Yorgunluk, İştah Kaybı,Metalik Tat, İdrarda Sorunları, İdrar Renginde Değişiklik,Ödem, Yüksek Tansiyon, Nefes Darlığı,Kaşıntı, Mide Bulantısı,Kusma",
     "Benzer Hastalıklar": "Glomerülonefrit,Böbrek Tümörü , Böbrek Taşı",
     "Görsel Link": "https://raw.githubusercontent.com/furkanmulayim/kaynakDosyasiSaglik/main/hastalik-gorseller/bobyet.png"
   },
@@ -835,7 +835,7 @@
     "Görülme Sıklığı": "20",
     "Korunma Yolları": "Sistitten korunma yolları arasında bol miktarda sıvı almak, hijyen kurallarına dikkat etmek, tuvaletten sonra önden arkaya doğru silinmek, idrarınızı tutmamak, cinsel ilişkiden sonraki on dakika içerisinde idrarınızı yapmaya çalışmak, cinsel ilişki esnasında yeterli kayganlığın sağlanması uretranın zedelenmesini azaltacaktır. Ayrıca anal ilişkiye giriliyorsa daha sonra vaginal bölgeye temas edilmemeli veya edilecekse iyice temizlenilmelidir.",
     "Enfekte Oldum": "Sistit tedavisi genellikle antibiyotiklerle yapılır. Tedaviye başlamadan önce idrar kültürü ve antibiyogram için örnek alınmalı, sonuçlar çıkıncaya kadar idrar yolları enfeksiyonlarında etkili antibiyotikler kullanılmalı, antibiyogram sonuçlarına göre gerekirse bu ilaçlar değiştirilmelidir.",
-    "Etiketler": " İdrarda Ağrı, İdrarda Yanma, Sık İdrar, İdrar Renginde Değişiklik, Bulanık İdrar, Pelvik Ağrı, İdrar Kaçırma, Kanlı İdrar, İdrar Yolunda Sıkışma Hissi, Yorgunluk, Halsizlik, Ateş",
+    "Etiketler": " İdrarda Ağrı, İdrarda Yanma, Sık İdrar, İdrar Renginde Değişiklik, Kasık Ağrısı, İdrar Kaçırma, Kanlı İdrar, İdrar Yolunda Sıkışma Hissi, Yorgunluk, Halsizlik, Ateş",
     "Benzer Hastalıklar": "Böbrek Taşı, Piyelonefrit",
     "Görsel Link": "https://raw.githubusercontent.com/furkanmulayim/kaynakDosyasiSaglik/main/hastalik-gorseller/sisti.png"
   },
@@ -847,7 +847,7 @@
     "Görülme Sıklığı": "4",
     "Korunma Yolları": "Glomerulonefritin belirli bir korunma yolu yoktur. Ancak, strep boğazı veya apse edilmiş bir diş gibi bir enfeksiyona cevap olabilir. Bu tedavi olmadan gidebilir. Eğer geçmezse, böbreklerinize uzun süreli zarar gelmesini önlemek için hızlı tedavi gereklidir. Ayrıca, İbuprofen (Advil) ve naproksen (Aleve) gibi steroid olmayan anti-enflamatuar ilaçların yoğun kullanımı da bir risk faktörü olabilir. Birinci basamak sağlayıcınızdan tavsiye almadan şişede listelenen tedavinin dozu ve uzunluğunu aşmamalısınız.",
     "Enfekte Oldum": "Glomerulonefritin spesifik bir tedavisi yoktur. Ancak, immünsüpresif tedavi stratejileri, özellikle steroid veya mikofenolat mofetil tedavisi bazı hastalarda yararlıdır.",
-    "Etiketler": "İdrarda Azalma, İdrar Renginde Değişiklik, Kanlı İdrar, Yüksek Kan Basıncı, Yüzde, Göz Kapaklarında Şişme, Ayak Bileklerinde Şişme, Yorgunluk, İştah Kaybı, Ateş, Karın Ağrısı, Bel Ağrısı, Cilt Döküntüleri",
+    "Etiketler": "İdrarda Azalma, İdrar Renginde Değişiklik, Kanlı İdrar, Yüksek Tansiyon,Şişlik, Yorgunluk, İştah Kaybı, Ateş, Karın Ağrısı, Bel Ağrısı, Ciltte Döküntü",
     "Benzer Hastalıklar": "Böbrek Yetmezliği, Nefrotik Sendrom, Böbrek Tümörü",
     "Görsel Link": "https://raw.githubusercontent.com/furkanmulayim/kaynakDosyasiSaglik/main/hastalik-gorseller/glomerul.png"
   },
@@ -859,7 +859,7 @@
     "Görülme Sıklığı": "7",
     "Korunma Yolları": "Glikozuri için belirli bir korunma yolu yoktur. Ancak, diyabetin kontrol altına alınması ve sağlıklı bir yaşam tarzı benimsenmesi, glikozuri riskini azaltabilir. ",
     "Enfekte Oldum": "Glikozuri tedavisi genellikle altta yatan durumun tedavisini içerir. Şeker veya yağ tüketimini sınırlandırmak Her gün en az 30 dakikalık fiziksel aktivite ve egzersiz yapmak İnsülin hormonunun daha etkin bir şekilde kullanımı için aracı bazı ilaçlar kullanmak Yeterli beslenme desteğini sağlayan bir diyet programı belirlemek Kan şekeri seviyelerini düzenli bir şekilde takip etmek.",
-    "Etiketler": "",
+    "Etiketler": "Sık İdrar",
     "Benzer Hastalıklar": "",
     "Görsel Link": "https://raw.githubusercontent.com/furkanmulayim/kaynakDosyasiSaglik/main/hastalik-gorseller/glikozuri.png"
   },
@@ -871,7 +871,7 @@
     "Görülme Sıklığı": "3",
     "Korunma Yolları": "Böbrek tümörü için belirli bir korunma yolu yoktur. Ancak, sağlıklı beslenme, kilonuzu koruma, tuz tüketiminizi günlük 5-6 gramı geçmeyecek şekilde kısıtlama, günlük su tüketiminizi 1,5-2 litre olacak şekilde ayarlama, sigara içmeme, egzersiz yapma, sık ağrı kesici ilaç kullanımından kaçınma, kan basıncınızı ölçtürme, kan şekerinizi kontrol ettirme gibi önlemler alabilirsiniz.",
     "Enfekte Oldum": "Böbrek tümörü tedavisi genellikle altta yatan durumun tedavisini içerir. Böbrek tümörünün küçüklüğü ve hastanın genel sağlık durumu, cerrahi yöntemi seçimi açısından önemlidir. Radyasyon terapisi, böbrek tümörünün yok edilmesini amaçlayan bir tedavi yöntemidir. Kemoterapi, böbrek tümöründe hücre büyümesini yavaşlatmaya veya durdurmaya yönelik bir tedavi yöntemidir. Cerrahi için uygun olmayan kimi hastalarda radyofrekans, ablasyon, kriyoterapi gibi yöntemlerle tümörün yok edilmesi de mümkün olabiliyor.",
-    "Etiketler": "Bel veya Yan Ağrısı, Kanlı İdrar, İdrar Yolu Enfeksiyonları, İdrar yaparken Ağrı, İştah Kaybı, Kilo Kaybı, Yorgunluk, Halsizlik, Ateş, Mide Bulantısı ve Kusma, İdrar yapma sıklığında artış veya azalma.",
+    "Etiketler": "Bel Ağrısı,İdrarda Kan,Enfeksiyon, İdrarda Ağrı, İştah Kaybı, Kilo Kaybı, Yorgunluk, Halsizlik, Ateş, Mide Bulantısı ve Kusma, İdrarda Azalma",
     "Benzer Hastalıklar": "Glomerulonefrit, Vezikoüretral Reflü, Böbrek Yetmezliği",
     "Görsel Link": "https://raw.githubusercontent.com/furkanmulayim/kaynakDosyasiSaglik/main/hastalik-gorseller/bobtum.png"
   },
@@ -883,7 +883,7 @@
     "Görülme Sıklığı": "2",
     "Korunma Yolları": "Hidronefroz için belirli bir korunma yolu yoktur. Ancak, kız bebeklerde ve çocuklarda önden arkaya doğru tuvalet temizliğine, ıslak mendille tuvalet temizliği yapılmamasına, genital bölgeyi zeytinyağlı sabunla yıkamaya, çocuğu küvette banyo yaptırmamaya, havuza sokmama, bol su içirmeye, çocuğun sık tuvalete gitmesini sağlamaya (özellikle okullarda idrar tutma alışkanlığı olan çocuklar için) ve erkek çocuklarını erken sünnet yaptırmaya dikkat etmek önemlidir.",
     "Enfekte Oldum": "Hidronefroz tedavisi genellikle altta yatan durumun tedavisini içerir. Tedavi yöntemleri arasında şok dalga litotripsi, üreteroskopi, üreteral stent yerleştirme ve cerrahi işlem bulunmaktadır. Eğer hasta ameliyata girebilecek durumda bulunmuyorsa acil ve geçici tedavi yöntemlerine başvurulabilir. Bu tedaviler üreteral kateter ya da nefrostomi takılması ile gerçekleşir.",
-    "Etiketler": "Bel veya Yan Ağrısı, İdrar yaparken Ağrı, İdrar yapma Sıklığında Artış veya Azalma, Bulanık İdrar, Kanlı İdrar, İdrar Yolu Enfeksiyonları, Mide Bulantısı, Kusma, Yorgunluk, İştah Kaybı, Ateş.",
+    "Etiketler": "Bel Ağrısı, İdrarda Ağrı, Sık İdrar, İdrar Renginde Değişiklik,İdrarda Kan,Enfeksiyon, Mide Bulantısı, Kusma, Yorgunluk, İştah Kaybı, Ateş",
     "Benzer Hastalıklar": "Piyelonefrit",
     "Görsel Link": "https://raw.githubusercontent.com/furkanmulayim/kaynakDosyasiSaglik/main/hastalik-gorseller/hidronef.png"
   },
@@ -895,7 +895,7 @@
     "Görülme Sıklığı": "5",
     "Korunma Yolları": "Nefrotik sendrom için belirli bir korunma yolu yoktur. Ancak, bu hastalarda azot dengesinin korunması gerekir. Bunun için yeterli oranda enerji sağlanmalıdır. Kas kaybının önlenmesi için yeterli oranda protein sağlanmalıdır. Toplam kalorinin %30’undan az yağ alınmalıdır. Doymamış",
     "Enfekte Oldum": "Nefrotik sendrom tedavisi genellikle altta yatan durumun tedavisini içerir. Tedavi şekli hastanın yaşına ve NS’una yol açan nedene bağlı olarak değişir. Tedavi ilaçla olur. Tuz ve protein yönünden zayıf bir diyet uygulamanız da gerekebilir. Nefrotik sendrom ameliyatla tedavi edilmez. Çocuklarda tedavi genelde başarılı olur.",
-    "Etiketler": "Ödem, İdrarda Protein Kaybı, Yüksek Kolesterol, Zayıflık, Yorgunluk, İştah Kaybı, Karın Ağrısı, Ağır Bacaklar, Yüz Şişmesi, İdrardaArtış",
+    "Etiketler": "Ödem, Yüksek Kolesterol, Zayıflık, Yorgunluk, İştah Kaybı, Karın Ağrısı, Şişlik, Sık İdrar",
     "Benzer Hastalıklar": "Glomerulonefrit ",
     "Görsel Link": "https://raw.githubusercontent.com/furkanmulayim/kaynakDosyasiSaglik/main/hastalik-gorseller/nefsem.jpg"
   },
@@ -907,7 +907,7 @@
     "Görülme Sıklığı": "1",
     "Korunma Yolları": " Vezikoüreteral reflü için belirli bir korunma yolu yoktur. Ancak, reflü çocuğun büyümesiyle birlikte geçebileceğinden, öncelikle çocukların bir yaşına gelmesine kadar fazla sıvı içmeleri, idrar kesesini tam boşaltmaları ve düşük dozda antibiyotikle enfeksiyonlara karşı korunma sağlanır. Erkek hastalara özellikle enfeksiyondan korunmaları amacıyla sünnet edilmeleri önerilir.",
     "Enfekte Oldum": "Vezikoüreteral reflü tedavisi genellikle altta yatan durumun tedavisini içerir. Tedavide, ameliyatsız önleyici antibiyotik tedavisinin yanı sıra, kapalı (sistoskopik) enjeksiyon tedavisi ve gerektiğinde açık cerrahi tedaviler tedavi seçenekleri arasında bulunmaktadır. Vezikoüreteral reflü genellikle düşük dereceli ise kendiliğinden düzelir.",
-    "Etiketler": "Tekrarlayan İdrar Yolu Enfeksiyonları, İdrar Yaparken Ağrı veya Yanma, İdrar Tutma Sorunları, İdrar Kaçırma, Yorgunluk, İştah Kaybı, İştahsızlık, Kusma, Karın Ağrısı, İdrar Yapma Sıklığında Artış veya Azalma",
+    "Etiketler": "Enfeksiyon, İdrarda Ağrı, İdrarda Yanma, Yorgunluk, İştah Kaybı, İştahsızlık, Kusma, Karın Ağrısı, Sık İdrar",
     "Benzer Hastalıklar": "Böbrek Tümörü",
     "Görsel Link": "https://raw.githubusercontent.com/furkanmulayim/kaynakDosyasiSaglik/main/hastalik-gorseller/vezikoref.png"
   },
@@ -919,7 +919,7 @@
     "Görülme Sıklığı": "10",
     "Korunma Yolları": "Ülser için belirli bir korunma yolu yoktur. Ancak, sağlıklı ve programlı bir beslenme düzeni, bol sıvı tüketimi, kızartma, şekerli, tuzlu ve yağlı besinlerden mümkün olduğu kadar uzak durmak, aşırı kafein tüketimi ülseri tetikleyebileceği için çay ve kahve tüketiminin azaltılması, hafif, buharda pişmiş yiyeceklerin tüketilmesi önerilir.",
     "Enfekte Oldum": "Ülser tedavisi genellikle altta yatan durumun tedavisini içerir. Klinik, laboratuvar ve görüntüleme tetkikleriyle beraber ülser tanısı konulduktan sonra helicobakter pylorimide asidini baskılayan ilaçlar kullanılır. Eğer bakteriler hala duruyorsa enfeksiyona yönelik antibiyotik tedavisine başlanılır.",
-    "Etiketler": "Mide Ağrısı, Halsizlik, İştah Kaybı, Kusma,Kilo Kaybı, Karın Ağrısı, İshal, Kanlı Dışkı, Göğüs Ağrısı, İştahsızlık, Mide Yanması, Mide Ekşimesi",
+    "Etiketler": "Karın Ağrısı, Halsizlik, İştah Kaybı, Kusma,Kilo Kaybı,İshal, Kanlı Dışkı, Göğüs Ağrısı, Mide Yanması, Mide Yanması",
     "Benzer Hastalıklar": "Gastrit, Mide Kanseri",
     "Görsel Link": "https://raw.githubusercontent.com/furkanmulayim/kaynakDosyasiSaglik/main/hastalik-gorseller/ulser.png"
   },
@@ -931,7 +931,7 @@
     "Görülme Sıklığı": "11",
     "Korunma Yolları": "Gastritten korunmak için, sağlıklı bir beslenme alışkanlığı geliştirmek önemlidir. Aşırı alkol tüketiminden kaçınmak, sigara içmemek ve aşırı acılı veya baharatlı yiyecekleri sınırlamak da gastrit riskini azaltabilir. Ayrıca, stres yönetimi de gastrit gelişimini önleyebilir.",
     "Enfekte Oldum": "Gastrit tedavisi, iltihabı azaltmaya yönelik ilaçlar, mide asidini düzenleyen ilaçlar ve semptomları hafifletmek için kullanılan ilaçları içerebilir. Ayrıca, diyet değişiklikleri, mideyi rahatlatıcı besinler tüketmek ve asitli yiyecekleri sınırlamak gastrit tedavisine yardımcı olabilir. İleri durumlarda, endoskopi veya diğer tıbbi müdahaleler gerekebilir. Herhangi bir tedaviyi planlamadan önce bir doktora danışmak önemlidir.",
-    "Etiketler": "Mide Ağrısı, Mide Yanması veya Ekşimesi, Bulantı, Kusma, İştah Kaybı, Halsizlik, İştahsızlık, Karın Ağrısı, Üst Karın Bölgesinde Rahatsızlık Hissi, Kanlı Kusma",
+    "Etiketler": "Mide Ağrısı, Mide Yanması,Mide Yanması,Mide Bulantısı, Kusma, İştah Kaybı, Halsizlik, Karın Ağrısı",
     "Benzer Hastalıklar": "Ülser, Mide Kanseri, Laktoz İntoleransı",
     "Görsel Link": "https://raw.githubusercontent.com/furkanmulayim/kaynakDosyasiSaglik/main/hastalik-gorseller/gastrit.png"
   },
@@ -943,7 +943,7 @@
     "Görülme Sıklığı": "2",
     "Korunma Yolları": "Kolon kanserini önlemek ve riski azaltmak için düzenli olarak tarama testlerine katılmak önemlidir. Sağlıklı bir yaşam tarzı sürdürmek, dengeli beslenmek, yeterince lif almak, egzersiz yapmak, alkol tüketimini sınırlamak ve sigara içmemek kolon kanseri riskini azaltabilir. Ayrıca, aile öyküsüne sahip kişilerin doktorlarına danışarak risklerini değerlendirmeleri önerilir.",
     "Enfekte Oldum": "Kolon kanseri tedavisi, kanserin evresine, büyüklüğüne ve yayılma durumuna bağlı olarak değişebilir. Tedavi seçenekleri arasında cerrahi müdahale, kemoterapi, radyoterapi ve hedefe yönelik tedaviler yer alabilir. Tedavi planı, bir onkolog tarafından hastanın özel durumuna göre belirlenir. Tedavi erken aşamalarda daha etkili olabilir, bu nedenle erken teşhis çok önemlidir.",
-    "Etiketler": "Bağırsak Hareketlerinde Değişiklik, Kanlı Dışkı, Karın Ağrısı, İştah Kaybı, Kilo Kaybı, Yorgunluk, Halsizlik, İştahsızlık, Kabızlık veya İshal, Gaz ve Şişkinlik Hissi",
+    "Etiketler": "Bağırsak Sorunları, Kanlı Dışkı, Karın Ağrısı, İştah Kaybı, Kilo Kaybı, Yorgunluk, Halsizlik, Kabızlık, İshal,Gaz",
     "Benzer Hastalıklar": "Crohn Hastalığı, Ülseratif Kolit, Mide Kanseri",
     "Görsel Link": "https://raw.githubusercontent.com/furkanmulayim/kaynakDosyasiSaglik/main/hastalik-gorseller/kolonk.png"
   },
@@ -955,7 +955,7 @@
     "Görülme Sıklığı": "10",
     "Korunma Yolları": "Mide kanserini önlemek için sağlıklı bir yaşam tarzı sürdürmek önemlidir. Ayrıca, risk faktörlerini azaltmak da koruyucu bir önlemdir. Bu faktörler arasında tütün ürünleri kullanmamak, aşırı alkol tüketimini sınırlamak, sağlıklı ve dengeli bir beslenme alışkanlığı geliştirmek ve hijyenik koşullarda gıdaları saklamak ve hazırlamak yer almaktadır.",
     "Enfekte Oldum": "Mide kanseri tedavisi, kanserin evresine, türüne ve hastanın genel sağlık durumuna göre değişebilir. Tedavi seçenekleri arasında cerrahi müdahale, kemoterapi, radyoterapi ve hedefe yönelik ilaçlar bulunabilir. Tedavi planı, bir onkolog veya cerrah tarafından hastanın özel durumuna göre belirlenir. Erken evrelerde teşhis edilen mide kanseri daha iyi bir tedavi şansına sahiptir, bu nedenle düzenli taramalar ve erken teşhis önemlidir.",
-    "Etiketler": "Mide Ağrısı, Hazımsızlık, İştah Kaybı, Kusma, İştahsızlık, Halsizlik, Kanlı Kusma, İstemsiz Kilo Kaybı, Siyah Dışkı, Karın Ağrısı, Yutma Güçlüğü",
+    "Etiketler": "Karın Ağrısı, Hazımsızlık, İştah Kaybı, Kusma, Halsizlik, Kusma, Zayıflık, Siyah Dışkı",
     "Benzer Hastalıklar": "Ülser, Gastrit, Kolon Kanseri, Pankreatit",
     "Görsel Link": "https://raw.githubusercontent.com/furkanmulayim/kaynakDosyasiSaglik/main/hastalik-gorseller/midekans.png"
   },
@@ -967,7 +967,7 @@
     "Görülme Sıklığı": "7",
     "Korunma Yolları": "Karaciğer kanserini önlemek ve riski azaltmak için, viral hepatit enfeksiyonlarından kaçınmak ve tedavi etmek önemlidir. Alkolü aşırı tüketmekten kaçınmak da riski azaltabilir. Ayrıca, sağlıklı bir yaşam tarzı sürdürmek, dengeli beslenmek ve düzenli olarak tıbbi kontroller yapmak önemlidir.",
     "Enfekte Oldum": "Karaciğer kanseri tedavisi, kanserin evresine, büyüklüğüne ve hastanın genel sağlık durumuna bağlı olarak değişebilir. Tedavi seçenekleri arasında cerrahi müdahale, radyoterapi, kemoterapi, radyoembolizasyon ve hedefe yönelik tedaviler bulunabilir. Tedavi planı, bir onkolog veya cerrah tarafından hastanın özel durumuna göre belirlenir. Erken teşhisin önemi vurgulanır, çünkü erken aşamalarda yakalanan karaciğer kanseri daha iyi bir tedavi şansına sahiptir.",
-    "Etiketler": "Karın Ağrısı, Halsizlik, İştah Kaybı, İştahsızlık, Sararma (Cilt ve Gözlerde), Karın Şişliği, Kilo Kaybı, Yorgunluk, Karaciğer Bölgesinde Hassasiyet, İdrar Renginde Değişiklik",
+    "Etiketler": "Karın Ağrısı, Halsizlik, İştah Kaybı, İştahsızlık, Ciltte Sararma, Karın Şişliği, Kilo Kaybı, Yorgunluk,İdrar Renginde Değişiklik",
     "Benzer Hastalıklar": "Ülser, Pankreatit, Siroz",
     "Görsel Link": "https://raw.githubusercontent.com/furkanmulayim/kaynakDosyasiSaglik/main/hastalik-gorseller/karkan.png"
   },
@@ -979,7 +979,7 @@
     "Görülme Sıklığı": "5",
     "Korunma Yolları": "Sirozu önlemenin en iyi yolu, olası nedenlerden kaçınmaktır. Alkol tüketimini sınırlamak veya bırakmak, viral hepatit enfeksiyonlarına karşı aşı olmak, sağlıklı bir yaşam tarzı sürdürmek ve düzenli tıbbi kontroller yapmak siroz riskini azaltabilir.",
     "Enfekte Oldum": "Siroz tedavisi, hastalığın evresine, nedenlerine ve hastanın genel sağlık durumuna göre değişebilir. Tedavi genellikle semptomları hafifletmeye ve ilerlemeyi yavaşlatmaya odaklanır. Tedavi seçenekleri arasında ilaçlar, diyet değişiklikleri, tuz kısıtlamaları, alkol bırakma, karaciğer nakli ve semptom yönetimi bulunabilir. Sirozun tedavisi zorlu olabilir, bu nedenle erken teşhis ve müdahale büyük önem taşır.",
-    "Etiketler": "Sararma (Cilt ve Gözlerde), Karın Ağrısı, İştah Kaybı, İştahsızlık, Yorgunluk, Karın Şişliği, Kilo Kaybı, Koyu Renkli İdrar, Soluk Renkli Dışkı, Bacaklarda Şişlik, Mide Bulantısı",
+    "Etiketler": "Ciltte Sararma, Karın Ağrısı, İştah Kaybı, Yorgunluk, Karın Şişliği,Zayıflık, İdrarın Koyulaşması, Şişlik, Mide Bulantısı",
     "Benzer Hastalıklar": "Karaciğer Kanseri ",
     "Görsel Link": "https://raw.githubusercontent.com/furkanmulayim/kaynakDosyasiSaglik/main/hastalik-gorseller/siroz.png"
   },
@@ -991,7 +991,7 @@
     "Görülme Sıklığı": "12",
     "Korunma Yolları": "Pankreatiti önlemek için sağlıklı bir yaşam tarzı sürdürmek ve risk faktörlerini azaltmak önemlidir. Risk faktörleri arasında aşırı alkol tüketimi, yüksek yağlı bir diyet, yüksek trigliserid düzeyleri, safra taşı ve bazı genetik faktörler bulunabilir. Alkol tüketimini sınırlamak, sağlıklı beslenmek ve sigara içmemek pankreatit riskini azaltabilir.",
     "Enfekte Oldum": "Pankreatit tedavisi, hastalığın türüne ve şiddetine bağlı olarak değişebilir. Akut pankreatitin tedavisi, hastanın semptomlarının hafifletilmesini ve pankreasın iyileşmesini sağlamayı amaçlar. Bu süreçte hastanın beslenmesi ve sıvı dengesi sağlanır. Kronik pankreatitin tedavisi ise semptomları kontrol etmeyi ve pankreasın işlevselliğini korumayı hedefler. Bu, ilaçlar, diyet değişiklikleri ve diğer tıbbi müdahaleleri içerebilir. Her iki durumda da, doktor tarafından önerilen tedavi planına sadık kalmak önemlidir.",
-    "Etiketler": "Karın Ağrısı, İştah Kaybı, Kusma, İştahsızlık, Ateş, Yorgunluk, İshal, Bulantı, Karın Şişliği, Sararma (Cilt ve Gözlerde), Kanlı Dışkı",
+    "Etiketler": "Karın Ağrısı, İştah Kaybı, Kusma, İştah Kaybı, Ateş, Yorgunluk, İshal, Mide Bulantısı, Karın Şişliği, Ciltte Sararma,Kanlı Dışkı",
     "Benzer Hastalıklar": "Mide Kanseri, Karaciğer Kanseri",
     "Görsel Link": "https://raw.githubusercontent.com/furkanmulayim/kaynakDosyasiSaglik/main/hastalik-gorseller/pankreatit.png"
   },
@@ -1003,7 +1003,7 @@
     "Görülme Sıklığı": "2",
     "Korunma Yolları": "Ülseratif koliti tamamen önlemek zor olsa da, semptomların kontrol altına alınmasına yardımcı olacak önlemler alınabilir. Sigara içmeyi bırakmak veya sigara içmemek, semptomların şiddetini azaltabilir. Sağlıklı bir beslenme alışkanlığı geliştirmek ve stresi yönetmek de semptomların kontrol altına alınmasına yardımcı olabilir.",
     "Enfekte Oldum": "Ülseratif kolit tedavisi, hastalığın şiddetine ve yaygınlığına göre değişebilir. Tedavi seçenekleri arasında ilaçlar (antiinflamatuar ilaçlar, immünsüpresanlar), diyet değişiklikleri, kortikosteroidler, biyolojik ajanlar ve cerrahi müdahale yer alabilir. Tedavi planı, bir gastroenterolog veya uzman doktor tarafından hastanın özel durumuna göre belirlenir. İlaç tedavisi semptomları kontrol etmeye ve alevlenmeleri azaltmaya yardımcı olabilir, ancak bazı durumlarda cerrahi müdahale gerekebilir. Hastaların düzenli olarak takip edilmesi ve tıbbi önerilere uyması önemlidir.",
-    "Etiketler": "Dışkılama Sıklığında Artış, İshal, Kanlı Dışkı, Karın Ağrısı, Ateş, İştah Kaybı, Zayıflık, Yorgunluk, Kilo Kaybı, Gözlerde Kızarıklık, Eklem Ağrıları",
+    "Etiketler": "İshal, Kanlı Dışkı, Karın Ağrısı, Ateş, İştah Kaybı, Zayıflık, Yorgunluk, Kilo Kaybı, Eklem Ağrıları",
     "Benzer Hastalıklar": "Kolon Kanseri, Crohn Hastalığı, Gastroenterit",
     "Görsel Link": "https://raw.githubusercontent.com/furkanmulayim/kaynakDosyasiSaglik/main/hastalik-gorseller/ulserkolit.png"
   },
@@ -1015,7 +1015,7 @@
     "Görülme Sıklığı": "10",
     "Korunma Yolları": "Safra kesesi taşlarını tamamen önlemek zor olsa da, risk faktörlerini azaltmak için bazı önlemler alınabilir. Sağlıklı bir yaşam tarzı sürdürmek, kiloyu kontrol altında tutmak, yeterince lifli yiyecekler tüketmek ve düşük yağlı bir diyet benimsemek safra kesesi taşı riskini azaltabilir.",
     "Enfekte Oldum": "Safra kesesi taşı tedavisi, semptomların şiddetine ve hastanın genel sağlık durumuna bağlı olarak değişebilir. Semptomlar hafifse ve taşlar küçükse, doktorlar genellikle bir diyet değişikliği ve semptomların yönetilmesi için ilaçlar önerebilirler. Ancak, ciddi semptomlara veya komplikasyonlara neden olan taşlar cerrahi olarak çıkarılabilir. Bu prosedür laparoskopik kolesistektomi olarak adlandırılır ve safra kesesi tamamen veya kısmen çıkarılır. Cerrahi müdahale sonrası hastalar genellikle hızla iyileşirler.",
-    "Etiketler": "Sağ Üst Karın Ağrısı, Karın Ağrısı Hemen Yemek Sonrası Artar, Bulantı, Kusma, Yemek Sonrası Rahatsızlık, Sararma (Cilt ve Gözlerde), Ateş, İştah Kaybı, Şişkinlik, Mide Ekşimesi veya Hazımsızlık",
+    "Etiketler": "Karın Ağrısı,Mifde Bulantısı, Kusma,Ciltte Sararma, Ateş, İştah Kaybı, Gaz, Mide Yanması, Hazımsızlık",
     "Benzer Hastalıklar": "Gastrit",
     "Görsel Link": "https://raw.githubusercontent.com/furkanmulayim/kaynakDosyasiSaglik/main/hastalik-gorseller/sfratas.png"
   },
@@ -1039,7 +1039,7 @@
     "Görülme Sıklığı": "10",
     "Korunma Yolları": "Gastroenteriti önlemek için hijyen kurallarına dikkat etmek önemlidir. Ellerin düzenli olarak yıkanması, taze yiyeceklerin güvenli bir şekilde saklanması ve pişirilmesi, kontamine su ve yiyeceklerden kaçınmak enfeksiyon riskini azaltabilir. Ayrıca, aşılar, özellikle rotavirüs aşısı çocuklarda gastroenterit riskini azaltabilir.",
     "Enfekte Oldum": "Gastroenterit tedavisi, altta yatan neden ve semptomların ciddiyetine bağlı olarak değişebilir. Tedavi genellikle semptomların hafifletilmesini ve sıvı kaybının önlenmesini içerir. Bu amaçla oral rehidratasyon solüsyonları kullanılabilir. Bazı vakalarda, doktorlar antidiyareik ilaçlar veya antiemetik ilaçlar önerebilirler. Antibiyotikler sadece bakteriyel enfeksiyonların neden olduğu gastroenterit vakalarında kullanılır ve doktor tavsiyesi gereklidir. İlaç kullanımı öncesinde bir sağlık profesyoneline danışmak önemlidir.",
-    "Etiketler": "İshal, Kusma, Karın Ağrısı, Mide Bulantısı, Ateş, Baş Ağrısı, İştah Kaybı, Halsizlik, Kilo Kaybı, Kas Ağrıları, Su Kaybı",
+    "Etiketler": "İshal, Kusma, Karın Ağrısı, Mide Bulantısı, Ateş, Baş Ağrısı, İştah Kaybı, Halsizlik, Kilo Kaybı, Kas Ağrıları",
     "Benzer Hastalıklar": "Ülseratif Kolit, Gastrit",
     "Görsel Link": "https://raw.githubusercontent.com/furkanmulayim/kaynakDosyasiSaglik/main/hastalik-gorseller/gastroentert.png"
   },
@@ -1051,7 +1051,7 @@
     "Görülme Sıklığı": "70",
     "Korunma Yolları": "Laktoz intoleransını önlemek mümkün değildir, çünkü bu bir genetik durum veya yaşlanma süreci ile ilişkilendirilir. Ancak semptomları kontrol altına almak ve süt ürünlerini tüketmeye devam edebilmek için bazı önlemler alınabilir. Laktos intoleransı olan kişiler için laktozsuz süt ve süt ürünleri alternatifleri mevcuttur. Ayrıca, laktoz içeren gıdaları sınırlamak veya takviye enzimler kullanmak semptomları hafifletebilir.",
     "Enfekte Oldum": "Laktoz intoleransının tedavisi, semptomların kontrol altına alınmasına ve sağlıklı bir yaşam sürdürülmesine odaklanır. Tedavi, laktoz içeren gıdalardan kaçınmayı içerebilir veya laktozsuz ürünlerin tüketilmesini içerebilir. Ayrıca, laktaz takviyeleri veya laktoz sindirimi yardımcı ilaçlar semptomları hafifletebilir. Tedavi planı, hastanın semptomların şiddetine ve yaşına bağlı olarak değişebilir. Özellikle ciddi semptomları olan bireylerin doktorlarına danışmaları önemlidir.",
-    "Etiketler": "Karın Ağrısı, İshal, Gaz ve Şişkinlik, Mide Guruldaması, İştahsızlık, Kusma, Yorgunluk, Kilo Kaybı, Karın Krampları, Bulantı",
+    "Etiketler": "Karın Ağrısı,İshal,Gaz, İştahsızlık, Kusma, Yorgunluk, Kilo Kaybı, Karın Krampları, Bulantı",
     "Benzer Hastalıklar": "Gastrit",
     "Görsel Link": "https://raw.githubusercontent.com/furkanmulayim/kaynakDosyasiSaglik/main/hastalik-gorseller/laktozent.png"
   },
@@ -1063,7 +1063,7 @@
     "Görülme Sıklığı": "30",
     "Korunma Yolları": "Osteoporoz riskini azaltmak ve kemik sağlığını korumak için bazı önlemler alınabilir. Sağlıklı bir yaşam tarzı sürdürmek, yeterli kalsiyum ve D vitamini alımına dikkat etmek, düzenli egzersiz yapmak ve sigara içmemek riski azaltabilir. Ayrıca, doktor tavsiyeleri doğrultusunda kemik yoğunluğu taramalarına katılmak da önemlidir.",
     "Enfekte Oldum": "Osteoporoz tedavisi, kemik yoğunluğunu artırmayı ve kırık riskini azaltmayı hedefler. Tedavi seçenekleri arasında ilaçlar (bisfosfonatlar, teriparatid, denosumab), kalsiyum ve D vitamini takviyeleri, düzenli egzersiz, sağlıklı beslenme alışkanlıkları ve yaşam tarzı değişiklikleri bulunabilir. Tedavi planı, hastanın kemik yoğunluğu, yaş, cinsiyet ve diğer faktörlere bağlı olarak değişebilir. Tedaviyi planlamadan önce bir doktora danışmak önemlidir. Ayrıca, osteoporozun erken teşhisi ve risk faktörlerinin belirlenmesi de büyük önem taşır.",
-    "Etiketler": "Kemik Kırıkları (Özellikle Kalça, Omurga ve El Bileği), Sırtta Kamburluk (Kyphosis), Boyun Boyunda Kısalma, Sırt Ağrısı, Kemik Ağrısı, Duruş Bozuklukları, Kolayca Kırılan Kemikler, Zayıflık, Sık Kemik Kırılmaları, Sırtta Eğilme",
+    "Etiketler": "Kamburluk, Boyun Kısalması, Sırt Ağrısı, Kemik Ağrısı, Duruş Bozuklukları, Kolay Kırılan Kemikler, Zayıflık",
     "Benzer Hastalıklar": "",
     "Görsel Link": "https://raw.githubusercontent.com/furkanmulayim/kaynakDosyasiSaglik/main/hastalik-gorseller/oporoz.png"
   },
@@ -1075,7 +1075,7 @@
     "Görülme Sıklığı": "27",
     "Korunma Yolları": "Osteoartriti tamamen önlemek mümkün değil, ancak risk faktörlerini azaltmak için bazı önlemler alınabilir. Sağlıklı bir yaşam tarzı sürdürmek, düzenli egzersiz yapmak, kiloyu kontrol altında tutmak, yaralanmalardan kaçınmak ve eklemlerinizi korumak önemlidir. Ayrıca, sağlıklı bir diyet sürdürmek, kalsiyum ve D vitamini alımına dikkat etmek de eklem sağlığını destekleyebilir.",
     "Enfekte Oldum": "Osteoartrit tedavisi, semptomların hafifletilmesini ve hastanın yaşam kalitesini artırmayı hedefler. Tedavi seçenekleri arasında ilaçlar (ağrı kesiciler, antiinflamatuar ilaçlar), fizik tedavi, egzersiz programları, ağırlık kontrolü, destekleyici ayakkabılar ve özellikle şiddetli durumlarda cerrahi müdahale (eklem protezi) yer alabilir. Tedavi planı, hastanın semptomların ciddiyetine, yaşına ve diğer faktörlere bağlı olarak değişebilir. Tedavi planını bir doktor veya romatolog tarafından belirlemek önemlidir.",
-    "Etiketler": "Eklem Ağrısı, Eklem Sertliği, Eklem Şişmesi, Eklemde Hassasiyet, Hareket Kısıtlılığı, Kıkırdak Erozyonu, Kas Zayıflığı, Ağrılı Eklem Hareketi, Eklemlerde Çıkıntılar, Sabah Sertliği",
+    "Etiketler": "Eklem Ağrısı, Eklem Sertliği, Eklem Şişmesi, Eklemde Hassasiyet, Hareket Kısıtlılığı, Kıkırdak Erozyonu,Kas Güçsüzlüğü, Ağrılı Eklem Hareketi, Eklemlerde Çıkıntılar, Sabah Sertliği",
     "Benzer Hastalıklar": "Gut, Fibromiyalji, Romatoid Artrit, Tendinit",
     "Görsel Link": "https://raw.githubusercontent.com/furkanmulayim/kaynakDosyasiSaglik/main/hastalik-gorseller/oartrit.png"
   },
@@ -1135,7 +1135,7 @@
     "Görülme Sıklığı": "3",
     "Korunma Yolları": "Fibromiyalji tam olarak önlenememektedir, çünkü hastalığın tam nedeni belirsizdir. Ancak risk faktörlerini azaltmak ve semptomların kontrol altına alınmasına yardımcı olmak için bazı önlemler alınabilir. Sağlıklı bir yaşam tarzı sürdürmek, düzenli egzersiz yapmak, yeterli uyku almak, stresi yönetmek ve beslenme alışkanlıklarına dikkat etmek semptomları hafifletebilir.",
     "Enfekte Oldum": "Fibromiyalji tedavisi, semptomların hafifletilmesi ve yaşam kalitesinin artırılmasını hedefler. Tedavi seçenekleri arasında ilaçlar (ağrı kesiciler, antidepresanlar, antikonvülsanlar), fizik tedavi, egzersiz programları, davranış terapisi ve yaşam tarzı değişiklikleri yer alır. Tedavi planı, hastanın semptomların ciddiyetine ve diğer faktörlere bağlı olarak değişebilir. Tedaviyi planlamak ve izlemek için bir romatolog veya fibromiyalji uzmanına danışmak önemlidir. Ayrıca, fibromiyalji tedavisi, semptomların yönetilmesine ve yaşam kalitesinin artırılmasına odaklanır.",
-    "Etiketler": "Kronik Kas ve Eklem Ağrısı, Yorgunluk, Uykusuzluk, Baş Ağrısı, Kas Sertliği, Sabah Sertliği, Karın Ağrısı, Depresyon, İrritabl Bağırsak Sendromu, Hafıza Sorunları, Cilt Hassasiyeti",
+    "Etiketler": "Kronik Kas ve Eklem Ağrısı, Yorgunluk, Uykusuzluk, Baş Ağrısı, Kas Sertliği, Sabah Sertliği, Karın Ağrısı, Depresyon, İrritabl Bağırsak Sendromu, Hafıza Kaybı, Cilt Hassasiyeti",
     "Benzer Hastalıklar": "Tendinit, Romatoid Artrit, Gut, Osteoartrit",
     "Görsel Link": "https://raw.githubusercontent.com/furkanmulayim/kaynakDosyasiSaglik/main/hastalik-gorseller/fibrom.png"
   },
@@ -1147,7 +1147,7 @@
     "Görülme Sıklığı": "5",
     "Korunma Yolları": "Tendinitin tamamen önlenmesi zor olsa da, risk faktörlerini azaltmak için bazı önlemler alınabilir. İyi bir postür ve hareket teknikleri kullanmak, vücudu düzenli olarak dinlendirmek, tekrarlayan hareketlerden kaçınmak ve uygun ekipman kullanmak tendinit riskini azaltabilir.",
     "Enfekte Oldum": "Tendinit tedavisi, tendon iltihaplanmasını hafifletmeyi, semptomların kontrol altına alınmasını ve iyileşmeyi hedefler. Tedavi seçenekleri arasında istirahat, buz uygulaması, fizik tedavi, egzersiz programları, antiinflamatuar ilaçlar ve gerekirse steroid enjeksiyonları yer alabilir. Tedavi planı, hastanın semptomlarının ciddiyetine ve hangi tendinit türüne sahip olduğuna bağlı olarak değişebilir. Tedavi planını bir ortopedi uzmanı veya fizyoterapist belirler. Tedaviyi planlamadan önce bir doktora danışmak önemlidir.",
-    "Etiketler": "Ağrı, Şişlik, Hassasiyet, Sıcaklık Artışı, Kas Zayıflığı, Eklem Hareketlerinde Sınırlılık, Ses Çıkarma (Çıtırdama), Ağrının Kötüleşmesi Hareketle",
+    "Etiketler": "Ağrı, Şişlik, Hassasiyet, Sıcaklık Artışı, Kas Güçsüzlüğü, Eklem Hareketlerinde Sınırlılık, Ses Çıkarma (Çıtırdama), Ağrının Kötüleşmesi Hareketle",
     "Benzer Hastalıklar": "Fibromiyalji, Gut, Romatoid Artrit, Osteoartrit",
     "Görsel Link": "https://raw.githubusercontent.com/furkanmulayim/kaynakDosyasiSaglik/main/hastalik-gorseller/tendini.png"
   },
@@ -1159,7 +1159,7 @@
     "Görülme Sıklığı": "2",
     "Korunma Yolları": "Lomber disk herniasyonunu tamamen önlemek zor olsa da, bazı önlemler alınarak risk faktörleri azaltılabilir. İyi vücut mekaniği kullanmak, yükleri doğru kaldırmak, düzenli egzersiz yapmak ve omurga sağlığını korumak için ergonomik prensiplere dikkat etmek önemlidir.",
     "Enfekte Oldum": "Lomber disk herniasyonu tedavisi, semptomların hafifletilmesini, omurilik veya sinir köklerine baskının azaltılmasını ve iyileşmeyi hedefler. Tedavi seçenekleri arasında istirahat, fizik tedavi, egzersiz programları, ağrı kesiciler, antiinflamatuar ilaçlar ve epidural steroid enjeksiyonları yer alabilir. Cerrahi müdahale, şiddetli durumlarda ve diğer tedavi yöntemlerinin etkili olmadığı durumlarda düşünülür. Tedavi planı, hastanın semptomlarının ciddiyetine ve diğer faktörlere bağlı olarak değişebilir. Tedaviyi planlamak ve izlemek için bir ortopedi uzmanı veya nöroşirurji uzmanına danışmak önemlidir. Ayrıca, tedaviye erken başlamak, belirtilerin şiddetini azaltabilir ve hastalığın ilerlemesini sınırlayabilir.",
-    "Etiketler": "Bel Ağrısı, Bacak Ağrısı, Bacaklarda Zayıflık, Bacaklarda Uyuşma ve Karıncalanma, Kas Spazmları, Reflekslerde Değişiklik, Ayak Parmaklarında Güç Kaybı, İdrar veya Dışkı Kontrolünün Kaybı, Kas Gücünde Azalma, Hareket Kısıtlılığı",
+    "Etiketler": "Bel Ağrısı, Bacak Ağrısı, Kas Güçsüzlüğü, Bacaklarda Uyuşma ve Karıncalanma, Kas Spazmları, Reflekslerde Değişiklik, Ayak Parmaklarında Güç Kaybı, İdrar veya Dışkı Kontrolünün Kaybı, Kas Gücünde Azalma, Hareket Kısıtlılığı",
     "Benzer Hastalıklar": "",
     "Görsel Link": "https://raw.githubusercontent.com/furkanmulayim/kaynakDosyasiSaglik/main/hastalik-gorseller/lomberlana.png"
   }

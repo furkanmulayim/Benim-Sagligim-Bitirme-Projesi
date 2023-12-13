@@ -60,6 +60,7 @@ class InformationFragment : Fragment() {
         binding.gptButton.setOnClickListener {
             gptSor()
             binding.webViewLay.visibility = View.VISIBLE
+            webView(binding.ilacEditText.text.toString())
             binding.gptResponse.text = getString(R.string.sabir)
         }
     }
@@ -80,20 +81,16 @@ class InformationFragment : Fragment() {
 
     private fun webView(searchQuery: String) {
         webView = binding.webView
-        webView.loadUrl("https://www.google.com/")
-        if(searchQuery.length < 20){
-            val googleSearchUrl =
-                "https://www.google.com.tr/search?q=$searchQuery+hangi tedavide kullanılır?"
-            webView.loadUrl(googleSearchUrl)
-        }
-
+        val googleSearchUrl =
+            "https://www.google.com.tr/search?q=$searchQuery+hangi+tedavide+kullanılır?"
+        webView.loadUrl(googleSearchUrl)
     }
 
     private fun observeGptResponse() {
         viewModel.getGPTResponseLiveData().observe(viewLifecycleOwner, Observer {
             it.let {
                 binding.gptResponse.text = it.trimStart()
-                webView(binding.ilacEditText.text.toString())
+
             }
         })
     }
