@@ -1,5 +1,6 @@
 package com.furkanmulayim.benimsagligim.presentation.detection_future
 
+import android.annotation.SuppressLint
 import android.content.Context
 import android.view.LayoutInflater
 import android.view.View
@@ -8,6 +9,7 @@ import android.widget.TextView
 import androidx.core.content.ContextCompat
 import androidx.recyclerview.widget.RecyclerView
 import com.furkanmulayim.benimsagligim.R
+import com.furkanmulayim.benimsagligim.domain.model.Disease
 
 
 class SymptomAdapter(
@@ -52,5 +54,6 @@ class SymptomAdapter(
     override fun getItemCount(): Int {
         return dataList.size
     }
+
 }
 

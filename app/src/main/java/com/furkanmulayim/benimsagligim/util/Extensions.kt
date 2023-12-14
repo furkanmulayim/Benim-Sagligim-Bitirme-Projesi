@@ -30,6 +30,7 @@ fun Context.showMessage(message: String) {
     Toast.makeText(this, message, Toast.LENGTH_SHORT).show()
 }
 
+
 fun hastalikRiskOraniHesapla(oran: String): String {
     //verilen yüzdelik değere göre risk hesaplama
     val orani: Int = oran.toInt()

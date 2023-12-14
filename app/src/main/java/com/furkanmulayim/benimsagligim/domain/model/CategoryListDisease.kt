@@ -7,7 +7,6 @@ import com.google.gson.annotations.SerializedName
 
 @Entity
 data class CategoryListDisease(
-
     //column infoyu roomda saklamak için kullanacağız
     //serialized name ise gelen verinin karışmaması için jsondaki ismini kullanıyoruz
     @ColumnInfo(name = "adi") @SerializedName("Adı") var Adi: String,

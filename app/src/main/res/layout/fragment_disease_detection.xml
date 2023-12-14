@@ -3,6 +3,12 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools">
 
+    <data>
+        <variable
+            name="viewModel"
+            type="com.furkanmulayim.benimsagligim.presentation.detection_future.DetectionViewModel" />
+    </data>
+
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
@@ -177,7 +183,7 @@
                         app:layout_constraintTop_toBottomOf="@id/aciklamaOnemsiz">
 
                         <androidx.recyclerview.widget.RecyclerView
-                            android:id="@+id/rcycGeneral"
+                            android:id="@+id/rcycGen"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:layout_marginTop="25dp"
@@ -195,13 +201,14 @@
                             android:layout_marginStart="15dp"
                             android:background="@drawable/neyim_var_scroll_back"
                             android:paddingStart="15dp"
+                            android:fontFamily="@font/inter_semibold"
                             android:paddingTop="5dp"
                             android:paddingEnd="15dp"
                             android:paddingBottom="5dp"
-                            android:text="Deneme Semptomları"
-                            app:layout_constraintBottom_toTopOf="@+id/rcycGeneral"
+                            android:text="Sık Karşılaşılan Semptomlar"
+                            app:layout_constraintBottom_toTopOf="@+id/rcycGen"
                             app:layout_constraintStart_toStartOf="parent"
-                            app:layout_constraintTop_toTopOf="@+id/rcycGeneral" />
+                            app:layout_constraintTop_toTopOf="@+id/rcycGen" />
 
                     </androidx.constraintlayout.widget.ConstraintLayout>
 
@@ -215,7 +222,46 @@
                         app:layout_constraintTop_toBottomOf="@id/rcycGeneralBack">
 
                         <androidx.recyclerview.widget.RecyclerView
-                            android:id="@+id/rcycGeneral2"
+                            android:id="@+id/rcycDig"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="25dp"
+                            android:background="@drawable/search_back"
+                            android:overScrollMode="never"
+                            android:paddingStart="10dp"
+                            android:paddingTop="20dp"
+                            android:paddingEnd="10dp"
+                            android:paddingBottom="10dp"
+                            app:layout_constraintTop_toTopOf="parent" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="15dp"
+                            android:background="@drawable/neyim_var_scroll_back"
+                            android:paddingStart="15dp"
+                            android:paddingTop="5dp"
+                            android:fontFamily="@font/inter_semibold"
+                            android:paddingEnd="15dp"
+                            android:paddingBottom="5dp"
+                            android:text="Diğer Semptomlar"
+                            app:layout_constraintBottom_toTopOf="@+id/rcycDig"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="@+id/rcycDig" />
+
+                    </androidx.constraintlayout.widget.ConstraintLayout>
+
+                    <androidx.constraintlayout.widget.ConstraintLayout
+                        android:id="@+id/constraintLayout2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/rcycGeneralBack2">
+
+                        <androidx.recyclerview.widget.RecyclerView
+                            android:id="@+id/rcycSol"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:layout_marginTop="25dp"
@@ -236,10 +282,205 @@
                             android:paddingTop="5dp"
                             android:paddingEnd="15dp"
                             android:paddingBottom="5dp"
-                            android:text="Deneme Semptomları"
-                            app:layout_constraintBottom_toTopOf="@+id/rcycGeneral2"
+                            android:fontFamily="@font/inter_semibold"
+                            android:text="Solunum Semptomları"
+                            app:layout_constraintBottom_toTopOf="@+id/rcycSol"
                             app:layout_constraintStart_toStartOf="parent"
-                            app:layout_constraintTop_toTopOf="@+id/rcycGeneral2" />
+                            app:layout_constraintTop_toTopOf="@+id/rcycSol" />
+
+                    </androidx.constraintlayout.widget.ConstraintLayout>
+
+                    <androidx.constraintlayout.widget.ConstraintLayout
+                        android:id="@+id/constraintLayout4"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/constraintLayout2">
+
+                        <androidx.recyclerview.widget.RecyclerView
+                            android:id="@+id/rcycNor"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="25dp"
+                            android:background="@drawable/search_back"
+                            android:overScrollMode="never"
+                            android:paddingStart="10dp"
+                            android:paddingTop="20dp"
+                            android:paddingEnd="10dp"
+                            android:paddingBottom="10dp"
+                            app:layout_constraintTop_toTopOf="parent" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="15dp"
+                            android:background="@drawable/neyim_var_scroll_back"
+                            android:paddingStart="15dp"
+                            android:paddingTop="5dp"
+                            android:paddingEnd="15dp"
+                            android:paddingBottom="5dp"
+                            android:fontFamily="@font/inter_semibold"
+                            android:text="Nörolojik Semptomlar"
+                            app:layout_constraintBottom_toTopOf="@+id/rcycNor"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="@+id/rcycNor" />
+
+                    </androidx.constraintlayout.widget.ConstraintLayout>
+
+                    <androidx.constraintlayout.widget.ConstraintLayout
+                        android:id="@+id/constraintLayout8"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/constraintLayout4">
+
+                        <androidx.recyclerview.widget.RecyclerView
+                            android:id="@+id/rcycBil"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="25dp"
+                            android:background="@drawable/search_back"
+                            android:overScrollMode="never"
+                            android:paddingStart="10dp"
+                            android:paddingTop="20dp"
+                            android:paddingEnd="10dp"
+                            android:paddingBottom="10dp"
+                            app:layout_constraintTop_toTopOf="parent" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="15dp"
+                            android:background="@drawable/neyim_var_scroll_back"
+                            android:paddingStart="15dp"
+                            android:paddingTop="5dp"
+                            android:paddingEnd="15dp"
+                            android:paddingBottom="5dp"
+                            android:fontFamily="@font/inter_semibold"
+                            android:text="Bilişsel Semptomlar"
+                            app:layout_constraintBottom_toTopOf="@+id/rcycBil"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="@+id/rcycBil" />
+
+                    </androidx.constraintlayout.widget.ConstraintLayout>
+
+                    <androidx.constraintlayout.widget.ConstraintLayout
+                        android:id="@+id/constraintLayout9"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/constraintLayout8">
+
+                        <androidx.recyclerview.widget.RecyclerView
+                            android:id="@+id/rcycKas"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="25dp"
+                            android:background="@drawable/search_back"
+                            android:overScrollMode="never"
+                            android:paddingStart="10dp"
+                            android:paddingTop="20dp"
+                            android:paddingEnd="10dp"
+                            android:paddingBottom="10dp"
+                            app:layout_constraintTop_toTopOf="parent" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="15dp"
+                            android:background="@drawable/neyim_var_scroll_back"
+                            android:paddingStart="15dp"
+                            android:paddingTop="5dp"
+                            android:paddingEnd="15dp"
+                            android:fontFamily="@font/inter_semibold"
+                            android:paddingBottom="5dp"
+                            android:text="Kas İskelet Semptomları"
+                            app:layout_constraintBottom_toTopOf="@+id/rcycKas"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="@+id/rcycKas" />
+
+                    </androidx.constraintlayout.widget.ConstraintLayout>
+
+                    <androidx.constraintlayout.widget.ConstraintLayout
+                        android:id="@+id/constraintLayout10"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/constraintLayout9">
+
+                        <androidx.recyclerview.widget.RecyclerView
+                            android:id="@+id/rcycBos"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="25dp"
+                            android:background="@drawable/search_back"
+                            android:overScrollMode="never"
+                            android:paddingStart="10dp"
+                            android:paddingTop="20dp"
+                            android:paddingEnd="10dp"
+                            android:paddingBottom="10dp"
+                            app:layout_constraintTop_toTopOf="parent" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="15dp"
+                            android:background="@drawable/neyim_var_scroll_back"
+                            android:paddingStart="15dp"
+                            android:paddingTop="5dp"
+                            android:paddingEnd="15dp"
+                            android:fontFamily="@font/inter_semibold"
+                            android:paddingBottom="5dp"
+                            android:text="Boşaltım/Sindirim Semptomları"
+                            app:layout_constraintBottom_toTopOf="@+id/rcycBos"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="@+id/rcycBos" />
+
+                    </androidx.constraintlayout.widget.ConstraintLayout>
+
+                    <androidx.constraintlayout.widget.ConstraintLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/constraintLayout10">
+
+                        <androidx.recyclerview.widget.RecyclerView
+                            android:id="@+id/rcycGeni"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="25dp"
+                            android:background="@drawable/search_back"
+                            android:overScrollMode="never"
+                            android:paddingStart="10dp"
+                            android:paddingTop="20dp"
+                            android:paddingEnd="10dp"
+                            android:paddingBottom="10dp"
+                            app:layout_constraintTop_toTopOf="parent" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="15dp"
+                            android:background="@drawable/neyim_var_scroll_back"
+                            android:paddingStart="15dp"
+                            android:paddingTop="5dp"
+                            android:paddingEnd="15dp"
+                            android:fontFamily="@font/inter_semibold"
+                            android:paddingBottom="5dp"
+                            android:text="Genital Bölge Semptomları"
+                            app:layout_constraintBottom_toTopOf="@+id/rcycGeni"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="@+id/rcycGeni" />
 
                     </androidx.constraintlayout.widget.ConstraintLayout>
 

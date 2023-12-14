@@ -27,6 +27,10 @@ interface DiseaseDAO {
     @Query("SELECT * FROM disease WHERE adi = :name")
     suspend fun getDiseaseSimilar(name: String): Disease
 
+    @Query("SELECT * FROM disease WHERE etiket = :tagName")
+    suspend fun getDiseasesByTag(tagName: String): List<Disease>
+
+
     //kullanıcı verileri temizlemesi için
     @Query("DELETE FROM disease")
     fun deleteAlldisease()

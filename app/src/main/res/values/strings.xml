@@ -83,6 +83,18 @@
     <string name="gpt_metin_ornek">Lütfen ilaç ismini girerek tik işaretli butona basın ve cevabınızı bekleyin… 🙂</string>
     <string name="sabir">Biraz sabır 🧘 İlacınızı getiriyoruz ✅</string>
     <string name="bir_sorun_var">Bir sorun var sanırım!</string>
+    <string name="semptom_bos">Hiçbir Semptom Seçilmedi ❌</string>
+
+    <string name="bir_sorun_var_sonuc">Girdiğiniz Etiketlerle Alakalı Eşleşen Sonucumuz Yok. Lütfen Etiketleri Doğru Bir Şekilde Girdiğinizden Emin Olun.</string>
+
+    <string name="genelsemp">Ateş,Baş Ağrısı,Baş Dönmesi,Boğaz Ağrısı,Burun Akıntısı,Burun Tıkanıklığı,Gaz,Görme Sorunları,Göz Kızarıklığı,Göğüs Ağrısı,Göğüs Sıkışması,Göğüste Baskı,Halsizlik,Hazımsızlık,Hızlı Nefes Alma,İshal,İştah Kaybı,Karın Ağrısı,Kusma,Mide Bulantısı,Nabız Düşüklüğü,Nabız Yüksekliği,Terleme,Titreme,Uykusuzluk,Yorgunluk,Yüksek Tansiyon,Ödem,Öksürük,Şişlik</string>
+    <string name="digersemp">Akne,Ağızda Kaşıntı,Ağızda Kuruluk,Ciltte Döküntü,Ciltte Kuruluk,Ciltte Sararma,Enfeksiyon,Gece Terlemeleri,Göğüste Şişlik, İştahta Artma,Kabarcık,Kanama,Karıncalanma,Kaşıntı,Kilo Kaybı,Korku,Kulak Ağrısı,Kızarıklık,Lenflerde Şişlik,Lezyon,Saç Dökülmesi,Tüylenme,Yan Ağrısı,Yavaş Büyüme,Zayıflık</string>
+    <string name="solsemp">Balgam,Gürültülü Horlama,Hapşırma,Hırıltılı Solunum,Hızlı Nefes Alma,Nefes Darlığı,Kanlı Balgam,Öksürük,Yeşil Balgam,Uykuda Solunum Durması</string>
+    <string name="norsemp">Asimetrik Sarkma,Bayılma,Çift Görme,Çınlama,Denge Kaybı,El Titremesi,Felç,Göz Kapağı Düşmesi,Gözde Halka,Hareket Bozuklukları,Hareketlerde Yavaşlama,İşitme Sorunları,Koku Kaybı,Kordinasyon Bozukluğu,Metalik Tat,Nöbetler,Tat Kaybı,Vücutta Tek Taraflı Güçsüzlük,Yürüme Güçlüğü,Yüz İfadesinde Azalma,Yüz Kaslarında Zayıflık</string>
+    <string name="bilsemp">Anlama Güçlüğü,Anlamsız Sözükler,Bilinen Bilgilere Ulaşmada Zorluk,Bilinç Kaybı,Bilişsel Sorunlar,Dikkat Eksikliği,Duyu Hassasiyeti,Düşünce Hızlanması,Hafıza Kaybı,Hızlı Konuşma,Işık ve Ses Duyarlılığı,Karar Verme Güçlüğü,Konuşma Güçlüğü,Problem Çözmede Güçlük,Yazma Güçlüğü,Zaman ve Mekan Karışıklığı,Zihinsel Bulanıklık,Zihinsel Yeteneklerde Azalma,Zorlayıcı Davranışlar,Zorlayıcı Düşünceler</string>
+    <string name="kassemp">Ayak Bileğinde Şişme,Bacaklarda Kas Zayıflığı,Bacaklarda Morluk,Bacaklarda Şişme,Bel Ağrısı,Eklem Ağrıları,Kas Ağrıları,Kas Güçsüzlüğü,Kas Kasılmaları,Kas Krampları,Kas Sertliği,Kollarda Morluk,Osteoporoz</string>
+    <string name="bossemp">Bağırsak Sorunları,İdrar Renginde Değişiklik,İdrar Sorunları,İdrarda Azalma,İdrarda Ağrı,İdrarda Kan,İdrarda Yanma,İdrarın Koyulaşması,Kabızlık,Kanlı Dışkı,Karaciğer Sorunları,Karın Krampları,Karın Şişliği,Karında Şişlik,Mide Yanması,Rektal Ağrı,Rektal Kanama,Sarılık,Siyah Dışkı,Sık İdrar,Şişlik,Yutma Güçlüğü</string>
+    <string name="gensemp">Adet Düzensizliği,Adet Görememe,Ağrılı Adet,Genital Akıntı,Genital Ağrı,Genital Kaşıntı,Genital Siğil,Genital Yara,İlişkide Ağrı,Kanlı Semen,Kasık Ağrısı,Kısırlık,Rahim Sarkması,Şankır,Testis Ağrısı,Testiste Şişlik,Vajinal Akıntı,Vajinal Kanama</string>
 
 
 </resources>

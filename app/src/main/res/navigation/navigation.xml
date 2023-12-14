@@ -143,6 +143,9 @@
         <action
             android:id="@+id/action_resultFragment_to_diseaseDetectionFragment"
             app:destination="@id/diseaseDetectionFragment" />
+        <action
+            android:id="@+id/action_resultFragment_to_diseaseDetailFragment"
+            app:destination="@id/diseaseDetailFragment" />
     </fragment>
     <fragment
         android:id="@+id/searchFragment"
