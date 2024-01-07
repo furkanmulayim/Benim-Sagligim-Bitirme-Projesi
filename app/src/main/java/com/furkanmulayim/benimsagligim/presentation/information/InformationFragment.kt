@@ -6,7 +6,10 @@ import android.provider.MediaStore
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import android.webkit.WebResourceRequest
+import android.webkit.WebSettings
 import android.webkit.WebView
+import android.webkit.WebViewClient
 import android.widget.ImageView
 import androidx.databinding.DataBindingUtil
 import androidx.fragment.app.Fragment
@@ -81,8 +84,20 @@ class InformationFragment : Fragment() {
 
     private fun webView(searchQuery: String) {
         webView = binding.webView
-        val googleSearchUrl =
-            "https://www.google.com.tr/search?q=$searchQuery+hangi+tedavide+kullanılır?"
+        webView.webViewClient = object : WebViewClient() {
+            override fun shouldOverrideUrlLoading(view: WebView?, request: WebResourceRequest?): Boolean {
+                view?.loadUrl(request?.url.toString())
+                return true
+            }
+        }
+        val googleSearchUrl = "https://www.google.com.tr/search?q=$searchQuery+hangi+tedavide+kullanılır?"
+        val settings: WebSettings = webView.settings
+        settings.setSupportMultipleWindows(true) // Çoklu ekran desteği aktif
+        settings.setSupportZoom(true) // Yakınlaştırma aktif
+        settings.builtInZoomControls = true // Yakınlaştırma kontrolleri aktif
+        settings.displayZoomControls = false // Yakınlaştırma kontrollerini gösterme
+        settings.cacheMode = WebSettings.LOAD_DEFAULT // Önbellek modunu varsayılan olarak ayarladık
+        settings.javaScriptCanOpenWindowsAutomatically = true // Ek JavaScript ayarı - pencere izni
         webView.loadUrl(googleSearchUrl)
     }
 

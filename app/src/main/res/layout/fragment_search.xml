@@ -7,7 +7,7 @@
 
         <variable
             name="viewModel"
-            type="com.furkanmulayim.benimsagligim.presentation.search_future.SearchViewModel" />
+            type="com.furkanmulayim.benimsagligim.presentation.search.SearchViewModel" />
     </data>
 
     <androidx.constraintlayout.widget.ConstraintLayout
@@ -16,7 +16,7 @@
         android:layout_marginStart="20dp"
         android:layout_marginTop="20dp"
         android:layout_marginEnd="20dp"
-        tools:context=".presentation.search_future.SearchFragment">
+        tools:context=".presentation.search.SearchFragment">
 
         <TextView
             android:id="@+id/recognizedText"

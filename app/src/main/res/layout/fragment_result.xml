@@ -6,7 +6,7 @@
     <data>
         <variable
             name="viewModel"
-            type="com.furkanmulayim.benimsagligim.presentation.result_future.ResultViewModel" />
+            type="com.furkanmulayim.benimsagligim.presentation.result.ResultViewModel" />
     </data>
 
     <androidx.constraintlayout.widget.ConstraintLayout
@@ -15,7 +15,7 @@
         android:layout_marginStart="20dp"
         android:layout_marginTop="20dp"
         android:layout_marginEnd="20dp"
-        tools:context=".presentation.result_future.ResultFragment">
+        tools:context=".presentation.result.ResultFragment">
 
         <ScrollView
             android:layout_width="match_parent"

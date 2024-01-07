@@ -5,12 +5,12 @@
 <data>
     <variable
         name="viewModel"
-        type="com.furkanmulayim.benimsagligim.presentation.pill_future.PillViewModel" />
+        type="com.furkanmulayim.benimsagligim.presentation.pill.PillViewModel" />
 </data>
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        tools:context=".presentation.pill_future.PillInformationFragment">
+        tools:context=".presentation.pill.PillInformationFragment">
 
         <ScrollView
             android:layout_width="match_parent"
@@ -29,7 +29,7 @@
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent"
-                tools:context=".presentation.pill_future.PillInformationFragment">
+                tools:context=".presentation.pill.PillInformationFragment">
 
                 <androidx.constraintlayout.widget.ConstraintLayout
                     android:id="@+id/backButton"

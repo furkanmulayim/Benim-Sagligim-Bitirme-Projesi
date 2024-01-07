@@ -6,7 +6,7 @@
     <data>
         <variable
             name="viewModel"
-            type="com.furkanmulayim.benimsagligim.presentation.detection_future.DetectionViewModel" />
+            type="com.furkanmulayim.benimsagligim.presentation.detection.DetectionViewModel" />
     </data>
 
     <LinearLayout
@@ -16,7 +16,7 @@
         android:layout_marginTop="20dp"
         android:layout_marginEnd="20dp"
         android:orientation="vertical"
-        tools:context=".presentation.detection_future.DiseaseDetectionFragment">
+        tools:context=".presentation.detection.DiseaseDetectionFragment">
 
         <androidx.constraintlayout.widget.ConstraintLayout
             android:layout_width="match_parent"

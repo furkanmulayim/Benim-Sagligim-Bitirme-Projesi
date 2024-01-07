@@ -92,6 +92,11 @@ dependencies {
     //OkHTTP
     implementation("com.squareup.okhttp3:okhttp:4.11.0")
 
+    implementation "androidx.core:core-ktx:1.7.0"
+
+    //bildirim alarm Planlayıcı
+    implementation "androidx.work:work-runtime:2.7.0"
+
     //foto blur
     implementation 'jp.wasabeef:blurry:4.0.1'
 

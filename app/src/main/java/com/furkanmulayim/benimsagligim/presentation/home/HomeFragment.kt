@@ -1,5 +1,7 @@
 package com.furkanmulayim.benimsagligim.presentation.home
 
+import android.content.Intent
+import android.net.Uri
 import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
@@ -8,6 +10,7 @@ import androidx.databinding.DataBindingUtil
 import androidx.fragment.app.Fragment
 import androidx.lifecycle.Observer
 import androidx.lifecycle.ViewModelProvider
+import androidx.navigation.Navigation
 import androidx.recyclerview.widget.GridLayoutManager
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.furkanmulayim.benimsagligim.R
@@ -89,7 +92,22 @@ class HomeFragment : Fragment() {
 
         //acila arama
         binding.emergencyCall.setOnClickListener {
-            requireActivity().startCallWithPermission("5344533008", 123)
+            requireActivity().startCallWithPermission(
+                "5344533008", 201
+            )
+        }
+
+        //harita
+        binding.mapPage.setOnClickListener {
+            val gmmIntentUri: Uri = Uri.parse("geo:0,0?q=hastane&radius=5000")
+            val mapIntent = Intent(Intent.ACTION_VIEW, gmmIntentUri)
+            mapIntent.setPackage("com.google.android.apps.maps")
+            if (mapIntent.resolveActivity(requireContext().packageManager) != null) {
+                startActivity(mapIntent)
+            } else {
+                val webIntent = Intent(Intent.ACTION_VIEW, Uri.parse("https://www.google.com/maps/search/?api=1&query=hastane"))
+                startActivity(webIntent)
+            }
         }
 
         //ilaç tara

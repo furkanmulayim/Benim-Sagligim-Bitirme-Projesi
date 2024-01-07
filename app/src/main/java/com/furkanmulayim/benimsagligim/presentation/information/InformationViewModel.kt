@@ -23,10 +23,12 @@ class InformationViewModel(application: Application) : BaseViewModel(application
         return gptResponseLiveData
     }
     fun getGPT(query: String) {
+
         sorguZamaniKaydet()
-        println(query)
-        getGPTResponse("$query ") { response ->
-            gptResponseLiveData.postValue(response)
+        val duzenlenen = query.trim().replace("\n", "").replace("\"", "").take(1000)
+        getGPTResponse("$duzenlenen ") { response ->
+            val resSon = "$response..."
+            gptResponseLiveData.postValue(resSon)
         }
     }
 
@@ -44,23 +46,6 @@ class InformationViewModel(application: Application) : BaseViewModel(application
         sp.saveGptTime(System.nanoTime())
     }
 
-    /**
-    fun sorguZamaniOgren(): Boolean {
-    var kullanilmisMi: Boolean
-    val updateTime = sp.getGptTime()
-    if (updateTime != null) {
-    println(" Furkan Zamana Bak Amk " + (System.nanoTime() - updateTime))
-    }
-    if (updateTime!= null && (System.nanoTime() - updateTime > timeSinir)){
-    }
-    else{
-    kullanilmisMi = true
-    }
-    kullanilmisMi = updateTime != null && (System.nanoTime() - updateTime) > timeSinir
-    return kullanilmisMi
-    }
-
-     */
     fun navigate(view: View, pageId: Int) {
         Navigation.findNavController(view).navigate(pageId)
     }

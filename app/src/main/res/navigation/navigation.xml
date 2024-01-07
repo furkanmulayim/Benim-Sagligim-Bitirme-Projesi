@@ -47,10 +47,13 @@
             app:exitAnim="@anim/nav_default_exit_anim"
             app:popEnterAnim="@anim/nav_default_pop_enter_anim"
             app:popExitAnim="@anim/nav_default_pop_exit_anim" />
+        <action
+            android:id="@+id/action_homeFragment_to_hospitalMapFragment"
+            app:destination="@id/hospitalMapFragment" />
     </fragment>
     <fragment
         android:id="@+id/diseaseCategoryFragment"
-        android:name="com.furkanmulayim.benimsagligim.presentation.category_future.DiseaseCategoryFragment"
+        android:name="com.furkanmulayim.benimsagligim.presentation.category.DiseaseCategoryFragment"
         android:label="DiseaseCategoryFragment"
         tools:layout="@layout/fragment_disease_category">
         <action
@@ -75,7 +78,7 @@
     </fragment>
     <fragment
         android:id="@+id/forMeFragment"
-        android:name="com.furkanmulayim.benimsagligim.presentation.for_me_future.ForMeFragment"
+        android:name="com.furkanmulayim.benimsagligim.presentation.for_me.ForMeFragment"
         android:label="ForMeFragment"
         tools:layout="@layout/fragment_for_me">
         <action
@@ -109,7 +112,7 @@
     </fragment>
     <fragment
         android:id="@+id/diseaseDetectionFragment"
-        android:name="com.furkanmulayim.benimsagligim.presentation.detection_future.DiseaseDetectionFragment"
+        android:name="com.furkanmulayim.benimsagligim.presentation.detection.DiseaseDetectionFragment"
         android:label="DiseaseDetectionFragment"
         tools:layout="@layout/fragment_disease_detection">
         <action
@@ -121,7 +124,7 @@
     </fragment>
     <fragment
         android:id="@+id/diseaseDetailFragment"
-        android:name="com.furkanmulayim.benimsagligim.presentation.detail_future.DetailFragment"
+        android:name="com.furkanmulayim.benimsagligim.presentation.detail.DetailFragment"
         android:label="DiseaseDetailFragment"
         tools:layout="@layout/fragment_disease_detail">
           <action
@@ -137,7 +140,7 @@
     </fragment>
     <fragment
         android:id="@+id/resultFragment"
-        android:name="com.furkanmulayim.benimsagligim.presentation.result_future.ResultFragment"
+        android:name="com.furkanmulayim.benimsagligim.presentation.result.ResultFragment"
         android:label="ResultFragment"
         tools:layout="@layout/fragment_result">
         <action
@@ -146,10 +149,13 @@
         <action
             android:id="@+id/action_resultFragment_to_diseaseDetailFragment"
             app:destination="@id/diseaseDetailFragment" />
+        <action
+            android:id="@+id/action_resultFragment_to_mhrs"
+            app:destination="@id/mhrs" />
     </fragment>
     <fragment
         android:id="@+id/searchFragment"
-        android:name="com.furkanmulayim.benimsagligim.presentation.search_future.SearchFragment"
+        android:name="com.furkanmulayim.benimsagligim.presentation.search.SearchFragment"
         android:label="SearchFragment"
         tools:layout="@layout/fragment_search" >
         <action
@@ -163,10 +169,13 @@
             app:argType="string"
             android:defaultValue=""
             app:nullable="true" />
+        <action
+            android:id="@+id/action_searchFragment_to_diseaseDetailFragment"
+            app:destination="@id/diseaseDetailFragment" />
     </fragment>
     <fragment
         android:id="@+id/notificationFragment"
-        android:name="com.furkanmulayim.benimsagligim.presentation.notification_future.NotificationFragment"
+        android:name="com.furkanmulayim.benimsagligim.presentation.notification.NotificationFragment"
         android:label="NotificationFragment"
         tools:layout="@layout/fragment_notification" >
         <action
@@ -175,7 +184,7 @@
     </fragment>
     <fragment
         android:id="@+id/pillInformationFragment"
-        android:name="com.furkanmulayim.benimsagligim.presentation.pill_future.PillInformationFragment"
+        android:name="com.furkanmulayim.benimsagligim.presentation.pill.PillInformationFragment"
         android:label="fragment_pill_information"
         tools:layout="@layout/fragment_pill_information" >
         <action
@@ -187,7 +196,7 @@
     </fragment>
     <fragment
         android:id="@+id/savedFragment"
-        android:name="com.furkanmulayim.benimsagligim.presentation.saved_future.SavedFragment"
+        android:name="com.furkanmulayim.benimsagligim.presentation.saved.SavedFragment"
         android:label="SavedFragment"
         tools:layout="@layout/fragment_saved">
         <action
@@ -196,7 +205,7 @@
     </fragment>
     <fragment
         android:id="@+id/scanSearchFragment"
-        android:name="com.furkanmulayim.benimsagligim.presentation.scan_disease_future.ScanSearchFragment"
+        android:name="com.furkanmulayim.benimsagligim.presentation.scan_disease.ScanSearchFragment"
         android:label="ScanSearchFragment"
         tools:layout="@layout/fragment_scan_search">
         <action
@@ -208,7 +217,7 @@
     </fragment>
     <fragment
         android:id="@+id/splashFragment2"
-        android:name="com.furkanmulayim.benimsagligim.presentation.splash_future.SplashFragment"
+        android:name="com.furkanmulayim.benimsagligim.presentation.splash.SplashFragment"
         android:label="SplashFragment"
         tools:layout="@layout/fragment_splash">
         <action
@@ -217,7 +226,7 @@
     </fragment>
     <fragment
         android:id="@+id/cropFragment"
-        android:name="com.furkanmulayim.benimsagligim.presentation.crop_future.CropFragment"
+        android:name="com.furkanmulayim.benimsagligim.presentation.crop.CropFragment"
         android:label="CropFragment"
         tools:layout="@layout/fragment_crop">
         <action
@@ -226,7 +235,7 @@
     </fragment>
     <fragment
         android:id="@+id/recognitionFragment"
-        android:name="com.furkanmulayim.benimsagligim.presentation.recognition_future.RecognitionFragment"
+        android:name="com.furkanmulayim.benimsagligim.presentation.recognition.RecognitionFragment"
         android:label="RecognitionFragment"
         tools:layout="@layout/fragment_recognition">
         <action
@@ -242,5 +251,13 @@
             android:id="@+id/action_informationFragment_to_homeFragment"
             app:destination="@id/homeFragment" />
     </fragment>
+    <fragment
+        android:id="@+id/hospitalMapFragment"
+        android:name="com.furkanmulayim.benimsagligim.presentation.HospitalMapFragment"
+        android:label="HospitalMapFragment" />
+    <fragment
+        android:id="@+id/mhrs"
+        android:name="com.furkanmulayim.benimsagligim.presentation.mhrs.Mhrs"
+        android:label="Mhrs" />
 
 </navigation>

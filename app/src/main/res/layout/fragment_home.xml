@@ -201,10 +201,9 @@
                     <androidx.recyclerview.widget.RecyclerView
                         android:id="@+id/categoryRcyc"
                         android:layout_width="match_parent"
-                        android:layout_height="202dp"
+                        android:layout_height="wrap_content"
                         android:layout_margin="20dp"
                         android:overScrollMode="never"
-
                         app:layout_constraintEnd_toEndOf="parent"
                         app:layout_constraintStart_toStartOf="parent"
                         app:layout_constraintTop_toBottomOf="@id/textView5" />

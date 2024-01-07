@@ -8,7 +8,7 @@
 
         <variable
             name="viewModel"
-            type="com.furkanmulayim.benimsagligim.presentation.notification_future.NotificationViewModel" />
+            type="com.furkanmulayim.benimsagligim.presentation.notification.NotificationViewModel" />
     </data>
 
 
@@ -18,8 +18,7 @@
         android:layout_marginStart="20dp"
         android:layout_marginTop="20dp"
         android:layout_marginEnd="20dp"
-        tools:context=".presentation.notification_future.NotificationFragment">
-
+        tools:context=".presentation.notification.NotificationFragment">
 
         <androidx.constraintlayout.widget.ConstraintLayout
             android:id="@+id/backButton"
@@ -184,6 +183,7 @@
                     android:layout_marginStart="25dp"
                     android:hint="@string/hatirlatici_saat"
                     android:paddingStart="10dp"
+                    android:inputType="number"
                     android:paddingEnd="10dp"
                     android:backgroundTint="@color/item_background"
                     android:textColor="@color/text_h1"

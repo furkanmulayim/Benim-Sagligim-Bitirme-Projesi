@@ -8,7 +8,7 @@
 
         <variable
             name="viewModel"
-            type="com.furkanmulayim.benimsagligim.presentation.category_future.DiseaseCategoryViewModel" />
+            type="com.furkanmulayim.benimsagligim.presentation.category.DiseaseCategoryViewModel" />
     </data>
 
     <androidx.swiperefreshlayout.widget.SwipeRefreshLayout
@@ -23,7 +23,7 @@
         <androidx.constraintlayout.widget.ConstraintLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            tools:context=".presentation.category_future.DiseaseCategoryFragment">
+            tools:context=".presentation.category.DiseaseCategoryFragment">
 
             <androidx.constraintlayout.widget.ConstraintLayout
                 android:id="@+id/backButton"

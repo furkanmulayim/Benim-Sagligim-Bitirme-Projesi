@@ -6,7 +6,7 @@
 
         <variable
             name="viewModel"
-            type="com.furkanmulayim.benimsagligim.presentation.splash_future.SplashViewModel" />
+            type="com.furkanmulayim.benimsagligim.presentation.splash.SplashViewModel" />
     </data>
 
     <androidx.constraintlayout.widget.ConstraintLayout

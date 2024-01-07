@@ -7,14 +7,14 @@
     <data>
         <variable
             name="viewModel"
-            type="com.furkanmulayim.benimsagligim.presentation.scan_disease_future.ScanSearchViewModel" />
+            type="com.furkanmulayim.benimsagligim.presentation.scan_disease.ScanSearchViewModel" />
     </data>
 
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        tools:context=".presentation.scan_disease_future.ScanSearchFragment">
+        tools:context=".presentation.scan_disease.ScanSearchFragment">
 
         <ScrollView
             android:layout_width="match_parent"
@@ -33,7 +33,7 @@
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent"
-                tools:context=".presentation.pill_future.PillInformationFragment">
+                tools:context=".presentation.pill.PillInformationFragment">
 
                 <androidx.constraintlayout.widget.ConstraintLayout
                     android:id="@+id/backButton"

@@ -95,6 +95,8 @@
     <string name="kassemp">Ayak Bileğinde Şişme,Bacaklarda Kas Zayıflığı,Bacaklarda Morluk,Bacaklarda Şişme,Bel Ağrısı,Eklem Ağrıları,Kas Ağrıları,Kas Güçsüzlüğü,Kas Kasılmaları,Kas Krampları,Kas Sertliği,Kollarda Morluk,Osteoporoz</string>
     <string name="bossemp">Bağırsak Sorunları,İdrar Renginde Değişiklik,İdrar Sorunları,İdrarda Azalma,İdrarda Ağrı,İdrarda Kan,İdrarda Yanma,İdrarın Koyulaşması,Kabızlık,Kanlı Dışkı,Karaciğer Sorunları,Karın Krampları,Karın Şişliği,Karında Şişlik,Mide Yanması,Rektal Ağrı,Rektal Kanama,Sarılık,Siyah Dışkı,Sık İdrar,Şişlik,Yutma Güçlüğü</string>
     <string name="gensemp">Adet Düzensizliği,Adet Görememe,Ağrılı Adet,Genital Akıntı,Genital Ağrı,Genital Kaşıntı,Genital Siğil,Genital Yara,İlişkide Ağrı,Kanlı Semen,Kasık Ağrısı,Kısırlık,Rahim Sarkması,Şankır,Testis Ağrısı,Testiste Şişlik,Vajinal Akıntı,Vajinal Kanama</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 
 
 </resources>

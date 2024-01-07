@@ -9,7 +9,7 @@
         android:layout_height="match_parent"
         android:background="@color/back_and_me_button_back"
         android:orientation="vertical"
-        tools:context=".presentation.crop_future.CropFragment">
+        tools:context=".presentation.crop.CropFragment">
 
         <ScrollView
             android:layout_width="match_parent"
